@@ -99,7 +99,7 @@ function EditionPick({
       <div className="mt-6 space-y-3">
         <BigChoice
           active={value === 'combined'}
-          title={lang === 'en' ? 'Combined — Mama & Papa' : 'Gabungan — Mama & Papa'}
+          title={lang === 'en' ? 'Parents — Mama & Papa' : 'Orang Tua — Mama & Papa'}
           subtitle={
             lang === 'en'
               ? 'Two gentle columns, one for each parent.'
@@ -109,7 +109,7 @@ function EditionPick({
         />
         <BigChoice
           active={value === 'solo'}
-          title={lang === 'en' ? 'Solo' : 'Solo'}
+          title={lang === 'en' ? 'Single parent' : 'Orang Tua Tunggal'}
           subtitle={
             lang === 'en' ? 'A single space, just for you.' : 'Satu ruang, khusus untuk Anda.'
           }

@@ -96,7 +96,7 @@ All content is extracted from the founder's original PDFs. Nothing is invented.
 - **Diary** — the front matter (welcome note, the five habits, "setting up the
   year") is in `diary_intro.json` and shown on the **How this diary works**
   screen, reachable from the ⓘ button on the Diary tab. It is edition-aware:
-  Combined and Solo have their own wording, exactly as in the two PDFs.
+  Parents and Single parent have their own wording, exactly as in the two PDFs.
 
 Indonesian for the diary front matter is a faithful translation of the founder's
 English text (the diary PDFs are English-only); all other content is the
@@ -107,8 +107,9 @@ founder's own bilingual copy.
 English and Bahasa Indonesia are **separate, switchable versions** — never shown
 side by side. One language renders at a time, chosen with the toggle in
 **More → Language**, and the switch applies instantly across every screen. (The
-separate **Combined / Solo** setting is the *diary edition* — Mama & Papa
-columns vs. a single column — not a language option.)
+separate **Parents / Single parent** setting is the *diary edition* — Mama &
+Papa columns vs. a single column — not a language option. Its stored values
+remain `combined` / `solo`, matching the content JSON keys.)
 
 ## Building the native apps
 

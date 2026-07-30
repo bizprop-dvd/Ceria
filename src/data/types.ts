@@ -2,6 +2,10 @@
 // Do not change these without updating the JSON schema.
 
 export type Lang = 'en' | 'id'
+/**
+ * Diary edition. The stored keys stay 'combined' / 'solo' because the content
+ * JSON is keyed that way; the UI labels them "Parents" and "Single parent".
+ */
 export type Edition = 'combined' | 'solo'
 export type Role = 'solo' | 'mama' | 'papa'
 

@@ -67,21 +67,23 @@ export default function More() {
           />
         </Row>
 
-        {/* Edition */}
+        {/* Edition — stacked, since these labels are longer than the language ones */}
         <Row
           label={lang === 'en' ? 'Diary edition' : 'Edisi diari'}
           hint={
             lang === 'en'
-              ? 'Combined shows Mama & Papa columns; Solo shows one.'
-              : 'Gabungan menampilkan kolom Mama & Papa; Solo menampilkan satu.'
+              ? 'Parents shows Mama & Papa columns; Single parent shows one.'
+              : 'Orang Tua menampilkan kolom Mama & Papa; Orang Tua Tunggal menampilkan satu.'
           }
+          stacked
         >
           <Segmented<Edition>
             value={edition}
             onChange={setEdition}
+            fill
             options={[
-              { value: 'combined', label: lang === 'en' ? 'Mama & Papa' : 'Mama & Papa' },
-              { value: 'solo', label: 'Solo' },
+              { value: 'combined', label: lang === 'en' ? 'Parents' : 'Orang Tua' },
+              { value: 'solo', label: lang === 'en' ? 'Single parent' : 'Orang Tua Tunggal' },
             ]}
           />
         </Row>
@@ -194,15 +196,26 @@ export default function More() {
   )
 }
 
-function Row({ label, hint, children }: { label: string; hint?: string; children: React.ReactNode }) {
+function Row({
+  label,
+  hint,
+  stacked,
+  children,
+}: {
+  label: string
+  hint?: string
+  /** put the control on its own line below the label (for longer labels) */
+  stacked?: boolean
+  children: React.ReactNode
+}) {
   return (
     <div className="card p-4">
-      <div className="flex items-center justify-between gap-3">
+      <div className={stacked ? '' : 'flex items-center justify-between gap-3'}>
         <div>
           <p className="font-head text-[15px] font-semibold text-ceria-dark">{label}</p>
           {hint && <p className="mt-0.5 text-xs text-ceria-gray">{hint}</p>}
         </div>
-        {children}
+        <div className={stacked ? 'mt-3' : ''}>{children}</div>
       </div>
     </div>
   )

@@ -17,8 +17,9 @@ interface PromptFieldProps {
 }
 
 /**
- * Renders one prompt. In the Combined edition it shows two gentle sub-columns
- * (Mama / Papa); in Solo it shows a single input. Autosaves on every keystroke
+ * Renders one prompt. In the Parents edition ('combined') it shows two gentle
+ * sub-columns (Mama / Papa); in Single parent ('solo') it shows a single input.
+ * Autosaves on every keystroke
  * via the onChange handler (persistence is debounced in the store's effect).
  */
 export default function PromptField({
