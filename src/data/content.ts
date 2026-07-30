@@ -2,11 +2,13 @@
 // JSON lives at the repo root under content/ (see tsconfig "include").
 
 import diaryJson from '../../content/diary_weeks.json'
+import diaryIntroJson from '../../content/diary_intro.json'
 import guidebookJson from '../../content/guidebook.json'
 import toolkitJson from '../../content/toolkit.json'
-import type { DiaryData, GuidebookData, ToolkitData } from './types'
+import type { DiaryData, DiaryIntroData, GuidebookData, ToolkitData } from './types'
 
 export const diary = diaryJson as DiaryData
+export const diaryIntro = diaryIntroJson as unknown as DiaryIntroData
 export const guidebook = guidebookJson as GuidebookData
 export const toolkit = toolkitJson as ToolkitData
 

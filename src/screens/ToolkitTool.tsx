@@ -30,6 +30,17 @@ export default function ToolkitTool() {
           <ProvisionalNote kind="tool" />
         ) : (
           <>
+            {tool.guide && tool.guide[lang].length > 0 && (
+              <div className="card mt-4 bg-ceria-cream-deep/40 p-4">
+                <ul className="space-y-1.5">
+                  {tool.guide[lang].map((line, i) => (
+                    <li key={i} className="text-[13px] leading-relaxed text-ceria-dark/80">
+                      {line}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
             <div className="mt-5 space-y-4">
               {tool.fields.map((field, i) => (
                 <div key={i}>

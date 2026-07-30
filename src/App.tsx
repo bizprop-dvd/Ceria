@@ -10,6 +10,7 @@ import Toolkit from './screens/Toolkit'
 import ToolkitTool from './screens/ToolkitTool'
 import Diary from './screens/Diary'
 import DiaryWeek from './screens/DiaryWeek'
+import DiaryAbout from './screens/DiaryAbout'
 import More from './screens/More'
 
 export default function App() {
@@ -42,6 +43,7 @@ function Shell() {
               <Route path="/toolkit" element={<Toolkit />} />
               <Route path="/toolkit/:n" element={<ToolkitTool />} />
               <Route path="/diary" element={<Diary />} />
+              <Route path="/diary/about" element={<DiaryAbout />} />
               <Route path="/diary/:week" element={<DiaryWeek />} />
               <Route path="/more" element={<More />} />
               <Route path="*" element={<Navigate to="/today" replace />} />

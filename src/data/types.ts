@@ -87,6 +87,8 @@ export interface ToolkitTool {
   chapter: number
   title: Bilingual
   purpose: Bilingual
+  /** optional reference/helper lines shown above the fields (word banks, rules, examples) */
+  guide?: BilingualList
   fields?: ToolkitField[]
   /** true when the field layout still must be extracted from the founder's PDF */
   _needsFields?: boolean
@@ -100,4 +102,21 @@ export interface ToolkitData {
     transparencyLine: Bilingual
   }
   tools: ToolkitTool[]
+}
+
+/* ---------- Diary front-matter ("how this diary works") ---------- */
+
+export interface DiaryHabit {
+  title: Bilingual
+  body: Bilingual
+}
+
+export interface DiaryIntroData {
+  welcome: Record<Edition, Bilingual>
+  howToUse: Record<Edition, DiaryHabit[]>
+  settingUp: {
+    intro: Bilingual
+    combined: { prompts: Bilingual[] }
+    solo: { prompts: Bilingual[] }
+  }
 }

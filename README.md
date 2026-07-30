@@ -45,10 +45,13 @@ dev button (browser only) to re-test the paywall.
 ## Project layout
 
 ```
+assets/                      App icon + splash sources for @capacitor/assets
+  _generate_assets.py        Regenerates them from content/logo.jpg
 content/                     Founder content (source of truth — do not invent)
   diary_weeks.json           All 52 weeks, bilingual, complete
-  guidebook.json             Chapters 1–4 full; 5–12 = title + principle only
-  toolkit.json               Tools 1–4 full; 5–12 = title + purpose only
+  diary_intro.json           Diary front matter (welcome, 5 habits, setup)
+  guidebook.json             All 12 chapters, bilingual, complete
+  toolkit.json               All 12 tools, bilingual, complete
   logo.jpg
   _source/                   Founder's original scaffold (freemium ref + generator)
 docs/CLAUDE_CODE_BRIEF.md    The master spec
@@ -75,20 +78,37 @@ founder's `content/_source/freemium.reference.ts`). Every content item carries a
 (`ceil(week/4)`, capped at 12). Free tier = chapters 1–4 → Guidebook ch 1–4,
 Toolkit tools 1–4, Diary weeks 1–16.
 
-## Content status — needs founder input
+## Content status — complete
 
-The diary is **complete** (all 52 weeks, both languages, both editions'
-questions). The Guidebook and Toolkit ship with **chapters/tools 1–4 fully
-written**; **5–12 carry only their title + principle/purpose** and are flagged
-`_needsProse` / `_needsFields` in the JSON.
+All content is extracted from the founder's original PDFs. Nothing is invented.
 
-The app renders these honestly: a locked chapter/tool shows its real principle
-plus a "full text is being prepared from Ceria's original guidebook" note — it
-does **not** invent parenting content. To finish them, drop the founder's PDFs
-(`Ceria_Family_Toolkit_Guidebook.pdf` and the 12 toolkit PDFs) into the repo and
-extend `guidebook.json` / `toolkit.json` to match the schema of chapters 1–4
-(see `src/data/types.ts`). Remove the `_needsProse` / `_needsFields` flags once
-filled.
+| Source PDF | Extracted into |
+|---|---|
+| `Ceria_Family_Toolkit_COMPLETE.pdf` (pp. 8–31) | `guidebook.json` — all 12 chapters |
+| `Ceria_Family_Toolkit_COMPLETE.pdf` (pp. 36–47) | `toolkit.json` — all 12 tools |
+| `Ceria_Family_Diary_{Combined,Solo}_EN.pdf` | `diary_weeks.json` (52 weeks) + `diary_intro.json` |
+
+- **Guidebook** — every chapter carries principle, "why it matters", "in
+  practice", daily practices, reflection, and its reference, in EN + ID.
+- **Toolkit** — the print worksheets are adapted for a phone: charts and 7-day
+  grids become free-text fields, and reference material (tool 6's feelings word
+  bank, tool 10's rules) renders as a `guide` block above the fields.
+- **Diary** — the front matter (welcome note, the five habits, "setting up the
+  year") is in `diary_intro.json` and shown on the **How this diary works**
+  screen, reachable from the ⓘ button on the Diary tab. It is edition-aware:
+  Combined and Solo have their own wording, exactly as in the two PDFs.
+
+Indonesian for the diary front matter is a faithful translation of the founder's
+English text (the diary PDFs are English-only); all other content is the
+founder's own bilingual copy.
+
+### Language
+
+English and Bahasa Indonesia are **separate, switchable versions** — never shown
+side by side. One language renders at a time, chosen with the toggle in
+**More → Language**, and the switch applies instantly across every screen. (The
+separate **Combined / Solo** setting is the *diary edition* — Mama & Papa
+columns vs. a single column — not a language option.)
 
 ## Building the native apps
 
@@ -106,6 +126,25 @@ npx cap open android          # opens the native IDE to run / archive
 
 `capacitor.config.ts` sets `appId: id.or.ceria.app` and `appName: Ceria` — adjust
 to Ceria's real bundle identifiers before submitting.
+
+### App icon & splash screen
+
+Source images live in `assets/`, generated from `content/logo.jpg`:
+
+| File | Used for |
+|---|---|
+| `icon-foreground.png` + `icon-background.png` | Android adaptive icon (star mark on cream) |
+| `icon.png` | iOS / single-image icon |
+| `splash.png` | Light launch screen (full logo on cream) |
+| `splash-dark.png` | Dark launch screen (logo on a cream card over `--ceria-dark`) |
+
+The icon uses the **star mark only** — the "Ceria" wordmark is illegible at
+launcher sizes — while the splash uses the full logo.
+
+```bash
+npm run assets:source     # regenerate sources from logo.jpg (needs Pillow)
+npm run assets:generate   # fan out into android/ and ios/ (run after `cap add`)
+```
 
 ### RevenueCat / in-app purchase setup
 
@@ -133,7 +172,10 @@ implements **Restore purchases** (required by Apple). See `src/lib/purchases.ts`
 
 - Apple Developer account ($99/yr) + Google Play account ($25 once) + a Mac for iOS
 - RevenueCat account and the product/entitlement setup above
-- Full prose for Guidebook ch 5–12 and Toolkit tools 5–12 (from existing PDFs)
-- App icon + splash (derive from `logo.jpg`), privacy policy URL, store listing
+- Privacy policy URL, store listing copy + screenshots
 - Real links in [`src/config.ts`](src/config.ts) (Instagram, website, privacy, support)
 - Consider Apple's Small Business Program (commission 30% → 15%)
+
+Optional polish: the toolkit's 7-day charts and 1–5 rating scales are currently
+free-text fields. They could become real checkbox grids and sliders in a later
+pass — the JSON schema already supports adding new field `type`s.

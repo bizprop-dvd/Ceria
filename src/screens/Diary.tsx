@@ -1,6 +1,6 @@
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import Screen from '../components/Screen'
-import { ChevronRight, LockIcon } from '../components/icons'
+import { ChevronRight, InfoIcon, LockIcon } from '../components/icons'
 import { CHAPTERS, diary } from '../data/content'
 import { useApp } from '../store/AppContext'
 import { usePaywall } from '../components/PaywallProvider'
@@ -18,6 +18,15 @@ export default function Diary() {
     <Screen
       title={lang === 'en' ? 'Diary' : 'Diari'}
       subtitle={lang === 'en' ? '52 weeks · one gentle year' : '52 minggu · satu tahun yang lembut'}
+      right={
+        <Link
+          to="/diary/about"
+          aria-label={lang === 'en' ? 'How this diary works' : 'Cara kerja diari ini'}
+          className="flex h-9 w-9 items-center justify-center rounded-full text-ceria-blue active:bg-ceria-cream-deep"
+        >
+          <InfoIcon width={22} height={22} />
+        </Link>
+      }
     >
       <div className="mt-1 space-y-6">
         {CHAPTERS.map((chapter) => {
