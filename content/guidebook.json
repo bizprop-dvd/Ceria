@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "product": "guidebook",
+    "freeThroughChapter": 4,
+    "note": "Chapters 1-4 are complete. Chapters 5-12 contain titles + principle only; full prose must be extracted from Ceria_Family_Toolkit_Guidebook.pdf by Claude Code. DO NOT invent content."
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "locked": false,
+      "title": { "en": "Parenting Mindset", "id": "Pola Pikir Pengasuhan" },
+      "principle": {
+        "en": "Effective parenting is formation, not control.",
+        "id": "Mengasuh secara efektif adalah pembentukan, bukan pengendalian."
+      },
+      "why": {
+        "en": "Most daily parenting friction is downstream of an unclear goal. When parents define success too narrowly — as silence, speed, or compliance — every spilled cup becomes a battle. When success is defined as the long, slow building of character, the same spilled cup becomes a teaching moment.",
+        "id": "Sebagian besar gesekan pengasuhan harian berakar pada tujuan yang belum jelas. Ketika kita mendefinisikan keberhasilan secara sempit — sebagai keheningan, kecepatan, atau kepatuhan — setiap cangkir yang tumpah menjadi pertempuran. Ketika keberhasilan didefinisikan sebagai pembangunan karakter yang panjang dan perlahan, cangkir yang tumpah itu menjadi momen pengajaran."
+      },
+      "inPractice": {
+        "en": "A child spills milk. A parent who chases compliance demands instant cleanup and a clean apology. A parent who chases formation says, \"It happens. Let's grab the cloth together.\" The first parent has a clean floor. The second parent is raising a person.",
+        "id": "Seorang anak menumpahkan susu. Orang tua yang mengejar kepatuhan menuntut pembersihan instan dan permintaan maaf yang rapi. Orang tua yang mengejar pembentukan berkata, \"Tidak apa-apa. Yuk ambil lap bareng-bareng.\" Yang pertama mendapatkan lantai yang bersih. Yang kedua sedang membentuk seorang manusia."
+      },
+      "dailyPractices": {
+        "en": [
+          "Write down the three most important long-term qualities you hope your child develops.",
+          "Compare them honestly with what you correct most often. Where do they match? Where do they miss?",
+          "Reframe one rule from \"stop doing X\" to \"build Y.\"",
+          "Notice once today when you are parenting from fear, and once when you are parenting from vision."
+        ],
+        "id": [
+          "Tulis tiga kualitas jangka panjang paling penting yang Anda harapkan tumbuh dalam diri anak.",
+          "Bandingkan dengan jujur dengan apa yang paling sering Anda tegur. Di mana cocok? Di mana berbeda?",
+          "Ubah satu aturan dari \"berhenti melakukan X\" menjadi \"bangun Y.\"",
+          "Sadari satu kali hari ini saat Anda mengasuh dari rasa takut, dan satu kali saat dari visi."
+        ]
+      },
+      "reflection": {
+        "en": "Do my daily corrections actually build the kind of adult I hope my child will become?",
+        "id": "Apakah teguran harian saya benar-benar membangun sosok dewasa yang saya harapkan dari anak?"
+      },
+      "toolRef": 1,
+      "reference": "The Whole-Brain Child — Daniel J. Siegel & Tina Payne Bryson"
+    },
+    {
+      "number": 2,
+      "locked": false,
+      "title": { "en": "Child Development", "id": "Perkembangan Anak" },
+      "principle": {
+        "en": "Most \"bad behavior\" is developmental, not moral.",
+        "id": "Sebagian besar \"perilaku buruk\" bersifat perkembangan, bukan moral."
+      },
+      "why": {
+        "en": "A four-year-old's tantrum is not a character flaw. It is a brain still under construction, with very little ability to regulate what it feels. When parents read tantrums as moral failure, they punish a child for not yet being an adult. When they read tantrums as developmental, they teach the missing skill instead.",
+        "id": "Tantrum anak empat tahun bukanlah cacat karakter. Itu adalah otak yang masih dibangun, dengan kemampuan yang sangat terbatas untuk mengatur apa yang dirasakannya. Ketika orang tua membaca tantrum sebagai kegagalan moral, mereka menghukum anak karena belum menjadi orang dewasa. Ketika mereka membacanya sebagai perkembangan, mereka justru mengajarkan keterampilan yang belum dimiliki."
+      },
+      "inPractice": {
+        "en": "A seven-year-old lies about brushing their teeth. The moral lens says: dishonest. The developmental lens says: this is identity protection. They want to be seen as a good child by you, and the lie is a bridge to that image. The teaching is gentler, and lands deeper.",
+        "id": "Anak tujuh tahun berbohong soal sudah sikat gigi. Lensa moral berkata: tidak jujur. Lensa perkembangan berkata: ini adalah perlindungan identitas. Anak ingin dilihat sebagai anak yang baik di mata Anda, dan bohong itu adalah jembatannya. Pengajaran yang muncul lebih lembut, dan masuk lebih dalam."
+      },
+      "dailyPractices": {
+        "en": [
+          "Pick one behavior that frustrated you today. Ask: \"What age-typical thing might be happening here?\"",
+          "Drop one age-inappropriate expectation this week.",
+          "Notice when you call something \"naughty\" that is actually \"young.\"",
+          "Read briefly about the prefrontal cortex — it does not finish maturing until the mid-twenties."
+        ],
+        "id": [
+          "Pilih satu perilaku yang membuat Anda frustrasi hari ini. Tanyakan: \"Hal sesuai usia apa yang mungkin sedang terjadi?\"",
+          "Lepaskan satu ekspektasi yang tidak sesuai usia minggu ini.",
+          "Sadari kapan Anda menyebut sesuatu \"nakal\" padahal sebenarnya \"masih muda.\"",
+          "Baca sebentar tentang prefrontal cortex — bagian otak ini baru matang di pertengahan usia 20-an."
+        ]
+      },
+      "reflection": {
+        "en": "Where am I expecting adult behavior from a child who is still under construction?",
+        "id": "Di mana saya menuntut perilaku dewasa dari anak yang otaknya masih dibangun?"
+      },
+      "toolRef": 2,
+      "reference": "The Gardener and the Carpenter — Alison Gopnik"
+    },
+    {
+      "number": 3,
+      "locked": false,
+      "title": { "en": "Parent Self-Regulation", "id": "Regulasi Diri Orang Tua" },
+      "principle": {
+        "en": "You cannot regulate your child if you cannot regulate yourself.",
+        "id": "Anda tidak bisa menenangkan anak jika diri sendiri belum tenang."
+      },
+      "why": {
+        "en": "Children borrow their nervous systems from us. A flooded, dysregulated parent cannot teach calm — no matter how good the words coming out of their mouth are. The body teaches first; the words come second. This is why your own self-regulation is not optional. It is the prerequisite for everything else in this guide.",
+        "id": "Anak meminjam sistem saraf dari kita. Orang tua yang sedang kacau dan terbanjiri stres tidak bisa mengajarkan ketenangan — sebagus apa pun kata-kata yang keluar dari mulutnya. Tubuh mengajar lebih dulu; kata-kata datang setelahnya. Itulah sebabnya regulasi diri Anda bukan pilihan. Ia adalah prasyarat untuk segala hal lain dalam panduan ini."
+      },
+      "inPractice": {
+        "en": "Before correcting a child in a hot moment, take three slow breaths. Feel your feet. Lower your shoulders. Then speak. Three breaths is not a magic trick. It is enough time to decide whether the next sentence will come from your reactive brain or your wise one.",
+        "id": "Sebelum menegur anak di momen panas, tarik napas tiga kali pelan-pelan. Rasakan telapak kaki Anda. Turunkan bahu. Baru bicara. Tiga tarikan napas bukan trik ajaib. Ia hanya cukup untuk menentukan: kalimat berikutnya keluar dari otak reaktif, atau dari otak yang bijak."
+      },
+      "dailyPractices": {
+        "en": [
+          "Track your top three triggers this week with the Parent Trigger Tracker.",
+          "Notice your body before you speak — clenched jaw, raised shoulders, shallow breath.",
+          "Build one daily anchor practice for your nervous system: a walk, prayer, journaling, ten minutes of silence.",
+          "Learn the difference between responding (chosen) and reacting (automatic)."
+        ],
+        "id": [
+          "Catat tiga pemicu utama Anda minggu ini dengan Pelacak Pemicu Orang Tua.",
+          "Sadari tubuh sebelum bicara — rahang yang mengencang, bahu yang terangkat, napas yang dangkal.",
+          "Bangun satu kebiasaan harian untuk menenangkan sistem saraf: jalan kaki, doa, menulis jurnal, sepuluh menit hening.",
+          "Pelajari beda antara merespons (dipilih) dan bereaksi (otomatis)."
+        ]
+      },
+      "reflection": {
+        "en": "What was happening in my body just before I lost my temper?",
+        "id": "Apa yang sedang terjadi dalam tubuh saya tepat sebelum saya hilang kesabaran?"
+      },
+      "toolRef": 3,
+      "reference": "Peaceful Parent, Happy Kids — Laura Markham"
+    },
+    {
+      "number": 4,
+      "locked": false,
+      "title": { "en": "Communication", "id": "Komunikasi" },
+      "principle": {
+        "en": "Empathy first, then redirection.",
+        "id": "Empati dulu, baru pengarahan."
+      },
+      "why": {
+        "en": "Most children do not need fixing. They need understanding. A child whose feelings are dismissed escalates — louder, longer, harder. A child whose feelings are named settles, often within minutes. The fastest path to cooperation is, paradoxically, taking the time to be heard first.",
+        "id": "Sebagian besar anak tidak butuh diperbaiki. Mereka butuh dipahami. Anak yang perasaannya diabaikan akan meningkat — lebih keras, lebih lama, lebih sulit. Anak yang perasaannya dinamai akan tenang, sering kali dalam hitungan menit. Jalan tercepat menuju kerja sama, secara paradoks, adalah meluangkan waktu untuk didengar terlebih dahulu."
+      },
+      "inPractice": {
+        "en": "Before \"you still need to put your shoes on,\" try \"I can see this is really hard right now.\" Eight words. They cost you nothing. They change everything that follows.",
+        "id": "Sebelum \"kamu tetap harus pakai sepatu,\" coba dulu \"Mama tahu ini berat untukmu sekarang.\" Tujuh kata. Tidak menelan biaya apa-apa. Tapi mengubah segalanya yang datang setelahnya."
+      },
+      "dailyPractices": {
+        "en": [
+          "Use one empathy-first sentence today before correcting or directing.",
+          "Practice \"tell me more\" before \"let me explain.\"",
+          "Notice when you are listening versus waiting to speak.",
+          "Drop one habit of interrupting your child mid-sentence."
+        ],
+        "id": [
+          "Gunakan satu kalimat empati hari ini sebelum menegur atau mengarahkan.",
+          "Latih \"cerita lagi dong\" sebelum \"sini Mama jelaskan.\"",
+          "Sadari kapan Anda mendengarkan, dan kapan Anda hanya menunggu giliran bicara.",
+          "Lepaskan satu kebiasaan memotong kalimat anak."
+        ]
+      },
+      "reflection": {
+        "en": "When did I feel truly heard as a child? Am I giving that to mine?",
+        "id": "Kapan saya merasa benar-benar didengar sebagai anak dulu? Apakah saya memberikan itu pada anak saya?"
+      },
+      "toolRef": 4,
+      "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Faber & Mazlish"
+    },
+    {
+      "number": 5, "locked": true,
+      "title": { "en": "Discipline", "id": "Disiplin" },
+      "principle": { "en": "Discipline is teaching, not punishing. Calm, consistent, connected.", "id": "Disiplin adalah pengajaran, bukan hukuman. Tenang, konsisten, terhubung." },
+      "toolRef": 5, "reference": "No-Drama Discipline — Daniel J. Siegel & Tina Payne Bryson",
+      "_needsProse": true
+    },
+    {
+      "number": 6, "locked": true,
+      "title": { "en": "Emotional Coaching", "id": "Pendampingan Emosi" },
+      "principle": { "en": "Name it to tame it. Children who can name feelings can regulate them.", "id": "Namai untuk menenangkan. Anak yang bisa menamai perasaan dapat mengaturnya." },
+      "toolRef": 6, "reference": "Emotion Coaching — John Gottman related work",
+      "_needsProse": true
+    },
+    {
+      "number": 7, "locked": true,
+      "title": { "en": "Routines & Home Systems", "id": "Rutinitas & Sistem Rumah" },
+      "principle": { "en": "Calm structure beats constant reminding.", "id": "Struktur yang tenang mengalahkan peringatan yang terus-menerus." },
+      "toolRef": 7, "reference": "Simplicity Parenting — Kim John Payne",
+      "_needsProse": true
+    },
+    {
+      "number": 8, "locked": true,
+      "title": { "en": "Behavior Challenges", "id": "Tantangan Perilaku" },
+      "principle": { "en": "Repeating behavior has a function. Find the function before changing the behavior.", "id": "Perilaku yang berulang memiliki fungsi. Temukan fungsinya sebelum mengubah perilakunya." },
+      "toolRef": 8, "reference": "The Explosive Child — Ross W. Greene",
+      "_needsProse": true
+    },
+    {
+      "number": 9, "locked": true,
+      "title": { "en": "Building Character & Responsibility", "id": "Membangun Karakter & Tanggung Jawab" },
+      "principle": { "en": "Character is built through daily small responsibilities held consistently.", "id": "Karakter dibangun lewat tanggung jawab kecil harian yang dipegang dengan konsisten." },
+      "toolRef": 9, "reference": "Positive Discipline — Jane Nelsen",
+      "_needsProse": true
+    },
+    {
+      "number": 10, "locked": true,
+      "title": { "en": "Relationship & Attachment", "id": "Hubungan & Kelekatan" },
+      "principle": { "en": "The relationship is the curriculum. Connection is what makes everything else work.", "id": "Hubungan itulah kurikulumnya. Kedekatan adalah yang membuat segala hal lain berfungsi." },
+      "toolRef": 10, "reference": "Circle of Security Parenting — Cooper, Hoffman, Powell et al.",
+      "_needsProse": true
+    },
+    {
+      "number": 11, "locked": true,
+      "title": { "en": "Special Contexts", "id": "Konteks Khusus" },
+      "principle": { "en": "Pressure outside the family always shows up inside the family.", "id": "Tekanan di luar keluarga selalu muncul di dalam keluarga." },
+      "toolRef": 11, "reference": "UNICEF parenting resources",
+      "_needsProse": true
+    },
+    {
+      "number": 12, "locked": true,
+      "title": { "en": "Integration & Advanced Practice", "id": "Integrasi & Praktik Lanjutan" },
+      "principle": { "en": "Lasting change comes from reflection plus small repeated adjustments — not inspiration.", "id": "Perubahan yang bertahan datang dari refleksi dan penyesuaian kecil yang berulang — bukan dari inspirasi." },
+      "toolRef": 12, "reference": "The Whole-Brain Child — Daniel J. Siegel & Tina Payne Bryson",
+      "_needsProse": true
+    }
+  ]
+}
