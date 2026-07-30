@@ -34,13 +34,24 @@ and Bahasa Indonesia with a live language toggle. Diary entries are stored
 ```bash
 npm install
 npm run dev        # http://localhost:5173  — the full app runs in the browser
+npm run lint       # type-check only
 npm run build      # type-check + production build into dist/
 ```
+
+Node version is pinned in `.nvmrc` (22.22.2); CI reads it from there.
 
 In the browser the purchase flow is **mocked** (there is no app store), so you
 can test the whole freemium experience — paywall, unlock, restore, and the
 locked/free gating — end to end. The **More** tab has a "Reset mock purchase"
 dev button (browser only) to re-test the paywall.
+
+### Continuous integration
+
+[`.github/workflows/ci.yml`](.github/workflows/ci.yml) runs on every pull
+request and on pushes to `main`: `npm ci` → `npm run lint` → `npm run build`.
+It catches TypeScript and bundling regressions before merge. There are no tests
+yet, so a green run means "it compiles and bundles", not "it behaves correctly" —
+the app itself still needs a manual pass in the browser.
 
 ## Project layout
 
