@@ -5,6 +5,7 @@ import { currentWeek, dayKey } from '../lib/dates'
 import { TOTAL_WEEKS } from '../data/content'
 import { hasEntryToday } from '../lib/streak'
 import PromptField from '../components/PromptField'
+import WeekRing from '../components/WeekRing'
 import { ChevronRight, HeartIcon, SparkIcon } from '../components/icons'
 import type { Role } from '../data/types'
 
@@ -64,6 +65,11 @@ export default function Today() {
             </p>
             <p className="text-sm text-ceria-gray">{streakLine()}</p>
           </div>
+        </div>
+
+        {/* The week as a ring */}
+        <div className="mt-3">
+          <WeekRing week={wkNum} />
         </div>
 
         {/* This week's theme */}
