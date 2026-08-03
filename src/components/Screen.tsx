@@ -42,7 +42,8 @@ export default function Screen({ title, subtitle, back, right, children, flush }
           </div>
         </header>
       )}
-      <main className={`no-scrollbar flex-1 overflow-y-auto ${flush ? '' : 'px-4'} pb-6`}>
+      <main className={`no-scrollbar flex-1 overflow-y-auto ${flush ? '' : 'px-4'}`}
+        style={{ paddingBottom: 'calc(var(--safe-bottom) + 6.25rem)' }}>
         {children}
       </main>
     </div>

@@ -24,7 +24,7 @@ export default function DailyDay() {
   const isRead = Boolean(entries.daysRead?.[day.day])
 
   return (
-    <div style={chapterVars(day.chapter)}>
+    <div className="h-full" style={chapterVars(day.chapter)}>
       <Screen
         back
         title={t(day.title)}

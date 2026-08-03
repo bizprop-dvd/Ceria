@@ -30,7 +30,7 @@ function Shell() {
 
   // Fixed phone-width frame, centered on larger screens.
   return (
-    <div className="mx-auto flex h-full max-w-md flex-col bg-ceria-cream shadow-xl">
+    <div className="relative mx-auto flex h-full max-w-md flex-col overflow-hidden bg-ceria-cream shadow-xl">
       {!ready ? (
         <Splash />
       ) : !settings.onboarded ? (

@@ -6,31 +6,23 @@ import { TOTAL_WEEKS } from '../data/content'
 import { hasEntryToday } from '../lib/streak'
 import PromptField from '../components/PromptField'
 import WeekRing from '../components/WeekRing'
-import { ChevronRight, HeartIcon, SparkIcon } from '../components/icons'
+import { ChevronRight } from '../components/icons'
+import { quoteForDay } from '../lib/dailyQuote'
 import type { Role } from '../data/types'
 
 export default function Today() {
-  const { t, lang, settings, entries, setDailyAnswer, streak, daysWithEntries } = useApp()
+  const { t, lang, settings, entries, setDailyAnswer, streak, daysWithEntries, hasPurchased } =
+    useApp()
   const today = dayKey()
   const wkNum = currentWeek(settings.startDate, TOTAL_WEEKS)
   const week = weekByNumber(wkNum)
   const chapter = week ? chapterName(week.chapter) : undefined
   const todayAnswers = entries.daily[today] ?? {}
   const doneToday = hasEntryToday(daysWithEntries)
+  const quote = quoteForDay(today, hasPurchased)
 
   const greeting = greetingFor(lang)
 
-  const streakLine = () => {
-    if (streak === 0) {
-      return lang === 'en'
-        ? 'A fresh page whenever you’re ready.'
-        : 'Halaman baru kapan pun Anda siap.'
-    }
-    const dayWord = lang === 'en' ? (streak === 1 ? 'day' : 'days') : 'hari'
-    return lang === 'en'
-      ? `${streak} ${dayWord} of showing up. Gently done.`
-      : `${streak} ${dayWord} Anda hadir. Dengan lembut.`
-  }
 
   return (
     <div className="flex h-full flex-col">
@@ -49,23 +41,36 @@ export default function Today() {
         </div>
       </header>
 
-      <main className="no-scrollbar flex-1 overflow-y-auto px-4 pb-6">
-        {/* Streak — gentle, never punishing */}
-        <div className="card mt-1 flex items-center gap-3 p-4">
-          <div
-            className={`flex h-11 w-11 items-center justify-center rounded-full ${
-              doneToday ? 'bg-ceria-teal/12 text-ceria-teal' : 'bg-ceria-pink/10 text-ceria-pink'
-            }`}
+      <main
+        className="no-scrollbar flex-1 overflow-y-auto px-4"
+        style={{ paddingBottom: 'calc(var(--safe-bottom) + 6.25rem)' }}
+      >
+        {/* A line from the guide — rotates daily, always Ceria's own words */}
+        {quote && (
+          <Link
+            to={`/guidebook/day/${quote.day}`}
+            className="card mt-1 block p-5 active:scale-[0.99] transition"
           >
-            {doneToday ? <HeartIcon width={22} height={22} /> : <SparkIcon width={22} height={22} />}
-          </div>
-          <div className="min-w-0">
-            <p className="font-head text-lg font-semibold text-ceria-dark">
-              {lang === 'en' ? 'Your rhythm' : 'Ritme Anda'}
+            <p className="font-head text-[19px] leading-[1.45] text-ceria-dark">
+              {t(quote.text)}
             </p>
-            <p className="text-sm text-ceria-gray">{streakLine()}</p>
-          </div>
-        </div>
+            <p className="mt-2.5 text-[11px] uppercase tracking-[0.08em] text-ceria-gray">
+              {lang === 'en' ? `Day ${quote.day}` : `Hari ${quote.day}`}
+              {' · '}
+              {doneToday
+                ? streak > 0
+                  ? lang === 'en'
+                    ? `${streak} ${streak === 1 ? 'day' : 'days'} of showing up`
+                    : `${streak} hari Anda hadir`
+                  : lang === 'en'
+                    ? 'Written today'
+                    : 'Sudah ditulis hari ini'
+                : lang === 'en'
+                  ? 'A fresh page whenever you are ready'
+                  : 'Halaman baru kapan pun Anda siap'}
+            </p>
+          </Link>
+        )}
 
         {/* The week as a ring */}
         <div className="mt-3">
