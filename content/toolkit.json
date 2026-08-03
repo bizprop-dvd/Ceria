@@ -50,7 +50,14 @@
             "id": "Satu aturan yang akan saya ubah dari 'jangan X' menjadi 'bangun Y'"
           }
         }
-      ]
+      ],
+      "repeat": {
+        "kind": "child",
+        "nameLabel": {
+          "en": "Child's name",
+          "id": "Nama anak"
+        }
+      }
     },
     {
       "number": 2,
@@ -404,8 +411,8 @@
         {
           "type": "text",
           "label": {
-            "en": "Child's name & age",
-            "id": "Nama & usia anak"
+            "en": "Age",
+            "id": "Usia"
           }
         },
         {
@@ -429,7 +436,14 @@
             "id": "Bagaimana tanggung jawab ini mengubah anak saya minggu ini?"
           }
         }
-      ]
+      ],
+      "repeat": {
+        "kind": "child",
+        "nameLabel": {
+          "en": "Child's name",
+          "id": "Nama anak"
+        }
+      }
     },
     {
       "number": 10,
@@ -455,10 +469,29 @@
         {
           "type": "longtext",
           "label": {
-            "en": "7-day log — what we did, child's mood after, my mood after (Mon–Sun)",
-            "id": "Catatan 7 hari — yang kami lakukan, suasana hati anak & saya setelahnya (Sen–Min)"
+            "en": "What we did",
+            "id": "Yang kami lakukan"
           }
         },
+        {
+          "type": "text",
+          "label": {
+            "en": "Child's mood after",
+            "id": "Suasana hati anak setelahnya"
+          }
+        },
+        {
+          "type": "text",
+          "label": {
+            "en": "My mood after",
+            "id": "Suasana hati saya setelahnya"
+          }
+        }
+      ],
+      "repeat": {
+        "kind": "weekday"
+      },
+      "summaryFields": [
         {
           "type": "longtext",
           "label": {
@@ -538,7 +571,11 @@
             "id": "Satu kebiasaan utama yang akan saya pegang musim ini"
           }
         }
-      ]
+      ],
+      "repeat": {
+        "kind": "period",
+        "partsPerYear": 2
+      }
     },
     {
       "number": 12,

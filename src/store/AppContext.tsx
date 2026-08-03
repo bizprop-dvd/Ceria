@@ -58,6 +58,10 @@ interface AppContextValue {
   setSunday: (week: number, role: Role, value: string) => void
   setDebrief: (week: number, role: Role, index: number, value: string) => void
   setToolField: (tool: number, index: number, value: string, instance?: number) => void
+  addChild: () => number
+  addToolPeriod: (tool: number) => number
+  removeChild: (id: number) => void
+  setChildName: (id: number, name: string) => void
   toggleDayRead: (day: number) => void
   setWeekPhoto: (week: number, dataUri: string | null) => void
   setWeekMood: (week: number, mood: string | null) => void
@@ -77,6 +81,11 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const [ready, setReady] = useState(false)
   const [settings, setSettings] = useState<Settings>(DEFAULT_SETTINGS)
   const [entries, setEntries] = useState<EntriesState>(emptyEntries())
+  // Mirrors `entries` so actions can read current state synchronously. State
+  // updates are async, so an id computed inside a setState updater is not yet
+  // available to the caller that needs to return it.
+  const entriesRef = useRef<EntriesState>(entries)
+  entriesRef.current = entries
   const [hasPurchased, setHasPurchased] = useState(false)
   const [unlockPrice, setUnlockPrice] = useState<string | null>(null)
 
@@ -228,6 +237,53 @@ export function AppProvider({ children }: { children: ReactNode }) {
     [],
   )
 
+  /** Add a child to the family roster and return the new id. */
+  const addChild = useCallback(() => {
+    const list = entriesRef.current.children ?? []
+    const created = Math.max(0, ...list.map((c) => c.id)) + 1
+    setEntries((e) => ({
+      ...e,
+      children: [...(e.children ?? []), { id: created, name: '' }],
+    }))
+    return created
+  }, [])
+
+  /** Add a period sheet (e.g. Year 1 Part 2) and return its new id. */
+  const addToolPeriod = useCallback((tool: number) => {
+    const count = entriesRef.current.toolPeriodCount?.[tool] ?? 1
+    const created = count + 1
+    setEntries((e) => ({
+      ...e,
+      toolPeriodCount: { ...(e.toolPeriodCount ?? {}), [tool]: created },
+    }))
+    return created
+  }, [])
+
+  /**
+   * Remove a child. Because the roster is shared, this also clears that
+   * child's answers on every per-child tool.
+   */
+  const removeChild = useCallback((id: number) => {
+    setEntries((e) => {
+      const answers = { ...(e.toolInstances ?? {}) }
+      for (const key of Object.keys(answers)) {
+        if (key.endsWith(`:${id}`)) delete answers[key]
+      }
+      return {
+        ...e,
+        children: (e.children ?? []).filter((c) => c.id !== id),
+        toolInstances: answers,
+      }
+    })
+  }, [])
+
+  const setChildName = useCallback((id: number, name: string) => {
+    setEntries((e) => ({
+      ...e,
+      children: (e.children ?? []).map((c) => (c.id === id ? { ...c, name } : c)),
+    }))
+  }, [])
+
   // ---- derived: which days have at least one non-empty answer ----
   const daysWithEntries = useMemo(() => {
     const set = new Set<string>()
@@ -280,6 +336,10 @@ export function AppProvider({ children }: { children: ReactNode }) {
     setSunday,
     setDebrief,
     setToolField,
+    addChild,
+    addToolPeriod,
+    removeChild,
+    setChildName,
     toggleDayRead,
     setWeekPhoto,
     setWeekMood,

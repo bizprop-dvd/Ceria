@@ -93,8 +93,18 @@ export interface ToolkitTool {
   purpose: Bilingual
   /** optional reference/helper lines shown above the fields (word banks, rules, examples) */
   guide?: BilingualList
-  /** tools meant to be filled repeatedly — e.g. the monthly review, once a month */
-  repeat?: { kind: 'month'; count: number }
+  /**
+   * Tools meant to be filled more than once.
+   *  - 'month': a fixed set of instances, one per month of the year
+   *  - 'child': instances the parent adds themselves, each named
+   */
+  repeat?:
+    | { kind: 'month'; count: number }
+    | { kind: 'weekday' }
+    | { kind: 'period'; partsPerYear: number }
+    | { kind: 'child'; nameLabel: Bilingual }
+  /** fields asked once for the whole tool, not per instance (e.g. a weekly summary) */
+  summaryFields?: ToolkitField[]
   fields?: ToolkitField[]
   /** true when the field layout still must be extracted from the founder's PDF */
   _needsFields?: boolean

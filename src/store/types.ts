@@ -28,6 +28,14 @@ export interface EntriesState {
   tools: Record<number, string[]>
   /** answers for repeatable tools, keyed `${tool}:${instance}` (e.g. "12:3" = tool 12, month 3) */
   toolInstances: Record<string, string[]>
+  /**
+   * The family's children — a single shared roster, so a child added on one
+   * tool (the vision worksheet) appears on every other per-child tool (the
+   * responsibility chart) without being entered twice.
+   */
+  children: { id: number; name: string }[]
+  /** how many period sheets exist per tool (e.g. Year 1 Part 1, Part 2, …) */
+  toolPeriodCount: Record<number, number>
   /** days of the 365-day guide marked as read, keyed by day number */
   daysRead: Record<number, boolean>
   /** one optional photo per diary week, stored as a data URI on the device */
@@ -47,5 +55,7 @@ export function emptyEntries(): EntriesState {
     weekPhotos: {},
     weekMood: {},
     toolInstances: {},
+    children: [],
+    toolPeriodCount: {},
   }
 }
