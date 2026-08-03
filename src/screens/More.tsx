@@ -168,7 +168,22 @@ export default function More() {
             <ExtLink href={CERIA.privacyPolicyUrl}>
               {lang === 'en' ? 'Privacy policy' : 'Kebijakan privasi'}
             </ExtLink>
+            <ExtLink href={CERIA.termsUrl}>
+              {lang === 'en' ? 'Terms of use' : 'Ketentuan penggunaan'}
+            </ExtLink>
+            {CERIA.supportEmail && (
+              <ExtLink href={`mailto:${CERIA.supportEmail}`}>
+                {lang === 'en' ? 'Contact us' : 'Hubungi kami'}
+              </ExtLink>
+            )}
           </div>
+
+          {/* Educational-content notice — matches the EULA, and Apple looks for it. */}
+          <p className="mt-3 text-[12px] leading-relaxed text-ceria-gray/85">
+            {lang === 'en'
+              ? 'Ceria offers general parenting education. It is not medical advice, therapy, or a substitute for care from a qualified professional. If you are worried about your child or yourself, please seek professional support.'
+              : 'Ceria menyediakan edukasi pengasuhan yang bersifat umum. Ini bukan nasihat medis, terapi, atau pengganti layanan tenaga profesional. Jika Anda khawatir tentang anak Anda atau diri Anda sendiri, mohon cari dukungan profesional.'}
+          </p>
         </div>
 
         {/* Dev tools — browser only */}

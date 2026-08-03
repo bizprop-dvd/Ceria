@@ -4,12 +4,11 @@
 export const CERIA = {
   instagramUrl: 'https://www.instagram.com/ceria_yayasan/',
   websiteUrl: 'https://www.yayasanceria.org/',
-  // TODO(founder): both stores require a reachable privacy policy URL before
-  // submission. A page on yayasanceria.org is fine — it must say that diary
-  // entries stay on the device and are never uploaded.
-  privacyPolicyUrl: 'https://www.yayasanceria.org/',
-  // TODO(founder): the support address shown to users and in the store listing.
-  supportEmail: '',
+  // Both stores require these as reachable public URLs at submission time.
+  // Draft text to publish is in docs/legal/ — update these once the pages are live.
+  privacyPolicyUrl: 'https://www.yayasanceria.org/privacy',
+  termsUrl: 'https://www.yayasanceria.org/terms',
+  supportEmail: 'yayasanceria.id@gmail.com',
 }
 
 export const ABOUT = {
