@@ -19,6 +19,7 @@ Run:  python3 content/_source/build_daily.py
 """
 
 import json
+import sys
 import os
 import glob
 import importlib.util
@@ -31,6 +32,13 @@ PROSE_DIR = os.path.join(HERE, "prose")
 # Indonesian corrections coming back from the reviewer's workbook. Applied last
 # so they survive a rebuild without anyone hand-editing the prose modules.
 OVERRIDES = os.path.join(HERE, "id_overrides.json")
+
+sys.path.insert(0, HERE)
+from exercises_id import BY_EN as _EX  # noqa: E402
+
+# Keyed by the English text with whitespace normalised, since the source
+# strings are wrapped across lines in both places.
+EXERCISES_ID = {" ".join(k.split()): v for k, v in _EX.items()}
 
 # Bilingual safeguarding line. The manuscript ships one English sentence on
 # 250/365 days; we keep its meaning and give it an Indonesian counterpart.
@@ -99,7 +107,7 @@ def main():
         {
             "n": w["n"],
             "range": w["range"],
-            "text": prose.get(f"week{w['n']}") or {"en": _strip_prefix(w["text"]), "id": ""},
+            "text": prose.get(f"week{w['n']}") or _exercise(_strip_prefix(w["text"])),
         }
         for w in src["weekly_exercises"]
     ]
@@ -107,7 +115,7 @@ def main():
         {
             "n": m["n"],
             "range": m["range"],
-            "text": prose.get(f"month{m['n']}") or {"en": _strip_prefix(m["text"]), "id": ""},
+            "text": prose.get(f"month{m['n']}") or _exercise(_strip_prefix(m["text"])),
         }
         for m in src["monthly_reviews"]
     ]
@@ -193,6 +201,19 @@ def _complete(p):
         p.get(f, {}).get("en", "").strip() and p.get(f, {}).get("id", "").strip()
         for f in fields
     )
+
+
+def _exercise(en):
+    """Pair a manuscript exercise with its Indonesian from exercises_id.py.
+
+    The manuscript is English-only. Without this the 52 weekly exercises and 12
+    monthly reviews reach the app with an empty 'id' and Indonesian readers get
+    a generic placeholder instead of the exercise.
+    """
+    id_text = EXERCISES_ID.get(" ".join(en.split()), "")
+    if not id_text:
+        print(f"  WARNING: no Indonesian for exercise: {en[:60]}…")
+    return {"en": en, "id": id_text}
 
 
 def _strip_prefix(text):

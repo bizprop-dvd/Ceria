@@ -291,43 +291,31 @@ def write_readme(wb, sections):
     ws.cell(row=r, column=1, value="Isi berkas / What is in here").font = Font(
         name=FONT, size=12, bold=True, color=BLUE)
     r += 1
-    heads = ["Lembar / Sheet", "Baris / Rows", "Sudah diisi / Done", "Sisa / Left", "Keterangan"]
+    heads = ["Lembar / Sheet", "Baris / Rows", "Prioritas", "", "Keterangan"]
     for i, h in enumerate(heads, start=1):
         c = ws.cell(row=r, column=i, value=h)
         c.font = Font(name=FONT, size=10, bold=True, color="FFFFFF")
         c.fill = PatternFill("solid", fgColor=BLUE)
         c.alignment = Alignment(vertical="center", wrap_text=True)
         c.border = BORDER
-    first = r + 1
-    for name, count, note in sections:
+    for name, count, note, priority in sections:
         r += 1
         ws.cell(row=r, column=1, value=name).font = Font(name=FONT, size=10, color=INK)
         ws.cell(row=r, column=2, value=count).font = Font(name=FONT, size=10, color=INK)
-        # Live count of revisions typed into column E on that sheet.
-        ws.cell(row=r, column=3, value=f"=COUNTA('{name}'!E3:E{count + 2})").font = Font(
-            name=FONT, size=10, bold=True, color=PINK)
-        ws.cell(row=r, column=4, value=f"=B{r}-C{r}").font = Font(name=FONT, size=10, color=GRAY)
+        c = ws.cell(row=r, column=3, value=priority)
+        c.font = Font(name=FONT, size=10, bold=priority == "1 — mulai di sini", color=PINK)
+        ws.merge_cells(start_row=r, start_column=3, end_row=r, end_column=4)
         ws.cell(row=r, column=5, value=note).font = Font(name=FONT, size=9, color=GRAY)
         ws.cell(row=r, column=5).alignment = Alignment(vertical="top", wrap_text=True)
         for i in range(1, 6):
             ws.cell(row=r, column=i).border = BORDER
     r += 1
     ws.cell(row=r, column=1, value="TOTAL").font = Font(name=FONT, size=10, bold=True, color=BLUE)
-    ws.cell(row=r, column=2, value=f"=SUM(B{first}:B{r - 1})").font = Font(
+    ws.cell(row=r, column=2, value=sum(n for _, n, _, _ in sections)).font = Font(
         name=FONT, size=10, bold=True, color=BLUE)
-    ws.cell(row=r, column=3, value=f"=SUM(C{first}:C{r - 1})").font = Font(
-        name=FONT, size=10, bold=True, color=PINK)
-    ws.cell(row=r, column=4, value=f"=SUM(D{first}:D{r - 1})").font = Font(
-        name=FONT, size=10, bold=True, color=GRAY)
     for i in range(1, 6):
         ws.cell(row=r, column=i).border = BORDER
         ws.cell(row=r, column=i).fill = PatternFill("solid", fgColor=CREAM_DEEP)
-
-    r += 2
-    ws.cell(row=r, column=1, value=(
-        "Kolom \"Sudah diisi\" menghitung sendiri setiap kali berkas dibuka ulang."))
-    ws.cell(row=r, column=1).font = Font(name=FONT, size=9, italic=True, color=GRAY)
-    ws.merge_cells(start_row=r, start_column=1, end_row=r, end_column=5)
 
 
 def main():
@@ -338,39 +326,40 @@ def main():
     intro = load("diary_intro.json")
     ui = json.loads((ROOT / "content/_source/ui_strings.json").read_text(encoding="utf-8"))
 
+    P1, P2, P3, DONE = "1 — mulai di sini", "2", "3", "sudah selesai"
     plan = [
         ("Antarmuka", "Antarmuka aplikasi — tombol, judul layar, pesan. Paling sering dilihat pemakai.",
-         ui_rows(ui), "Tombol dan label di dalam aplikasi."),
+         ui_rows(ui), "Tombol dan label di dalam aplikasi. Pendek-pendek, cepat dikerjakan.", P1),
         ("Diari", "Diari — tema mingguan, prinsip, niat, refleksi hari Minggu.",
-         diary_rows(dw), "52 minggu, dua edisi."),
-        ("Pembuka diari", "Pembuka diari — sudah ditinjau. Ada di sini hanya sebagai rujukan.",
-         intro_rows(intro), "SUDAH DITINJAU — tidak perlu dikerjakan lagi."),
+         diary_rows(dw), "52 minggu, dua edisi.", P1),
         ("Panduan", "Panduan — 12 bab: judul, prinsip, alasan, praktik.",
-         guidebook_rows(g), "Ringkasan tiap bab."),
+         guidebook_rows(g), "Ringkasan tiap bab.", P2),
         ("Alat", "Alat — 12 perangkat kerja: judul, tujuan, label kolom.",
-         toolkit_rows(t), "Judul kolom yang diisi orang tua."),
+         toolkit_rows(t), "Judul kolom yang diisi orang tua.", P2),
         ("Tabel", "Tabel perbandingan di dalam bacaan harian (13 tabel).",
-         framework_rows(d), "Kartu perbandingan, mis. empat gaya pengasuhan."),
+         framework_rows(d), "Kartu perbandingan, mis. empat gaya pengasuhan.", P2),
         ("Latihan", "Latihan mingguan (52) dan tinjauan bulanan (12).",
-         exercise_rows(d), "Diambil apa adanya dari naskah pendiri."),
+         exercise_rows(d), "Diambil apa adanya dari naskah pendiri.", P3),
         ("Harian", "Bacaan harian — 365 hari × 6 bagian. Bagian terbesar.",
-         daily_rows(d), "Bagian terbesar. Boleh disaring per bab lewat kolom B."),
+         daily_rows(d), "Bagian terbesar. Boleh disaring per bab lewat kolom B.", P3),
+        ("Pembuka diari", "Pembuka diari — sudah ditinjau. Ada di sini hanya sebagai rujukan.",
+         intro_rows(intro), "Sudah ditinjau. Tidak perlu dikerjakan lagi.", DONE),
     ]
 
     wb = Workbook()
     wb.remove(wb.active)
     sections = []
-    for title, subtitle, rows, note in plan:
+    for title, subtitle, rows, note, priority in plan:
         n = write_sheet(wb, title, subtitle, rows)
-        sections.append((title, n, note))
+        sections.append((title, n, note, priority))
     write_readme(wb, sections)
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     wb.save(OUT)
     print(f"Wrote {OUT}")
-    for name, n, _ in sections:
+    for name, n, _, _ in sections:
         print(f"  {name:<16} {n:>5} rows")
-    print(f"  {'TOTAL':<16} {sum(n for _, n, _ in sections):>5} rows")
+    print(f"  {'TOTAL':<16} {sum(n for _, n, _, _ in sections):>5} rows")
 
 
 if __name__ == "__main__":
