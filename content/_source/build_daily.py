@@ -28,6 +28,9 @@ ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
 MANUSCRIPT = os.path.join(HERE, "pdf", "ceria_365_content.json")
 OUT = os.path.join(ROOT, "content", "daily.json")
 PROSE_DIR = os.path.join(HERE, "prose")
+# Indonesian corrections coming back from the reviewer's workbook. Applied last
+# so they survive a rebuild without anyone hand-editing the prose modules.
+OVERRIDES = os.path.join(HERE, "id_overrides.json")
 
 # Bilingual safeguarding line. The manuscript ships one English sentence on
 # 250/365 days; we keep its meaning and give it an Indonesian counterpart.
@@ -131,12 +134,57 @@ def main():
         "monthlyReviews": monthly,
     }
 
+    applied = _apply_overrides(payload)
+
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
         f.write("\n")
     print(f"Wrote {OUT}")
     print(f"  days: {len(days)}  authored: {authored}  draft: {len(days) - authored}")
     print(f"  weekly: {len(weekly)}  monthly: {len(monthly)}")
+    if applied:
+        print(f"  reviewed id overrides applied: {applied}")
+
+
+def _apply_overrides(payload):
+    """Overlay reviewed Indonesian from id_overrides.json onto the built data.
+
+    Keys match the review workbook, e.g. 'daily:212:teaching', 'fw:275:2:outcome',
+    'weekly:7'. Only the 'id' side is ever replaced.
+    """
+    if not os.path.exists(OVERRIDES):
+        return 0
+    with open(OVERRIDES, encoding="utf-8") as f:
+        overrides = json.load(f)
+
+    by_day = {d["day"]: d for d in payload["days"]}
+    n = 0
+    for key, text in overrides.items():
+        p = key.split(":")
+        try:
+            if p[0] == "daily":
+                by_day[int(p[1])][p[2]]["id"] = text
+            elif p[0] == "fw":
+                fw = by_day[int(p[1])]["framework"]
+                if p[2] in ("title", "note"):
+                    fw[p[2]]["id"] = text
+                else:
+                    entry = fw["entries"][int(p[2])]
+                    if p[3] == "tag":
+                        entry["tags"][int(p[4])]["id"] = text
+                    else:
+                        entry[p[3]]["id"] = text
+            elif p[0] in ("weekly", "monthly"):
+                bucket = "weeklyExercises" if p[0] == "weekly" else "monthlyReviews"
+                item = next(x for x in payload[bucket] if x["n"] == int(p[1]))
+                item["text"]["id"] = text
+            else:
+                continue
+        except (KeyError, IndexError, ValueError, StopIteration):
+            print(f"  WARNING: override key not found, skipped: {key}")
+            continue
+        n += 1
+    return n
 
 
 def _complete(p):
