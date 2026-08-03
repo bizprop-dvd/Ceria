@@ -58,6 +58,8 @@ interface AppContextValue {
   setSunday: (week: number, role: Role, value: string) => void
   setDebrief: (week: number, role: Role, index: number, value: string) => void
   setToolField: (tool: number, index: number, value: string) => void
+  toggleDayRead: (day: number) => void
+  daysReadCount: number
 
   daysWithEntries: Set<string>
   streak: number
@@ -180,6 +182,14 @@ export function AppProvider({ children }: { children: ReactNode }) {
     },
     [],
   )
+  const toggleDayRead = useCallback((day: number) => {
+    setEntries((e) => {
+      const next = { ...e.daysRead }
+      if (next[day]) delete next[day]
+      else next[day] = true
+      return { ...e, daysRead: next }
+    })
+  }, [])
   const setToolField = useCallback((tool: number, index: number, value: string) => {
     setEntries((e) => {
       const arr = [...(e.tools[tool] ?? [])]
@@ -199,6 +209,11 @@ export function AppProvider({ children }: { children: ReactNode }) {
   }, [entries.daily])
 
   const streak = useMemo(() => computeStreak(daysWithEntries), [daysWithEntries])
+
+  const daysReadCount = useMemo(
+    () => Object.keys(entries.daysRead ?? {}).length,
+    [entries.daysRead],
+  )
 
   // ---- purchase actions ----
   const refreshPurchase = useCallback(async () => {
@@ -235,6 +250,8 @@ export function AppProvider({ children }: { children: ReactNode }) {
     setSunday,
     setDebrief,
     setToolField,
+    toggleDayRead,
+    daysReadCount,
     daysWithEntries,
     streak,
     refreshPurchase,

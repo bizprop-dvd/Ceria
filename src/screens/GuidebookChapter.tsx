@@ -4,6 +4,7 @@ import ProvisionalNote from '../components/ProvisionalNote'
 import { chapterByNumber, daysForChapter } from '../data/content'
 import { useApp } from '../store/AppContext'
 import { isUnlocked } from '../lib/freemium'
+import { chapterTheme, chapterVars } from '../lib/chapterTheme'
 import { CheckIcon, ChevronRight, ToolIcon } from '../components/icons'
 
 export default function GuidebookChapter() {
@@ -16,11 +17,12 @@ export default function GuidebookChapter() {
   if (!isUnlocked(ch.number, hasPurchased)) return <Navigate to="/guidebook" replace />
 
   return (
+   <div style={chapterVars(ch.number)}>
     <Screen back title={t(ch.title)} subtitle={lang === 'en' ? `Chapter ${ch.number}` : `Bab ${ch.number}`}>
       <article className="mx-auto max-w-prose pt-2">
         {/* Principle */}
-        <div className="card border-l-4 border-l-ceria-teal p-4">
-          <p className="text-xs font-semibold uppercase tracking-wide text-ceria-teal">
+        <div className="card border-l-4 p-4" style={{ borderLeftColor: 'var(--ch-base)' }}>
+          <p className="text-xs font-semibold uppercase tracking-wide" style={{ color: 'var(--ch-base)' }}>
             {lang === 'en' ? 'Principle' : 'Prinsip'}
           </p>
           <p className="mt-1 font-head text-lg leading-snug text-ceria-dark">{t(ch.principle)}</p>
@@ -92,18 +94,21 @@ export default function GuidebookChapter() {
         )}
       </article>
     </Screen>
+   </div>
   )
 }
 
 /** The chapter's slice of the 365-day guide. Hidden until days are authored. */
 function DailyDays({ chapter }: { chapter: number }) {
-  const { t, lang } = useApp()
+  const { t, lang, entries } = useApp()
   const days = daysForChapter(chapter)
+  const read = entries.daysRead ?? {}
+  const theme = chapterTheme(chapter)
   if (days.length === 0) return null
 
   return (
     <section className="mt-7">
-      <h2 className="font-head text-lg font-semibold text-ceria-blue">
+      <h2 className="font-head text-lg font-semibold" style={{ color: theme.base }}>
         {lang === 'en' ? 'Day by day' : 'Hari demi hari'}
       </h2>
       <p className="mb-2 text-xs text-ceria-gray">
@@ -118,7 +123,14 @@ function DailyDays({ chapter }: { chapter: number }) {
               to={`/guidebook/day/${d.day}`}
               className="card flex items-center gap-3 p-3.5 active:scale-[0.99] transition"
             >
-              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-ceria-blue/8 text-sm font-semibold text-ceria-blue">
+              <span
+                className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg text-sm font-semibold"
+                style={
+                  read[d.day]
+                    ? { background: theme.ring, color: '#fff' }
+                    : { background: theme.tint, color: theme.base }
+                }
+              >
                 {d.day}
               </span>
               <span className="min-w-0 flex-1 truncate font-head text-[15px] font-semibold text-ceria-dark">

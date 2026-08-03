@@ -26,8 +26,10 @@ export interface EntriesState {
   debrief: Record<number, Partial<Record<Role, string[]>>>
   /** optional toolkit field answers, keyed by tool number */
   tools: Record<number, string[]>
+  /** days of the 365-day guide marked as read, keyed by day number */
+  daysRead: Record<number, boolean>
 }
 
 export function emptyEntries(): EntriesState {
-  return { daily: {}, weekIntent: {}, sunday: {}, debrief: {}, tools: {} }
+  return { daily: {}, weekIntent: {}, sunday: {}, debrief: {}, tools: {}, daysRead: {} }
 }

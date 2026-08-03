@@ -7,6 +7,7 @@ import Today from './screens/Today'
 import Guidebook from './screens/Guidebook'
 import GuidebookChapter from './screens/GuidebookChapter'
 import DailyDay from './screens/DailyDay'
+import YearMap from './screens/YearMap'
 import Toolkit from './screens/Toolkit'
 import ToolkitTool from './screens/ToolkitTool'
 import Diary from './screens/Diary'
@@ -40,6 +41,7 @@ function Shell() {
             <Routes>
               <Route path="/today" element={<Today />} />
               <Route path="/guidebook" element={<Guidebook />} />
+              <Route path="/guidebook/year" element={<YearMap />} />
               <Route path="/guidebook/day/:d" element={<DailyDay />} />
               <Route path="/guidebook/:n" element={<GuidebookChapter />} />
               <Route path="/toolkit" element={<Toolkit />} />
