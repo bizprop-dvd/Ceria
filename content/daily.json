@@ -4,7 +4,7 @@
     "version": 1,
     "totalDays": 365,
     "freeThroughChapter": 4,
-    "authoredDays": 61,
+    "authoredDays": 121,
     "note": "365-day companion guide. Day titles, references, weekly exercises and monthly reviews come from the founder's ceria_365_content.json (v3). The daily prose is authored per day (see content/_source/prose/) because the manuscript's bodies were template-generated. Days with draft=true are not yet authored and are hidden in the app."
   },
   "chapters": [
@@ -2329,2040 +2329,2040 @@
       "chapter": 3,
       "title": {
         "en": "Recognizing your parenting triggers",
-        "id": ""
+        "id": "Mengenali pemicu Anda dalam mengasuh"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "A trigger is any moment where your reaction is bigger than the event. That gap is the signal — it means something older than this moment has been touched.\n\nMost parents have three or four, and they are remarkably consistent: being ignored, mess, noise, disrespect, whining, being late. Knowing yours in advance converts an ambush into something you can prepare for.",
+        "id": "Pemicu adalah momen ketika reaksi Anda lebih besar daripada peristiwanya. Jarak itulah sinyalnya — artinya ada sesuatu yang lebih tua dari momen ini yang tersentuh.\n\nKebanyakan orang tua punya tiga atau empat, dan pemicunya sangat konsisten: diabaikan, berantakan, berisik, ketidaksopanan, rengekan, terlambat. Mengetahui milik Anda lebih dulu mengubah serangan mendadak menjadi sesuatu yang bisa Anda siapkan."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "You cannot manage a trigger you have never named. Once named, it announces itself a few seconds earlier — and those seconds are where the choice lives.",
+        "id": "Anda tak bisa mengelola pemicu yang tak pernah Anda namai. Setelah dinamai, ia mengumumkan dirinya beberapa detik lebih awal — dan di detik-detik itulah pilihan berada."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Write down your top three triggers today. Keep the list where only you will see it.",
+        "id": "Tuliskan tiga pemicu terbesar Anda hari ini. Simpan daftarnya di tempat yang hanya Anda lihat."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Which of my reactions is consistently bigger than the thing that caused it?",
+        "id": "Reaksi saya yang mana yang secara konsisten lebih besar daripada penyebabnya?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"That one always gets me. Now I know.\"",
+        "id": "\"Yang itu selalu memancing saya. Sekarang saya tahu.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Raising Good Humans — Hunter Clarke-Fields",
-      "draft": true
+      "draft": false
     },
     {
       "day": 63,
       "chapter": 3,
       "title": {
         "en": "Pause before reacting",
-        "id": ""
+        "id": "Jeda sebelum bereaksi"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Between what happens and what you do there is a gap. It is very short, but it is real, and almost all of parenting quality lives inside it.\n\nWidening that gap is the single most useful skill in this chapter. You are not trying to feel less — you are trying to put two seconds between the feeling and the response.",
+        "id": "Antara apa yang terjadi dan apa yang Anda lakukan ada sebuah jeda. Ia sangat singkat, tapi nyata, dan hampir seluruh mutu pengasuhan tinggal di dalamnya.\n\nMelebarkan jeda itu adalah keterampilan paling berguna di bab ini. Anda tidak sedang berusaha merasa lebih sedikit — Anda sedang berusaha menyisipkan dua detik antara perasaan dan respons."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Two seconds is enough to change the sentence that comes out. It is rarely enough to change the feeling, and it does not need to be.",
+        "id": "Dua detik cukup untuk mengubah kalimat yang keluar. Ia jarang cukup untuk mengubah perasaannya, dan memang tidak perlu."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Put a two-second pause before your first reaction today. Just the first one.",
+        "id": "Sisipkan jeda dua detik sebelum reaksi pertama Anda hari ini. Yang pertama saja."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What would I have said today if I had waited two more seconds?",
+        "id": "Apa yang akan saya katakan hari ini jika saya menunggu dua detik lagi?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Give me a second.\"",
+        "id": "\"Sebentar ya.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Raising Good Humans — Hunter Clarke-Fields",
-      "draft": true
+      "draft": false
     },
     {
       "day": 64,
       "chapter": 3,
       "title": {
         "en": "Breathing before speaking",
-        "id": ""
+        "id": "Bernapas sebelum bicara"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Breathing is not a soft option; it is the fastest available lever on your own physiology. A long exhale genuinely slows the heart and takes the edge off the stress response, and it takes about four seconds.\n\nThis matters because your calm is not only for you. Your child's nervous system is reading yours continuously.",
+        "id": "Bernapas bukan pilihan yang lembek; ia tuas tercepat yang tersedia atas fisiologi Anda sendiri. Embusan napas yang panjang sungguh memperlambat detak jantung dan meredakan respons stres, dan hanya butuh sekitar empat detik.\n\nIni penting karena ketenangan Anda bukan hanya untuk Anda. Sistem saraf anak membaca sistem saraf Anda terus-menerus."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "One slow out-breath before you speak changes the tone of the sentence more reliably than deciding to sound calm.",
+        "id": "Satu embusan napas pelan sebelum bicara mengubah nada kalimat lebih andal daripada sekadar memutuskan untuk terdengar tenang."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Take one long exhale before responding to the first difficulty today.",
+        "id": "Ambil satu embusan panjang sebelum menanggapi kesulitan pertama hari ini."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What does my body do in the second before I lose my temper?",
+        "id": "Apa yang tubuh saya lakukan sedetik sebelum saya hilang kesabaran?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Let me breathe for a second first.\"",
+        "id": "\"Mama/Papa tarik napas dulu sebentar.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Raising Good Humans — Hunter Clarke-Fields",
-      "draft": true
+      "draft": false
     },
     {
       "day": 65,
       "chapter": 3,
       "title": {
         "en": "Naming your own emotion",
-        "id": ""
+        "id": "Menamai emosi Anda sendiri"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Saying what you feel, out loud, does two jobs at once. It steadies you — naming a feeling measurably reduces its intensity — and it shows your child that feelings can be handled rather than obeyed.\n\nName the feeling, not the blame. \"I am frustrated\" teaches. \"You are making me furious\" hands your child responsibility for your emotional state, which is a weight no child should carry.",
+        "id": "Mengucapkan apa yang Anda rasakan, dengan suara, melakukan dua hal sekaligus. Ia menenangkan Anda — menamai perasaan terbukti menurunkan intensitasnya — dan menunjukkan kepada anak bahwa perasaan bisa dikelola, bukan dituruti.\n\nNamai perasaannya, bukan tuduhannya. \"Mama sedang kesal\" mengajarkan. \"Kamu membuat Mama marah\" menyerahkan tanggung jawab atas kondisi emosi Anda kepada anak — beban yang tak seharusnya dipikul anak mana pun."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"I'm feeling really frustrated right now, so I'm going to slow down\" models the whole skill in one sentence.",
+        "id": "\"Mama sedang sangat kesal sekarang, jadi Mama akan pelan-pelan dulu\" mencontohkan seluruh keterampilannya dalam satu kalimat."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Name one of your own feelings out loud in front of your child today.",
+        "id": "Sebutkan satu perasaan Anda sendiri dengan suara di depan anak hari ini."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Does my child ever hear me name a feeling without blaming someone for it?",
+        "id": "Pernahkah anak mendengar saya menyebut perasaan tanpa menyalahkan siapa pun?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"I'm frustrated. That's mine to handle.\"",
+        "id": "\"Mama/Papa sedang kesal. Itu urusan Mama/Papa untuk kelola.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "The Whole-Brain Child — Daniel J. Siegel & Tina Payne Bryson",
-      "draft": true
+      "draft": false
     },
     {
       "day": 66,
       "chapter": 3,
       "title": {
         "en": "When to step away briefly",
-        "id": ""
+        "id": "Kapan menjauh sejenak"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Walking away for a minute is not abandoning your child and it is not losing the argument. It is the adult version of the very skill you keep asking them to learn.\n\nThe difference between a helpful break and a frightening one is announcement. Say you are going, say you are coming back, and come back.",
+        "id": "Menjauh sebentar bukan meninggalkan anak dan bukan kalah dalam perdebatan. Itu versi dewasa dari keterampilan yang terus Anda minta anak pelajari.\n\nBeda antara jeda yang membantu dan yang menakutkan adalah pemberitahuan. Katakan Anda pergi, katakan Anda akan kembali, lalu kembalilah."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Silently storming out teaches abandonment. \"I need two minutes, then I'm coming back\" teaches self-regulation.",
+        "id": "Pergi diam-diam sambil membanting mengajarkan ditinggalkan. \"Mama perlu dua menit, lalu Mama kembali\" mengajarkan pengendalian diri."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "If you need a break today, announce it and return when you said you would.",
+        "id": "Jika Anda butuh jeda hari ini, umumkan dan kembalilah tepat seperti yang Anda katakan."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Do I leave the room in a way that reassures, or in a way that frightens?",
+        "id": "Apakah saya meninggalkan ruangan dengan cara yang menenangkan, atau yang menakutkan?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"I need two minutes. I'm coming straight back.\"",
+        "id": "\"Mama/Papa perlu dua menit. Nanti langsung kembali.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Raising Good Humans — Hunter Clarke-Fields",
-      "draft": true
+      "draft": false
     },
     {
       "day": 67,
       "chapter": 3,
       "title": {
         "en": "Yelling: why it escalates",
-        "id": ""
+        "id": "Berteriak: mengapa justru memperburuk"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Yelling works the first few times, which is exactly the trap. It raises the volume of the whole household, requires escalation to keep working, and teaches children that loudness is how conflict gets resolved.\n\nIt also floods the child, which means the lesson you were trying to deliver does not land at all. You get compliance and no learning.",
+        "id": "Berteriak berhasil beberapa kali pertama, dan itulah jebakannya. Ia menaikkan volume seluruh rumah, menuntut eskalasi agar tetap mempan, dan mengajarkan anak bahwa kerasnya suara adalah cara konflik diselesaikan.\n\nIa juga membanjiri anak, artinya pelajaran yang ingin Anda sampaikan sama sekali tidak sampai. Anda mendapat kepatuhan tanpa pembelajaran."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Notice how a shouted instruction has to be repeated louder next week. That is the escalation cost, arriving on schedule.",
+        "id": "Perhatikan bagaimana instruksi yang diteriakkan harus diulang lebih keras minggu depan. Itulah biaya eskalasi, datang tepat waktu."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "If you raise your voice today, lower it mid-sentence and start again.",
+        "id": "Jika Anda meninggikan suara hari ini, turunkan di tengah kalimat dan mulai lagi."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What is my yelling actually achieving, once the moment has passed?",
+        "id": "Apa yang sebenarnya dicapai teriakan saya, setelah momennya berlalu?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"I'm starting that again, quieter.\"",
+        "id": "\"Mama/Papa ulangi lagi, lebih pelan.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Raising Good Humans — Hunter Clarke-Fields",
-      "draft": true
+      "draft": false
     },
     {
       "day": 68,
       "chapter": 3,
       "title": {
         "en": "Calm voice practice",
-        "id": ""
+        "id": "Melatih suara yang tenang"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Children process tone before content. Lowering your pitch and slowing your pace carries more authority than volume does, and it is a skill you can rehearse when nothing is wrong.\n\nQuiet is not weak. A low, slow, unhurried sentence is genuinely harder for a child to argue with than a shouted one.",
+        "id": "Anak memproses nada sebelum isi. Menurunkan nada dan memperlambat tempo membawa lebih banyak wibawa daripada volume, dan ini keterampilan yang bisa Anda latih saat tidak ada masalah.\n\nPelan bukan berarti lemah. Kalimat yang rendah, lambat, dan tak terburu-buru sungguh lebih sulit dibantah anak daripada yang diteriakkan."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Try saying the same instruction twice — once fast and high, once slow and low. The second one is the one that gets obeyed.",
+        "id": "Coba ucapkan instruksi yang sama dua kali — sekali cepat dan tinggi, sekali lambat dan rendah. Yang kedua itulah yang dituruti."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Deliver one instruction today deliberately slower and lower than usual.",
+        "id": "Sampaikan satu instruksi hari ini dengan sengaja lebih lambat dan lebih rendah dari biasanya."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What happens in my house when I get quieter instead of louder?",
+        "id": "Apa yang terjadi di rumah saya ketika saya justru memelankan suara, bukan mengeraskannya?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"I'm going to say this once, quietly.\"",
+        "id": "\"Mama/Papa akan mengatakannya sekali, dengan pelan.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Raising Good Humans — Hunter Clarke-Fields",
-      "draft": true
+      "draft": false
     },
     {
       "day": 69,
       "chapter": 3,
       "title": {
         "en": "Body language awareness",
-        "id": ""
+        "id": "Menyadari bahasa tubuh"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Your face and posture arrive before your words and are believed over them. A child reads a tight jaw, folded arms and a looming stance as threat, whatever the sentence says.\n\nGetting down to eye level does more to lower conflict than most verbal techniques, because it removes the physical signal of confrontation.",
+        "id": "Wajah dan postur Anda tiba lebih dulu daripada kata-kata Anda, dan lebih dipercaya. Anak membaca rahang yang mengencang, tangan bersedekap, dan tubuh yang menjulang sebagai ancaman, apa pun bunyi kalimatnya.\n\nMenurunkan diri sejajar mata lebih menurunkan konflik daripada kebanyakan teknik verbal, karena ia menghapus sinyal fisik konfrontasi."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "The same words said standing over a child and said kneeling beside them are two different messages.",
+        "id": "Kata-kata yang sama, diucapkan sambil berdiri menjulang dan sambil berjongkok di sampingnya, adalah dua pesan yang berbeda."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Get to your child's eye level for every difficult conversation today.",
+        "id": "Turunkan diri sejajar mata anak untuk setiap percakapan sulit hari ini."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What does my body say before I open my mouth?",
+        "id": "Apa yang tubuh saya katakan sebelum saya membuka mulut?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Let me come down to you.\"",
+        "id": "\"Mama/Papa turun dulu ke bawah, ya.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Raising Good Humans — Hunter Clarke-Fields",
-      "draft": true
+      "draft": false
     },
     {
       "day": 70,
       "chapter": 3,
       "title": {
         "en": "Parental stress signs",
-        "id": ""
+        "id": "Tanda-tanda stres pada orang tua"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Stress announces itself in the body before it reaches your awareness: shortened patience, a tight chest, disrupted sleep, irritation at things that were fine last week.\n\nLearning your own early signs is genuinely protective, because the moment to act is well before the moment you snap.",
+        "id": "Stres mengumumkan dirinya di tubuh sebelum sampai ke kesadaran Anda: kesabaran yang memendek, dada yang sesak, tidur yang terganggu, mudah jengkel pada hal yang minggu lalu biasa saja.\n\nMengenali tanda-tanda awal Anda sendiri sungguh melindungi, karena saat yang tepat untuk bertindak adalah jauh sebelum saat Anda meledak."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "If your fuse has been shorter for three days, that is data about your load, not about your child's behaviour.",
+        "id": "Jika sumbu Anda memendek selama tiga hari, itu data tentang beban Anda, bukan tentang perilaku anak."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Name your own earliest stress sign today, before it reaches the family.",
+        "id": "Sebutkan tanda stres paling awal Anda hari ini, sebelum sampai ke keluarga."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What is my body telling me that I have been ignoring?",
+        "id": "Apa yang tubuh saya sampaikan yang selama ini saya abaikan?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"I'm running low. I need to do something about that.\"",
+        "id": "\"Tenaga saya menipis. Saya perlu melakukan sesuatu untuk itu.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "UNICEF parenting resources — UNICEF",
-      "draft": true
+      "draft": false
     },
     {
       "day": 71,
       "chapter": 3,
       "title": {
         "en": "Burnout in parenting",
-        "id": ""
+        "id": "Kelelahan mendalam dalam mengasuh"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Parental burnout is real and distinct from ordinary tiredness. It shows up as emotional distance from your children, a sense of being a failure as a parent, and exhaustion that sleep does not fix.\n\nIt is not a character problem and it does not respond to trying harder. It responds to reduced load and increased support — and it is worth asking for help.",
+        "id": "Kelelahan mendalam pada orang tua itu nyata dan berbeda dari lelah biasa. Ia muncul sebagai jarak emosional dari anak, perasaan gagal sebagai orang tua, dan keletihan yang tak sembuh dengan tidur.\n\nIni bukan masalah karakter dan tidak sembuh dengan berusaha lebih keras. Ia membaik dengan beban yang dikurangi dan dukungan yang ditambah — dan layak untuk meminta bantuan."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Feeling numb toward your children is one of the clearest signals, and one of the most frightening to admit. It is a sign of depletion, not of not loving them.",
+        "id": "Merasa mati rasa terhadap anak adalah salah satu sinyal paling jelas, dan paling menakutkan untuk diakui. Itu tanda kehabisan tenaga, bukan tanda tidak menyayangi mereka."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Remove one non-essential commitment from this week. Actually remove it.",
+        "id": "Hapus satu komitmen yang tidak esensial dari minggu ini. Betul-betul hapus."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Am I tired, or am I depleted in a way that rest alone is not fixing?",
+        "id": "Apakah saya lelah, atau kehabisan tenaga dengan cara yang tak sembuh hanya dengan istirahat?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"I need help with this, and that's allowed.\"",
+        "id": "\"Saya butuh bantuan untuk ini, dan itu boleh.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Raising Good Humans — Hunter Clarke-Fields",
-      "draft": true
+      "draft": false
     },
     {
       "day": 72,
       "chapter": 3,
       "title": {
         "en": "Repair after losing your temper",
-        "id": ""
+        "id": "Memperbaiki setelah hilang kesabaran"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "You will lose your temper. The research on secure attachment does not describe parents who never rupture — it describes parents who repair.\n\nRepair is not weakness and it does not undo the limit you were holding. It separates the rule, which stands, from the delivery, which was not okay.",
+        "id": "Anda akan hilang kesabaran. Penelitian tentang kelekatan aman tidak menggambarkan orang tua yang tak pernah retak — ia menggambarkan orang tua yang memperbaiki.\n\nMemperbaiki bukan kelemahan dan tidak membatalkan batas yang Anda pegang. Ia memisahkan aturannya, yang tetap berlaku, dari cara penyampaiannya, yang tidak baik."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"The rule about hitting still stands. The way I shouted at you was not okay, and I'm sorry.\" Both halves matter.",
+        "id": "\"Aturan soal memukul tetap berlaku. Cara Mama membentakmu tadi tidak baik, dan Mama minta maaf.\" Kedua bagiannya sama penting."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "If you lose your temper today, repair before bedtime — and keep the limit.",
+        "id": "Jika Anda hilang kesabaran hari ini, perbaiki sebelum waktu tidur — dan pertahankan batasnya."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Do I repair, or do I just wait for the atmosphere to pass?",
+        "id": "Apakah saya memperbaiki, atau hanya menunggu suasananya berlalu?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"The rule stands. How I said it doesn't.\"",
+        "id": "\"Aturannya tetap. Cara Mama/Papa menyampaikannya tidak.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Peaceful Parent, Happy Kids — Laura Markham",
-      "draft": true
+      "draft": false
     },
     {
       "day": 73,
       "chapter": 3,
       "title": {
         "en": "Apologizing to your child",
-        "id": ""
+        "id": "Meminta maaf kepada anak"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "A clean apology has three parts and no fourth: name what you did, acknowledge the effect, and stop. The moment \"but you were\" appears, it stops being an apology and becomes a continued argument.\n\nChildren who receive real apologies learn how to give them. This is one of the few things you can teach entirely by demonstration.",
+        "id": "Permintaan maaf yang bersih punya tiga bagian dan tidak ada yang keempat: sebut apa yang Anda lakukan, akui dampaknya, lalu berhenti. Begitu \"tapi kamu tadi\" muncul, ia berhenti menjadi permintaan maaf dan berubah jadi lanjutan perdebatan.\n\nAnak yang menerima permintaan maaf yang sungguh belajar cara memberikannya. Ini salah satu dari sedikit hal yang bisa Anda ajarkan sepenuhnya lewat peragaan."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"I shouted. That must have felt horrible. I'm sorry.\" Then silence. The silence is part of the apology.",
+        "id": "\"Mama membentak tadi. Pasti rasanya tidak enak. Mama minta maaf.\" Lalu diam. Diamnya adalah bagian dari permintaan maaf itu."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Give one apology today with no justification attached to the end of it.",
+        "id": "Berikan satu permintaan maaf hari ini tanpa pembenaran apa pun di ujungnya."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Can I apologise without defending myself in the same breath?",
+        "id": "Bisakah saya minta maaf tanpa membela diri di napas yang sama?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"I'm sorry. That's all — no buts.\"",
+        "id": "\"Mama/Papa minta maaf. Itu saja — tanpa tapi.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Raising Good Humans — Hunter Clarke-Fields",
-      "draft": true
+      "draft": false
     },
     {
       "day": 74,
       "chapter": 3,
       "title": {
         "en": "Boundaries for parents",
-        "id": ""
+        "id": "Batasan untuk orang tua"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Boundaries are not only something you set for children. A parent with no boundaries becomes depleted, and a depleted parent has nothing left to regulate with.\n\nSaying no to something outside the family — an extra commitment, a request, an expectation — is often what makes yes possible inside it.",
+        "id": "Batasan bukan hanya sesuatu yang Anda tetapkan untuk anak. Orang tua tanpa batas akan kehabisan tenaga, dan orang tua yang kehabisan tenaga tak punya apa-apa lagi untuk menenangkan.\n\nBerkata tidak pada sesuatu di luar keluarga — komitmen tambahan, permintaan, harapan orang — sering justru yang memungkinkan Anda berkata ya di dalam keluarga."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "The parent who says yes to everything outside the home usually has the shortest fuse inside it.",
+        "id": "Orang tua yang mengiyakan segalanya di luar rumah biasanya punya sumbu terpendek di dalam rumah."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Say no to one thing this week that would have cost you your evening patience.",
+        "id": "Katakan tidak pada satu hal minggu ini yang akan menghabiskan kesabaran malam Anda."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What am I saying yes to that my family pays for?",
+        "id": "Apa yang saya iyakan, yang harganya dibayar oleh keluarga saya?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"I can't take that on right now.\"",
+        "id": "\"Saya tidak bisa mengambil itu sekarang.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Raising Good Humans — Hunter Clarke-Fields",
-      "draft": true
+      "draft": false
     },
     {
       "day": 75,
       "chapter": 3,
       "title": {
         "en": "Self-care without guilt",
-        "id": ""
+        "id": "Merawat diri tanpa rasa bersalah"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Self-care in parenting is not indulgence; it is maintenance of the instrument your child depends on. A rested parent has patience available. An empty one does not, however much they love their child.\n\nGuilt about it is nearly universal and almost always misplaced. Your child does not need a martyr — they need someone with enough left to be kind at 6pm.",
+        "id": "Merawat diri dalam pengasuhan bukan memanjakan diri; ia perawatan atas alat yang diandalkan anak Anda. Orang tua yang cukup istirahat punya kesabaran yang tersedia. Yang kosong tidak punya, sebesar apa pun sayangnya pada anak.\n\nRasa bersalah soal ini hampir universal dan hampir selalu salah alamat. Anak Anda tidak butuh martir — dia butuh seseorang yang masih punya cukup tenaga untuk bersikap baik pukul enam sore."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Twenty minutes that restores you is not stolen from your child. It is usually returned to them with interest that same evening.",
+        "id": "Dua puluh menit yang memulihkan Anda bukan dicuri dari anak. Biasanya ia dikembalikan kepadanya dengan bunga di malam yang sama."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Take twenty minutes today for something that restores you, without apologising for it.",
+        "id": "Ambil dua puluh menit hari ini untuk sesuatu yang memulihkan Anda, tanpa meminta maaf."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What restores me, and when did I last do it?",
+        "id": "Apa yang memulihkan saya, dan kapan terakhir kali saya melakukannya?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"I'm taking twenty minutes. I'll be better company after.\"",
+        "id": "\"Saya ambil dua puluh menit dulu. Setelah itu saya akan lebih enak diajak bersama.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Raising Good Humans — Hunter Clarke-Fields",
-      "draft": true
+      "draft": false
     },
     {
       "day": 76,
       "chapter": 3,
       "title": {
         "en": "Protecting sleep as a parent",
-        "id": ""
+        "id": "Menjaga tidur sebagai orang tua"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Your own sleep is the most direct lever on your patience, and the easiest one to sacrifice quietly. The hour reclaimed after bedtime is precious, and it is often paid for the next evening with a shorter fuse.\n\nYou cannot always get more sleep. But most parents can get some, and the difference is usually visible within a few days.",
+        "id": "Tidur Anda sendiri adalah tuas paling langsung atas kesabaran Anda, dan yang paling mudah dikorbankan diam-diam. Satu jam yang direbut setelah anak tidur itu berharga, dan sering dibayar keesokan sorenya dengan sumbu yang lebih pendek.\n\nAnda tidak selalu bisa mendapat tidur lebih banyak. Tapi kebanyakan orang tua bisa mendapat sebagian, dan bedanya biasanya terlihat dalam beberapa hari."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "The scrolling hour after the children sleep feels like recovery and usually is not. Actual sleep outperforms it every time.",
+        "id": "Satu jam menggulir layar setelah anak tidur terasa seperti pemulihan, dan biasanya bukan. Tidur yang sungguhan selalu lebih unggul."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Go to bed thirty minutes earlier tonight and notice tomorrow evening.",
+        "id": "Tidurlah tiga puluh menit lebih awal malam ini dan perhatikan besok sore."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "How much of my impatience is simply my own sleep debt?",
+        "id": "Seberapa banyak ketidaksabaran saya sebenarnya hanyalah utang tidur saya sendiri?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"I'm going to sleep. Tomorrow needs me more than tonight does.\"",
+        "id": "\"Saya mau tidur. Besok lebih membutuhkan saya daripada malam ini.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Raising Good Humans — Hunter Clarke-Fields",
-      "draft": true
+      "draft": false
     },
     {
       "day": 77,
       "chapter": 3,
       "title": {
         "en": "Couples and co-parenting stress",
-        "id": ""
+        "id": "Stres pasangan dan pengasuhan bersama"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Tension between parents leaks into parenting, whether or not anyone raises their voice. Children are extremely good at detecting atmosphere and usually assume they are somehow the cause.\n\nProtecting the couple relationship is not separate from parenting. For most families it is one of the highest-yield things you can do for the children.",
+        "id": "Ketegangan antara orang tua merembes ke dalam pengasuhan, ada atau tidak ada yang meninggikan suara. Anak sangat pandai mendeteksi suasana dan biasanya mengira merekalah penyebabnya.\n\nMelindungi hubungan pasangan bukan hal yang terpisah dari pengasuhan. Bagi kebanyakan keluarga, itu salah satu hal berhasil-guna tertinggi yang bisa Anda lakukan untuk anak."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Children rarely need to be told there is tension. They have usually known for days and have been quietly adjusting their behaviour around it.",
+        "id": "Anak jarang perlu diberi tahu bahwa ada ketegangan. Biasanya mereka sudah tahu berhari-hari dan diam-diam menyesuaikan perilakunya."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Spend ten uninterrupted minutes with your partner today that is not about logistics.",
+        "id": "Luangkan sepuluh menit tanpa gangguan bersama pasangan hari ini yang bukan soal urusan teknis."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What is my child absorbing from the atmosphere between us?",
+        "id": "Apa yang anak serap dari suasana di antara kami?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Can we have ten minutes that isn't about the schedule?\"",
+        "id": "\"Bisa kita punya sepuluh menit yang bukan soal jadwal?\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "UNICEF parenting resources — UNICEF",
-      "draft": true
+      "draft": false
     },
     {
       "day": 78,
       "chapter": 3,
       "title": {
         "en": "Aligning parenting values with spouse",
-        "id": ""
+        "id": "Menyelaraskan nilai pengasuhan dengan pasangan"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Two parents will never agree on everything, and they do not need to. What matters is agreeing on the few things that recur — bedtime, screens, how discipline is delivered — so a child is not managing two different systems.\n\nAlignment is built in calm moments, in advance. It cannot be negotiated in the middle of an incident.",
+        "id": "Dua orang tua tidak akan pernah sepakat dalam segalanya, dan memang tidak perlu. Yang penting adalah menyepakati beberapa hal yang berulang — jam tidur, layar, cara disiplin disampaikan — agar anak tidak mengelola dua sistem berbeda.\n\nKeselarasan dibangun di momen yang tenang, jauh sebelumnya. Ia tak bisa dinegosiasikan di tengah kejadian."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Pick the three rules that come up most often and agree those. The rest can safely differ.",
+        "id": "Pilih tiga aturan yang paling sering muncul dan sepakati itu. Sisanya aman untuk berbeda."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Agree one recurring rule with your partner today, outside of any incident.",
+        "id": "Sepakati satu aturan yang berulang bersama pasangan hari ini, di luar kejadian apa pun."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Which rule do we most often contradict each other on?",
+        "id": "Aturan mana yang paling sering membuat kami saling bertentangan?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Can we decide this one now, while it's calm?\"",
+        "id": "\"Bisa kita putuskan yang ini sekarang, selagi tenang?\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Raising Good Humans — Hunter Clarke-Fields",
-      "draft": true
+      "draft": false
     },
     {
       "day": 79,
       "chapter": 3,
       "title": {
         "en": "Handling disagreement in front of children",
-        "id": ""
+        "id": "Menangani perbedaan pendapat di depan anak"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Children do not need parents who never disagree. They need to see disagreement handled without contempt — that is a lesson they will use in every relationship they ever have.\n\nWhat harms is not the disagreement but undermining: contradicting the other parent's decision in front of the child, which teaches that rules are negotiable if you find the right adult.",
+        "id": "Anak tidak butuh orang tua yang tak pernah berbeda pendapat. Mereka perlu melihat perbedaan pendapat ditangani tanpa penghinaan — pelajaran yang akan mereka pakai dalam setiap hubungan sepanjang hidup.\n\nYang merusak bukan perbedaannya, melainkan tindakan menjatuhkan: membantah keputusan orang tua lain di depan anak, yang mengajarkan bahwa aturan bisa ditawar asal menemukan orang dewasa yang tepat."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"We'll talk about it and come back to you\" holds the united front without requiring either parent to pretend to agree.",
+        "id": "\"Kami bicarakan dulu lalu kembali ke kamu\" menjaga barisan tetap satu tanpa menuntut salah satu orang tua berpura-pura setuju."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "If you disagree in front of your child today, defer it rather than fight it there.",
+        "id": "Jika Anda berbeda pendapat di depan anak hari ini, tunda dulu, jangan diperdebatkan di situ."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Do we undermine each other in front of the children without meaning to?",
+        "id": "Apakah kami saling menjatuhkan di depan anak tanpa bermaksud begitu?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"We'll discuss it and let you know.\"",
+        "id": "\"Kami bicarakan dulu, nanti kami kabari.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Raising Good Humans — Hunter Clarke-Fields",
-      "draft": true
+      "draft": false
     },
     {
       "day": 80,
       "chapter": 3,
       "title": {
         "en": "When guilt is useful and when it is not",
-        "id": ""
+        "id": "Kapan rasa bersalah berguna dan kapan tidak"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Useful guilt is specific and points at an action: I snapped, I will repair. It is brief and it produces a change.\n\nUseless guilt is global and points at your identity: I am a bad parent. It produces rumination, not repair, and it usually makes the next hour worse rather than better.",
+        "id": "Rasa bersalah yang berguna itu spesifik dan menunjuk pada tindakan: saya membentak, saya akan memperbaikinya. Ia singkat dan menghasilkan perubahan.\n\nRasa bersalah yang tidak berguna itu menyeluruh dan menunjuk pada jati diri Anda: saya orang tua yang buruk. Ia menghasilkan perenungan berputar, bukan perbaikan, dan biasanya membuat satu jam berikutnya lebih buruk, bukan lebih baik."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"That was a bad moment\" leads somewhere. \"I am a bad mother\" leads nowhere and costs you the energy repair requires.",
+        "id": "\"Tadi momen yang buruk\" membawa ke suatu tempat. \"Saya ibu yang buruk\" tidak membawa ke mana-mana dan menghabiskan tenaga yang dibutuhkan untuk memperbaiki."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Convert one global guilt into one specific action today.",
+        "id": "Ubah satu rasa bersalah yang menyeluruh menjadi satu tindakan spesifik hari ini."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Is my guilt telling me to do something, or just telling me I am bad?",
+        "id": "Apakah rasa bersalah saya menyuruh melakukan sesuatu, atau hanya berkata bahwa saya buruk?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"That was a bad moment, not a bad parent.\"",
+        "id": "\"Itu momen yang buruk, bukan orang tua yang buruk.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Raising Good Humans — Hunter Clarke-Fields",
-      "draft": true
+      "draft": false
     },
     {
       "day": 81,
       "chapter": 3,
       "title": {
         "en": "Perfectionism in parenting",
-        "id": ""
+        "id": "Perfeksionisme dalam mengasuh"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Perfectionism looks like high standards and behaves like a tax. It makes ordinary mistakes feel catastrophic, makes repair harder because admitting fault costs more, and it is exhausting to live beside.\n\nChildren raised by a perfectionist parent often become perfectionists themselves, which is rarely the inheritance anyone intended.",
+        "id": "Perfeksionisme tampak seperti standar tinggi dan berperilaku seperti pajak. Ia membuat kesalahan biasa terasa bencana, membuat perbaikan lebih sulit karena mengakui kesalahan jadi terasa mahal, dan melelahkan untuk didampingi.\n\nAnak yang dibesarkan orang tua perfeksionis sering menjadi perfeksionis juga — warisan yang jarang diniatkan siapa pun."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "A parent who can say \"that went badly and it's fine\" gives a child permission to be a learner rather than a performer.",
+        "id": "Orang tua yang bisa berkata \"tadi kurang baik dan tidak apa-apa\" memberi anak izin menjadi pembelajar, bukan penampil."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Let one thing be visibly good enough today, in front of your child.",
+        "id": "Biarkan satu hal terlihat cukup baik saja hari ini, di depan anak Anda."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What standard am I holding that is costing more than it returns?",
+        "id": "Standar apa yang saya pegang yang biayanya lebih besar daripada hasilnya?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"That's good enough, and that's fine.\"",
+        "id": "\"Itu sudah cukup baik, dan tidak apa-apa.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Raising Good Humans — Hunter Clarke-Fields",
-      "draft": true
+      "draft": false
     },
     {
       "day": 82,
       "chapter": 3,
       "title": {
         "en": "Comparison with other families",
-        "id": ""
+        "id": "Membandingkan dengan keluarga lain"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "You compare your whole reality — the tantrums, the mess, the hard evenings — with other families' visible surface. It is not a fair comparison and it never produces anything useful.\n\nEvery calm family you envy has hours you have never seen. Comparison mostly damages your confidence, and low confidence makes worse parents than low skill does.",
+        "id": "Anda membandingkan seluruh kenyataan Anda — tantrum, kekacauan, sore-sore yang berat — dengan permukaan yang terlihat dari keluarga lain. Itu perbandingan yang tidak adil dan tak pernah menghasilkan apa pun yang berguna.\n\nSetiap keluarga tenang yang Anda cemburui punya jam-jam yang tak pernah Anda lihat. Membandingkan terutama merusak kepercayaan diri Anda, dan kepercayaan diri yang rendah menghasilkan orang tua yang lebih buruk daripada keterampilan yang rendah."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "The family that looks effortless at the school gate had their own difficult morning twenty minutes earlier.",
+        "id": "Keluarga yang tampak santai di gerbang sekolah punya pagi sulitnya sendiri dua puluh menit sebelumnya."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Notice one comparison today and put it down deliberately.",
+        "id": "Sadari satu perbandingan hari ini dan letakkan dengan sengaja."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Who am I comparing myself to, and what am I not seeing about them?",
+        "id": "Dengan siapa saya membandingkan diri, dan apa yang tak saya lihat dari mereka?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"I only see their outside and all of my inside.\"",
+        "id": "\"Saya hanya melihat luar mereka dan seluruh dalam diri saya.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Raising Good Humans — Hunter Clarke-Fields",
-      "draft": true
+      "draft": false
     },
     {
       "day": 83,
       "chapter": 3,
       "title": {
         "en": "Social media pressure",
-        "id": ""
+        "id": "Tekanan media sosial"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Social media presents parenting as a performance with an audience, which is precisely the wrong frame. It amplifies comparison, sells certainty about questions that have none, and makes ordinary difficulty feel like failure.\n\nCurating what you consume is a genuine parenting intervention. Accounts that leave you feeling inadequate are not helping your children.",
+        "id": "Media sosial menyajikan pengasuhan sebagai pertunjukan dengan penonton, dan itu persis kerangka yang keliru. Ia memperbesar perbandingan, menjual kepastian atas pertanyaan yang tak punya kepastian, dan membuat kesulitan biasa terasa seperti kegagalan.\n\nMenyaring apa yang Anda konsumsi adalah intervensi pengasuhan yang sungguhan. Akun yang membuat Anda merasa tidak cukup tidak sedang membantu anak Anda."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Unfollowing three accounts that make you feel like a failure is a more effective parenting change than most techniques.",
+        "id": "Berhenti mengikuti tiga akun yang membuat Anda merasa gagal adalah perubahan pengasuhan yang lebih efektif daripada kebanyakan teknik."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Unfollow or mute one account today that consistently makes you feel worse.",
+        "id": "Berhenti ikuti atau bisukan satu akun hari ini yang selalu membuat Anda merasa lebih buruk."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Which accounts leave me a worse parent for the next hour?",
+        "id": "Akun mana yang membuat saya menjadi orang tua yang lebih buruk selama satu jam berikutnya?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"This isn't helping me. I'm putting it down.\"",
+        "id": "\"Ini tidak membantu saya. Saya letakkan dulu.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Raising Good Humans — Hunter Clarke-Fields",
-      "draft": true
+      "draft": false
     },
     {
       "day": 84,
       "chapter": 3,
       "title": {
         "en": "Using reflection journals",
-        "id": ""
+        "id": "Menggunakan jurnal refleksi"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Writing changes what reading cannot, because it forces specificity. \"I was impatient this week\" becomes \"I was impatient at 6pm on three days, all before dinner\" — and the second one tells you what to do.\n\nThis is the whole reason the diary in this app exists. A few honest lines beat any amount of resolve.",
+        "id": "Menulis mengubah apa yang tak bisa diubah membaca, karena ia memaksa kejelasan. \"Minggu ini saya tidak sabar\" menjadi \"saya tidak sabar pukul enam sore di tiga hari, semuanya sebelum makan malam\" — dan yang kedua memberi tahu apa yang harus dilakukan.\n\nInilah seluruh alasan diari dalam aplikasi ini ada. Beberapa baris yang jujur mengalahkan tekad sebanyak apa pun."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Patterns are invisible from inside a single day. They only appear when a week is written down and read back.",
+        "id": "Pola tak terlihat dari dalam satu hari. Ia baru muncul ketika satu minggu ditulis dan dibaca ulang."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Write three honest lines about today in the diary, even if they are unflattering.",
+        "id": "Tulis tiga baris jujur tentang hari ini di diari, meski tidak enak dibaca."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What pattern would I see if I actually wrote this week down?",
+        "id": "Pola apa yang akan saya lihat jika saya benar-benar menuliskan minggu ini?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Three lines. That's all it takes.\"",
+        "id": "\"Tiga baris. Itu saja cukup.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Raising Good Humans — Hunter Clarke-Fields",
-      "draft": true
+      "draft": false
     },
     {
       "day": 85,
       "chapter": 3,
       "title": {
         "en": "One-minute reset techniques",
-        "id": ""
+        "id": "Teknik pemulihan satu menit"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "You rarely get twenty minutes in the middle of a hard afternoon, but you can almost always find sixty seconds. Cold water on the wrists, a slow exhale, stepping outside, unclenching your jaw, putting your feet flat on the floor — each genuinely shifts your physiology.\n\nHave one chosen in advance. Deciding what to do while flooded almost never works.",
+        "id": "Anda jarang mendapat dua puluh menit di tengah sore yang berat, tapi Anda hampir selalu bisa menemukan enam puluh detik. Air dingin di pergelangan tangan, embusan napas pelan, keluar sebentar, mengendurkan rahang, menapakkan kaki rata di lantai — masing-masing sungguh menggeser fisiologi Anda.\n\nPilih satu sejak awal. Memutuskan mau melakukan apa saat sedang kewalahan hampir tidak pernah berhasil."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "The parent who has already decided \"I go to the sink and run cold water\" uses it. The parent deciding in the moment does not.",
+        "id": "Orang tua yang sudah memutuskan \"saya ke wastafel dan menyalakan air dingin\" memakainya. Yang memutuskan saat itu juga tidak."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Choose your one-minute reset now, before you need it.",
+        "id": "Pilih pemulihan satu menit Anda sekarang, sebelum Anda membutuhkannya."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What is my reset, and have I actually decided it in advance?",
+        "id": "Apa pemulihan saya, dan sudahkah saya benar-benar memutuskannya lebih dulu?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"One minute. Then I'll come back to this.\"",
+        "id": "\"Satu menit. Lalu Mama/Papa kembali ke sini.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Raising Good Humans — Hunter Clarke-Fields",
-      "draft": true
+      "draft": false
     },
     {
       "day": 86,
       "chapter": 3,
       "title": {
         "en": "Parenting scripts to replace anger",
-        "id": ""
+        "id": "Kalimat siap pakai pengganti kemarahan"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "In a flooded moment you do not compose sentences — you reach for whatever is already loaded. If nothing is loaded, what comes out is usually whatever you heard as a child.\n\nWriting two or three sentences in advance, and rehearsing them when calm, means there is something better within reach when it matters.",
+        "id": "Di momen yang kewalahan Anda tidak menyusun kalimat — Anda meraih apa pun yang sudah termuat. Jika tidak ada yang termuat, yang keluar biasanya apa pun yang dulu Anda dengar sewaktu kecil.\n\nMenulis dua atau tiga kalimat sejak awal, dan melatihnya saat tenang, berarti ada sesuatu yang lebih baik dalam jangkauan saat dibutuhkan."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"I'm too angry to talk about this well right now\" is a sentence worth having loaded. It is honest, it is calm, and it buys time.",
+        "id": "\"Mama terlalu marah untuk membicarakan ini dengan baik sekarang\" adalah kalimat yang layak dimuat lebih dulu. Ia jujur, tenang, dan membeli waktu."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Write two sentences you want available next time, and say them aloud once.",
+        "id": "Tuliskan dua kalimat yang Anda ingin tersedia lain kali, dan ucapkan sekali dengan suara."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What comes out of my mouth automatically, and where did I learn it?",
+        "id": "Apa yang keluar otomatis dari mulut saya, dan di mana saya mempelajarinya?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"I'm too angry to do this well right now.\"",
+        "id": "\"Mama/Papa terlalu marah untuk menangani ini dengan baik sekarang.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Raising Good Humans — Hunter Clarke-Fields",
-      "draft": true
+      "draft": false
     },
     {
       "day": 87,
       "chapter": 3,
       "title": {
         "en": "Staying calm during defiance",
-        "id": ""
+        "id": "Tetap tenang saat anak membangkang"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Defiance is designed to pull you in, and the pull is strongest when you feel your authority is being tested in front of others.\n\nThe move that works is boring and repeatable: state the limit once, stop explaining, and let the silence do the work. Every extra sentence hands the child more to argue with.",
+        "id": "Pembangkangan dirancang untuk menarik Anda masuk, dan tarikannya paling kuat saat Anda merasa wibawa Anda sedang diuji di depan orang lain.\n\nLangkah yang berhasil itu membosankan dan bisa diulang: sebutkan batasnya sekali, berhenti menjelaskan, dan biarkan keheningan bekerja. Setiap kalimat tambahan memberi anak lebih banyak bahan untuk dibantah."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Repeating the same short sentence calmly — without new arguments — ends resistance faster than any escalation.",
+        "id": "Mengulang kalimat pendek yang sama dengan tenang — tanpa argumen baru — mengakhiri perlawanan lebih cepat daripada eskalasi apa pun."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Say your limit once today, then stop talking and stay put.",
+        "id": "Ucapkan batas Anda sekali hari ini, lalu berhenti bicara dan tetap di tempat."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Do I keep explaining because it helps, or because I feel challenged?",
+        "id": "Apakah saya terus menjelaskan karena itu membantu, atau karena saya merasa ditantang?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"I've said what I'm going to say.\"",
+        "id": "\"Mama/Papa sudah mengatakan yang perlu dikatakan.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "The Explosive Child — Ross W. Greene",
-      "draft": true
+      "draft": false
     },
     {
       "day": 88,
       "chapter": 3,
       "title": {
         "en": "Staying calm during whining",
-        "id": ""
+        "id": "Tetap tenang saat anak merengek"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Whining is physically grating by design — it is engineered to be hard to ignore. It usually signals depletion: tiredness, hunger, or a need for connection that has not been met in a better way.\n\nAnswering the need rather than the noise resolves it faster than correcting the tone, though the tone is worth teaching once everyone is calm.",
+        "id": "Rengekan memang secara fisik menjengkelkan — ia dirancang agar sulit diabaikan. Biasanya ia menandakan kehabisan tenaga: lelah, lapar, atau kebutuhan akan kedekatan yang belum terpenuhi dengan cara yang lebih baik.\n\nMenjawab kebutuhannya, bukan bunyinya, menyelesaikannya lebih cepat daripada membetulkan nadanya — meski nada itu layak diajarkan setelah semua orang tenang."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"You sound like you're running out of energy. Come here\" often ends whining faster than \"use your normal voice.\"",
+        "id": "\"Sepertinya tenagamu habis. Sini\" sering menghentikan rengekan lebih cepat daripada \"pakai suara biasa.\""
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Answer the need under one whine today instead of correcting the sound.",
+        "id": "Jawab kebutuhan di balik satu rengekan hari ini, bukan membetulkan bunyinya."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What is usually true about my child when the whining starts?",
+        "id": "Apa yang biasanya sedang terjadi pada anak saya saat rengekan mulai?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"You sound worn out. Let's sit down a minute.\"",
+        "id": "\"Sepertinya kamu capek. Ayo duduk sebentar.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 89,
       "chapter": 3,
       "title": {
         "en": "Staying calm during sibling fights",
-        "id": ""
+        "id": "Tetap tenang saat anak-anak bertengkar"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Sibling fights pull parents into the role of judge, and the judge role is a trap — it teaches children to compete for your verdict instead of learning to negotiate.\n\nUnless someone is unsafe, the more useful position is coach: describe what you see, name both needs, and hand the problem back.",
+        "id": "Pertengkaran saudara menarik orang tua ke peran hakim, dan peran hakim itu jebakan — ia mengajarkan anak bersaing memperebutkan putusan Anda alih-alih belajar bernegosiasi.\n\nKecuali ada yang tidak aman, posisi yang lebih berguna adalah pelatih: gambarkan apa yang Anda lihat, sebutkan kebutuhan keduanya, dan kembalikan masalahnya."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"You both want the same toy. That's a hard problem. What could work?\" builds skill that a verdict never does.",
+        "id": "\"Kalian berdua ingin mainan yang sama. Itu masalah yang sulit. Apa yang bisa dilakukan?\" membangun keterampilan yang tak pernah dibangun oleh sebuah putusan."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Coach one sibling conflict today instead of judging it.",
+        "id": "Latih satu konflik saudara hari ini alih-alih mengadilinya."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Am I the judge in my house, or the coach?",
+        "id": "Apakah saya hakim di rumah saya, atau pelatih?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"That's a hard problem. What could you two try?\"",
+        "id": "\"Itu masalah yang sulit. Kalian berdua mau coba apa?\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Raising Good Humans — Hunter Clarke-Fields",
-      "draft": true
+      "draft": false
     },
     {
       "day": 90,
       "chapter": 3,
       "title": {
         "en": "Staying calm in public",
-        "id": ""
+        "id": "Tetap tenang di tempat umum"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Public difficulty is harder because of the audience, not the child. The imagined judgement of strangers pushes parents into harsher responses than they would ever choose at home.\n\nDeciding in advance that you will parent the same way in public as in private removes most of the pressure. The strangers will forget within minutes; your child will not.",
+        "id": "Kesulitan di tempat umum terasa lebih berat karena penontonnya, bukan karena anaknya. Bayangan penilaian orang asing mendorong orang tua ke respons yang jauh lebih keras daripada yang akan mereka pilih di rumah.\n\nMemutuskan sejak awal bahwa Anda akan mengasuh dengan cara yang sama di tempat umum maupun di rumah menghapus sebagian besar tekanannya. Orang asing akan lupa dalam hitungan menit; anak Anda tidak."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Most of the strangers watching are either sympathetic or not watching at all. Almost none of them will remember it by evening.",
+        "id": "Sebagian besar orang asing yang melihat entah bersimpati atau sebenarnya tidak memperhatikan. Hampir tak satu pun mengingatnya sampai malam."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "If a hard moment happens in public today, respond exactly as you would at home.",
+        "id": "Jika momen sulit terjadi di tempat umum hari ini, tanggapi persis seperti di rumah."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Am I parenting my child right now, or the strangers watching?",
+        "id": "Apakah saya sedang mengasuh anak saya sekarang, atau mengasuh orang asing yang menonton?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"I'm going to handle this the way I would at home.\"",
+        "id": "\"Saya akan menangani ini seperti di rumah.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Raising Good Humans — Hunter Clarke-Fields",
-      "draft": true
+      "draft": false
     },
     {
       "day": 91,
       "chapter": 3,
       "title": {
         "en": "Weekly reflection",
-        "id": ""
+        "id": "Refleksi mingguan"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "This chapter has one claim: your regulation comes first, because your child borrows it. Everything else — the scripts, the pauses, the breathing — is machinery in service of that.\n\nLook back across the month and find the pattern rather than the incidents. Most parents discover their hardest moments cluster at a particular hour, in a particular state, around a particular trigger. That cluster is where the leverage is.",
+        "id": "Bab ini punya satu klaim: pengendalian diri Anda datang lebih dulu, karena anak meminjamnya. Selebihnya — kalimat siap pakai, jeda, pernapasan — adalah mesin yang melayani hal itu.\n\nTengok kembali sebulan ini dan carilah polanya, bukan kejadiannya. Kebanyakan orang tua menemukan momen tersulit mereka menumpuk di jam tertentu, dalam kondisi tertentu, di sekitar pemicu tertentu. Tumpukan itulah letak daya ungkitnya."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Three bad evenings in a month is not a character verdict. It is a pattern with a cause, and causes can be changed.",
+        "id": "Tiga sore yang buruk dalam sebulan bukan vonis atas karakter. Itu pola dengan sebab, dan sebab bisa diubah."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Find the hour and the trigger your hardest moments cluster around this month.",
+        "id": "Temukan jam dan pemicu tempat momen tersulit Anda menumpuk bulan ini."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "When I am at my worst, what is almost always true about my state?",
+        "id": "Saat saya sedang paling buruk, apa yang hampir selalu benar tentang kondisi saya?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"I can't pour calm I don't have. Start there.\"",
+        "id": "\"Saya tak bisa menuangkan ketenangan yang tak saya punya. Mulai dari situ.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Raising Good Humans — Hunter Clarke-Fields",
-      "draft": true
+      "draft": false
     },
     {
       "day": 92,
       "chapter": 4,
       "title": {
         "en": "Listening without interrupting",
-        "id": ""
+        "id": "Mendengarkan tanpa memotong"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Most parents listen in order to reply. Children can tell, and it changes what they are willing to bring you.\n\nListening without interrupting is harder than it sounds, because children take a long time to reach the point and the temptation to speed them up is constant. But the pause you allow is what teaches a child that talking to you is worth the effort.",
+        "id": "Kebanyakan orang tua mendengarkan untuk menjawab. Anak bisa merasakannya, dan itu mengubah apa yang mereka mau bawa kepada Anda.\n\nMendengarkan tanpa memotong lebih sulit daripada kedengarannya, karena anak butuh waktu lama untuk sampai ke inti dan godaan untuk mempercepatnya terus-menerus ada. Tapi jeda yang Anda izinkan itulah yang mengajarkan anak bahwa berbicara dengan Anda sepadan dengan usahanya."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Try counting three seconds after your child stops speaking before you reply. They will often add the most important part in those three seconds.",
+        "id": "Coba hitung tiga detik setelah anak berhenti bicara sebelum Anda menjawab. Mereka sering menambahkan bagian terpentingnya di tiga detik itu."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Let your child finish completely once today, with three seconds of silence after.",
+        "id": "Biarkan anak menyelesaikan bicaranya sepenuhnya sekali hari ini, dengan tiga detik hening setelahnya."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "How often do I finish my child's sentences for them?",
+        "id": "Seberapa sering saya menyelesaikan kalimat anak untuknya?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Take your time. I'm listening.\"",
+        "id": "\"Pelan-pelan saja. Mama/Papa dengarkan.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 93,
       "chapter": 4,
       "title": {
         "en": "Reflective listening",
-        "id": ""
+        "id": "Mendengarkan reflektif"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Reflective listening means saying back what you heard before responding to it. It sounds mechanical written down and works remarkably well in practice.\n\nIt does two things: it proves you were listening, and it lets your child correct you — which means you end up responding to what actually happened rather than what you assumed.",
+        "id": "Mendengarkan reflektif berarti mengulang kembali apa yang Anda dengar sebelum menanggapinya. Kedengarannya mekanis kalau ditulis, dan sangat berhasil dalam praktik.\n\nIa melakukan dua hal: membuktikan Anda mendengarkan, dan memberi anak kesempatan membetulkan Anda — artinya Anda akhirnya menanggapi apa yang sungguh terjadi, bukan apa yang Anda kira."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"So Adi took the ball and nobody let you play?\" Half the time the child says \"no, actually…\" and tells you the real thing.",
+        "id": "\"Jadi Adi mengambil bolanya dan tak ada yang mengajakmu main?\" Separuh waktu anak menjawab \"bukan, sebenarnya…\" lalu menceritakan yang sesungguhnya."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Say back what you heard once today before giving any response.",
+        "id": "Ulangi apa yang Anda dengar sekali hari ini sebelum memberi tanggapan apa pun."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "How often do I respond to what I assumed rather than what was said?",
+        "id": "Seberapa sering saya menanggapi apa yang saya kira, bukan apa yang dikatakan?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Let me check I've got this right…\"",
+        "id": "\"Coba Mama/Papa pastikan dulu, ya…\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 94,
       "chapter": 4,
       "title": {
         "en": "Validating feelings",
-        "id": ""
+        "id": "Mengakui perasaan"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Validation is not agreement. You can fully accept that a feeling is real while holding a limit completely unchanged — and doing both at once is the core skill of this chapter.\n\nMost escalation happens because a child feels their experience was denied. Denying the feeling almost always makes the behaviour louder and longer.",
+        "id": "Mengakui bukan menyetujui. Anda bisa sepenuhnya menerima bahwa suatu perasaan itu nyata sambil memegang batas yang sama sekali tidak berubah — dan melakukan keduanya sekaligus adalah keterampilan inti bab ini.\n\nSebagian besar eskalasi terjadi karena anak merasa pengalamannya disangkal. Menyangkal perasaan hampir selalu membuat perilakunya lebih keras dan lebih lama."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"You're not sad, it's only a toy\" adds a second injury to the first. \"You're really sad about that toy\" ends the argument about whether the feeling counts.",
+        "id": "\"Kamu tidak sedih, itu cuma mainan\" menambah luka kedua di atas yang pertama. \"Kamu benar-benar sedih soal mainan itu\" mengakhiri perdebatan tentang apakah perasaannya berarti."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Validate one feeling today without adding \"but\" to the end of the sentence.",
+        "id": "Akui satu perasaan hari ini tanpa menambahkan \"tapi\" di ujung kalimat."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Do I accidentally argue with my child about whether their feelings are real?",
+        "id": "Apakah saya tanpa sadar berdebat dengan anak tentang apakah perasaannya nyata?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"That really upset you. I get it.\"",
+        "id": "\"Itu benar-benar membuatmu kesal. Mama/Papa mengerti.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 95,
       "chapter": 4,
       "title": {
         "en": "Empathy statements",
-        "id": ""
+        "id": "Kalimat empati"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "An empathy statement has a simple shape: name the feeling, name the cause, stop. \"You're disappointed because we had to leave early.\"\n\nThe stopping is the hard part. Most parents attach a lesson immediately, and the lesson cancels the empathy. Let the empathy stand alone for a few seconds before anything else arrives.",
+        "id": "Kalimat empati punya bentuk sederhana: sebut perasaannya, sebut penyebabnya, berhenti. \"Kamu kecewa karena kita harus pulang lebih awal.\"\n\nBerhentinya itu bagian yang sulit. Kebanyakan orang tua langsung menempelkan pelajaran, dan pelajaran itu membatalkan empatinya. Biarkan empatinya berdiri sendiri beberapa detik sebelum apa pun yang lain datang."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"You're sad we left, AND next time we'll…\" — the \"and next time\" is where the empathy usually dies. Say the first half. Wait.",
+        "id": "\"Kamu sedih karena kita pulang, DAN lain kali kita…\" — di \"dan lain kali\" itulah empatinya biasanya mati. Ucapkan separuh pertamanya. Tunggu."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Say one empathy statement today and stay silent for five seconds afterwards.",
+        "id": "Ucapkan satu kalimat empati hari ini dan diamlah lima detik setelahnya."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Can I say the empathy without immediately attaching the lesson?",
+        "id": "Bisakah saya mengucapkan empatinya tanpa langsung menempelkan pelajaran?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"You're disappointed. That makes sense.\"",
+        "id": "\"Kamu kecewa. Wajar kok.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 96,
       "chapter": 4,
       "title": {
         "en": "Saying less, connecting more",
-        "id": ""
+        "id": "Bicara lebih sedikit, terhubung lebih banyak"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Under pressure, most parents talk more. Children under pressure process less. The two facts collide, and the result is a lot of words that never arrive.\n\nFewer words with more presence beats more words with less. In a difficult moment, one short sentence and a hand on the shoulder does more than a paragraph.",
+        "id": "Di bawah tekanan, kebanyakan orang tua bicara lebih banyak. Anak di bawah tekanan memproses lebih sedikit. Kedua fakta itu bertabrakan, dan hasilnya banyak kata yang tak pernah sampai.\n\nKata yang lebih sedikit dengan kehadiran yang lebih penuh mengalahkan kata yang lebih banyak dengan kehadiran yang lebih tipis. Di momen sulit, satu kalimat pendek dan tangan di bahu lebih berguna daripada satu paragraf."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Count the sentences in your next correction. If there are more than three, the child stopped listening somewhere around the second.",
+        "id": "Hitung jumlah kalimat dalam teguran Anda berikutnya. Jika lebih dari tiga, anak berhenti mendengarkan di sekitar kalimat kedua."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Make one correction today in a single sentence. Nothing more.",
+        "id": "Sampaikan satu teguran hari ini dalam satu kalimat. Tidak lebih."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "How many of my words in a hard moment are actually landing?",
+        "id": "Berapa banyak kata saya di momen sulit yang sebenarnya sampai?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"One thing: shoes on, please.\"",
+        "id": "\"Satu hal saja: pakai sepatu, ya.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 97,
       "chapter": 4,
       "title": {
         "en": "Describing instead of accusing",
-        "id": ""
+        "id": "Menggambarkan, bukan menuduh"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Describing what you see puts the problem in the room. Accusing puts the child on trial, and a child on trial defends rather than fixes.\n\n\"There's milk on the floor\" and \"you spilled the milk again\" describe the same event and produce completely different next thirty seconds.",
+        "id": "Menggambarkan apa yang Anda lihat menaruh masalahnya di ruangan. Menuduh menaruh anaknya di kursi terdakwa, dan anak yang diadili akan membela diri, bukan membereskan.\n\n\"Ada susu di lantai\" dan \"kamu tumpahkan susu lagi\" menggambarkan peristiwa yang sama dan menghasilkan tiga puluh detik berikutnya yang sama sekali berbeda."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Describing also leaves room for the child to volunteer the solution, which is a far better outcome than being told it.",
+        "id": "Menggambarkan juga menyisakan ruang bagi anak untuk menawarkan solusinya sendiri — hasil yang jauh lebih baik daripada diberi tahu."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Describe one problem today without using the word \"you\".",
+        "id": "Gambarkan satu masalah hari ini tanpa memakai kata \"kamu\"."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Do my corrections describe the problem, or prosecute the child?",
+        "id": "Apakah teguran saya menggambarkan masalahnya, atau mengadili anaknya?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"There's water on the floor.\"",
+        "id": "\"Ada air di lantai.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 98,
       "chapter": 4,
       "title": {
         "en": "Curiosity over assumptions",
-        "id": ""
+        "id": "Rasa ingin tahu daripada asumsi"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "You usually know what happened. You usually do not know why, and the why is where anything useful lives.\n\nA genuinely curious question — asked without a verdict already loaded — gets information that an accusation never will. Children can tell the difference between a question and a trap immediately.",
+        "id": "Anda biasanya tahu apa yang terjadi. Anda biasanya tidak tahu mengapa, dan di \"mengapa\" itulah segala yang berguna berada.\n\nPertanyaan yang benar-benar penasaran — diajukan tanpa putusan yang sudah dimuat — mendapatkan informasi yang tak akan pernah didapat tuduhan. Anak bisa langsung membedakan pertanyaan dari jebakan."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"Why did you do that?\" said sharply is not a question. \"Help me understand what was going on\" usually is.",
+        "id": "\"Kenapa kamu lakukan itu?\" yang diucapkan tajam bukan pertanyaan. \"Bantu Mama/Papa mengerti apa yang sedang terjadi\" biasanya iya."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Ask one real question today about something you already think you understand.",
+        "id": "Ajukan satu pertanyaan yang sungguhan hari ini tentang hal yang Anda kira sudah Anda pahami."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "When I ask my child why, am I asking or accusing?",
+        "id": "Saat saya bertanya mengapa kepada anak, apakah saya bertanya atau menuduh?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Help me understand what happened.\"",
+        "id": "\"Bantu Mama/Papa mengerti apa yang terjadi.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 99,
       "chapter": 4,
       "title": {
         "en": "Open-ended questions",
-        "id": ""
+        "id": "Pertanyaan terbuka"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "\"How was school?\" reliably produces \"fine.\" It is a closed question wearing an open coat, and it asks a child to summarise seven hours in one word.\n\nSpecific, concrete questions work far better: what made you laugh, who did you sit with, what was the hardest bit. They give a child somewhere to start.",
+        "id": "\"Bagaimana sekolahnya?\" hampir selalu menghasilkan \"biasa aja.\" Ia pertanyaan tertutup yang mengenakan mantel terbuka, dan meminta anak meringkas tujuh jam dalam satu kata.\n\nPertanyaan yang spesifik dan konkret jauh lebih ampuh: apa yang membuatmu tertawa, kamu duduk dengan siapa, bagian tersulitnya apa. Semuanya memberi anak titik mulai."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"What was the funniest thing that happened today?\" gets a real answer roughly ten times more often than \"how was your day?\"",
+        "id": "\"Apa hal paling lucu yang terjadi hari ini?\" mendapat jawaban sungguhan kira-kira sepuluh kali lebih sering daripada \"bagaimana harimu?\""
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Replace your usual question today with one specific, concrete one.",
+        "id": "Ganti pertanyaan biasa Anda hari ini dengan satu pertanyaan yang spesifik dan konkret."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What question do I ask every day that never gets a real answer?",
+        "id": "Pertanyaan apa yang saya ajukan setiap hari yang tak pernah dapat jawaban sungguhan?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"What made you laugh today?\"",
+        "id": "\"Apa yang membuatmu tertawa hari ini?\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 100,
       "chapter": 4,
       "title": {
         "en": "Coaching instead of lecturing",
-        "id": ""
+        "id": "Melatih, bukan menceramahi"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "A lecture delivers your conclusion. Coaching helps a child reach their own, which is the version they remember and can use again.\n\nLectures feel productive because you get to say everything you wanted to say. They are almost entirely unabsorbed after the first thirty seconds.",
+        "id": "Ceramah menyampaikan kesimpulan Anda. Melatih membantu anak mencapai kesimpulannya sendiri — versi yang dia ingat dan bisa dipakai lagi.\n\nCeramah terasa produktif karena Anda bisa mengatakan semua yang ingin Anda katakan. Ia hampir sepenuhnya tidak terserap setelah tiga puluh detik pertama."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"What do you think you could do differently?\" takes longer than telling them and produces something that survives the week.",
+        "id": "\"Menurutmu apa yang bisa kamu lakukan berbeda?\" butuh waktu lebih lama daripada memberi tahu, dan menghasilkan sesuatu yang bertahan seminggu."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Ask instead of telling once today, even though telling would be faster.",
+        "id": "Bertanyalah alih-alih memberi tahu sekali hari ini, meski memberi tahu lebih cepat."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "How long are my lectures, and how much of them lands?",
+        "id": "Berapa panjang ceramah saya, dan berapa banyak yang sampai?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"What do you think would work better next time?\"",
+        "id": "\"Menurutmu apa yang lebih berhasil lain kali?\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 101,
       "chapter": 4,
       "title": {
         "en": "Giving clear instructions",
-        "id": ""
+        "id": "Memberi instruksi yang jelas"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Many instructions fail on delivery rather than on willingness. Vague, multi-part, shouted-from-another-room instructions are hard to follow even for a cooperative child.\n\nClear means: close enough to be heard, one thing, stated as an action rather than a complaint, with a clear moment it applies to.",
+        "id": "Banyak instruksi gagal pada cara penyampaiannya, bukan pada kemauan anak. Instruksi yang kabur, bertingkat, dan diteriakkan dari ruangan lain sulit diikuti bahkan oleh anak yang kooperatif.\n\nJelas berarti: cukup dekat untuk terdengar, satu hal saja, dinyatakan sebagai tindakan bukan keluhan, dengan waktu penerapan yang jelas."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"Can you please be good?\" is not an instruction. \"Put your shoes by the door\" is one, and a child can actually comply with it.",
+        "id": "\"Tolong jadi anak baik, ya?\" bukan instruksi. \"Taruh sepatumu di dekat pintu\" adalah instruksi, dan anak benar-benar bisa menurutinya."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Rewrite one vague request today into a concrete action.",
+        "id": "Tulis ulang satu permintaan yang kabur hari ini menjadi tindakan yang konkret."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Are my instructions actually followable as stated?",
+        "id": "Apakah instruksi saya benar-benar bisa diikuti sebagaimana diucapkan?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Shoes by the door, please.\"",
+        "id": "\"Sepatu di dekat pintu, ya.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 102,
       "chapter": 4,
       "title": {
         "en": "One-step directions for young kids",
-        "id": ""
+        "id": "Instruksi satu langkah untuk anak kecil"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Young children hold very little in working memory. A four-part instruction is not disobeyed so much as lost — usually somewhere around part two.\n\nOne step, completed, then the next. It feels slower and is usually faster, because nothing has to be repeated.",
+        "id": "Anak kecil menampung sangat sedikit dalam memori kerja. Instruksi empat bagian bukan dilanggar, melainkan hilang — biasanya di sekitar bagian kedua.\n\nSatu langkah, selesaikan, lalu berikutnya. Terasa lebih lambat dan biasanya lebih cepat, karena tak ada yang perlu diulang."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"Get your bag\" — done — \"now your shoes\" gets a child out of the house faster than the full list delivered at once.",
+        "id": "\"Ambil tasmu\" — selesai — \"sekarang sepatumu\" membuat anak keluar rumah lebih cepat daripada seluruh daftar yang disampaikan sekaligus."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Give strictly one instruction at a time to your youngest child today.",
+        "id": "Beri satu instruksi saja pada satu waktu kepada anak terkecil Anda hari ini."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "How many steps do I usually give at once?",
+        "id": "Berapa langkah yang biasanya saya berikan sekaligus?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"First that. Then I'll tell you the next one.\"",
+        "id": "\"Itu dulu. Nanti Mama/Papa kasih tahu berikutnya.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 103,
       "chapter": 4,
       "title": {
         "en": "Eye contact and physical proximity",
-        "id": ""
+        "id": "Kontak mata dan kedekatan fisik"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Instructions shouted between rooms have a very low success rate, and the failure is usually blamed on the child.\n\nClosing the distance, getting to eye level and waiting for their attention before speaking costs about ten seconds and roughly doubles the chance of being heard the first time.",
+        "id": "Instruksi yang diteriakkan antar ruangan punya tingkat keberhasilan sangat rendah, dan kegagalannya biasanya ditimpakan pada anak.\n\nMendekat, sejajar mata, dan menunggu perhatiannya sebelum bicara memakan sekitar sepuluh detik dan kira-kira menggandakan peluang didengar pada percobaan pertama."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Walking into the room to speak is not extra effort. It replaces the three repetitions you were about to shout.",
+        "id": "Berjalan masuk ke ruangan untuk bicara bukan usaha tambahan. Ia menggantikan tiga pengulangan yang tadinya akan Anda teriakkan."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Deliver every instruction today from inside the same room, at eye level.",
+        "id": "Sampaikan setiap instruksi hari ini dari dalam ruangan yang sama, sejajar mata."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "How many of my instructions are shouted from somewhere else?",
+        "id": "Berapa banyak instruksi saya yang diteriakkan dari tempat lain?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Look at me a second — then I'll ask.\"",
+        "id": "\"Lihat Mama/Papa sebentar — baru Mama/Papa minta.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 104,
       "chapter": 4,
       "title": {
         "en": "Connection before commands",
-        "id": ""
+        "id": "Terhubung sebelum memerintah"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "A command that arrives cold is resisted more than the same command arriving after three seconds of contact. This is not manipulation; it is how cooperation works between people.\n\nNotice what they are doing, acknowledge it, then ask. The acknowledgement is what stops the request feeling like an interruption of their life.",
+        "id": "Perintah yang datang dingin lebih dilawan daripada perintah yang sama yang datang setelah tiga detik kehadiran. Ini bukan manipulasi; begini cara kerja sama antar manusia berlangsung.\n\nSadari apa yang sedang dia lakukan, akui, lalu minta. Pengakuan itulah yang membuat permintaan Anda tak terasa seperti gangguan atas hidupnya."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"That's a big tower — and it's bath time in five minutes\" lands very differently from \"bath, now.\"",
+        "id": "\"Wah menaranya tinggi — dan lima menit lagi waktunya mandi\" terasa sangat berbeda dari \"mandi, sekarang.\""
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Acknowledge what your child is doing before every request today.",
+        "id": "Akui apa yang sedang anak lakukan sebelum setiap permintaan hari ini."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Do my requests arrive as interruptions?",
+        "id": "Apakah permintaan saya datang sebagai gangguan?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"That looks good — and in five minutes we need to stop.\"",
+        "id": "\"Bagus, ya — dan lima menit lagi kita perlu berhenti.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Peaceful Parent, Happy Kids — Laura Markham",
-      "draft": true
+      "draft": false
     },
     {
       "day": 105,
       "chapter": 4,
       "title": {
         "en": "Avoiding sarcasm",
-        "id": ""
+        "id": "Menghindari sindiran"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Sarcasm requires the listener to hold two meanings at once and choose the opposite one. Young children cannot do this, so they receive the literal insult without the joke.\n\nOlder children understand it perfectly, which is worse — they hear contempt dressed as humour, and contempt is corrosive to a relationship in a way ordinary anger is not.",
+        "id": "Sindiran menuntut pendengar menahan dua makna sekaligus dan memilih yang berlawanan. Anak kecil belum bisa, jadi mereka menerima hinaan harfiahnya tanpa leluconnya.\n\nAnak yang lebih besar memahaminya sempurna, dan itu lebih buruk — mereka mendengar penghinaan yang berbusana humor, dan penghinaan merusak hubungan dengan cara yang tak dilakukan kemarahan biasa."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"Oh, brilliant, well done\" said flatly after a spill teaches a child that you will mock them when they fail.",
+        "id": "\"Oh, hebat sekali\" yang diucapkan datar setelah sesuatu tumpah mengajarkan anak bahwa Anda akan mengejeknya saat dia gagal."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Catch one sarcastic sentence today before it leaves your mouth.",
+        "id": "Tangkap satu kalimat sindiran hari ini sebelum keluar dari mulut Anda."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Do I use humour at my child's expense when I am frustrated?",
+        "id": "Apakah saya memakai humor dengan mengorbankan anak saat saya kesal?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Let me say that again, straight.\"",
+        "id": "\"Mama/Papa ulangi lagi, dengan lurus.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 106,
       "chapter": 4,
       "title": {
         "en": "Avoiding labels like lazy or naughty",
-        "id": ""
+        "id": "Menghindari label seperti malas atau nakal"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Labels are efficient and they stick. A child called lazy often enough stops trying, because effort now threatens an identity that has already been assigned.\n\nLabels also travel: siblings adopt them, relatives repeat them, and eventually the child says it about themselves. What was once a description becomes a self-fulfilling forecast.",
+        "id": "Label itu efisien dan lengket. Anak yang cukup sering disebut malas berhenti berusaha, karena usaha kini mengancam jati diri yang sudah terlanjur ditetapkan.\n\nLabel juga menular: saudara ikut memakainya, kerabat mengulanginya, dan akhirnya anak mengatakannya tentang dirinya sendiri. Yang tadinya gambaran menjadi ramalan yang mewujudkan diri."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"He's the difficult one\" said in front of a child often enough becomes a role the child settles into, because roles are easier than uncertainty.",
+        "id": "\"Dia yang susah diatur\" yang diucapkan di depan anak cukup sering menjadi peran yang dia tempati, karena peran lebih mudah daripada ketidakpastian."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Catch one label today — even a joking one — and replace it with a description.",
+        "id": "Tangkap satu label hari ini — bahkan yang bercanda — dan ganti dengan gambaran."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What labels does my child hear about themselves in this house?",
+        "id": "Label apa yang anak dengar tentang dirinya di rumah ini?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"That's not who you are. That's what happened.\"",
+        "id": "\"Itu bukan dirimu. Itu yang terjadi.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 107,
       "chapter": 4,
       "title": {
         "en": "Talking about behavior, not identity",
-        "id": ""
+        "id": "Bicara tentang perilaku, bukan jati diri"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "This is the practical version of yesterday. Every correction can be aimed at what was done or at who the child is, and the two produce different children over years.\n\nBehaviour is changeable, which makes it a useful thing to name. Identity is not, which makes naming it a dead end.",
+        "id": "Ini versi praktis dari kemarin. Setiap teguran bisa diarahkan pada apa yang dilakukan atau pada siapa anaknya, dan keduanya menghasilkan anak yang berbeda setelah bertahun-tahun.\n\nPerilaku bisa diubah, itulah yang membuatnya berguna untuk disebut. Jati diri tidak, dan itulah yang membuat menyebutnya jadi jalan buntu."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"That was unkind\" gives a child something to do differently. \"You're unkind\" gives them something to be.",
+        "id": "\"Tadi itu tidak baik\" memberi anak sesuatu untuk dilakukan berbeda. \"Kamu tidak baik\" memberinya sesuatu untuk menjadi."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Aim every correction today at the action. Check each one before you speak.",
+        "id": "Arahkan setiap teguran hari ini pada tindakannya. Periksa satu per satu sebelum bicara."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Do my corrections describe what happened, or who my child is?",
+        "id": "Apakah teguran saya menggambarkan apa yang terjadi, atau siapa anak saya?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"That was unkind — and you're not an unkind person.\"",
+        "id": "\"Tadi itu tidak baik — dan kamu bukan orang yang tidak baik.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 108,
       "chapter": 4,
       "title": {
         "en": "Timing difficult conversations",
-        "id": ""
+        "id": "Memilih waktu untuk percakapan sulit"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "The right conversation at the wrong moment fails. Nobody absorbs anything while flooded, hungry, tired, or in front of an audience.\n\nMost important conversations go better later, sideways, and in motion — in the car, on a walk, at bedtime — where there is no eye contact to survive and no audience to perform for.",
+        "id": "Percakapan yang tepat di waktu yang salah akan gagal. Tak ada yang menyerap apa pun saat kewalahan, lapar, lelah, atau di depan penonton.\n\nSebagian besar percakapan penting berjalan lebih baik nanti, dari samping, dan sambil bergerak — di mobil, saat berjalan, menjelang tidur — di mana tak ada kontak mata yang harus dilalui dan tak ada penonton untuk ditampilkan."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Teenagers in particular talk more freely side by side than face to face. The car is not a coincidence; it is the best therapy room most families have.",
+        "id": "Remaja khususnya bicara lebih lepas berdampingan daripada berhadapan. Mobil bukan kebetulan; ia ruang terapi terbaik yang dimiliki kebanyakan keluarga."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Delay one difficult conversation today to a better moment — and actually return to it.",
+        "id": "Tunda satu percakapan sulit hari ini ke momen yang lebih baik — dan benar-benar kembali ke sana."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "When do the real conversations in our family actually happen?",
+        "id": "Kapan percakapan yang sungguhan di keluarga kami sebenarnya terjadi?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Let's talk about this in the car later.\"",
+        "id": "\"Nanti kita bicarakan ini di mobil, ya.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 109,
       "chapter": 4,
       "title": {
         "en": "Family meetings",
-        "id": ""
+        "id": "Musyawarah keluarga"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "A short, regular family meeting moves problems out of the heat of the moment into a calm slot where they can actually be solved.\n\nKeep it short, keep it predictable, and let children raise items too. A meeting where only parents set the agenda is not a meeting; it is an announcement.",
+        "id": "Musyawarah keluarga yang singkat dan rutin memindahkan masalah dari panasnya momen ke slot tenang tempat masalah itu benar-benar bisa diselesaikan.\n\nBuat singkat, buat bisa ditebak, dan biarkan anak juga mengajukan hal. Pertemuan yang agendanya hanya ditentukan orang tua bukan musyawarah; itu pengumuman."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Fifteen minutes on a Sunday, with one thing that went well and one thing to fix, resolves more than hours of scattered arguing.",
+        "id": "Lima belas menit di hari Minggu, dengan satu hal yang berjalan baik dan satu hal untuk dibereskan, menyelesaikan lebih banyak daripada berjam-jam pertengkaran yang tersebar."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Hold one fifteen-minute family meeting this week. Let a child raise the first item.",
+        "id": "Adakan satu musyawarah keluarga lima belas menit minggu ini. Biarkan anak mengajukan hal pertama."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Where do problems in our family get solved, if anywhere?",
+        "id": "Di mana masalah di keluarga kami diselesaikan, kalau ada tempatnya?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Put it on the list for Sunday.\"",
+        "id": "\"Masukkan ke daftar untuk hari Minggu.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 110,
       "chapter": 4,
       "title": {
         "en": "Collaborative problem-solving basics",
-        "id": ""
+        "id": "Dasar memecahkan masalah bersama"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Collaborative problem-solving has three steps: hear the child's concern, state yours, then invent solutions together that address both.\n\nIt is slower than imposing a rule and it produces solutions children actually follow, because they helped build them. It also teaches negotiation, which is a skill they will need permanently.",
+        "id": "Memecahkan masalah bersama punya tiga langkah: dengarkan kekhawatiran anak, sampaikan kekhawatiran Anda, lalu ciptakan solusi bersama yang menjawab keduanya.\n\nIa lebih lambat daripada menjatuhkan aturan, dan menghasilkan solusi yang benar-benar dijalankan anak, karena mereka ikut membangunnya. Ia juga mengajarkan negosiasi — keterampilan yang akan mereka butuhkan selamanya."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"You want more screen time, I want you sleeping properly. What could work for both?\" produces better agreements than any rule handed down.",
+        "id": "\"Kamu ingin waktu layar lebih banyak, Mama ingin kamu tidur cukup. Apa yang bisa cocok untuk keduanya?\" menghasilkan kesepakatan yang lebih baik daripada aturan yang dijatuhkan."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Solve one recurring problem collaboratively today instead of ruling on it.",
+        "id": "Selesaikan satu masalah yang berulang secara bersama hari ini, bukan dengan memutuskan sendiri."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Which recurring fight could become a shared problem instead?",
+        "id": "Pertengkaran berulang mana yang bisa diubah menjadi masalah bersama?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"That's what you want, this is what I need. Ideas?\"",
+        "id": "\"Itu maumu, ini yang Mama/Papa butuhkan. Ada ide?\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 111,
       "chapter": 4,
       "title": {
         "en": "Negotiation limits",
-        "id": ""
+        "id": "Batas dalam bernegosiasi"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Not everything is negotiable, and pretending otherwise is its own kind of dishonesty. Safety, health and core values are decided; bedtime routine details, sequence and style often are not.\n\nBeing explicit about which is which prevents most of the arguing. Children push hardest where they cannot tell whether the door is actually closed.",
+        "id": "Tidak semuanya bisa dinegosiasikan, dan berpura-pura sebaliknya adalah bentuk ketidakjujuran tersendiri. Keselamatan, kesehatan, dan nilai inti sudah diputuskan; rincian rutinitas tidur, urutan, dan gayanya sering tidak.\n\nMenjelaskan mana yang mana mencegah sebagian besar pertengkaran. Anak mendorong paling keras di tempat mereka tak bisa tahu apakah pintunya benar-benar tertutup."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"This one isn't up for discussion, and that one is\" is a clarity children actually find reassuring.",
+        "id": "\"Yang ini tidak bisa didiskusikan, dan yang itu bisa\" adalah kejelasan yang justru menenangkan anak."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Name one non-negotiable and one genuinely open item to your child today.",
+        "id": "Sebutkan satu hal yang tidak bisa ditawar dan satu hal yang benar-benar terbuka kepada anak hari ini."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Does my child know which of my rules can move and which cannot?",
+        "id": "Apakah anak tahu aturan saya yang mana yang bisa bergeser dan yang mana yang tidak?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"That one's fixed. This one you can choose.\"",
+        "id": "\"Yang itu sudah pasti. Yang ini kamu boleh pilih.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "No-Drama Discipline — Daniel J. Siegel & Tina Payne Bryson",
-      "draft": true
+      "draft": false
     },
     {
       "day": 112,
       "chapter": 4,
       "title": {
         "en": "Teaching emotional vocabulary",
-        "id": ""
+        "id": "Mengajarkan kosakata emosi"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "A child with words for feelings has an alternative to behaviour. This is not a soft skill; it is one of the most practical discipline interventions available.\n\nVocabulary is taught by use, not by lists. Name feelings as they occur — yours and theirs — and the range grows on its own.",
+        "id": "Anak yang punya kata untuk perasaan punya alternatif selain perilaku. Ini bukan keterampilan lunak; ini salah satu intervensi disiplin paling praktis yang ada.\n\nKosakata diajarkan lewat pemakaian, bukan lewat daftar. Sebutkan perasaan saat ia muncul — milik Anda dan miliknya — dan rentangnya bertumbuh dengan sendirinya."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Move past happy and sad. Lonely, overwhelmed, embarrassed, proud, disappointed and jealous each give a child a more precise tool.",
+        "id": "Lewati senang dan sedih. Kesepian, kewalahan, malu, bangga, kecewa, dan cemburu masing-masing memberi anak alat yang lebih presisi."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Teach one new feeling word today by using it about a real moment.",
+        "id": "Ajarkan satu kata perasaan baru hari ini dengan memakainya pada momen yang nyata."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "How many feeling words does my child actually have?",
+        "id": "Berapa banyak kata perasaan yang benar-benar anak saya miliki?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"I think that one's called frustrated.\"",
+        "id": "\"Sepertinya yang itu namanya frustrasi.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "The Whole-Brain Child — Daniel J. Siegel & Tina Payne Bryson",
-      "draft": true
+      "draft": false
     },
     {
       "day": 113,
       "chapter": 4,
       "title": {
         "en": "Helping children tell the story of what happened",
-        "id": ""
+        "id": "Membantu anak menceritakan apa yang terjadi"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Putting an experience into a sequence — first this, then that, then I felt — is how children digest difficult events. An unnarrated bad experience tends to stay raw and reappear as behaviour.\n\nYou do not need to interpret or fix it. Helping them get it into order is most of the work.",
+        "id": "Menyusun pengalaman menjadi urutan — mula-mula ini, lalu itu, lalu aku merasa — adalah cara anak mencerna kejadian sulit. Pengalaman buruk yang tak pernah diceritakan cenderung tetap mentah dan muncul lagi sebagai perilaku.\n\nAnda tak perlu menafsirkan atau membereskannya. Membantunya tersusun rapi sudah sebagian besar pekerjaannya."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"What happened first? And then? And how did that feel?\" turns a jumble into a story a child can put down.",
+        "id": "\"Apa yang terjadi duluan? Lalu? Dan bagaimana rasanya?\" mengubah kekusutan menjadi cerita yang bisa anak letakkan."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Help your child narrate one difficult moment today in order.",
+        "id": "Bantu anak menceritakan satu momen sulit hari ini secara berurutan."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Do difficult things get talked through in our house, or just pass?",
+        "id": "Apakah hal-hal sulit dibicarakan sampai tuntas di rumah kami, atau hanya berlalu?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Tell me what happened first.\"",
+        "id": "\"Ceritakan, apa yang terjadi duluan.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 114,
       "chapter": 4,
       "title": {
         "en": "Teaching apology meaningfully",
-        "id": ""
+        "id": "Mengajarkan permintaan maaf yang bermakna"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "A forced \"say sorry\" teaches the word and none of the meaning. Children learn to produce the sound to end the trouble, which is the opposite of what was wanted.\n\nA real apology has three parts: what I did, how it affected you, what I will do differently. Children can learn all three, given time and a demonstration.",
+        "id": "\"Ayo minta maaf\" yang dipaksakan mengajarkan katanya dan sama sekali bukan maknanya. Anak belajar memproduksi bunyinya untuk mengakhiri masalah — kebalikan dari yang diinginkan.\n\nPermintaan maaf yang sungguh punya tiga bagian: apa yang saya lakukan, bagaimana dampaknya bagi kamu, apa yang akan saya lakukan berbeda. Anak bisa belajar ketiganya, diberi waktu dan contoh."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Waiting until a child is calm and then helping them build a real apology teaches far more than extracting the word immediately.",
+        "id": "Menunggu sampai anak tenang lalu membantunya menyusun permintaan maaf yang sungguh mengajarkan jauh lebih banyak daripada memaksa kata itu keluar seketika."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Help your child make one apology with all three parts today.",
+        "id": "Bantu anak membuat satu permintaan maaf dengan ketiga bagiannya hari ini."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Am I teaching my child to apologise, or just to say the word?",
+        "id": "Apakah saya mengajarkan anak meminta maaf, atau sekadar mengucapkan katanya?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"What did it feel like for them?\"",
+        "id": "\"Menurutmu bagaimana rasanya buat dia?\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 115,
       "chapter": 4,
       "title": {
         "en": "Teaching restitution",
-        "id": ""
+        "id": "Mengajarkan memperbaiki kerugian"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Restitution — actually repairing the harm — teaches more than punishment does, because it is connected to the act rather than imposed on top of it.\n\nHelping clean up what you knocked over, remaking what you broke, doing something kind for the person you hurt: each of these closes the loop in a way that sitting on a step never does.",
+        "id": "Memperbaiki kerugian — sungguh-sungguh membereskan kerusakannya — mengajarkan lebih banyak daripada hukuman, karena ia terhubung dengan perbuatannya, bukan ditimpakan di atasnya.\n\nIkut membersihkan yang dijatuhkan, memperbaiki yang dirusak, melakukan sesuatu yang baik untuk orang yang disakiti: masing-masing menutup lingkarannya dengan cara yang tak pernah dilakukan duduk di pojok."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"How can you make this better?\" invites repair. \"Go to your room\" invites nothing except waiting for it to end.",
+        "id": "\"Bagaimana caramu memperbaikinya?\" mengundang perbaikan. \"Masuk kamar\" tidak mengundang apa pun selain menunggu sampai selesai."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Replace one consequence today with an act of repair.",
+        "id": "Ganti satu konsekuensi hari ini dengan tindakan memperbaiki."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Do my consequences repair anything, or only register displeasure?",
+        "id": "Apakah konsekuensi saya memperbaiki sesuatu, atau hanya menyatakan ketidaksenangan?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"How could you put this right?\"",
+        "id": "\"Bagaimana kamu bisa membereskannya?\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 116,
       "chapter": 4,
       "title": {
         "en": "Helping children ask for help",
-        "id": ""
+        "id": "Membantu anak meminta bantuan"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Asking for help is a skill, and shame suppresses it. A child who fears looking stupid will hide difficulty until it becomes a crisis — with homework, with friendships, and later with much bigger things.\n\nHow you respond to small requests for help now decides whether you get the large ones later.",
+        "id": "Meminta bantuan adalah keterampilan, dan rasa malu menekannya. Anak yang takut terlihat bodoh akan menyembunyikan kesulitan sampai menjadi krisis — soal PR, soal pertemanan, dan kelak soal hal-hal yang jauh lebih besar.\n\nCara Anda menanggapi permintaan bantuan kecil sekarang menentukan apakah Anda mendapat yang besar nanti."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Responding to \"I don't get it\" with warmth rather than exasperation is a small investment with a very long payoff.",
+        "id": "Menanggapi \"aku tidak paham\" dengan kehangatan alih-alih kejengkelan adalah investasi kecil dengan hasil yang sangat panjang."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Respond to one request for help today with visible warmth, however inconvenient.",
+        "id": "Tanggapi satu permintaan bantuan hari ini dengan kehangatan yang terlihat, seberapa pun tidak praktisnya."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Is it safe to be confused in our house?",
+        "id": "Apakah aman untuk merasa bingung di rumah kami?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"I'm glad you asked. Let's look at it.\"",
+        "id": "\"Bagus kamu bertanya. Ayo kita lihat sama-sama.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 117,
       "chapter": 4,
       "title": {
         "en": "Responding to I hate you",
-        "id": ""
+        "id": "Menanggapi \"aku benci Mama\""
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "\"I hate you\" is almost never information about love. It is the largest word a child has for a feeling that has outgrown their vocabulary — usually powerless, furious, or wounded.\n\nReacting to the words escalates. Responding to the feeling underneath them ends it, usually faster than you expect.",
+        "id": "\"Aku benci Mama\" hampir tak pernah informasi tentang cinta. Itu kata terbesar yang dimiliki anak untuk perasaan yang melampaui kosakatanya — biasanya tak berdaya, murka, atau terluka.\n\nBereaksi pada kata-katanya memperbesar masalah. Menanggapi perasaan di baliknya mengakhirinya, biasanya lebih cepat dari perkiraan Anda."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"You're really angry with me right now\" defuses. \"Don't you dare speak to me like that\" guarantees another ten minutes.",
+        "id": "\"Kamu benar-benar marah pada Mama sekarang\" meredakan. \"Berani-beraninya bicara begitu\" menjamin sepuluh menit tambahan."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "If you hear it today, answer the feeling and not the sentence.",
+        "id": "Jika Anda mendengarnya hari ini, jawab perasaannya, bukan kalimatnya."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What is my child usually feeling when they say the worst thing they can think of?",
+        "id": "Apa yang biasanya anak rasakan saat dia mengucapkan hal terburuk yang terpikir olehnya?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"You're really angry with me. I can take it.\"",
+        "id": "\"Kamu sangat marah pada Mama/Papa. Tidak apa-apa.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 118,
       "chapter": 4,
       "title": {
         "en": "Responding to lying",
-        "id": ""
+        "id": "Menanggapi kebohongan"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Most childhood lying is fear-driven, not character-driven. Children lie to avoid a reaction they expect, which means the size of your reaction is one of the main inputs into how much they lie.\n\nMaking truth cheaper than concealment is the entire strategy. That means responding to a confession more gently than to a discovery.",
+        "id": "Sebagian besar kebohongan anak didorong rasa takut, bukan karakter. Anak berbohong untuk menghindari reaksi yang mereka perkirakan, artinya besarnya reaksi Anda adalah salah satu masukan utama seberapa sering mereka berbohong.\n\nMembuat kejujuran lebih murah daripada menyembunyikan adalah seluruh strateginya. Itu berarti menanggapi pengakuan dengan lebih lembut daripada menanggapi ketahuan."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"Thank you for telling me the truth — that was hard\" costs you the satisfaction of the telling-off and buys you years of honesty.",
+        "id": "\"Terima kasih sudah jujur — itu berat\" menghabiskan kepuasan Anda untuk memarahi dan membeli bertahun-tahun kejujuran."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "If your child tells you a hard truth today, thank them before anything else.",
+        "id": "Jika anak menyampaikan kebenaran yang berat hari ini, berterima kasihlah sebelum hal lain."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Is telling me the truth safer than hiding it, from my child's point of view?",
+        "id": "Dari sudut pandang anak saya, apakah jujur kepada saya lebih aman daripada menyembunyikan?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Thank you for telling me. That took courage.\"",
+        "id": "\"Terima kasih sudah cerita. Itu butuh keberanian.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 119,
       "chapter": 4,
       "title": {
         "en": "Responding to whining",
-        "id": ""
+        "id": "Menanggapi rengekan"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Whining is almost always a depletion signal wearing an irritating costume. Correcting the tone while ignoring the need tends to produce more of it.\n\nMeet the need first. Then, when everyone is calm and nothing is at stake, teach the tone — because the tone is genuinely worth learning.",
+        "id": "Rengekan hampir selalu sinyal kehabisan tenaga yang mengenakan kostum menjengkelkan. Membetulkan nadanya sambil mengabaikan kebutuhannya cenderung menghasilkan lebih banyak rengekan.\n\nPenuhi kebutuhannya dulu. Lalu, saat semua tenang dan tak ada yang dipertaruhkan, ajarkan nadanya — karena nada itu memang layak dipelajari."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Teaching \"ask me in your normal voice\" works well at 4pm on a good day and works not at all at 6pm on a hard one.",
+        "id": "Mengajarkan \"minta pakai suara biasa\" berhasil baik pukul empat sore di hari yang baik, dan sama sekali tidak berhasil pukul enam sore di hari yang berat."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Meet the need behind one whine today, and teach the tone at a calmer hour.",
+        "id": "Penuhi kebutuhan di balik satu rengekan hari ini, dan ajarkan nadanya di jam yang lebih tenang."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Am I trying to teach at the moment my child has least capacity to learn?",
+        "id": "Apakah saya mencoba mengajar tepat saat anak paling tidak mampu belajar?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"I want to help. Let's sort out what you need first.\"",
+        "id": "\"Mama/Papa mau bantu. Kita bereskan dulu apa yang kamu butuhkan.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 120,
       "chapter": 4,
       "title": {
         "en": "Responding to refusal",
-        "id": ""
+        "id": "Menanggapi penolakan"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Flat refusal is where parents most often escalate, because it reads as a challenge to authority. Very often it is something smaller: the child is mid-task, overwhelmed, or has no route to comply without losing face.\n\nOffering a way to comply that preserves dignity resolves more refusals than raising the stakes.",
+        "id": "Penolakan mentah adalah tempat orang tua paling sering meningkatkan tensi, karena terbaca sebagai tantangan atas wibawa. Sangat sering ia sesuatu yang lebih kecil: anak sedang di tengah kegiatan, kewalahan, atau tak punya jalan untuk menurut tanpa kehilangan muka.\n\nMenawarkan cara menurut yang menjaga harga dirinya menyelesaikan lebih banyak penolakan daripada menaikkan taruhan."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"Do you want to do it now or in two minutes?\" hands back enough control to make compliance possible without anyone backing down.",
+        "id": "\"Mau sekarang atau dua menit lagi?\" mengembalikan cukup kendali agar menurut jadi mungkin tanpa ada yang harus mengalah."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Give your child a dignified route to comply once today.",
+        "id": "Beri anak satu jalan yang terhormat untuk menurut hari ini."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Do I leave my child a way to say yes without losing face?",
+        "id": "Apakah saya menyisakan jalan bagi anak untuk berkata ya tanpa kehilangan muka?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Now or in two minutes — you pick.\"",
+        "id": "\"Sekarang atau dua menit lagi — kamu pilih.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 121,
       "chapter": 4,
       "title": {
         "en": "Weekly reflection",
-        "id": ""
+        "id": "Refleksi mingguan"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "This chapter reduces to one sequence: empathy first, then redirection. Almost every technique in it is a way of getting the empathy to arrive before the instruction.\n\nThat order is also the end of the free part of this guide. Chapters 1 to 4 are the foundation — mindset, development, your own regulation, and communication. Everything that follows is built on them.",
+        "id": "Bab ini menyempit menjadi satu urutan: empati dulu, baru pengarahan. Hampir setiap teknik di dalamnya adalah cara agar empatinya tiba sebelum instruksinya.\n\nUrutan itu juga menutup bagian gratis panduan ini. Bab 1 sampai 4 adalah fondasinya — pola pikir, perkembangan, pengendalian diri Anda, dan komunikasi. Semua yang menyusul dibangun di atasnya."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "If you only keep one thing from four months of reading, keep the order: feeling first, then the rule. It changes almost every difficult moment.",
+        "id": "Jika dari empat bulan membaca Anda hanya menyimpan satu hal, simpanlah urutannya: perasaan dulu, baru aturan. Ia mengubah hampir setiap momen sulit."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Look back at one conflict this week and ask where the empathy went in the sequence.",
+        "id": "Tengok satu konflik minggu ini dan tanyakan, di urutan mana empatinya berada."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "In my hardest moments, does empathy come before the instruction or after it?",
+        "id": "Di momen tersulit saya, apakah empati datang sebelum instruksi atau sesudahnya?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Feeling first. Then the rule.\"",
+        "id": "\"Perasaan dulu. Baru aturan.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
-      "draft": true
+      "draft": false
     },
     {
       "day": 122,
