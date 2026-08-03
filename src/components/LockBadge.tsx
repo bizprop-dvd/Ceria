@@ -5,7 +5,7 @@ import { LockIcon } from './icons'
 export default function LockBadge() {
   const { lang } = useApp()
   return (
-    <span className="chip bg-ceria-cream-deep text-ceria-gray">
+    <span className="chip shrink-0 whitespace-nowrap bg-ceria-cream-deep text-ceria-gray">
       <LockIcon width={13} height={13} />
       {lang === 'en' ? 'Locked' : 'Terkunci'}
     </span>

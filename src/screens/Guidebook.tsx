@@ -56,7 +56,7 @@ export default function Guidebook() {
                   className="w-1.5 shrink-0"
                   style={{ background: unlocked ? theme.ring : '#E5DED0' }}
                 />
-                <span className="flex flex-1 items-center gap-3 p-4">
+                <span className="flex min-w-0 flex-1 items-center gap-3 p-4">
                   <span
                     className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl font-head text-lg font-semibold"
                     style={
@@ -68,7 +68,7 @@ export default function Guidebook() {
                     {ch.number}
                   </span>
                   <span className="min-w-0 flex-1">
-                    <span className="block truncate font-head text-[15px] font-semibold text-ceria-dark">
+                    <span className="block font-head text-[15px] font-semibold leading-snug text-ceria-dark">
                       {t(ch.title)}
                     </span>
                     <span className="mt-0.5 block line-clamp-2 text-xs text-ceria-gray">
