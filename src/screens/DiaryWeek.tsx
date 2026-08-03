@@ -1,6 +1,8 @@
 import { Navigate, useParams } from 'react-router-dom'
 import Screen from '../components/Screen'
 import PromptField from '../components/PromptField'
+import WeekMood from '../components/WeekMood'
+import WeekPhoto from '../components/WeekPhoto'
 import { chapterName, diary, weekByNumber } from '../data/content'
 import { useApp } from '../store/AppContext'
 import { isUnlocked } from '../lib/freemium'
@@ -79,9 +81,24 @@ export default function DiaryWeek() {
           />
         </div>
 
-        {/* 5-minute debrief */}
+        {/* How the week felt + a photo */}
         <SectionHead
           n={3}
+          title={lang === 'en' ? 'This week in one image' : 'Minggu ini dalam satu gambar'}
+          note={
+            lang === 'en'
+              ? 'Optional, and only for you'
+              : 'Opsional, dan hanya untuk Anda'
+          }
+        />
+        <div className="card space-y-5 p-4">
+          <WeekMood week={num} />
+          <WeekPhoto week={num} />
+        </div>
+
+        {/* 5-minute debrief */}
+        <SectionHead
+          n={4}
           title={lang === 'en' ? '5-minute debrief' : 'Debrief 5 menit'}
           note={
             edition === 'combined'

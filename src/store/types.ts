@@ -28,8 +28,21 @@ export interface EntriesState {
   tools: Record<number, string[]>
   /** days of the 365-day guide marked as read, keyed by day number */
   daysRead: Record<number, boolean>
+  /** one optional photo per diary week, stored as a data URI on the device */
+  weekPhotos: Record<number, string>
+  /** how the week felt, keyed by week number (see MOODS) */
+  weekMood: Record<number, string>
 }
 
 export function emptyEntries(): EntriesState {
-  return { daily: {}, weekIntent: {}, sunday: {}, debrief: {}, tools: {}, daysRead: {} }
+  return {
+    daily: {},
+    weekIntent: {},
+    sunday: {},
+    debrief: {},
+    tools: {},
+    daysRead: {},
+    weekPhotos: {},
+    weekMood: {},
+  }
 }

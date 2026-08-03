@@ -59,6 +59,8 @@ interface AppContextValue {
   setDebrief: (week: number, role: Role, index: number, value: string) => void
   setToolField: (tool: number, index: number, value: string) => void
   toggleDayRead: (day: number) => void
+  setWeekPhoto: (week: number, dataUri: string | null) => void
+  setWeekMood: (week: number, mood: string | null) => void
   daysReadCount: number
 
   daysWithEntries: Set<string>
@@ -190,6 +192,22 @@ export function AppProvider({ children }: { children: ReactNode }) {
       return { ...e, daysRead: next }
     })
   }, [])
+  const setWeekPhoto = useCallback((week: number, dataUri: string | null) => {
+    setEntries((e) => {
+      const next = { ...e.weekPhotos }
+      if (dataUri) next[week] = dataUri
+      else delete next[week]
+      return { ...e, weekPhotos: next }
+    })
+  }, [])
+  const setWeekMood = useCallback((week: number, mood: string | null) => {
+    setEntries((e) => {
+      const next = { ...e.weekMood }
+      if (mood) next[week] = mood
+      else delete next[week]
+      return { ...e, weekMood: next }
+    })
+  }, [])
   const setToolField = useCallback((tool: number, index: number, value: string) => {
     setEntries((e) => {
       const arr = [...(e.tools[tool] ?? [])]
@@ -251,6 +269,8 @@ export function AppProvider({ children }: { children: ReactNode }) {
     setDebrief,
     setToolField,
     toggleDayRead,
+    setWeekPhoto,
+    setWeekMood,
     daysReadCount,
     daysWithEntries,
     streak,
