@@ -1,10 +1,10 @@
 import { Navigate, useParams, Link } from 'react-router-dom'
 import Screen from '../components/Screen'
 import ProvisionalNote from '../components/ProvisionalNote'
-import { chapterByNumber } from '../data/content'
+import { chapterByNumber, daysForChapter } from '../data/content'
 import { useApp } from '../store/AppContext'
 import { isUnlocked } from '../lib/freemium'
-import { CheckIcon, ToolIcon } from '../components/icons'
+import { CheckIcon, ChevronRight, ToolIcon } from '../components/icons'
 
 export default function GuidebookChapter() {
   const { n } = useParams()
@@ -68,6 +68,9 @@ export default function GuidebookChapter() {
           </>
         )}
 
+        {/* 365-day practice for this chapter */}
+        <DailyDays chapter={ch.number} />
+
         {/* Linked tool */}
         {ch.toolRef && (
           <Link
@@ -89,6 +92,44 @@ export default function GuidebookChapter() {
         )}
       </article>
     </Screen>
+  )
+}
+
+/** The chapter's slice of the 365-day guide. Hidden until days are authored. */
+function DailyDays({ chapter }: { chapter: number }) {
+  const { t, lang } = useApp()
+  const days = daysForChapter(chapter)
+  if (days.length === 0) return null
+
+  return (
+    <section className="mt-7">
+      <h2 className="font-head text-lg font-semibold text-ceria-blue">
+        {lang === 'en' ? 'Day by day' : 'Hari demi hari'}
+      </h2>
+      <p className="mb-2 text-xs text-ceria-gray">
+        {lang === 'en'
+          ? `${days.length} short readings, one a day.`
+          : `${days.length} bacaan singkat, satu setiap hari.`}
+      </p>
+      <ul className="space-y-2">
+        {days.map((d) => (
+          <li key={d.day}>
+            <Link
+              to={`/guidebook/day/${d.day}`}
+              className="card flex items-center gap-3 p-3.5 active:scale-[0.99] transition"
+            >
+              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-ceria-blue/8 text-sm font-semibold text-ceria-blue">
+                {d.day}
+              </span>
+              <span className="min-w-0 flex-1 truncate font-head text-[15px] font-semibold text-ceria-dark">
+                {t(d.title)}
+              </span>
+              <ChevronRight width={18} height={18} className="shrink-0 text-ceria-gray" />
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </section>
   )
 }
 

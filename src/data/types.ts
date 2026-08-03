@@ -108,6 +108,59 @@ export interface ToolkitData {
   tools: ToolkitTool[]
 }
 
+/* ---------- 365-day companion guide ---------- */
+
+export interface FrameworkEntry {
+  name: Bilingual
+  tags: Bilingual[]
+  looksLike: Bilingual
+  outcome: Bilingual
+}
+
+/** A small comparison grid rendered as cards (e.g. the four parenting styles). */
+export interface Framework {
+  title: Bilingual
+  note: Bilingual
+  entries: FrameworkEntry[]
+}
+
+export interface DailyDay {
+  day: number
+  chapter: number
+  title: Bilingual
+  teaching: Bilingual
+  inPractice: Bilingual
+  practice: Bilingual
+  reflection: Bilingual
+  script: Bilingual
+  support: Bilingual
+  reference: string
+  framework?: Framework
+  /** true while the day's prose has not been authored yet — hidden in the app */
+  draft: boolean
+}
+
+export interface DailyRangeItem {
+  n: number
+  range: [number, number]
+  text: Bilingual
+}
+
+export interface DailyData {
+  meta: {
+    product: 'daily'
+    version: number
+    totalDays: number
+    freeThroughChapter: number
+    authoredDays: number
+    note: string
+  }
+  chapters: { number: number; dayStart: number; dayEnd: number; dayCount: number }[]
+  days: DailyDay[]
+  weeklyExercises: DailyRangeItem[]
+  monthlyReviews: DailyRangeItem[]
+}
+
 /* ---------- Diary front-matter ("how this diary works") ---------- */
 
 export interface DiaryHabit {
