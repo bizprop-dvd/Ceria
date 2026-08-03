@@ -4,7 +4,7 @@
     "version": 1,
     "totalDays": 365,
     "freeThroughChapter": 4,
-    "authoredDays": 181,
+    "authoredDays": 211,
     "note": "365-day companion guide. Day titles, references, weekly exercises and monthly reviews come from the founder's ceria_365_content.json (v3). The daily prose is authored per day (see content/_source/prose/) because the manuscript's bodies were template-generated. Days with draft=true are not yet authored and are hidden in the app."
   },
   "chapters": [
@@ -6561,1020 +6561,1080 @@
       "chapter": 7,
       "title": {
         "en": "Why routines reduce conflict",
-        "id": ""
+        "id": "Mengapa rutinitas mengurangi konflik"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "A routine is a decision made once instead of every day. That is the whole mechanism, and it is why routines reduce conflict more reliably than any discipline technique.\n\nWhen the order is fixed, there is nothing to negotiate. The child is not arguing with you; they are following a sequence that exists independently of your mood, your energy, and how the day has gone.",
+        "id": "Rutinitas adalah keputusan yang dibuat sekali, bukan setiap hari. Itulah seluruh mekanismenya, dan itulah sebabnya rutinitas mengurangi konflik lebih andal daripada teknik disiplin apa pun.\n\nKetika urutannya tetap, tak ada yang perlu dinegosiasikan. Anak tidak sedang berdebat dengan Anda; dia mengikuti urutan yang ada terlepas dari suasana hati Anda, tenaga Anda, dan bagaimana hari itu berjalan."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "The families who argue least about bedtime are rarely the strictest. They are the ones where bedtime stopped being a question some time ago.",
+        "id": "Keluarga yang paling jarang bertengkar soal jam tidur jarang yang paling ketat. Mereka adalah keluarga yang jam tidurnya sudah lama berhenti menjadi pertanyaan."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Pick the moment you argue about most and ask whether it has a fixed order at all.",
+        "id": "Pilih momen yang paling sering jadi bahan pertengkaran dan tanyakan apakah ia punya urutan tetap sama sekali."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Which daily fight is really just a decision we keep re-making?",
+        "id": "Pertengkaran harian mana yang sebenarnya hanya keputusan yang terus kami buat ulang?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Same order as always.\"",
+        "id": "\"Urutannya sama seperti biasa.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Positive Discipline — Jane Nelsen",
-      "draft": true
+      "draft": false,
+      "framework": {
+        "title": {
+          "en": "Behaviour problem or system problem?",
+          "id": "Masalah perilaku atau masalah sistem?"
+        },
+        "note": {
+          "en": "Before deciding on a consequence, check which one you are actually looking at.",
+          "id": "Sebelum memutuskan konsekuensi, periksa dulu yang mana yang sebenarnya Anda hadapi."
+        },
+        "entries": [
+          {
+            "name": {
+              "en": "System problem",
+              "id": "Masalah sistem"
+            },
+            "tags": [
+              {
+                "en": "Predictable",
+                "id": "Bisa ditebak"
+              },
+              {
+                "en": "Same time daily",
+                "id": "Jam yang sama tiap hari"
+              }
+            ],
+            "looksLike": {
+              "en": "It happens at the same point every day, to a child who is otherwise fine, and reminding has never fixed it.",
+              "id": "Terjadi di titik yang sama setiap hari, pada anak yang selain itu baik-baik saja, dan mengingatkan tak pernah menyelesaikannya."
+            },
+            "outcome": {
+              "en": "Redesign the moment: fewer steps, clearer order, visible cue. Consequences will not touch it.",
+              "id": "Rancang ulang momennya: langkah lebih sedikit, urutan lebih jelas, isyarat yang terlihat. Konsekuensi tidak akan menyentuhnya."
+            }
+          },
+          {
+            "name": {
+              "en": "Behaviour problem",
+              "id": "Masalah perilaku"
+            },
+            "tags": [
+              {
+                "en": "Varies",
+                "id": "Berubah-ubah"
+              },
+              {
+                "en": "Has a choice in it",
+                "id": "Ada pilihan di dalamnya"
+              }
+            ],
+            "looksLike": {
+              "en": "It happens across different moments, the child can do it fine at other times, and a real choice was made.",
+              "id": "Terjadi di berbagai momen, anak bisa melakukannya dengan baik di waktu lain, dan ada pilihan yang sungguh dibuat."
+            },
+            "outcome": {
+              "en": "Now discipline applies — calm, consistent, connected, as in chapter 5.",
+              "id": "Barulah disiplin berlaku — tenang, konsisten, terhubung, seperti bab 5."
+            }
+          }
+        ]
+      }
     },
     {
       "day": 183,
       "chapter": 7,
       "title": {
         "en": "Morning routine design",
-        "id": ""
+        "id": "Merancang rutinitas pagi"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Mornings fail for structural reasons: too many steps, too little time, and decisions being made while everyone is still half asleep.\n\nThe fix is mostly moving work to the night before. Clothes out, bags packed, breakfast decided — every decision removed from the morning is a conflict that cannot happen.",
+        "id": "Pagi berantakan karena alasan struktural: terlalu banyak langkah, terlalu sedikit waktu, dan keputusan dibuat saat semua orang masih setengah tidur.\n\nSolusinya sebagian besar adalah memindahkan pekerjaan ke malam sebelumnya. Baju disiapkan, tas dikemas, sarapan diputuskan — setiap keputusan yang dihapus dari pagi adalah konflik yang tak bisa terjadi."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Fifteen minutes of preparation at night removes roughly thirty minutes of conflict in the morning, and everybody arrives in a better mood.",
+        "id": "Lima belas menit persiapan di malam hari menghapus kira-kira tiga puluh menit konflik di pagi hari, dan semua orang tiba dengan suasana hati yang lebih baik."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Move one morning decision to tonight.",
+        "id": "Pindahkan satu keputusan pagi ke malam ini."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What are we deciding at 7am that could have been decided at 8pm?",
+        "id": "Apa yang kami putuskan pukul tujuh pagi, yang sebenarnya bisa diputuskan pukul delapan malam?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Let's set it out now so the morning is easy.\"",
+        "id": "\"Kita siapkan sekarang supaya paginya mudah.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Positive Discipline — Jane Nelsen",
-      "draft": true
+      "draft": false
     },
     {
       "day": 184,
       "chapter": 7,
       "title": {
         "en": "Bedtime routine design",
-        "id": ""
+        "id": "Merancang rutinitas tidur"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Bedtime concentrates everything difficult into one half hour: a tired child, a tired parent, a transition away from something pleasant, and a separation.\n\nA good bedtime routine is short, always the same order, and moves steadily toward quieter and darker. Four steps is plenty; the order matters more than the content.",
+        "id": "Waktu tidur memusatkan semua yang sulit ke dalam setengah jam: anak yang lelah, orang tua yang lelah, perpindahan dari sesuatu yang menyenangkan, dan perpisahan.\n\nRutinitas tidur yang baik itu singkat, urutannya selalu sama, dan bergerak mantap menuju lebih tenang dan lebih gelap. Empat langkah sudah cukup; urutannya lebih penting daripada isinya."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Ending in the same place every night — the same chair, the same song, the same sentence — does more than any of the earlier steps.",
+        "id": "Berakhir di tempat yang sama setiap malam — kursi yang sama, lagu yang sama, kalimat yang sama — lebih berpengaruh daripada langkah-langkah sebelumnya."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Write your four bedtime steps down tonight and follow them exactly.",
+        "id": "Tuliskan empat langkah waktu tidur Anda malam ini dan ikuti persis."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Does our bedtime move toward calm, or does it get louder as it goes?",
+        "id": "Apakah waktu tidur kami bergerak menuju tenang, atau makin ribut seiring berjalannya?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Four things, then lights out. Same as always.\"",
+        "id": "\"Empat hal, lalu lampu mati. Seperti biasa.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Positive Discipline — Jane Nelsen",
-      "draft": true
+      "draft": false
     },
     {
       "day": 185,
       "chapter": 7,
       "title": {
         "en": "Homework routine",
-        "id": ""
+        "id": "Rutinitas mengerjakan PR"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Homework conflict is usually about starting, not about working. The resistance sits at the beginning, and once a child is three minutes in it often disappears.\n\nA fixed time, a fixed place, and a first step small enough to be trivial removes most of it. Negotiating when homework happens each day guarantees a daily negotiation.",
+        "id": "Konflik PR biasanya soal memulai, bukan soal mengerjakan. Perlawanannya ada di awal, dan begitu anak sudah tiga menit di dalamnya, sering menghilang.\n\nWaktu yang tetap, tempat yang tetap, dan langkah pertama yang cukup kecil untuk terasa sepele menghapus sebagian besarnya. Menegosiasikan kapan PR dikerjakan setiap hari menjamin negosiasi setiap hari."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"Just the first question\" gets more homework finished than any argument about responsibility ever has.",
+        "id": "\"Soal pertama saja dulu\" menyelesaikan lebih banyak PR daripada perdebatan apa pun tentang tanggung jawab."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Fix the time and place for homework today, and shrink the first step.",
+        "id": "Tetapkan waktu dan tempat PR hari ini, dan perkecil langkah pertamanya."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Is the fight about the work, or about starting it?",
+        "id": "Pertengkarannya soal pekerjaannya, atau soal memulainya?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"First line only. Then we'll see.\"",
+        "id": "\"Baris pertama saja. Nanti kita lihat.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Positive Discipline — Jane Nelsen",
-      "draft": true
+      "draft": false
     },
     {
       "day": 186,
       "chapter": 7,
       "title": {
         "en": "Chore routines",
-        "id": ""
+        "id": "Rutinitas pekerjaan rumah"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Chores work when they are small, attached to an existing anchor, and expected rather than requested. A chore that has to be asked for is a negotiation wearing an apron.\n\nAttach the chore to something that already happens — after dinner, before screens — so the trigger is the routine rather than your voice.",
+        "id": "Pekerjaan rumah berhasil ketika kecil, dilekatkan pada jangkar yang sudah ada, dan diharapkan, bukan diminta. Tugas yang harus diminta adalah negosiasi yang memakai celemek.\n\nLekatkan tugasnya pada sesuatu yang sudah terjadi — setelah makan malam, sebelum layar — sehingga pemicunya adalah rutinitasnya, bukan suara Anda."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"Plates in the sink before screens\" needs saying for about a week. After that the sequence carries it.",
+        "id": "\"Piring ke wastafel sebelum layar\" perlu diucapkan sekitar seminggu. Setelah itu urutannya yang membawanya."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Attach one chore to an existing daily anchor today.",
+        "id": "Lekatkan satu tugas rumah pada jangkar harian yang sudah ada hari ini."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Which chores do I still have to ask for every single time?",
+        "id": "Tugas mana yang masih harus saya minta setiap kali?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"That happens before this. That's the order.\"",
+        "id": "\"Itu dulu, baru ini. Begitu urutannya.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Positive Discipline — Jane Nelsen",
-      "draft": true
+      "draft": false
     },
     {
       "day": 187,
       "chapter": 7,
       "title": {
         "en": "Transition warnings",
-        "id": ""
+        "id": "Aba-aba sebelum berpindah"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Stopping something absorbing requires a gear change children are not yet good at. A warning gives them time to begin the internal work of letting go.\n\nWithout notice, a child can only protest — they have been ambushed. With notice, the same instruction is usually accepted, and it costs you two minutes.",
+        "id": "Menghentikan sesuatu yang menyerap perhatian butuh pergantian gigi yang belum dikuasai anak. Aba-aba memberi mereka waktu untuk memulai kerja batin melepaskan.\n\nTanpa pemberitahuan, anak hanya bisa memprotes — dia diserang mendadak. Dengan pemberitahuan, instruksi yang sama biasanya diterima, dan biayanya dua menit."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Make the warning concrete rather than temporal: young children understand \"after this episode\" far better than \"in ten minutes\".",
+        "id": "Buat aba-abanya konkret, bukan soal waktu: anak kecil jauh lebih paham \"setelah episode ini\" daripada \"sepuluh menit lagi\"."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Give a concrete warning before every transition today.",
+        "id": "Beri aba-aba yang konkret sebelum setiap perpindahan hari ini."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "How often do my instructions arrive as an ambush?",
+        "id": "Seberapa sering instruksi saya datang sebagai serangan mendadak?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"After this one, we stop.\"",
+        "id": "\"Setelah yang ini, kita berhenti.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Positive Discipline — Jane Nelsen",
-      "draft": true
+      "draft": false
     },
     {
       "day": 188,
       "chapter": 7,
       "title": {
         "en": "Visual schedules",
-        "id": ""
+        "id": "Jadwal visual"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "A picture on the wall becomes the thing giving instructions, instead of you. That small shift changes the relationship: the child is answering to the chart, not resisting a person.\n\nIt works particularly well for pre-readers, for children who struggle with working memory, and for any household where mornings involve a lot of shouting.",
+        "id": "Gambar di dinding menjadi pihak yang memberi instruksi, bukan Anda. Pergeseran kecil itu mengubah hubungannya: anak menanggapi tabel, bukan melawan seseorang.\n\nIni sangat berhasil untuk anak yang belum membaca, anak yang kesulitan dengan memori kerja, dan rumah mana pun yang paginya penuh teriakan."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"What does the chart say is next?\" takes you out of the conflict entirely, which is exactly the point.",
+        "id": "\"Menurut tabelnya, berikutnya apa?\" mengeluarkan Anda sepenuhnya dari konfliknya, dan itulah maksudnya."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Draw or photograph a three-step visual sequence for your worst transition.",
+        "id": "Gambar atau foto urutan visual tiga langkah untuk perpindahan terburuk Anda."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Could my child follow our morning without me speaking at all?",
+        "id": "Bisakah anak saya menjalani pagi tanpa saya bicara sama sekali?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"What's next on the chart?\"",
+        "id": "\"Berikutnya apa di tabelnya?\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Positive Discipline — Jane Nelsen",
-      "draft": true
+      "draft": false
     },
     {
       "day": 189,
       "chapter": 7,
       "title": {
         "en": "Preparing children ahead of time",
-        "id": ""
+        "id": "Menyiapkan anak sebelumnya"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Children handle new situations far better when they know what is coming. Surprise is a load, and a loaded child behaves worse.\n\nDescribe the shape of the thing in advance: where you are going, how long, what will be expected, and what they can do if it gets hard. Two minutes of preview prevents a great deal.",
+        "id": "Anak menghadapi situasi baru jauh lebih baik ketika tahu apa yang akan datang. Kejutan adalah beban, dan anak yang terbebani berperilaku lebih buruk.\n\nGambarkan bentuk acaranya lebih dulu: ke mana, berapa lama, apa yang diharapkan, dan apa yang bisa dia lakukan jika terasa berat. Dua menit gambaran awal mencegah banyak hal."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Including \"and if you need a break, come find me\" gives a child an exit, which usually means they need it less.",
+        "id": "Menyertakan \"dan kalau kamu butuh istirahat, cari Mama ya\" memberi anak jalan keluar, yang biasanya justru membuatnya lebih jarang membutuhkannya."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Preview one upcoming situation in three sentences today.",
+        "id": "Gambarkan satu situasi yang akan datang dalam tiga kalimat hari ini."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "How much does my child know about what today holds?",
+        "id": "Seberapa banyak anak saya tahu tentang apa isi hari ini?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Here's what's going to happen, and here's what you can do.\"",
+        "id": "\"Ini yang akan terjadi, dan ini yang bisa kamu lakukan.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Positive Discipline — Jane Nelsen",
-      "draft": true
+      "draft": false
     },
     {
       "day": 190,
       "chapter": 7,
       "title": {
         "en": "Organizing toys and materials",
-        "id": ""
+        "id": "Menata mainan dan perlengkapan"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "A child cannot tidy a room they cannot understand. If everything lives in one large box, tidying is an impossible sorting task, and refusal looks like defiance.\n\nFewer toys, visible homes, and containers a child can actually lift make tidying possible. Most tidying battles are storage design problems.",
+        "id": "Anak tak bisa merapikan ruangan yang tak bisa dia pahami. Jika semuanya tinggal dalam satu kotak besar, merapikan menjadi tugas menyortir yang mustahil, dan penolakannya tampak seperti pembangkangan.\n\nMainan lebih sedikit, rumah yang terlihat, dan wadah yang benar-benar bisa diangkat anak membuat merapikan menjadi mungkin. Sebagian besar pertengkaran soal merapikan adalah masalah desain penyimpanan."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "If an adult would struggle to know where something goes, a five-year-old has no chance at all.",
+        "id": "Jika orang dewasa saja kesulitan tahu ke mana sesuatu harus disimpan, anak lima tahun sama sekali tidak punya peluang."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Give one category of toys a clear, reachable home today.",
+        "id": "Beri satu kategori mainan rumah yang jelas dan terjangkau hari ini."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Is tidying actually possible for my child, as the room is set up now?",
+        "id": "Dengan penataan ruangan sekarang, apakah merapikan sungguh mungkin bagi anak saya?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Everything has a place. Let's find this one's.\"",
+        "id": "\"Semua ada tempatnya. Ayo cari tempat yang ini.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Positive Discipline — Jane Nelsen",
-      "draft": true
+      "draft": false
     },
     {
       "day": 191,
       "chapter": 7,
       "title": {
         "en": "Simplifying overstimulating spaces",
-        "id": ""
+        "id": "Menyederhanakan ruang yang terlalu ramai"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Visual noise is a load on a developing brain. Rooms crowded with toys, colour and choice produce children who flit between things and settle at none.\n\nFewer options usually produce deeper play. Rotating toys — half away in a cupboard, swapped monthly — often makes old toys interesting again.",
+        "id": "Kebisingan visual adalah beban bagi otak yang sedang berkembang. Ruangan yang penuh mainan, warna, dan pilihan menghasilkan anak yang melompat-lompat dan tak menetap di mana pun.\n\nPilihan yang lebih sedikit biasanya menghasilkan permainan yang lebih dalam. Merotasi mainan — separuh disimpan di lemari, ditukar tiap bulan — sering membuat mainan lama menarik kembali."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Parents are often surprised that removing half the toys increases how long a child plays with the rest.",
+        "id": "Orang tua sering terkejut bahwa menyingkirkan separuh mainan justru memperpanjang waktu anak bermain dengan sisanya."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Put half of one toy category away today and watch what happens to play.",
+        "id": "Simpan separuh dari satu kategori mainan hari ini dan perhatikan apa yang terjadi pada permainannya."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Is there more in this room than my child can actually use?",
+        "id": "Apakah isi ruangan ini lebih banyak daripada yang sanggup dipakai anak saya?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Let's put some away for a while.\"",
+        "id": "\"Kita simpan sebagian dulu untuk sementara.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Simplicity Parenting — Kim John Payne",
-      "draft": true
+      "draft": false
     },
     {
       "day": 192,
       "chapter": 7,
       "title": {
         "en": "Family meal rhythm",
-        "id": ""
+        "id": "Ritme makan keluarga"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Regular family meals are one of the most consistently protective routines in child development — associated with better wellbeing, language and school outcomes across many studies.\n\nIt is the regularity and the conversation that matter, not the food or the formality. Three unhurried meals a week beats seven tense ones.",
+        "id": "Makan bersama keluarga secara teratur adalah salah satu rutinitas paling konsisten melindungi dalam perkembangan anak — dikaitkan dengan kesejahteraan, bahasa, dan hasil sekolah yang lebih baik dalam banyak penelitian.\n\nYang penting adalah keteraturan dan percakapannya, bukan makanannya atau formalitasnya. Tiga kali makan tanpa terburu-buru dalam seminggu mengalahkan tujuh kali yang penuh ketegangan."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Protecting three meals a week is realistic for most families. Aiming for every night and failing tends to end the practice entirely.",
+        "id": "Melindungi tiga kali makan seminggu realistis bagi kebanyakan keluarga. Menargetkan setiap malam lalu gagal cenderung menghentikan kebiasaannya sama sekali."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Choose the three meals this week you will protect, and put them somewhere visible.",
+        "id": "Pilih tiga waktu makan minggu ini yang akan Anda lindungi, dan tulis di tempat yang terlihat."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "How many meals a week do we actually eat together, without screens?",
+        "id": "Berapa kali seminggu kami sungguh makan bersama, tanpa layar?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"These three are ours. We eat together.\"",
+        "id": "\"Yang tiga ini milik kita. Kita makan bersama.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Positive Discipline — Jane Nelsen",
-      "draft": true
+      "draft": false
     },
     {
       "day": 193,
       "chapter": 7,
       "title": {
         "en": "Sleep hygiene for children",
-        "id": ""
+        "id": "Kebersihan tidur anak"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Sleep is the single highest-yield adjustment available to most families, and the one most often quietly sacrificed. A tired child is more impulsive, more emotional and far less able to recover from small frustrations.\n\nThe levers are unglamorous and they work: consistent times, a dark cool room, screens off well before bed, and a wind-down that moves toward quiet.",
+        "id": "Tidur adalah penyesuaian dengan hasil tertinggi yang tersedia bagi kebanyakan keluarga, dan yang paling sering diam-diam dikorbankan. Anak yang lelah lebih impulsif, lebih emosional, dan jauh lebih sulit pulih dari frustrasi kecil.\n\nTuasnya tidak menarik dan memang berhasil: waktu yang konsisten, kamar yang gelap dan sejuk, layar dimatikan jauh sebelum tidur, dan pendinginan yang bergerak menuju hening."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Before investigating a child's character, check their sleep for a week. A surprising number of behaviour problems resolve there.",
+        "id": "Sebelum menyelidiki karakter anak, periksa tidurnya selama seminggu. Jumlah masalah perilaku yang selesai di situ mengejutkan."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Move one thing earlier tonight — screens off, bath, or bedtime itself.",
+        "id": "Majukan satu hal malam ini — layar dimatikan, mandi, atau jam tidurnya sendiri."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Is my child actually getting enough sleep, honestly counted?",
+        "id": "Kalau dihitung jujur, apakah anak saya benar-benar cukup tidur?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Earlier tonight. Tomorrow will be easier.\"",
+        "id": "\"Malam ini lebih awal. Besok akan lebih mudah.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "American Academy of Pediatrics parenting guidance — AAP",
-      "draft": true
+      "draft": false
     },
     {
       "day": 194,
       "chapter": 7,
       "title": {
         "en": "Device-free family moments",
-        "id": ""
+        "id": "Momen keluarga tanpa gawai"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Children read parental phone use as a verdict on their own importance, even when nothing is said. A parent physically present but attentionally elsewhere is a specific kind of absence, and children feel it precisely.\n\nProtecting a few device-free windows matters more than the total screen count — meals, the school pickup, and the last half hour before bed.",
+        "id": "Anak membaca penggunaan ponsel orang tua sebagai vonis atas pentingnya diri mereka, meski tak ada yang dikatakan. Orang tua yang hadir secara fisik tapi perhatiannya di tempat lain adalah bentuk ketidakhadiran tersendiri, dan anak merasakannya dengan tepat.\n\nMelindungi beberapa jendela bebas gawai lebih penting daripada total waktu layar — saat makan, saat menjemput sekolah, dan setengah jam terakhir sebelum tidur."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "The pickup moment is a small one and a loaded one: a child scanning for your face and finding the top of your head is a repeated small disappointment.",
+        "id": "Momen penjemputan itu kecil dan sarat makna: anak yang mencari wajah Anda lalu menemukan ubun-ubun Anda mengalami kekecewaan kecil yang berulang."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Put your phone in another room for one window today.",
+        "id": "Letakkan ponsel Anda di ruangan lain untuk satu jendela waktu hari ini."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What does my child see me choose when they walk into the room?",
+        "id": "Apa yang anak lihat saya pilih ketika dia masuk ruangan?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Phone's away. I'm here.\"",
+        "id": "\"Ponsel disimpan. Mama/Papa di sini.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Positive Discipline — Jane Nelsen",
-      "draft": true
+      "draft": false
     },
     {
       "day": 195,
       "chapter": 7,
       "title": {
         "en": "Car ride routines",
-        "id": ""
+        "id": "Rutinitas di perjalanan"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "The car is one of the best conversation spaces most families have. Side by side, no eye contact required, a natural time limit, nowhere else to be.\n\nTeenagers in particular talk more freely there than across a table. It is worth protecting the car as talking space rather than filling it with screens.",
+        "id": "Mobil adalah salah satu ruang percakapan terbaik yang dimiliki kebanyakan keluarga. Berdampingan, tak perlu kontak mata, ada batas waktu alami, tak ada tempat lain untuk dituju.\n\nRemaja khususnya bicara lebih lepas di sana daripada di meja makan. Layak untuk melindungi mobil sebagai ruang bicara, bukan mengisinya dengan layar."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "The hardest conversations often happen most easily at 40km/h with both people looking at the road.",
+        "id": "Percakapan tersulit sering paling mudah terjadi di kecepatan 40 km/jam dengan kedua orang menatap jalan."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Leave the screens off for one journey today and see what gets said.",
+        "id": "Matikan layar untuk satu perjalanan hari ini dan lihat apa yang terucap."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Where do the real conversations in our family happen?",
+        "id": "Di mana percakapan yang sungguhan di keluarga kami terjadi?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Just us and the road for a bit.\"",
+        "id": "\"Sebentar cuma kita dan jalanan.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Positive Discipline — Jane Nelsen",
-      "draft": true
+      "draft": false
     },
     {
       "day": 196,
       "chapter": 7,
       "title": {
         "en": "After-school decompression",
-        "id": ""
+        "id": "Melepas penat sepulang sekolah"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Children hold themselves together all day at school and let go the moment they reach the safest person available. The difficult hour after pickup is not a sign that something went wrong — it is a sign that you are safe.\n\nQuestions and instructions land badly in that window. Food, quiet and a bit of physical movement land well.",
+        "id": "Anak menahan diri sepanjang hari di sekolah dan melepaskannya begitu bertemu orang paling aman yang tersedia. Jam yang sulit setelah dijemput bukan tanda ada yang salah — itu tanda bahwa Anda aman.\n\nPertanyaan dan instruksi tidak diterima dengan baik di jendela itu. Makanan, ketenangan, dan sedikit gerak fisik diterima dengan baik."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"How was school?\" asked at the school gate is the worst possible timing. The same question two hours later often gets a real answer.",
+        "id": "\"Bagaimana sekolahnya?\" yang ditanyakan di gerbang sekolah adalah waktu paling buruk. Pertanyaan yang sama dua jam kemudian sering mendapat jawaban sungguhan."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Offer food and quiet before any questions today.",
+        "id": "Tawarkan makanan dan ketenangan sebelum pertanyaan apa pun hari ini."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What does my child actually need in the first thirty minutes at home?",
+        "id": "Apa yang sebenarnya anak butuhkan di tiga puluh menit pertama di rumah?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Eat first. We can talk later.\"",
+        "id": "\"Makan dulu. Nanti kita bisa cerita.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Positive Discipline — Jane Nelsen",
-      "draft": true
+      "draft": false
     },
     {
       "day": 197,
       "chapter": 7,
       "title": {
         "en": "Weekend rhythm",
-        "id": ""
+        "id": "Ritme akhir pekan"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Weekends fail in two opposite directions: packed so full that everyone returns exhausted, or so shapeless that the day dissolves and nobody enjoys it.\n\nA light rhythm helps — one anchor, one outing, one genuinely unstructured stretch. Structure and rest are not opposites; rest needs a little structure to survive.",
+        "id": "Akhir pekan gagal dalam dua arah berlawanan: dijejali sampai semua orang pulang kelelahan, atau tanpa bentuk sama sekali sehingga harinya larut dan tak ada yang menikmatinya.\n\nRitme yang ringan membantu — satu jangkar, satu kegiatan keluar, satu rentang yang benar-benar bebas. Struktur dan istirahat bukan lawan; istirahat butuh sedikit struktur untuk bertahan."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Protecting one unstructured stretch is as deliberate an act as booking an activity, and usually more valuable.",
+        "id": "Melindungi satu rentang waktu tanpa acara sama disengajanya dengan memesan kegiatan, dan biasanya lebih berharga."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Name your one weekend anchor and one protected empty stretch.",
+        "id": "Sebutkan satu jangkar akhir pekan Anda dan satu rentang kosong yang dilindungi."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Do we come back from weekends more rested or less?",
+        "id": "Apakah kami pulang dari akhir pekan lebih segar atau kurang?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"This bit of Sunday isn't for anything.\"",
+        "id": "\"Bagian hari Minggu ini tidak untuk apa-apa.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Positive Discipline — Jane Nelsen",
-      "draft": true
+      "draft": false
     },
     {
       "day": 198,
       "chapter": 7,
       "title": {
         "en": "Travel routines",
-        "id": ""
+        "id": "Rutinitas saat bepergian"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Travel removes almost every structure a child relies on at once — bed, food times, familiar space, predictable order.\n\nCarrying a few anchors with you does most of the work: the same bedtime sequence, the same comfort object, roughly the same meal times. Everything else can move.",
+        "id": "Bepergian menghapus hampir semua struktur yang diandalkan anak sekaligus — tempat tidur, jam makan, ruang yang dikenal, urutan yang bisa ditebak.\n\nMembawa beberapa jangkar bersama Anda sudah melakukan sebagian besar pekerjaannya: urutan waktu tidur yang sama, benda kesayangan yang sama, jam makan yang kira-kira sama. Selebihnya boleh bergeser."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Lower your behavioural expectations for travel days in advance. A tired child in an unfamiliar place is not the child you know.",
+        "id": "Turunkan harapan perilaku Anda untuk hari perjalanan sejak awal. Anak yang lelah di tempat asing bukan anak yang Anda kenal."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Name the two anchors you will carry into your next trip.",
+        "id": "Sebutkan dua jangkar yang akan Anda bawa dalam perjalanan berikutnya."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Which routines matter enough to travel with us?",
+        "id": "Rutinitas mana yang cukup penting untuk ikut bepergian bersama kami?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Different place, same bedtime song.\"",
+        "id": "\"Tempat berbeda, lagu tidurnya sama.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Positive Discipline — Jane Nelsen",
-      "draft": true
+      "draft": false
     },
     {
       "day": 199,
       "chapter": 7,
       "title": {
         "en": "Routines during illness",
-        "id": ""
+        "id": "Rutinitas saat sakit"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Illness suspends the rules, and it should. A sick child needs comfort, not consistency, and the household briefly reorganises around them.\n\nThe difficulty comes afterwards. Returning to normal needs naming out loud, or the temporary arrangements quietly become permanent ones.",
+        "id": "Sakit menangguhkan aturan, dan memang seharusnya begitu. Anak yang sakit butuh penghiburan, bukan konsistensi, dan rumah tangga sejenak menata ulang dirinya di sekelilingnya.\n\nKesulitannya datang sesudahnya. Kembali ke normal perlu disebutkan dengan lantang, atau pengaturan sementara diam-diam menjadi permanen."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "\"You're better now, so tonight we go back to the usual bedtime\" is a small sentence that prevents a fortnight of confusion.",
+        "id": "\"Kamu sudah sembuh, jadi malam ini kita kembali ke jam tidur biasa\" adalah kalimat kecil yang mencegah dua minggu kebingungan."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Name the return to normal out loud the next time someone recovers.",
+        "id": "Sebutkan dengan lantang saat kembali ke normal, lain kali ada yang sembuh."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What did we start during an illness that never stopped?",
+        "id": "Apa yang kami mulai saat sakit dan tak pernah berhenti?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"You're well now — back to the usual tonight.\"",
+        "id": "\"Kamu sudah sehat — malam ini kembali seperti biasa.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Positive Discipline — Jane Nelsen",
-      "draft": true
+      "draft": false
     },
     {
       "day": 200,
       "chapter": 7,
       "title": {
         "en": "Routines during holidays",
-        "id": ""
+        "id": "Rutinitas saat liburan"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Holidays are meant to loosen structure, and they should. But total collapse of routine tends to produce increasingly difficult children by about day four.\n\nKeep two anchors — roughly consistent sleep and roughly consistent meals — and let everything else go. That is usually enough to keep a holiday enjoyable.",
+        "id": "Liburan memang untuk mengendurkan struktur, dan seharusnya begitu. Tapi runtuhnya rutinitas sepenuhnya cenderung menghasilkan anak yang makin sulit sekitar hari keempat.\n\nPertahankan dua jangkar — tidur yang kira-kira konsisten dan makan yang kira-kira konsisten — dan lepaskan selebihnya. Itu biasanya cukup untuk menjaga liburan tetap menyenangkan."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "The fourth day of a holiday is where most families discover which routines were actually load-bearing.",
+        "id": "Hari keempat liburan adalah saat kebanyakan keluarga menemukan rutinitas mana yang ternyata menopang segalanya."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Choose your two holiday anchors before the next break begins.",
+        "id": "Pilih dua jangkar liburan Anda sebelum liburan berikutnya dimulai."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Which routines do we need even on holiday?",
+        "id": "Rutinitas mana yang tetap kami butuhkan bahkan saat liburan?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Late is fine — but bed is still bed.\"",
+        "id": "\"Boleh agak malam — tapi tidur tetap tidur.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Positive Discipline — Jane Nelsen",
-      "draft": true
+      "draft": false
     },
     {
       "day": 201,
       "chapter": 7,
       "title": {
         "en": "Managing unpredictability",
-        "id": ""
+        "id": "Mengelola hal yang tak terduga"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Some seasons cannot be made predictable — shift work, illness, a new baby, financial stress. Pretending otherwise sets a family up to fail.\n\nWhen the week cannot be predictable, make one thing predictable. A single fixed point that survives everything gives a child something to hold onto.",
+        "id": "Sebagian musim memang tak bisa dibuat bisa ditebak — kerja bergilir, sakit, bayi baru, tekanan keuangan. Berpura-pura sebaliknya menyiapkan keluarga untuk gagal.\n\nKetika minggunya tak bisa ditebak, buat satu hal bisa ditebak. Satu titik tetap yang bertahan melewati segalanya memberi anak sesuatu untuk dipegang."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "It does not have to be big. The same song at bedtime, whoever is doing it, is enough to anchor a chaotic week.",
+        "id": "Tak harus besar. Lagu yang sama menjelang tidur, siapa pun yang menyanyikannya, sudah cukup menjadi jangkar minggu yang kacau."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Choose one thing that will happen this week no matter what.",
+        "id": "Pilih satu hal yang akan terjadi minggu ini apa pun yang terjadi."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What is the one fixed point my child can count on?",
+        "id": "Apa satu titik tetap yang bisa anak saya andalkan?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Whatever else happens, we always do this.\"",
+        "id": "\"Apa pun yang terjadi, kita selalu melakukan ini.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Positive Discipline — Jane Nelsen",
-      "draft": true
+      "draft": false
     },
     {
       "day": 202,
       "chapter": 7,
       "title": {
         "en": "Rituals that create belonging",
-        "id": ""
+        "id": "Ritual yang menciptakan rasa memiliki"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "A routine organises the day; a ritual says who we are. The difference is meaning rather than function — and children remember rituals long after they have forgotten schedules.\n\nThe smallest repeated things carry the most: a particular Saturday breakfast, a phrase said at the door, a song only your family sings.",
+        "id": "Rutinitas menata hari; ritual menyatakan siapa kita. Bedanya adalah makna, bukan fungsi — dan anak mengingat ritual jauh setelah mereka lupa jadwal.\n\nHal kecil yang paling sering diulang membawa paling banyak makna: sarapan Sabtu tertentu, kalimat yang diucapkan di pintu, lagu yang hanya keluarga Anda nyanyikan."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Ask an adult what they remember about their childhood home and you will almost always get a ritual, never a schedule.",
+        "id": "Tanyakan pada orang dewasa apa yang dia ingat tentang rumah masa kecilnya, dan Anda hampir selalu mendapat sebuah ritual, tak pernah sebuah jadwal."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Name one thing your family already does that is a ritual, and say so out loud.",
+        "id": "Sebutkan satu hal yang sudah keluarga Anda lakukan yang merupakan ritual, dan katakan dengan lantang."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What will my child remember that we always did?",
+        "id": "Apa yang akan anak saya ingat sebagai hal yang selalu kami lakukan?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"This is a thing our family does.\"",
+        "id": "\"Ini hal yang keluarga kita lakukan.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Simplicity Parenting — Kim John Payne",
-      "draft": true
+      "draft": false
     },
     {
       "day": 203,
       "chapter": 7,
       "title": {
         "en": "Story time as attachment ritual",
-        "id": ""
+        "id": "Waktu cerita sebagai ritual kelekatan"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Reading together does far more than build literacy. It is proximity, undivided attention, a predictable ending to the day, and a shared world — all in fifteen minutes.\n\nIt is also one of the few rituals that survives into older childhood if you let it. Children who are read to at nine still want it at eleven, if nobody declares them too old.",
+        "id": "Membaca bersama jauh lebih dari sekadar membangun literasi. Ia adalah kedekatan, perhatian penuh, akhir hari yang bisa ditebak, dan dunia bersama — semuanya dalam lima belas menit.\n\nIa juga salah satu dari sedikit ritual yang bertahan sampai usia lebih besar jika Anda membiarkannya. Anak yang dibacakan di usia sembilan tahun masih menginginkannya di usia sebelas, jika tak ada yang menyatakan dia sudah terlalu besar."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Being read to remains enjoyable well past the age a child can read alone. Reading ability and wanting closeness are unrelated.",
+        "id": "Dibacakan tetap menyenangkan jauh setelah usia anak bisa membaca sendiri. Kemampuan membaca dan keinginan akan kedekatan tidak berhubungan."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Read something aloud today, even to a child who can read perfectly well.",
+        "id": "Bacakan sesuatu dengan suara hari ini, bahkan kepada anak yang sudah lancar membaca."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "When did we stop reading together, and why?",
+        "id": "Kapan kami berhenti membaca bersama, dan mengapa?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"One chapter. Come sit.\"",
+        "id": "\"Satu bab saja. Sini duduk.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Circle of Security Parenting — Cooper, Hoffman, Powell et al.",
-      "draft": true
+      "draft": false
     },
     {
       "day": 204,
       "chapter": 7,
       "title": {
-        "en": "Prayer/reflection/family values ritual",
-        "id": ""
+        "en": "Family values ritual",
+        "id": "Ritual nilai keluarga"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Values transmit through repetition, not announcement. A short regular moment — prayer, reflection, a gratitude round, a values sentence — does more than any single conversation about what matters.\n\nWhatever form fits your family, the requirements are the same: short, regular, and genuinely meant by the adults.",
+        "id": "Nilai diwariskan lewat pengulangan, bukan pengumuman. Momen singkat yang rutin — doa, refleksi, putaran rasa syukur, satu kalimat nilai — lebih berpengaruh daripada percakapan tunggal apa pun tentang apa yang penting.\n\nBentuk apa pun yang cocok untuk keluarga Anda, syaratnya sama: singkat, rutin, dan sungguh-sungguh dimaksudkan oleh orang dewasanya."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Children detect performed values instantly. A ritual the adults do not mean teaches cynicism rather than the value.",
+        "id": "Anak langsung mendeteksi nilai yang cuma dipertunjukkan. Ritual yang tidak disungguhi orang dewasanya mengajarkan sinisme, bukan nilainya."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Hold one short values moment today in whatever form fits your family.",
+        "id": "Adakan satu momen nilai yang singkat hari ini dalam bentuk apa pun yang cocok untuk keluarga Anda."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "How do our values actually get passed on, in practice?",
+        "id": "Bagaimana sebenarnya nilai-nilai kami diwariskan, dalam praktik?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"In our family, this is what we believe.\"",
+        "id": "\"Di keluarga kita, inilah yang kita yakini.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Positive Discipline — Jane Nelsen",
-      "draft": true
+      "draft": false
     },
     {
       "day": 205,
       "chapter": 7,
       "title": {
         "en": "Gratitude rituals",
-        "id": ""
+        "id": "Ritual rasa syukur"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Gratitude practised regularly shifts what a family notices. It is not about denying difficulty — it is about widening attention so the good is not invisible.\n\nIt must be specific to work. \"Thankful for my family\" is a habit of speech; \"thankful that you waited for me today\" is a habit of attention.",
+        "id": "Rasa syukur yang dilatih secara rutin menggeser apa yang diperhatikan sebuah keluarga. Ini bukan menyangkal kesulitan — ini melebarkan perhatian agar yang baik tidak menjadi tak terlihat.\n\nIa harus spesifik agar berhasil. \"Bersyukur atas keluargaku\" adalah kebiasaan berbicara; \"bersyukur kamu menungguku hari ini\" adalah kebiasaan memperhatikan."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Specific gratitude also teaches children to notice each other, which is a quieter and more lasting gift.",
+        "id": "Rasa syukur yang spesifik juga mengajarkan anak memperhatikan satu sama lain — hadiah yang lebih sunyi dan lebih bertahan."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Say one specific thank-you to each person in your house today.",
+        "id": "Ucapkan satu terima kasih yang spesifik kepada setiap orang di rumah Anda hari ini."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What do we notice most in this house — what is missing or what is here?",
+        "id": "Apa yang paling kami perhatikan di rumah ini — yang kurang atau yang ada?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"I noticed you did that. Thank you.\"",
+        "id": "\"Mama/Papa lihat kamu melakukannya. Terima kasih.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Simplicity Parenting — Kim John Payne",
-      "draft": true
+      "draft": false
     },
     {
       "day": 206,
       "chapter": 7,
       "title": {
         "en": "One-on-one time routine",
-        "id": ""
+        "id": "Rutinitas waktu berdua"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Ten minutes of undivided, child-led time does more for behaviour than most consequences. It is short enough to be sustainable and specific enough to be felt.\n\nThe rules are simple and hard: phone away, child chooses, no teaching, no correcting, no improving what they are doing. Just be with them.",
+        "id": "Sepuluh menit waktu penuh yang dipimpin anak lebih berpengaruh pada perilaku daripada kebanyakan konsekuensi. Cukup singkat untuk berkelanjutan dan cukup spesifik untuk terasa.\n\nAturannya sederhana dan sulit: ponsel disimpan, anak yang memilih, tidak mengajari, tidak menegur, tidak memperbaiki apa yang sedang dia lakukan. Cukup hadir bersamanya."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Most parents find the no-teaching rule the hardest. Resisting the urge to improve the play is most of the exercise.",
+        "id": "Kebanyakan orang tua merasa aturan tidak-mengajari paling sulit. Menahan dorongan memperbaiki permainannya adalah sebagian besar latihannya."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Give ten child-led minutes today, with no teaching in them at all.",
+        "id": "Berikan sepuluh menit yang dipimpin anak hari ini, tanpa mengajari sama sekali."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "When did I last spend ten minutes with my child improving nothing?",
+        "id": "Kapan terakhir saya menghabiskan sepuluh menit bersama anak tanpa memperbaiki apa pun?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Ten minutes, and you're in charge.\"",
+        "id": "\"Sepuluh menit, dan kamu yang memimpin.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Positive Discipline — Jane Nelsen",
-      "draft": true
+      "draft": false
     },
     {
       "day": 207,
       "chapter": 7,
       "title": {
         "en": "Sibling connection rituals",
-        "id": ""
+        "id": "Ritual kedekatan antar saudara"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Sibling relationships are usually managed reactively — parents intervene in conflict and leave the rest alone. That means the relationship is mostly practised in its worst moments.\n\nDeliberately building good shared moments changes the balance: a job they do together, a game only they play, a small responsibility they share.",
+        "id": "Hubungan antar saudara biasanya dikelola secara reaktif — orang tua turun tangan saat konflik dan membiarkan sisanya. Artinya hubungan itu sebagian besar dilatih di momen-momen terburuknya.\n\nDengan sengaja membangun momen bersama yang baik mengubah keseimbangannya: satu tugas yang mereka kerjakan bersama, permainan yang hanya mereka mainkan, tanggung jawab kecil yang mereka bagi."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Give siblings something to be on the same side of. Shared tasks build alliance faster than any lecture about being kind to each other.",
+        "id": "Beri saudara sesuatu yang membuat mereka berada di pihak yang sama. Tugas bersama membangun persekutuan lebih cepat daripada ceramah apa pun tentang saling menyayangi."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Give your children one small shared job today.",
+        "id": "Beri anak-anak Anda satu tugas bersama yang kecil hari ini."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Do my children have anything they do well together?",
+        "id": "Apakah anak-anak saya punya sesuatu yang mereka lakukan bersama dengan baik?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"This one's a two-person job.\"",
+        "id": "\"Yang ini pekerjaan untuk dua orang.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Peaceful Parent, Happy Kids — Laura Markham",
-      "draft": true
+      "draft": false
     },
     {
       "day": 208,
       "chapter": 7,
       "title": {
         "en": "Decluttering family commitments",
-        "id": ""
+        "id": "Merapikan komitmen keluarga"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Family calendars fill by accretion — each commitment reasonable on its own, the total quietly unsustainable. Nobody ever decides to be this busy.\n\nReviewing the calendar as a whole, rather than one request at a time, is the only way to see the real load. Then something has to come off.",
+        "id": "Kalender keluarga terisi lewat penumpukan — setiap komitmen masuk akal sendiri, totalnya diam-diam tak sanggup ditanggung. Tak ada yang pernah memutuskan untuk sesibuk ini.\n\nMeninjau kalender secara utuh, bukan satu permintaan pada satu waktu, adalah satu-satunya cara melihat beban yang sebenarnya. Lalu sesuatu harus dilepas."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Ask the children too. They often name the activity they would drop, and are rarely asked.",
+        "id": "Tanyakan juga pada anak-anak. Mereka sering bisa menyebut kegiatan yang ingin mereka lepas, dan jarang ditanya."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Look at the whole week's commitments and name one to remove.",
+        "id": "Lihat seluruh komitmen minggu ini dan sebutkan satu yang akan dihapus."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Did we choose this schedule, or did it accumulate?",
+        "id": "Apakah kami memilih jadwal ini, atau ia menumpuk sendiri?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"What would you drop, if you could drop one?\"",
+        "id": "\"Kalau boleh melepas satu, kamu mau lepas yang mana?\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Simplicity Parenting — Kim John Payne",
-      "draft": true
+      "draft": false
     },
     {
       "day": 209,
       "chapter": 7,
       "title": {
         "en": "Saying no to over-scheduling",
-        "id": ""
+        "id": "Berkata tidak pada jadwal berlebih"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Every yes to an activity is a no to unstructured time, and unstructured time is where imagination, rest and sibling relationships actually happen.\n\nEnrichment has diminishing returns. A child with three activities and no free afternoons is usually worse off than a child with one and several.",
+        "id": "Setiap ya untuk satu kegiatan adalah tidak untuk waktu bebas, dan di waktu bebas itulah imajinasi, istirahat, dan hubungan antar saudara sesungguhnya terjadi.\n\nPengayaan punya hasil yang makin menurun. Anak dengan tiga kegiatan dan tanpa sore yang kosong biasanya lebih rugi daripada anak dengan satu kegiatan dan beberapa sore kosong."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "The fear of a child falling behind drives most over-scheduling. Rested children with time to play rarely fall behind at anything that matters.",
+        "id": "Ketakutan anak tertinggal mendorong sebagian besar penjadwalan berlebih. Anak yang cukup istirahat dan punya waktu bermain jarang tertinggal dalam hal yang penting."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Say no to one addition this week, and protect the empty time it would have taken.",
+        "id": "Katakan tidak pada satu tambahan minggu ini, dan lindungi waktu kosong yang akan diambilnya."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What am I afraid will happen if my child does less?",
+        "id": "Apa yang saya takutkan akan terjadi jika anak saya melakukan lebih sedikit?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Not this term. We've got enough on.\"",
+        "id": "\"Semester ini tidak dulu. Kegiatan kita sudah cukup.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Simplicity Parenting — Kim John Payne",
-      "draft": true
+      "draft": false
     },
     {
       "day": 210,
       "chapter": 7,
       "title": {
         "en": "Weekly reflection",
-        "id": ""
+        "id": "Refleksi mingguan"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "This chapter makes one claim: a large share of what looks like misbehaviour is a system problem in disguise, and systems can be redesigned without any conflict at all.\n\nLook back across the month and find the single moment that still goes wrong most often. Ask honestly whether it is a behaviour problem or a design problem — and most of the time, it is design.",
+        "id": "Bab ini menyatakan satu hal: sebagian besar yang tampak seperti kenakalan sebenarnya masalah sistem yang menyamar, dan sistem bisa dirancang ulang tanpa konflik sama sekali.\n\nTengok kembali bulan ini dan temukan satu momen yang masih paling sering berantakan. Tanyakan dengan jujur apakah itu masalah perilaku atau masalah desain — dan sebagian besar waktu, itu desain."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "Tool 7 in the toolkit, the Friction-Point Redesigner, is built for exactly this one question.",
+        "id": "Alat 7 dalam toolkit, Pemetaan Titik Gesekan, dibuat persis untuk satu pertanyaan ini."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Take your worst remaining moment and redesign it rather than disciplining it.",
+        "id": "Ambil momen tersulit yang tersisa dan rancang ulang, bukan didisiplinkan."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "Which of my discipline problems is actually a design problem?",
+        "id": "Masalah disiplin saya yang mana yang sebenarnya masalah desain?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Let's change the setup, not the child.\"",
+        "id": "\"Ayo ubah penataannya, bukan anaknya.\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Positive Discipline — Jane Nelsen",
-      "draft": true
+      "draft": false
     },
     {
       "day": 211,
       "chapter": 7,
       "title": {
         "en": "Family systems review",
-        "id": ""
+        "id": "Tinjauan sistem keluarga"
       },
       "teaching": {
-        "en": "",
-        "id": ""
+        "en": "Step back from individual moments and look at the household as a system. Where does the day reliably jam? Who carries more than their share? What has everyone quietly accepted that nobody actually chose?\n\nMost families run on arrangements that were never decided. Naming them is what makes them changeable.",
+        "id": "Mundurlah dari momen-momen tunggal dan lihat rumah tangga sebagai sebuah sistem. Di mana hari itu selalu macet? Siapa yang memikul lebih dari bagiannya? Apa yang diam-diam diterima semua orang padahal tak ada yang benar-benar memilihnya?\n\nKebanyakan keluarga berjalan di atas pengaturan yang tak pernah diputuskan. Menamainya itulah yang membuatnya bisa diubah."
       },
       "inPractice": {
-        "en": "",
-        "id": ""
+        "en": "The division of household load is worth looking at honestly here. Resentment about it leaks into parenting more than most couples realise.",
+        "id": "Pembagian beban rumah tangga layak ditengok dengan jujur di sini. Dendam soal itu merembes ke dalam pengasuhan lebih banyak daripada yang disadari kebanyakan pasangan."
       },
       "practice": {
-        "en": "",
-        "id": ""
+        "en": "Name one arrangement in your home nobody actually chose, and decide it properly.",
+        "id": "Sebutkan satu pengaturan di rumah Anda yang tak pernah benar-benar dipilih siapa pun, dan putuskan dengan semestinya."
       },
       "reflection": {
-        "en": "",
-        "id": ""
+        "en": "What does our household run on that we never agreed?",
+        "id": "Rumah tangga kami berjalan di atas apa yang sebenarnya tak pernah kami sepakati?"
       },
       "script": {
-        "en": "",
-        "id": ""
+        "en": "\"Can we decide this one on purpose?\"",
+        "id": "\"Bisa kita putuskan yang ini dengan sengaja?\""
       },
       "support": {
         "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
         "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
       },
       "reference": "Positive Discipline — Jane Nelsen",
-      "draft": true
+      "draft": false
     },
     {
       "day": 212,
