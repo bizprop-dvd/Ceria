@@ -562,13 +562,6 @@
       },
       "fields": [
         {
-          "type": "text",
-          "label": {
-            "en": "Month & Year",
-            "id": "Bulan & Tahun"
-          }
-        },
-        {
           "type": "longtext",
           "label": {
             "en": "1. What improved this month?",
@@ -603,7 +596,11 @@
             "id": "5. Satu perubahan yang akan saya bawa ke bulan depan."
           }
         }
-      ]
+      ],
+      "repeat": {
+        "kind": "month",
+        "count": 12
+      }
     }
   ]
 }

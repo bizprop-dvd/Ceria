@@ -57,7 +57,7 @@ interface AppContextValue {
   setWeekIntent: (week: number, role: Role, value: string) => void
   setSunday: (week: number, role: Role, value: string) => void
   setDebrief: (week: number, role: Role, index: number, value: string) => void
-  setToolField: (tool: number, index: number, value: string) => void
+  setToolField: (tool: number, index: number, value: string, instance?: number) => void
   toggleDayRead: (day: number) => void
   setWeekPhoto: (week: number, dataUri: string | null) => void
   setWeekMood: (week: number, mood: string | null) => void
@@ -208,13 +208,25 @@ export function AppProvider({ children }: { children: ReactNode }) {
       return { ...e, weekMood: next }
     })
   }, [])
-  const setToolField = useCallback((tool: number, index: number, value: string) => {
-    setEntries((e) => {
-      const arr = [...(e.tools[tool] ?? [])]
-      arr[index] = value
-      return { ...e, tools: { ...e.tools, [tool]: arr } }
-    })
-  }, [])
+  const setToolField = useCallback(
+    (tool: number, index: number, value: string, instance?: number) => {
+      setEntries((e) => {
+        // Repeatable tools (e.g. the monthly review) store one set of answers
+        // per instance under `${tool}:${instance}`; everything else keeps the
+        // original flat shape so existing saved answers stay put.
+        if (instance !== undefined) {
+          const key = `${tool}:${instance}`
+          const arr = [...(e.toolInstances?.[key] ?? [])]
+          arr[index] = value
+          return { ...e, toolInstances: { ...(e.toolInstances ?? {}), [key]: arr } }
+        }
+        const arr = [...(e.tools[tool] ?? [])]
+        arr[index] = value
+        return { ...e, tools: { ...e.tools, [tool]: arr } }
+      })
+    },
+    [],
+  )
 
   // ---- derived: which days have at least one non-empty answer ----
   const daysWithEntries = useMemo(() => {

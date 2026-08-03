@@ -26,6 +26,8 @@ export interface EntriesState {
   debrief: Record<number, Partial<Record<Role, string[]>>>
   /** optional toolkit field answers, keyed by tool number */
   tools: Record<number, string[]>
+  /** answers for repeatable tools, keyed `${tool}:${instance}` (e.g. "12:3" = tool 12, month 3) */
+  toolInstances: Record<string, string[]>
   /** days of the 365-day guide marked as read, keyed by day number */
   daysRead: Record<number, boolean>
   /** one optional photo per diary week, stored as a data URI on the device */
@@ -44,5 +46,6 @@ export function emptyEntries(): EntriesState {
     daysRead: {},
     weekPhotos: {},
     weekMood: {},
+    toolInstances: {},
   }
 }

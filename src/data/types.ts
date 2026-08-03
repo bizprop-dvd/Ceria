@@ -93,6 +93,8 @@ export interface ToolkitTool {
   purpose: Bilingual
   /** optional reference/helper lines shown above the fields (word banks, rules, examples) */
   guide?: BilingualList
+  /** tools meant to be filled repeatedly — e.g. the monthly review, once a month */
+  repeat?: { kind: 'month'; count: number }
   fields?: ToolkitField[]
   /** true when the field layout still must be extracted from the founder's PDF */
   _needsFields?: boolean
