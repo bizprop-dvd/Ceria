@@ -35,6 +35,10 @@ OVERRIDES = os.path.join(HERE, "id_overrides.json")
 
 sys.path.insert(0, HERE)
 from exercises_id import BY_EN as _EX  # noqa: E402
+# Authored, one distinct exercise per week and per month. The manuscript's own
+# exercises repeat — 12 texts across 52 weeks, one text across all 12 months —
+# so these take precedence and the manuscript stays as the fallback.
+from exercises import WEEKLY, MONTHLY  # noqa: E402
 
 # Keyed by the English text with whitespace normalised, since the source
 # strings are wrapped across lines in both places.
@@ -107,7 +111,7 @@ def main():
         {
             "n": w["n"],
             "range": w["range"],
-            "text": prose.get(f"week{w['n']}") or _exercise(_strip_prefix(w["text"])),
+            "text": WEEKLY.get(w["n"]) or _exercise(_strip_prefix(w["text"])),
         }
         for w in src["weekly_exercises"]
     ]
@@ -115,7 +119,7 @@ def main():
         {
             "n": m["n"],
             "range": m["range"],
-            "text": prose.get(f"month{m['n']}") or _exercise(_strip_prefix(m["text"])),
+            "text": MONTHLY.get(m["n"]) or _exercise(_strip_prefix(m["text"])),
         }
         for m in src["monthly_reviews"]
     ]
