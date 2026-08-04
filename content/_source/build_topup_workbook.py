@@ -9,8 +9,12 @@ This diffs the current content against a returned workbook and emits only the
 rows whose Indonesian is now different from what that reviewer saw. Same
 columns, same keys, so apply_review_workbook.py reads it back unchanged.
 
+Pass every workbook the reviewer has returned, oldest first. Approval
+accumulates across them: a wording signed off in an earlier round is not sent
+back just because a later file happened not to contain it.
+
 Usage:
-    python3 content/_source/build_topup_workbook.py path/to/returned.xlsx
+    python3 content/_source/build_topup_workbook.py returned1.xlsx [returned2.xlsx ...]
 Output:
     content/_source/out/Ceria_review_topup.xlsx
 """
@@ -29,28 +33,33 @@ OUT = pathlib.Path("content/_source/out/Ceria_review_topup.xlsx")
 def main():
     if len(sys.argv) < 2:
         sys.exit(__doc__)
-    returned = load_workbook(sys.argv[1])
 
     # What the reviewer had in front of them: key -> the Indonesian they saw,
-    # superseded by their own revision where they wrote one.
+    # superseded by their own revision where they wrote one. Later files win on
+    # a given key, but every wording from every round counts as approved.
     seen = {}
-    for ws in returned.worksheets:
-        if ws.title == "Baca dulu":
-            continue
-        for key, _where, _en, id_, revision, *_ in ws.iter_rows(min_row=3, max_col=6, values_only=True):
-            if not key:
+    for arg in sys.argv[1:]:
+        for ws in load_workbook(arg).worksheets:
+            if ws.title == "Baca dulu":
                 continue
-            seen[key] = (str(revision).strip() if revision and str(revision).strip() else id_)
+            for key, _where, _en, id_, revision, *_ in ws.iter_rows(
+                min_row=3, max_col=6, values_only=True
+            ):
+                if not key:
+                    continue
+                seen.setdefault(key, [])
+                seen[key].append(str(revision).strip() if revision and str(revision).strip() else id_)
 
-    # Every wording they signed off on, wherever it appeared. A string that moved
-    # to a different key is still reviewed text and must not be sent back.
-    approved = {v for v in seen.values() if v}
+    # Every wording they signed off on, wherever and whenever it appeared. A
+    # string that moved to a different key, or that an earlier round approved,
+    # is still reviewed text and must not be sent back.
+    approved = {v for vals in seen.values() for v in vals if v}
 
     rows = []
     for _title, _subtitle, sheet_rows, _note, _priority in base.collect():
         for row in sheet_rows:
             key, where, en, id_ = row
-            if seen.get(key) == id_ or id_ in approved:
+            if id_ in approved or id_ in seen.get(key, []):
                 continue
             rows.append([key, where, en, id_])
 
