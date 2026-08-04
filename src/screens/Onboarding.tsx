@@ -91,10 +91,10 @@ function EditionPick({
   return (
     <div className="flex flex-1 flex-col justify-center">
       <h2 className="font-head text-2xl font-semibold text-ceria-blue">
-        {lang === 'en' ? 'How will you journal?' : 'Bagaimana Anda akan menulis diari?'}
+        {lang === 'en' ? 'How will you journal?' : 'Bagaimana Anda ingin menggunakan diari ini?'}
       </h2>
       <p className="mt-1 text-sm text-ceria-gray">
-        {lang === 'en' ? 'You can change this anytime in More.' : 'Anda bisa mengubahnya kapan saja di Lainnya.'}
+        {lang === 'en' ? 'You can change this anytime in More.' : 'Pilihan ini dapat diubah kapan saja melalui menu Lainnya.'}
       </p>
       <div className="mt-6 space-y-3">
         <BigChoice
@@ -103,7 +103,7 @@ function EditionPick({
           subtitle={
             lang === 'en'
               ? 'Two gentle columns, one for each parent.'
-              : 'Dua kolom lembut, satu untuk setiap orang tua.'
+              : 'Dua kolom yang lembut, masing-masing untuk satu orang tua.'
           }
           onClick={() => onPick('combined')}
         />
@@ -111,7 +111,7 @@ function EditionPick({
           active={value === 'solo'}
           title={lang === 'en' ? 'Single parent' : 'Orang Tua Tunggal'}
           subtitle={
-            lang === 'en' ? 'A single space, just for you.' : 'Satu ruang, khusus untuk Anda.'
+            lang === 'en' ? 'A single space, just for you.' : 'Satu ruang pribadi, khusus untuk Anda.'
           }
           onClick={() => onPick('solo')}
         />

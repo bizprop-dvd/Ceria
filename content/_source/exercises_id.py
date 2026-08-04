@@ -9,72 +9,73 @@
 # distinct texts, one per chapter, repeated across that chapter's weeks, and
 # all 12 monthly reviews are the same sentence. So this file is keyed by the
 # English text rather than by week number — one entry per distinct string.
+#
+# The Indonesian below is the founder's reviewed wording, returned 2026-08-04.
 
 BY_EN = {
-    "Write one paragraph on how you want to be remembered by your child, then "
-    "identify one daily habit that supports that vision.":
-        "Tuliskan satu paragraf tentang bagaimana Anda ingin dikenang oleh anak Anda, "
-        "lalu tentukan satu kebiasaan harian yang mendukung gambaran itu.",
-
-    "Observe one child behavior this week and reinterpret it using development "
-    "rather than morality.":
-        "Amati satu perilaku anak minggu ini, lalu maknai ulang lewat tahap "
-        "perkembangannya, bukan lewat baik atau buruknya.",
-
-    "Track your top three parenting triggers this week and note what helped you "
-    "stay steadier.":
-        "Catat tiga pemicu terbesar Anda sebagai orang tua minggu ini, dan tuliskan apa "
-        "yang membantu Anda tetap lebih tenang.",
-
-    "Practice one empathy-first sentence every day this week before correcting "
-    "or directing.":
-        "Latih satu kalimat berempati setiap hari minggu ini, diucapkan sebelum Anda "
-        "menegur atau mengarahkan.",
-
-    "Choose one recurring behavior and create a calmer, clearer discipline plan "
-    "with one consistent follow-through.":
-        "Pilih satu perilaku yang berulang dan susun rencana pendisiplinan yang lebih "
-        "tenang dan jelas, dengan satu tindak lanjut yang konsisten.",
-
-    "At least three times this week, help your child name a feeling before "
-    "discussing behavior.":
-        "Setidaknya tiga kali minggu ini, bantu anak Anda menamai perasaannya sebelum "
+    "At least three times this week, help your child name a feeling before discussing "
+    "behavior.":
+        "Pada tiga kesempatan minggu ini, bantu anak menamai perasaannya sebelum "
         "membicarakan perilakunya.",
 
-    "Redesign one household friction point into a simple routine with fewer "
-    "reminders.":
-        "Rancang ulang satu titik gesekan di rumah menjadi rutinitas sederhana yang "
-        "butuh lebih sedikit pengingat.",
+    "Choose one recurring behavior and create a calmer, clearer discipline plan with "
+    "one consistent follow-through.":
+        "Pilih satu perilaku yang berulang, lalu susun respons disiplin yang lebih "
+        "tenang dan jelas dengan tindak lanjut yang konsisten.",
 
-    "Use an ABC log this week: Antecedent, Behavior, Consequence, for one "
-    "repeating issue.":
-        "Pakai catatan ABC minggu ini — Pemicu, Perilaku, Akibat — untuk satu persoalan "
-        "yang terus berulang.",
+    "Create one small daily responsibility for your child and keep it consistent for "
+    "the week.":
+        "Pilih satu tanggung jawab kecil setiap hari untuk anak, lalu dampingi secara "
+        "konsisten selama satu minggu.",
 
-    "Create one small daily responsibility for your child and keep it "
-    "consistent for the week.":
-        "Buat satu tanggung jawab harian yang kecil untuk anak Anda dan jalankan dengan "
-        "konsisten selama seminggu.",
+    "Identify one pressure point in your family context and make one compassionate "
+    "adjustment.":
+        "Kenali satu sumber tekanan dalam keadaan keluarga, lalu buat satu penyesuaian "
+        "yang penuh pengertian.",
 
-    "Schedule at least 10 minutes of undistracted one-on-one time on three "
-    "separate days this week.":
-        "Sediakan setidaknya 10 menit waktu berdua tanpa gangguan pada tiga hari yang "
+    "Observe one child behavior this week and reinterpret it using development rather "
+    "than morality.":
+        "Amati satu perilaku anak minggu ini, lalu cobalah memahaminya melalui tahap "
+        "perkembangan, bukan dengan menilainya sebagai baik atau buruk.",
+
+    "Practice one empathy-first sentence every day this week before correcting or "
+    "directing.":
+        "Gunakan satu kalimat empati setiap hari minggu ini sebelum mengoreksi atau "
+        "memberikan arahan.",
+
+    "Redesign one household friction point into a simple routine with fewer reminders.":
+        "Rancang ulang satu titik ketegangan di rumah menjadi rutinitas sederhana yang "
+        "memerlukan lebih sedikit pengingat.",
+
+    "Review your notes from the week and choose one family pattern to improve over the "
+    "next seven days.":
+        "Baca kembali catatan minggu ini, lalu pilih satu pola keluarga yang ingin "
+        "dibuat lebih baik dalam tujuh hari ke depan.",
+
+    "Schedule at least 10 minutes of undistracted one-on-one time on three separate "
+    "days this week.":
+        "Sediakan sekurangnya 10 menit waktu berdua tanpa gangguan pada tiga hari yang "
         "berbeda minggu ini.",
 
-    "Identify one pressure point in your family context and make one "
-    "compassionate adjustment.":
-        "Kenali satu titik tekanan dalam keadaan keluarga Anda, lalu buat satu "
-        "penyesuaian yang penuh belas kasih.",
+    "Track your top three parenting triggers this week and note what helped you stay "
+    "steadier.":
+        "Catat tiga hal yang paling mudah memancing emosi Anda minggu ini, lalu "
+        "tuliskan apa yang membantu Anda tetap lebih tenang.",
 
-    "Review your notes from the week and choose one family pattern to improve "
-    "over the next seven days.":
-        "Baca kembali catatan Anda minggu ini dan pilih satu pola keluarga untuk "
-        "diperbaiki dalam tujuh hari ke depan.",
+    "Use an ABC log this week: Antecedent, Behavior, Consequence, for one repeating "
+    "issue.":
+        "Gunakan Catatan ABC minggu ini—Pemicu, Perilaku, Akibat—untuk memahami satu "
+        "persoalan yang terus berulang.",
 
-    "What improved this month, what kept repeating, what triggered me most, "
-    "what helped my child most, and what one change will I carry into next "
-    "month?":
-        "Apa yang membaik bulan ini, apa yang terus berulang, apa yang paling memicu "
-        "saya, apa yang paling membantu anak saya, dan satu perubahan apa yang akan "
-        "saya bawa ke bulan depan?",
+    "What improved this month, what kept repeating, what triggered me most, what helped "
+    "my child most, and what one change will I carry into next month?":
+        "Apa yang membaik bulan ini? Apa yang terus berulang? Apa yang paling memancing "
+        "emosi saya? Apa yang paling membantu anak? Perubahan kecil apa yang ingin saya "
+        "teruskan ke bulan depan?",
+
+    "Write one paragraph on how you want to be remembered by your child, then identify "
+    "one daily habit that supports that vision.":
+        "Tuliskan satu paragraf tentang bagaimana Anda berharap anak mengenang "
+        "kehadiran Anda, lalu pilih satu kebiasaan kecil setiap hari yang mendukung "
+        "harapan tersebut.",
 }

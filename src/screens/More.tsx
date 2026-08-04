@@ -73,7 +73,7 @@ export default function More() {
           hint={
             lang === 'en'
               ? 'Parents shows Mama & Papa columns; Single parent shows one.'
-              : 'Orang Tua menampilkan kolom Mama & Papa; Orang Tua Tunggal menampilkan satu.'
+              : 'Edisi Orang Tua menampilkan kolom Mama dan Papa; Edisi Orang Tua Tunggal menampilkan satu kolom.'
           }
           stacked
         >
@@ -98,7 +98,7 @@ export default function More() {
               <p className="mt-0.5 text-xs text-ceria-gray">
                 {lang === 'en'
                   ? 'A gentle nudge to write a few lines. Optional, never pushy.'
-                  : 'Ajakan lembut untuk menulis beberapa baris. Opsional, tidak memaksa.'}
+                  : 'Pengingat lembut untuk menulis beberapa baris. Sepenuhnya opsional dan tidak memaksa.'}
               </p>
             </div>
             <Toggle on={reminderOn} onChange={toggleReminder} />
@@ -113,7 +113,7 @@ export default function More() {
               />
               {!isNative() && (
                 <span className="text-xs text-ceria-gray/80">
-                  {lang === 'en' ? 'Fires only on device' : 'Aktif hanya di perangkat'}
+                  {lang === 'en' ? 'Fires only on device' : 'Pengingat hanya aktif di perangkat ini'}
                 </span>
               )}
             </div>
@@ -127,7 +127,7 @@ export default function More() {
               <CheckIcon className="text-ceria-teal" />
               <div>
                 <p className="font-head text-[15px] font-semibold text-ceria-dark">
-                  {lang === 'en' ? 'Full access unlocked' : 'Akses penuh terbuka'}
+                  {lang === 'en' ? 'Full access unlocked' : 'Akses penuh sudah terbuka'}
                 </p>
                 <p className="text-xs text-ceria-gray">
                   {lang === 'en' ? 'Thank you for supporting Ceria.' : 'Terima kasih telah mendukung Ceria.'}
@@ -137,7 +137,7 @@ export default function More() {
           ) : (
             <button onClick={openPaywall} className="btn-primary w-full">
               <LockIcon width={18} height={18} />
-              {lang === 'en' ? 'Unlock everything' : 'Buka semuanya'}
+              {lang === 'en' ? 'Unlock everything' : 'Buka akses lengkap'}
             </button>
           )}
           <button
@@ -182,7 +182,7 @@ export default function More() {
           <p className="mt-3 text-[12px] leading-relaxed text-ceria-gray/85">
             {lang === 'en'
               ? 'Ceria offers general parenting education. It is not medical advice, therapy, or a substitute for care from a qualified professional. If you are worried about your child or yourself, please seek professional support.'
-              : 'Ceria menyediakan edukasi pengasuhan yang bersifat umum. Ini bukan nasihat medis, terapi, atau pengganti layanan tenaga profesional. Jika Anda khawatir tentang anak Anda atau diri Anda sendiri, mohon cari dukungan profesional.'}
+              : 'Ceria menyediakan edukasi pengasuhan yang bersifat umum. Ceria bukan nasihat medis, terapi, atau pengganti pendampingan dari tenaga profesional yang berkualifikasi. Bila Anda mengkhawatirkan kondisi anak atau diri Anda, silakan mencari dukungan profesional.'}
           </p>
         </div>
 

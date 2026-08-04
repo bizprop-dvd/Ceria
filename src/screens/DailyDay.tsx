@@ -69,7 +69,7 @@ export default function DailyDay() {
               />
             </div>
             <p className="mt-3 pl-9 text-[11px] uppercase tracking-[0.08em] text-ceria-gray">
-              {lang === 'en' ? 'Words you can use' : 'Kata yang bisa dipakai'}
+              {lang === 'en' ? 'Words you can use' : 'Kata-kata yang bisa dicoba'}
             </p>
           </section>
 
@@ -85,7 +85,7 @@ export default function DailyDay() {
                 className="text-[11px] font-semibold uppercase tracking-[0.08em]"
                 style={{ color: 'var(--ch-base)' }}
               >
-                {lang === 'en' ? 'Try this today' : 'Coba ini hari ini'}
+                {lang === 'en' ? 'Try this today' : 'Coba lakukan hari ini'}
               </p>
               <p className="mt-1 text-[15px] leading-relaxed text-ceria-dark">
                 {t(day.practice)}
@@ -96,7 +96,7 @@ export default function DailyDay() {
           {/* REFLECT — quiet, italic, no box. A question to sit with. */}
           <section className="mt-6 border-t border-ceria-cream-deep pt-5">
             <p className="text-[11px] uppercase tracking-[0.08em] text-ceria-gray">
-              {lang === 'en' ? 'Reflect' : 'Renungkan'}
+              {lang === 'en' ? 'Reflect' : 'Renungkan sejenak'}
             </p>
             <p className="mt-1.5 font-head text-[18px] italic leading-snug text-ceria-dark/85">
               {t(day.reflection)}
@@ -120,7 +120,7 @@ export default function DailyDay() {
                 : 'Selesai hari ini'
               : lang === 'en'
                 ? 'Mark as done'
-                : 'Tandai selesai'}
+                : 'Tandai sudah dilakukan'}
           </button>
 
           {/* SUPPORT — a quiet footnote. Never an alarm. */}

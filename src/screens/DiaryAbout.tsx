@@ -14,7 +14,7 @@ export default function DiaryAbout() {
         {/* Welcome */}
         <div className="card p-4">
           <h2 className="font-head text-lg font-semibold text-ceria-blue">
-            {lang === 'en' ? 'A note before you begin' : 'Sepatah kata sebelum memulai'}
+            {lang === 'en' ? 'A note before you begin' : 'Sedikit pengantar sebelum memulai'}
           </h2>
           <p className="mt-2 whitespace-pre-line text-[15px] leading-relaxed text-ceria-dark/85">
             {t(welcome)}

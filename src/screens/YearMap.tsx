@@ -38,7 +38,7 @@ export default function YearMap() {
               {daysReadCount === 0
                 ? lang === 'en'
                   ? 'The year is ahead of you'
-                  : 'Setahun terbentang di depan'
+                  : 'Satu tahun perjalanan ada di depan Anda'
                 : lang === 'en'
                   ? `${daysReadCount} days walked`
                   : `${daysReadCount} hari telah dijalani`}
@@ -46,7 +46,7 @@ export default function YearMap() {
             <p className="mt-0.5 text-sm text-ceria-gray">
               {lang === 'en'
                 ? 'There is no wrong pace. Skipped days stay open.'
-                : 'Tidak ada kecepatan yang salah. Hari yang terlewat tetap terbuka.'}
+                : 'Tidak ada ritme yang keliru. Hari yang terlewat tetap dapat dilanjutkan.'}
             </p>
           </div>
         </div>
@@ -114,7 +114,7 @@ export default function YearMap() {
         <p className="mt-6 text-center text-[12px] text-ceria-gray/80">
           {lang === 'en'
             ? 'Faded dots are days still being written.'
-            : 'Titik yang pudar adalah hari yang masih ditulis.'}
+            : 'Titik yang tampak samar menandai hari yang masih menunggu untuk dituliskan.'}
         </p>
       </div>
     </Screen>

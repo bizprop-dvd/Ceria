@@ -61,13 +61,13 @@ export default function Today() {
                 ? streak > 0
                   ? lang === 'en'
                     ? `${streak} ${streak === 1 ? 'day' : 'days'} of showing up`
-                    : `${streak} hari Anda hadir`
+                    : `${streak} hari meluangkan waktu untuk hadir`
                   : lang === 'en'
                     ? 'Written today'
                     : 'Sudah ditulis hari ini'
                 : lang === 'en'
                   ? 'A fresh page whenever you are ready'
-                  : 'Halaman baru kapan pun Anda siap'}
+                  : 'Halaman baru menunggu kapan pun Anda siap'}
             </p>
           </Link>
         )}

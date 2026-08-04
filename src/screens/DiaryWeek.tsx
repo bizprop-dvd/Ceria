@@ -48,7 +48,7 @@ export default function DiaryWeek() {
         {/* Start of week: intent */}
         <SectionHead
           n={1}
-          title={lang === 'en' ? 'Set your intent' : 'Tetapkan niat Anda'}
+          title={lang === 'en' ? 'Set your intent' : 'Tetapkan niat minggu ini'}
           note={lang === 'en' ? 'At the start of the week' : 'Di awal minggu'}
         />
         <div className="card p-4">
@@ -70,7 +70,7 @@ export default function DiaryWeek() {
         <SectionHead
           n={2}
           title={lang === 'en' ? 'Sunday reflection' : 'Refleksi Minggu'}
-          note={lang === 'en' ? 'Look back together' : 'Menengok kembali bersama'}
+          note={lang === 'en' ? 'Look back together' : 'Menengok kembali dengan tenang'}
         />
         <div className="card p-4">
           <PromptField
@@ -99,15 +99,15 @@ export default function DiaryWeek() {
         {/* 5-minute debrief */}
         <SectionHead
           n={4}
-          title={lang === 'en' ? '5-minute debrief' : 'Debrief 5 menit'}
+          title={lang === 'en' ? '5-minute debrief' : 'Refleksi 5 menit'}
           note={
             edition === 'combined'
               ? lang === 'en'
                 ? 'A short check-in for both of you'
-                : 'Obrolan singkat untuk kalian berdua'
+                : 'Percakapan singkat untuk Anda berdua'
               : lang === 'en'
                 ? 'A short check-in with yourself'
-                : 'Obrolan singkat dengan diri sendiri'
+                : 'Percakapan singkat dengan diri sendiri'
           }
         />
         <div className="card p-4">

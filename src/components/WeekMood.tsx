@@ -8,11 +8,11 @@ import { useApp } from '../store/AppContext'
  * them a failure.
  */
 export const MOODS = [
-  { key: 'steady', en: 'Steady', id: 'Stabil' },
+  { key: 'steady', en: 'Steady', id: 'Tenang' },
   { key: 'close', en: 'Close', id: 'Dekat' },
   { key: 'tiring', en: 'Tiring', id: 'Melelahkan' },
-  { key: 'stormy', en: 'Stormy', id: 'Bergejolak' },
-  { key: 'tender', en: 'Tender', id: 'Mengharukan' },
+  { key: 'stormy', en: 'Stormy', id: 'Penuh gejolak' },
+  { key: 'tender', en: 'Tender', id: 'Penuh kehangatan' },
 ] as const
 
 function MoodGlyph({ mood, active }: { mood: string; active: boolean }) {
@@ -74,7 +74,7 @@ export default function WeekMood({ week }: { week: number }) {
   return (
     <div>
       <p className="mb-2 font-head text-[15px] font-semibold text-ceria-dark">
-        {lang === 'en' ? 'How did this week feel?' : 'Bagaimana rasanya minggu ini?'}
+        {lang === 'en' ? 'How did this week feel?' : 'Bagaimana minggu ini terasa bagi Anda?'}
       </p>
       <div className="flex flex-wrap gap-2">
         {MOODS.map((m) => {
@@ -99,7 +99,7 @@ export default function WeekMood({ week }: { week: number }) {
       <p className="mt-2 text-[11px] text-ceria-gray/80">
         {lang === 'en'
           ? 'No week is a failing week. This is just weather.'
-          : 'Tidak ada minggu yang gagal. Ini hanya cuaca.'}
+          : 'Tidak ada minggu yang sia-sia. Ini hanya seperti cuaca—akan berlalu.'}
       </p>
     </div>
   )

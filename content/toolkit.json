@@ -5,7 +5,7 @@
     "note": "All 12 tools are complete, adapted for the app from Ceria_Family_Toolkit_COMPLETE.pdf. Print charts/grids are rendered as free-text fields; reference word banks and rules appear in each tool's guide. Tools 1-4 are free; 5-12 unlock with ceria_full_unlock.",
     "transparencyLine": {
       "en": "All proceeds support free Ceria family programs.",
-      "id": "Seluruh hasil mendukung program keluarga Ceria yang gratis."
+      "id": "Seluruh hasil penjualan mendukung program keluarga Ceria yang tersedia secara gratis."
     }
   },
   "tools": [
@@ -19,35 +19,35 @@
       },
       "purpose": {
         "en": "Clarify the three long-term qualities you most want to build in your child, so daily corrections can serve them.",
-        "id": "Perjelas tiga kualitas jangka panjang yang paling ingin Anda bangun dalam diri anak, agar teguran harian melayani tujuan itu."
+        "id": "Perjelas tiga kualitas jangka panjang yang paling ingin Anda tumbuhkan dalam diri anak, agar arahan sehari-hari tetap selaras dengan tujuan tersebut."
       },
       "fields": [
         {
           "type": "longtext",
           "label": {
             "en": "Three qualities I most hope my child develops",
-            "id": "Tiga kualitas yang paling saya harapkan tumbuh dalam diri anak"
+            "id": "Tiga kualitas yang paling saya harapkan bertumbuh dalam diri anak"
           }
         },
         {
           "type": "longtext",
           "label": {
             "en": "What I correct most often right now",
-            "id": "Apa yang paling sering saya tegur sekarang"
+            "id": "Hal yang paling sering saya koreksi saat ini"
           }
         },
         {
           "type": "longtext",
           "label": {
             "en": "Where these match — and where they miss",
-            "id": "Di mana keduanya cocok — dan di mana meleset"
+            "id": "Bagian yang sudah selaras—dan bagian yang belum"
           }
         },
         {
           "type": "longtext",
           "label": {
             "en": "One rule I will reframe from 'stop X' to 'build Y'",
-            "id": "Satu aturan yang akan saya ubah dari 'jangan X' menjadi 'bangun Y'"
+            "id": "Satu aturan yang akan saya ubah dari “jangan X” menjadi “mari membangun Y”"
           }
         }
       ],
@@ -69,7 +69,7 @@
       },
       "purpose": {
         "en": "Turn a frustrating behavior into a developmental lens, so you teach the missing skill instead of punishing immaturity.",
-        "id": "Ubah perilaku yang membuat frustrasi menjadi lensa perkembangan, agar Anda mengajarkan keterampilan yang belum dimiliki, bukan menghukum ketidakmatangan."
+        "id": "Lihat perilaku yang membuat Anda kewalahan melalui sudut pandang perkembangan, agar Anda dapat mengajarkan keterampilan yang masih dibutuhkan tanpa menghukum kemampuan yang memang belum matang."
       },
       "fields": [
         {
@@ -83,21 +83,21 @@
           "type": "text",
           "label": {
             "en": "What I first called it (naughty? lazy?)",
-            "id": "Apa yang awalnya saya sebut (nakal? malas?)"
+            "id": "Sebutan yang pertama muncul di pikiran saya (nakal? malas?)"
           }
         },
         {
           "type": "longtext",
           "label": {
             "en": "The age-typical thing that might be underneath",
-            "id": "Hal wajar sesuai usia yang mungkin ada di baliknya"
+            "id": "Hal yang wajar pada usia anak dan mungkin berada di baliknya"
           }
         },
         {
           "type": "longtext",
           "label": {
             "en": "The skill I can teach instead",
-            "id": "Keterampilan yang bisa saya ajarkan sebagai gantinya"
+            "id": "Keterampilan yang dapat saya bantu tumbuhkan"
           }
         }
       ]
@@ -112,7 +112,7 @@
       },
       "purpose": {
         "en": "Notice the patterns and body signals that precede losing your temper, so you can catch them earlier.",
-        "id": "Kenali pola dan sinyal tubuh yang mendahului hilangnya kesabaran, agar Anda bisa menangkapnya lebih awal."
+        "id": "Kenali pola dan sinyal tubuh yang muncul sebelum kesabaran menipis, agar Anda dapat menyadarinya lebih awal."
       },
       "fields": [
         {
@@ -161,7 +161,7 @@
           "type": "longtext",
           "label": {
             "en": "One daily anchor practice I will build",
-            "id": "Satu kebiasaan penenang harian yang akan saya bangun"
+            "id": "Satu kebiasaan harian yang membantu saya kembali tenang"
           }
         }
       ]
@@ -172,18 +172,18 @@
       "chapter": 4,
       "title": {
         "en": "Empathy-First Sentence Cards",
-        "id": "Kartu Kalimat Empati"
+        "id": "Kartu Kalimat yang Diawali Empati"
       },
       "purpose": {
         "en": "Build a small bank of empathy-first sentences you can reach for before correcting or directing.",
-        "id": "Bangun kumpulan kecil kalimat empati yang bisa Anda raih sebelum menegur atau mengarahkan."
+        "id": "Kumpulkan beberapa kalimat empati yang mudah Anda gunakan sebelum mengoreksi atau memberikan arahan."
       },
       "fields": [
         {
           "type": "longtext",
           "label": {
             "en": "My go-to empathy sentences (e.g. 'I can see this is hard right now')",
-            "id": "Kalimat empati andalan saya (mis. 'Mama tahu ini berat sekarang')"
+            "id": "Kalimat empati yang mudah saya gunakan (mis. “Mama tahu ini terasa berat untukmu sekarang”)"
           }
         },
         {
@@ -197,7 +197,7 @@
           "type": "longtext",
           "label": {
             "en": "What I noticed when I led with empathy",
-            "id": "Apa yang saya sadari ketika saya memulai dengan empati"
+            "id": "Hal yang saya sadari ketika memulai dengan empati"
           }
         }
       ]
@@ -212,14 +212,14 @@
       },
       "purpose": {
         "en": "Pre-decide a calm, consistent response to one recurring behavior.",
-        "id": "Tetapkan di awal respons yang tenang dan konsisten untuk satu perilaku berulang."
+        "id": "Siapkan terlebih dahulu respons yang tenang dan konsisten untuk satu perilaku yang berulang."
       },
       "guide": {
         "en": [
           "I commit to this plan for one week."
         ],
         "id": [
-          "Saya berkomitmen pada rencana ini selama satu minggu."
+          "Saya akan mencoba rencana ini secara konsisten selama satu minggu."
         ]
       },
       "fields": [
@@ -234,28 +234,28 @@
           "type": "longtext",
           "label": {
             "en": "The likely need or feeling underneath it",
-            "id": "Kebutuhan atau perasaan yang mungkin di baliknya"
+            "id": "Kebutuhan atau perasaan yang mungkin berada di baliknya"
           }
         },
         {
           "type": "longtext",
           "label": {
             "en": "The boundary (what I will and won't allow)",
-            "id": "Batasan (apa yang saya izinkan dan tidak)"
+            "id": "Batasan yang akan saya jaga dengan hangat dan konsisten"
           }
         },
         {
           "type": "longtext",
           "label": {
             "en": "My consistent response — every time",
-            "id": "Respons saya yang konsisten — setiap kali"
+            "id": "Respons konsisten yang akan saya gunakan setiap kali"
           }
         },
         {
           "type": "longtext",
           "label": {
             "en": "How I will repair if I lose my calm",
-            "id": "Cara saya memperbaiki jika saya hilang kendali"
+            "id": "Cara saya memulihkan hubungan bila sempat terbawa emosi"
           }
         }
       ]
@@ -270,7 +270,7 @@
       },
       "purpose": {
         "en": "Help your child build emotion vocabulary, one feeling at a time.",
-        "id": "Bantu anak membangun kosakata emosi, satu perasaan dalam satu waktu."
+        "id": "Bantu anak membangun kosakata emosi, satu perasaan pada satu waktu."
       },
       "guide": {
         "en": [
@@ -281,11 +281,11 @@
           "GLAD: proud · calm · loved · excited · playful · grateful"
         ],
         "id": [
-          "Kosakata perasaan untuk dibangun bersama, satu kata setiap kali:",
-          "MARAH: kesal · jengkel · murka · tersisih · cemburu · malu",
-          "SEDIH: kesepian · kecewa · terluka · kangen · lelah · berat hati",
-          "TAKUT: khawatir · gugup · tidak aman · malu-malu · kewalahan · ragu",
-          "SENANG: bangga · tenang · disayangi · bersemangat · ceria · bersyukur"
+          "Kosakata perasaan yang dapat dibangun bersama, satu kata pada satu waktu:",
+          "MARAH: kesal · jengkel · sangat marah · tersisih · cemburu · malu",
+          "SEDIH: kesepian · kecewa · terluka · rindu · lelah · berat hati",
+          "TAKUT: khawatir · gugup · merasa tidak aman · malu-malu · kewalahan · ragu",
+          "SENANG: bangga · tenang · merasa disayangi · bersemangat · ceria · bersyukur"
         ]
       },
       "fields": [
@@ -293,7 +293,7 @@
           "type": "longtext",
           "label": {
             "en": "Today my child felt… and I named it by saying…",
-            "id": "Hari ini anak saya merasa… dan saya menamainya dengan…"
+            "id": "Hari ini anak saya merasa… dan saya mencoba menamainya dengan berkata…"
           }
         }
       ]
@@ -304,18 +304,18 @@
       "chapter": 7,
       "title": {
         "en": "Friction-Point Redesigner",
-        "id": "Pemetaan Titik Gesekan"
+        "id": "Perancang Ulang Titik Ketegangan"
       },
       "purpose": {
         "en": "Redesign one daily transition that keeps causing conflict.",
-        "id": "Rancang ulang satu transisi harian yang terus memicu konflik."
+        "id": "Rancang ulang satu masa peralihan sehari-hari yang sering memicu ketegangan."
       },
       "guide": {
         "en": [
           "Common examples: morning rush · bedtime · screens off · homework start · mealtimes"
         ],
         "id": [
-          "Contoh umum: transisi pagi · waktu tidur · mematikan layar · mulai PR · waktu makan"
+          "Contoh umum: kesibukan pagi · waktu tidur · saat layar dimatikan · mulai mengerjakan PR · waktu makan"
         ]
       },
       "fields": [
@@ -323,21 +323,21 @@
           "type": "longtext",
           "label": {
             "en": "The friction point I'm choosing",
-            "id": "Titik gesekan yang saya pilih"
+            "id": "Titik ketegangan yang saya pilih"
           }
         },
         {
           "type": "longtext",
           "label": {
             "en": "What actually happens (concrete, no judgment)",
-            "id": "Apa yang sebenarnya terjadi (konkret, tanpa menghakimi)"
+            "id": "Apa yang sebenarnya terjadi (konkret dan tanpa menghakimi)"
           }
         },
         {
           "type": "longtext",
           "label": {
             "en": "My best guess at the root cause",
-            "id": "Dugaan terbaik saya tentang akar masalahnya"
+            "id": "Dugaan saya tentang penyebab yang paling mendasar"
           }
         },
         {
@@ -351,7 +351,7 @@
           "type": "longtext",
           "label": {
             "en": "7-day follow-up: did the change help? (note each day)",
-            "id": "Tinjauan 7 hari: apakah perubahan ini membantu? (catat tiap hari)"
+            "id": "Tinjauan 7 hari: apakah perubahan ini membantu? (catat setiap hari)"
           }
         }
       ]
@@ -366,7 +366,7 @@
       },
       "purpose": {
         "en": "Track Antecedent, Behavior, Consequence across incidents to find the function of a repeating behavior.",
-        "id": "Catat Pemicu, Perilaku, Akibat di beberapa kejadian untuk menemukan fungsi perilaku yang berulang."
+        "id": "Catat Pemicu, Perilaku, dan Akibat pada beberapa kejadian untuk memahami fungsi perilaku yang berulang."
       },
       "guide": {
         "en": [
@@ -374,8 +374,8 @@
           "When · Antecedent (what came before) · Behavior (what happened) · Consequence (what came after)"
         ],
         "id": [
-          "Untuk setiap kejadian, catat empat hal:",
-          "Kapan · Pemicu (apa yang mendahului) · Perilaku (apa yang terjadi) · Akibat (apa yang terjadi setelahnya)"
+          "Pada setiap kejadian, catat empat hal:",
+          "Kapan · Pemicu (apa yang terjadi sebelumnya) · Perilaku (apa yang terjadi) · Akibat (apa yang terjadi sesudahnya)"
         ]
       },
       "fields": [
@@ -383,14 +383,14 @@
           "type": "longtext",
           "label": {
             "en": "Incident log — track the same behavior across ~6 incidents (When → Antecedent → Behavior → Consequence)",
-            "id": "Catatan kejadian — lacak perilaku yang sama dalam ~6 kejadian (Kapan → Pemicu → Perilaku → Akibat)"
+            "id": "Catatan kejadian—amati perilaku yang sama pada sekitar 6 kejadian (Kapan → Pemicu → Perilaku → Akibat)"
           }
         },
         {
           "type": "longtext",
           "label": {
             "en": "The pattern I notice + one change for next week",
-            "id": "Pola yang saya lihat + satu perubahan minggu depan"
+            "id": "Pola yang saya lihat dan satu perubahan yang ingin saya coba minggu depan"
           }
         }
       ]
@@ -405,7 +405,7 @@
       },
       "purpose": {
         "en": "Give your child one small daily responsibility and hold it consistently.",
-        "id": "Beri anak satu tanggung jawab kecil harian dan pegang dengan konsisten."
+        "id": "Berikan satu tanggung jawab kecil setiap hari kepada anak dan dampingi secara konsisten."
       },
       "fields": [
         {
@@ -419,21 +419,21 @@
           "type": "longtext",
           "label": {
             "en": "The one responsibility (small, doable, daily)",
-            "id": "Satu tanggung jawab (kecil, bisa dilakukan, harian)"
+            "id": "Satu tanggung jawab yang kecil, realistis, dan dilakukan setiap hari"
           }
         },
         {
           "type": "longtext",
           "label": {
             "en": "7-day check-in with an encouragement note for each day (Mon–Sun)",
-            "id": "Catatan 7 hari dengan pesan apresiasi setiap hari (Sen–Min)"
+            "id": "Catatan 7 hari dengan satu pesan penyemangat setiap hari (Sen–Min)"
           }
         },
         {
           "type": "longtext",
           "label": {
             "en": "How did this responsibility change my child this week?",
-            "id": "Bagaimana tanggung jawab ini mengubah anak saya minggu ini?"
+            "id": "Apa yang dipelajari atau ditumbuhkan anak melalui tanggung jawab ini minggu ini?"
           }
         }
       ],
@@ -455,14 +455,14 @@
       },
       "purpose": {
         "en": "Track daily child-led, distraction-free connection time.",
-        "id": "Lacak waktu kedekatan harian yang dipimpin anak, tanpa distraksi."
+        "id": "Catat waktu kedekatan harian tanpa gangguan, dengan kegiatan yang dipilih anak."
       },
       "guide": {
         "en": [
           "Rules: phone away · child chooses the activity · no teaching, no correcting · just be with them."
         ],
         "id": [
-          "Aturan: HP disimpan · anak yang memilih kegiatan · tidak mengajari, tidak menegur · hanya hadir bersama."
+          "Panduan: simpan ponsel · biarkan anak memilih kegiatan · tanpa agenda mengajar atau mengoreksi · cukup hadir bersama."
         ]
       },
       "fields": [
@@ -496,7 +496,7 @@
           "type": "longtext",
           "label": {
             "en": "What kind of moments lit my child up most?",
-            "id": "Momen seperti apa yang paling membuat anak saya bersinar?"
+            "id": "Momen seperti apa yang paling membuat anak saya bersemangat dan hidup?"
           }
         }
       ]
@@ -511,14 +511,14 @@
       },
       "purpose": {
         "en": "Map your family's current pressures honestly, and lower one expectation to fit the season.",
-        "id": "Petakan tekanan keluarga Anda saat ini dengan jujur, lalu turunkan satu ekspektasi agar sesuai musim."
+        "id": "Petakan tekanan yang sedang dihadapi keluarga, lalu sesuaikan satu harapan agar lebih selaras dengan keadaan."
       },
       "guide": {
         "en": [
           "Rate each pressure 1–5, then name one compassionate adjustment for it."
         ],
         "id": [
-          "Beri nilai tiap tekanan 1–5, lalu sebutkan satu penyesuaian yang penuh kasih."
+          "Beri nilai setiap tekanan dari 1–5, lalu tuliskan satu penyesuaian yang penuh pengertian."
         ]
       },
       "fields": [
@@ -526,49 +526,49 @@
           "type": "longtext",
           "label": {
             "en": "Work / load — pressure (1–5) and one compassionate adjustment",
-            "id": "Pekerjaan / beban kerja — tekanan (1–5) dan satu penyesuaian"
+            "id": "Pekerjaan / beban kerja—tekanan (1–5) dan satu penyesuaian yang penuh pengertian"
           }
         },
         {
           "type": "longtext",
           "label": {
             "en": "Marriage / partnership — pressure (1–5) and one adjustment",
-            "id": "Pernikahan / pasangan — tekanan (1–5) dan satu penyesuaian"
+            "id": "Pernikahan / hubungan pasangan—tekanan (1–5) dan satu penyesuaian"
           }
         },
         {
           "type": "longtext",
           "label": {
             "en": "Finances — pressure (1–5) and one adjustment",
-            "id": "Keuangan — tekanan (1–5) dan satu penyesuaian"
+            "id": "Keuangan—tekanan (1–5) dan satu penyesuaian"
           }
         },
         {
           "type": "longtext",
           "label": {
             "en": "Extended family — pressure (1–5) and one adjustment",
-            "id": "Keluarga besar — tekanan (1–5) dan satu penyesuaian"
+            "id": "Keluarga besar—tekanan (1–5) dan satu penyesuaian"
           }
         },
         {
           "type": "longtext",
           "label": {
             "en": "Child's needs / behavior — pressure (1–5) and one adjustment",
-            "id": "Kebutuhan / perilaku anak — tekanan (1–5) dan satu penyesuaian"
+            "id": "Kebutuhan / perilaku anak—tekanan (1–5) dan satu penyesuaian"
           }
         },
         {
           "type": "longtext",
           "label": {
             "en": "Health / sleep — pressure (1–5) and one adjustment",
-            "id": "Kesehatan / tidur — tekanan (1–5) dan satu penyesuaian"
+            "id": "Kesehatan / tidur—tekanan (1–5) dan satu penyesuaian"
           }
         },
         {
           "type": "longtext",
           "label": {
             "en": "My one anchor practice this season",
-            "id": "Satu kebiasaan utama yang akan saya pegang musim ini"
+            "id": "Satu kebiasaan utama yang membantu saya tetap tenang pada masa ini"
           }
         }
       ],
@@ -587,14 +587,14 @@
       },
       "purpose": {
         "en": "Five questions, twenty minutes, once a month — where scattered effort turns into growth.",
-        "id": "Lima pertanyaan, dua puluh menit, sekali sebulan — tempat usaha yang berserakan berubah menjadi pertumbuhan."
+        "id": "Lima pertanyaan, dua puluh menit, sekali sebulan—tempat berbagai usaha kecil mulai terhubung dan bertumbuh."
       },
       "guide": {
         "en": [
           "Steady, daily love shapes more than any single perfect day."
         ],
         "id": [
-          "Cinta yang stabil setiap hari membentuk lebih banyak hal daripada satu hari yang sempurna."
+          "Kasih yang hadir dengan tenang setiap hari membentuk lebih banyak daripada satu hari yang sempurna."
         ]
       },
       "fields": [
@@ -609,7 +609,7 @@
           "type": "longtext",
           "label": {
             "en": "2. What kept repeating — what cycle didn't shift?",
-            "id": "2. Apa yang terus berulang — siklus apa yang belum berubah?"
+            "id": "2. Apa yang terus berulang—pola apa yang belum banyak berubah?"
           }
         },
         {
@@ -630,7 +630,7 @@
           "type": "longtext",
           "label": {
             "en": "5. One change I'll carry into next month.",
-            "id": "5. Satu perubahan yang akan saya bawa ke bulan depan."
+            "id": "5. Satu perubahan yang ingin saya teruskan ke bulan depan."
           }
         }
       ],

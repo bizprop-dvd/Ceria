@@ -17,7 +17,7 @@ export default function Diary() {
   return (
     <Screen
       title={lang === 'en' ? 'Diary' : 'Diari'}
-      subtitle={lang === 'en' ? '52 weeks · one gentle year' : '52 minggu · satu tahun yang lembut'}
+      subtitle={lang === 'en' ? '52 weeks · one gentle year' : '52 minggu · satu tahun yang dijalani dengan lembut'}
       right={
         <Link
           to="/diary/about"

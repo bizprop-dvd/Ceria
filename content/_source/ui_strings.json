@@ -57,7 +57,7 @@
     "file": "src/components/WeekMood.tsx",
     "line": 11,
     "en": "Steady",
-    "id": "Stabil"
+    "id": "Tenang"
   },
   {
     "file": "src/components/WeekMood.tsx",
@@ -75,31 +75,31 @@
     "file": "src/components/WeekMood.tsx",
     "line": 14,
     "en": "Stormy",
-    "id": "Bergejolak"
+    "id": "Penuh gejolak"
   },
   {
     "file": "src/components/WeekMood.tsx",
     "line": 15,
     "en": "Tender",
-    "id": "Mengharukan"
+    "id": "Penuh kehangatan"
   },
   {
     "file": "src/components/WeekMood.tsx",
     "line": 77,
     "en": "How did this week feel?",
-    "id": "Bagaimana rasanya minggu ini?"
+    "id": "Bagaimana minggu ini terasa bagi Anda?"
   },
   {
     "file": "src/components/WeekMood.tsx",
     "line": 100,
     "en": "No week is a failing week. This is just weather.",
-    "id": "Tidak ada minggu yang gagal. Ini hanya cuaca."
+    "id": "Tidak ada minggu yang sia-sia. Ini hanya seperti cuaca—akan berlalu."
   },
   {
     "file": "src/components/WeekPhoto.tsx",
     "line": 46,
     "en": "That image could not be added. Try another one.",
-    "id": "Gambar itu tidak bisa ditambahkan. Coba yang lain."
+    "id": "Gambar ini belum dapat ditambahkan. Silakan coba gambar lain."
   },
   {
     "file": "src/components/WeekPhoto.tsx",
@@ -141,7 +141,7 @@
     "file": "src/components/WeekPhoto.tsx",
     "line": 122,
     "en": "Stays on this phone with your entries. Never uploaded, and not added to your photo gallery.",
-    "id": "Tersimpan di ponsel ini bersama catatan Anda. Tidak pernah diunggah, dan tidak masuk ke galeri foto Anda."
+    "id": "Foto ini hanya tersimpan di ponsel bersama catatan Anda. Foto tidak diunggah dan tidak ditambahkan ke galeri."
   },
   {
     "file": "src/components/WeekRing.tsx",
@@ -153,7 +153,7 @@
     "file": "src/components/WeekRing.tsx",
     "line": 46,
     "en": "A few lines a day is the whole practice.",
-    "id": "Beberapa baris sehari — itulah seluruh latihannya."
+    "id": "Cukup beberapa baris sehari. Itulah inti latihannya."
   },
   {
     "file": "src/screens/DailyDay.tsx",
@@ -171,19 +171,19 @@
     "file": "src/screens/DailyDay.tsx",
     "line": 72,
     "en": "Words you can use",
-    "id": "Kata yang bisa dipakai"
+    "id": "Kata-kata yang bisa dicoba"
   },
   {
     "file": "src/screens/DailyDay.tsx",
     "line": 88,
     "en": "Try this today",
-    "id": "Coba ini hari ini"
+    "id": "Coba lakukan hari ini"
   },
   {
     "file": "src/screens/DailyDay.tsx",
     "line": 99,
     "en": "Reflect",
-    "id": "Renungkan"
+    "id": "Renungkan sejenak"
   },
   {
     "file": "src/screens/DailyDay.tsx",
@@ -195,7 +195,7 @@
     "file": "src/screens/DailyDay.tsx",
     "line": 121,
     "en": "Mark as done",
-    "id": "Tandai selesai"
+    "id": "Tandai sudah dilakukan"
   },
   {
     "file": "src/screens/DailyDay.tsx",
@@ -225,7 +225,7 @@
     "file": "src/screens/Diary.tsx",
     "line": 20,
     "en": "52 weeks · one gentle year",
-    "id": "52 minggu · satu tahun yang lembut"
+    "id": "52 minggu · satu tahun yang dijalani dengan lembut"
   },
   {
     "file": "src/screens/Diary.tsx",
@@ -255,7 +255,7 @@
     "file": "src/screens/DiaryAbout.tsx",
     "line": 17,
     "en": "A note before you begin",
-    "id": "Sepatah kata sebelum memulai"
+    "id": "Sedikit pengantar sebelum memulai"
   },
   {
     "file": "src/screens/DiaryAbout.tsx",
@@ -279,7 +279,7 @@
     "file": "src/screens/DiaryWeek.tsx",
     "line": 51,
     "en": "Set your intent",
-    "id": "Tetapkan niat Anda"
+    "id": "Tetapkan niat minggu ini"
   },
   {
     "file": "src/screens/DiaryWeek.tsx",
@@ -303,7 +303,7 @@
     "file": "src/screens/DiaryWeek.tsx",
     "line": 73,
     "en": "Look back together",
-    "id": "Menengok kembali bersama"
+    "id": "Menengok kembali dengan tenang"
   },
   {
     "file": "src/screens/DiaryWeek.tsx",
@@ -321,19 +321,19 @@
     "file": "src/screens/DiaryWeek.tsx",
     "line": 102,
     "en": "5-minute debrief",
-    "id": "Debrief 5 menit"
+    "id": "Refleksi 5 menit"
   },
   {
     "file": "src/screens/DiaryWeek.tsx",
     "line": 105,
     "en": "A short check-in for both of you",
-    "id": "Obrolan singkat untuk kalian berdua"
+    "id": "Percakapan singkat untuk Anda berdua"
   },
   {
     "file": "src/screens/DiaryWeek.tsx",
     "line": 108,
     "en": "A short check-in with yourself",
-    "id": "Obrolan singkat dengan diri sendiri"
+    "id": "Percakapan singkat dengan diri sendiri"
   },
   {
     "file": "src/screens/DiaryWeek.tsx",
@@ -495,7 +495,7 @@
     "file": "src/screens/More.tsx",
     "line": 74,
     "en": "Parents shows Mama & Papa columns; Single parent shows one.",
-    "id": "Orang Tua menampilkan kolom Mama & Papa; Orang Tua Tunggal menampilkan satu."
+    "id": "Edisi Orang Tua menampilkan kolom Mama dan Papa; Edisi Orang Tua Tunggal menampilkan satu kolom."
   },
   {
     "file": "src/screens/More.tsx",
@@ -519,19 +519,19 @@
     "file": "src/screens/More.tsx",
     "line": 99,
     "en": "A gentle nudge to write a few lines. Optional, never pushy.",
-    "id": "Ajakan lembut untuk menulis beberapa baris. Opsional, tidak memaksa."
+    "id": "Pengingat lembut untuk menulis beberapa baris. Sepenuhnya opsional dan tidak memaksa."
   },
   {
     "file": "src/screens/More.tsx",
     "line": 116,
     "en": "Fires only on device",
-    "id": "Aktif hanya di perangkat"
+    "id": "Pengingat hanya aktif di perangkat ini"
   },
   {
     "file": "src/screens/More.tsx",
     "line": 130,
     "en": "Full access unlocked",
-    "id": "Akses penuh terbuka"
+    "id": "Akses penuh sudah terbuka"
   },
   {
     "file": "src/screens/More.tsx",
@@ -543,7 +543,7 @@
     "file": "src/screens/More.tsx",
     "line": 140,
     "en": "Unlock everything",
-    "id": "Buka semuanya"
+    "id": "Buka akses lengkap"
   },
   {
     "file": "src/screens/More.tsx",
@@ -585,7 +585,7 @@
     "file": "src/screens/More.tsx",
     "line": 183,
     "en": "Ceria offers general parenting education. It is not medical advice, therapy, or a substitute for care from a qualified professional. If you are worried about your child or yourself, please seek professional support.",
-    "id": "Ceria menyediakan edukasi pengasuhan yang bersifat umum. Ini bukan nasihat medis, terapi, atau pengganti layanan tenaga profesional. Jika Anda khawatir tentang anak Anda atau diri Anda sendiri, mohon cari dukungan profesional."
+    "id": "Ceria menyediakan edukasi pengasuhan yang bersifat umum. Ceria bukan nasihat medis, terapi, atau pengganti pendampingan dari tenaga profesional yang berkualifikasi. Bila Anda mengkhawatirkan kondisi anak atau diri Anda, silakan mencari dukungan profesional."
   },
   {
     "file": "src/screens/Onboarding.tsx",
@@ -603,13 +603,13 @@
     "file": "src/screens/Onboarding.tsx",
     "line": 94,
     "en": "How will you journal?",
-    "id": "Bagaimana Anda akan menulis diari?"
+    "id": "Bagaimana Anda ingin menggunakan diari ini?"
   },
   {
     "file": "src/screens/Onboarding.tsx",
     "line": 97,
     "en": "You can change this anytime in More.",
-    "id": "Anda bisa mengubahnya kapan saja di Lainnya."
+    "id": "Pilihan ini dapat diubah kapan saja melalui menu Lainnya."
   },
   {
     "file": "src/screens/Onboarding.tsx",
@@ -621,7 +621,7 @@
     "file": "src/screens/Onboarding.tsx",
     "line": 104,
     "en": "Two gentle columns, one for each parent.",
-    "id": "Dua kolom lembut, satu untuk setiap orang tua."
+    "id": "Dua kolom yang lembut, masing-masing untuk satu orang tua."
   },
   {
     "file": "src/screens/Onboarding.tsx",
@@ -633,7 +633,7 @@
     "file": "src/screens/Onboarding.tsx",
     "line": 114,
     "en": "A single space, just for you.",
-    "id": "Satu ruang, khusus untuk Anda."
+    "id": "Satu ruang pribadi, khusus untuk Anda."
   },
   {
     "file": "src/screens/Onboarding.tsx",
@@ -657,7 +657,7 @@
     "file": "src/screens/Today.tsx",
     "line": 62,
     "en": "${streak} ${streak === 1 ? 'day' : 'days'} of showing up",
-    "id": "${streak} hari Anda hadir"
+    "id": "${streak} hari meluangkan waktu untuk hadir"
   },
   {
     "file": "src/screens/Today.tsx",
@@ -669,7 +669,7 @@
     "file": "src/screens/Today.tsx",
     "line": 68,
     "en": "A fresh page whenever you are ready",
-    "id": "Halaman baru kapan pun Anda siap"
+    "id": "Halaman baru menunggu kapan pun Anda siap"
   },
   {
     "file": "src/screens/Today.tsx",
@@ -777,7 +777,7 @@
     "file": "src/screens/ToolkitTool.tsx",
     "line": 197,
     "en": "Children you add here appear on every tool that works child by child.",
-    "id": "Anak yang Anda tambahkan di sini muncul di setiap alat yang bekerja per anak."
+    "id": "Anak yang Anda tambahkan di sini akan muncul pada setiap alat yang digunakan untuk masing-masing anak."
   },
   {
     "file": "src/screens/ToolkitTool.tsx",
@@ -831,7 +831,7 @@
     "file": "src/screens/YearMap.tsx",
     "line": 39,
     "en": "The year is ahead of you",
-    "id": "Setahun terbentang di depan"
+    "id": "Satu tahun perjalanan ada di depan Anda"
   },
   {
     "file": "src/screens/YearMap.tsx",
@@ -843,7 +843,7 @@
     "file": "src/screens/YearMap.tsx",
     "line": 47,
     "en": "There is no wrong pace. Skipped days stay open.",
-    "id": "Tidak ada kecepatan yang salah. Hari yang terlewat tetap terbuka."
+    "id": "Tidak ada ritme yang keliru. Hari yang terlewat tetap dapat dilanjutkan."
   },
   {
     "file": "src/screens/YearMap.tsx",
@@ -861,6 +861,6 @@
     "file": "src/screens/YearMap.tsx",
     "line": 115,
     "en": "Faded dots are days still being written.",
-    "id": "Titik yang pudar adalah hari yang masih ditulis."
+    "id": "Titik yang tampak samar menandai hari yang masih menunggu untuk dituliskan."
   }
 ]

@@ -196,7 +196,7 @@ export default function ToolkitTool() {
                 <p className="mt-1.5 text-[11px] text-ceria-gray/80">
                   {lang === 'en'
                     ? 'Children you add here appear on every tool that works child by child.'
-                    : 'Anak yang Anda tambahkan di sini muncul di setiap alat yang bekerja per anak.'}
+                    : 'Anak yang Anda tambahkan di sini akan muncul pada setiap alat yang digunakan untuk masing-masing anak.'}
                 </p>
               </div>
             )}

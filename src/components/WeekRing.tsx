@@ -45,7 +45,7 @@ export default function WeekRing({ week }: { week: number }) {
           <p className="mt-0.5 text-[13px] text-ceria-gray">
             {lang === 'en'
               ? 'A few lines a day is the whole practice.'
-              : 'Beberapa baris sehari — itulah seluruh latihannya.'}
+              : 'Cukup beberapa baris sehari. Itulah inti latihannya.'}
           </p>
         )}
       </div>

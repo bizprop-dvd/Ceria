@@ -45,7 +45,7 @@ export default function WeekPhoto({ week }: { week: number }) {
       setError(
         lang === 'en'
           ? 'That image could not be added. Try another one.'
-          : 'Gambar itu tidak bisa ditambahkan. Coba yang lain.',
+          : 'Gambar ini belum dapat ditambahkan. Silakan coba gambar lain.',
       )
     } finally {
       setBusy(false)
@@ -121,7 +121,7 @@ export default function WeekPhoto({ week }: { week: number }) {
       <p className="mt-2 text-[11px] leading-relaxed text-ceria-gray/80">
         {lang === 'en'
           ? 'Stays on this phone with your entries. Never uploaded, and not added to your photo gallery.'
-          : 'Tersimpan di ponsel ini bersama catatan Anda. Tidak pernah diunggah, dan tidak masuk ke galeri foto Anda.'}
+          : 'Foto ini hanya tersimpan di ponsel bersama catatan Anda. Foto tidak diunggah dan tidak ditambahkan ke galeri.'}
       </p>
 
       <input
