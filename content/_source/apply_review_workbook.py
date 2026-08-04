@@ -117,6 +117,13 @@ def resolve(key, docs):
     raise KeyError(key)
 
 
+def current_english(docs):
+    """key -> the English the app currently shows, for the stale-file guard."""
+    import build_review_workbook as base
+
+    return {row[0]: row[2] for _t, _s, rows, _n, _p in base.collect() for row in rows}
+
+
 def main():
     if len(sys.argv) < 2:
         sys.exit(__doc__)
@@ -138,8 +145,10 @@ def main():
 
     overrides = json.loads(OVERRIDES.read_text(encoding="utf-8")) if OVERRIDES.exists() else {}
 
+    live_en = current_english(docs)
+
     wb = load_workbook(path, read_only=True, data_only=True)
-    applied, ui, unchanged, failed = [], [], 0, []
+    applied, ui, unchanged, failed, stale = [], [], 0, [], []
     touched = set()
     n_overrides = 0
 
@@ -147,12 +156,20 @@ def main():
         if ws.title == "Baca dulu":
             continue
         for row in ws.iter_rows(min_row=3, max_col=5, values_only=True):
-            key, _where, _en, current, revision = row
+            key, _where, en, current, revision = row
             if not key or not revision or not str(revision).strip():
                 continue
             revision = str(revision).strip()
             if revision == (current or "").strip():
                 unchanged += 1
+                continue
+            # The English in the workbook must still be the English in the app.
+            # If it is not, this row was reviewed against content that has since
+            # been rewritten, and its Indonesian would land on a different
+            # sentence — so refuse it rather than create a mismatch.
+            live = live_en.get(key)
+            if live is not None and en is not None and live.strip() != str(en).strip():
+                stale.append((key, str(en).strip(), live.strip()))
                 continue
             if key.startswith("ui:"):
                 ui.append((key, current, revision))
@@ -174,13 +191,22 @@ def main():
             applied.append(key)
             touched.add(files[key.split(":")[0]])
 
-    total = len(applied) + n_overrides + len(ui) + unchanged + len(failed)
+    total = len(applied) + n_overrides + len(ui) + unchanged + len(failed) + len(stale)
     print(f"revisions found      : {total}")
     print(f"  applied to JSON    : {len(applied)}")
     print(f"  daily overrides    : {n_overrides}")
     print(f"  UI (edit by hand)  : {len(ui)}")
     print(f"  identical, skipped : {unchanged}")
     print(f"  unrecognised keys  : {len(failed)}")
+    print(f"  STALE, not applied : {len(stale)}")
+    if stale:
+        print("\n  These rows were reviewed against English that has since changed.")
+        print("  Applying them would put the Indonesian on a different sentence.")
+        print("  Rebuild the workbook and have those lines reviewed again.\n")
+        for key, was, now in stale[:5]:
+            print(f"    {key}\n      workbook English: {was[:80]}\n      current English : {now[:80]}")
+        if len(stale) > 5:
+            print(f"    … and {len(stale) - 5} more")
     for k in failed[:10]:
         print(f"      {k}")
     # A UI wording can appear in more than one component. The workbook shows it
