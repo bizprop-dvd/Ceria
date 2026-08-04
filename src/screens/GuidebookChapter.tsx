@@ -63,7 +63,7 @@ export default function GuidebookChapter() {
             {ch.reflection && (
               <div className="card mt-6 bg-ceria-cream-deep/50 p-4">
                 <p className="text-xs font-semibold uppercase tracking-wide text-ceria-pink">
-                  {lang === 'en' ? 'Reflect' : 'Renungkan'}
+                  {lang === 'en' ? 'Reflect' : 'Renungkan sejenak'}
                 </p>
                 <p className="mt-1 font-head text-[17px] italic leading-snug text-ceria-dark">
                   {t(ch.reflection)}

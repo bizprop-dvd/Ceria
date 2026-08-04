@@ -183,8 +183,22 @@ def main():
     print(f"  unrecognised keys  : {len(failed)}")
     for k in failed[:10]:
         print(f"      {k}")
+    # A UI wording can appear in more than one component. The workbook shows it
+    # once, so name every location that still carries the old text — editing
+    # only the keyed one leaves the same English rendering two ways.
+    strings = json.loads(
+        (ROOT / "content/_source/ui_strings.json").read_text(encoding="utf-8")
+    ) if (ROOT / "content/_source/ui_strings.json").exists() else []
     for key, before, after in ui:
-        print(f"\n  {key}\n    - {before}\n    + {after}")
+        _, path, line = key.split(":")[0], ":".join(key.split(":")[1:-1]), key.split(":")[-1]
+        also = [
+            f"{s['file']}:{s['line']}"
+            for s in strings
+            if s["id"] == before and f"{s['file']}:{s['line']}" != f"{path}:{line}"
+        ]
+        print(f"\n  {path}:{line}\n    - {before}\n    + {after}")
+        for loc in also:
+            print(f"    ALSO HERE: {loc}")
 
     if not write:
         print("\nDry run — nothing written. Re-run with --write to apply.")

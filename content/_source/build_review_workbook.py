@@ -189,14 +189,26 @@ def intro_rows(intro):
 
 
 def ui_rows(ui):
-    seen, rows = {}, []
+    """One row per distinct EN/ID pair, naming every place that pair appears.
+
+    Identical pairs are collapsed so the reviewer answers each wording once.
+    The row is keyed to the first location, but the others are listed in
+    column B — apply_review_workbook.py reports them, and a correction has to
+    reach all of them or the same English renders two ways in the app.
+    """
+    groups = {}
     for r in ui:
-        pair = (r["en"], r["id"])
-        if pair in seen:
-            continue
-        seen[pair] = True
-        where = r["file"].replace("src/", "").replace(".tsx", "").replace(".ts", "")
-        rows.append([f"ui:{r['file']}:{r['line']}", f"Antarmuka / UI\n{where}", r["en"], r["id"]])
+        groups.setdefault((r["en"], r["id"]), []).append(r)
+    rows = []
+    for (en, id_), hits in groups.items():
+        first = hits[0]
+        where = "\n".join(
+            h["file"].replace("src/", "").replace(".tsx", "").replace(".ts", "") for h in hits
+        )
+        extra = f"  (× {len(hits)})" if len(hits) > 1 else ""
+        rows.append(
+            [f"ui:{first['file']}:{first['line']}", f"Antarmuka / UI{extra}\n{where}", en, id_]
+        )
     return rows
 
 
