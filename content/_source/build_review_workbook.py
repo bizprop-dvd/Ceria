@@ -330,7 +330,8 @@ def write_readme(wb, sections):
         ws.cell(row=r, column=i).fill = PatternFill("solid", fgColor=CREAM_DEEP)
 
 
-def main():
+def collect():
+    """The whole review pack as (sheet, subtitle, rows, note, priority) tuples."""
     d = load("daily.json")
     g = load("guidebook.json")
     t = load("toolkit.json")
@@ -358,10 +359,14 @@ def main():
          intro_rows(intro), "Sudah ditinjau. Tidak perlu dikerjakan lagi.", DONE),
     ]
 
+    return plan
+
+
+def main():
     wb = Workbook()
     wb.remove(wb.active)
     sections = []
-    for title, subtitle, rows, note, priority in plan:
+    for title, subtitle, rows, note, priority in collect():
         n = write_sheet(wb, title, subtitle, rows)
         sections.append((title, n, note, priority))
     write_readme(wb, sections)
