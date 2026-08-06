@@ -81,7 +81,7 @@ const SHOTS = [
   ['#/guidebook/day/12', 'day-reading'],
   ['#/guidebook', 'chapters'],
   ['#/toolkit/1', 'toolkit'],
-  ['#/diary/week/1', 'diary'],
+  ['#/diary/1', 'diary'],
 ]
 
 const browser = await chromium.launch({ executablePath: CHROME })
@@ -127,6 +127,15 @@ for (const lang of ['id', 'en']) {
         await target.scrollIntoViewIfNeeded()
         await page.waitForTimeout(400)
       }
+    }
+    // A mistyped route redirects rather than 404s, and the shot then silently
+    // duplicates whatever screen it landed on. Fail loudly instead.
+    // '#/' is the app's home and normalises to '#/today'; anything else that
+    // moves means the route was wrong.
+    const norm = (h) => (h === '#/' || h === '' ? '#/today' : h)
+    const landed = norm(new URL(page.url()).hash)
+    if (landed !== norm(route)) {
+      errs.push(`${lang}/${name}: asked for ${route}, landed on ${landed}`)
     }
     await page.screenshot({ path: `${dir}/${name}.png` })
     process.stdout.write(`  ${lang}/${name}.png\n`)
