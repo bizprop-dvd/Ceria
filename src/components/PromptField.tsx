@@ -1,3 +1,4 @@
+import AutoTextarea from './AutoTextarea'
 import { useApp } from '../store/AppContext'
 import type { Role } from '../data/types'
 
@@ -47,9 +48,8 @@ export default function PromptField({
                 {ROLE_LABEL[role][lang]}
               </span>
             )}
-            <textarea
-              className="field resize-none"
-              rows={rows}
+            <AutoTextarea
+              minRows={rows}
               placeholder={placeholder}
               value={getValue(role)}
               onChange={(e) => onChange(role, e.target.value)}

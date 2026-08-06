@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Navigate, useParams } from 'react-router-dom'
+import AutoTextarea from '../components/AutoTextarea'
 import Screen from '../components/Screen'
 import ProvisionalNote from '../components/ProvisionalNote'
 import { toolByNumber } from '../data/content'
@@ -293,9 +294,8 @@ function FieldList({
               onChange={(e) => onChange(i, e.target.value)}
             />
           ) : (
-            <textarea
-              className="field resize-none"
-              rows={4}
+            <AutoTextarea
+              minRows={4}
               value={values[i] ?? ''}
               onChange={(e) => onChange(i, e.target.value)}
             />
