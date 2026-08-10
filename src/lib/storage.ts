@@ -26,4 +26,5 @@ export const KEYS = {
   settings: 'ceria.settings',
   entries: 'ceria.entries',
   purchase: 'ceria.purchase.mock',
+  googleSession: 'ceria.google.session',
 } as const

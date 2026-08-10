@@ -8,7 +8,18 @@ export interface Settings {
   startDate: string
   /** evening reminder time, or null if reminders are off */
   reminderTime: { hour: number; minute: number } | null
+  /**
+   * How often the diary is copied to the parent's own Google Drive.
+   *  - 'off'   nothing is uploaded; the manual backup file still works
+   *  - 'daily' once a day, the first time the app is opened
+   *  - 'live'  shortly after anything is written
+   */
+  backupMode: BackupMode
+  /** when the last successful Drive backup finished, ISO 8601 */
+  lastBackupAt: string | null
 }
+
+export type BackupMode = 'off' | 'daily' | 'live'
 
 export const DEFAULT_REMINDER = { hour: 20, minute: 0 }
 

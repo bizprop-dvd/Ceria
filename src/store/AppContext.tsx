@@ -10,6 +10,8 @@ import {
 } from 'react'
 import type { Bilingual, Edition, Lang, Role } from '../data/types'
 import { dayKey } from '../lib/dates'
+import { LIVE_DEBOUNCE_MS, dailyBackupDue, runBackup, type BackupOutcome } from '../lib/autoBackup'
+import type { BackupPayload } from '../lib/backup'
 import {
   checkEntitlement,
   configurePurchases,
@@ -34,6 +36,8 @@ const DEFAULT_SETTINGS: Settings = {
   edition: 'combined',
   startDate: dayKey(),
   reminderTime: null,
+  backupMode: 'off',
+  lastBackupAt: null,
 }
 
 interface AppContextValue {
@@ -73,6 +77,11 @@ interface AppContextValue {
   refreshPurchase: () => Promise<void>
   purchase: () => Promise<PurchaseResult>
   restore: () => Promise<PurchaseResult>
+
+  /** Upload to the parent's Drive right now. */
+  backupNow: () => Promise<BackupOutcome>
+  /** Replace everything on this device with the contents of a backup. */
+  applyBackup: (payload: BackupPayload) => void
 }
 
 const AppContext = createContext<AppContextValue | null>(null)
@@ -121,6 +130,55 @@ export function AppProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     if (ready) void setJSON(KEYS.entries, entries)
   }, [entries, ready])
+
+  // ---- automatic backup to the parent's own Drive ----
+  // Held in a ref so the timer below always sends the latest writing without
+  // the effect re-running (and restarting the timer) on every keystroke.
+  const backupSource = useRef({ settings, entries })
+  backupSource.current = { settings, entries }
+
+  const backupNow = useCallback(async () => {
+    const { settings: s, entries: e } = backupSource.current
+    const result = await runBackup(s, e)
+    if (result.status === 'done') setSettings((prev) => ({ ...prev, lastBackupAt: result.at }))
+    return result
+  }, [])
+
+  /**
+   * Restore. This replaces what is on the device rather than merging: two
+   * half-merged diaries would be worse than either one, and the parent has
+   * already been shown what the file contains and asked to confirm.
+   *
+   * lastBackupAt is deliberately not restored — it describes this device's
+   * upload history, not the backup's.
+   */
+  const applyBackup = useCallback((payload: BackupPayload) => {
+    setEntries({ ...emptyEntries(), ...payload.entries })
+    setSettings((prev) => ({
+      ...prev,
+      ...payload.settings,
+      onboarded: true,
+      lastBackupAt: prev.lastBackupAt,
+    }))
+  }, [])
+
+  // 'daily': once, on the first open of a new day.
+  useEffect(() => {
+    if (!ready || settings.backupMode !== 'daily') return
+    if (!dailyBackupDue(settings.lastBackupAt)) return
+    void backupNow()
+  }, [ready, settings.backupMode, settings.lastBackupAt, backupNow])
+
+  // 'live': after the writing stops, not on every character.
+  const liveTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+  useEffect(() => {
+    if (!ready || settings.backupMode !== 'live') return
+    if (liveTimer.current) clearTimeout(liveTimer.current)
+    liveTimer.current = setTimeout(() => void backupNow(), LIVE_DEBOUNCE_MS)
+    return () => {
+      if (liveTimer.current) clearTimeout(liveTimer.current)
+    }
+  }, [entries, ready, settings.backupMode, backupNow])
 
   // ---- reminder scheduling ----
   const lastReminder = useRef<string>('')
@@ -349,6 +407,8 @@ export function AppProvider({ children }: { children: ReactNode }) {
     refreshPurchase,
     purchase,
     restore,
+    backupNow,
+    applyBackup,
   }
 
   return <AppContext.Provider value={value}>{children}</AppContext.Provider>

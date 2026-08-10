@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Screen from '../components/Screen'
 import Segmented from '../components/Segmented'
+import BackupCard from '../components/BackupCard'
 import { useApp, DEFAULT_REMINDER } from '../store/AppContext'
 import { usePaywall } from '../components/PaywallProvider'
 import { isNative, resetMockPurchase } from '../lib/purchases'
@@ -119,6 +120,8 @@ export default function More() {
             </div>
           )}
         </div>
+
+        <BackupCard />
 
         {/* Unlock / status */}
         <div className="card p-4">
