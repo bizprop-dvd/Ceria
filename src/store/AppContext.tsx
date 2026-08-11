@@ -10,6 +10,7 @@ import {
 } from 'react'
 import type { Bilingual, Edition, Lang, Role } from '../data/types'
 import { dayKey } from '../lib/dates'
+import { addr, stamp } from './shared'
 import { LIVE_DEBOUNCE_MS, dailyBackupDue, runBackup, type BackupOutcome } from '../lib/autoBackup'
 import type { BackupPayload } from '../lib/backup'
 import {
@@ -285,11 +286,19 @@ export function AppProvider({ children }: { children: ReactNode }) {
           const key = `${tool}:${instance}`
           const arr = [...(e.toolInstances?.[key] ?? [])]
           arr[index] = value
-          return { ...e, toolInstances: { ...(e.toolInstances ?? {}), [key]: arr } }
+          return {
+            ...e,
+            toolInstances: { ...(e.toolInstances ?? {}), [key]: arr },
+            sharedEditedAt: stamp(e.sharedEditedAt ?? {}, addr.instanceField(tool, instance, index)),
+          }
         }
         const arr = [...(e.tools[tool] ?? [])]
         arr[index] = value
-        return { ...e, tools: { ...e.tools, [tool]: arr } }
+        return {
+          ...e,
+          tools: { ...e.tools, [tool]: arr },
+          sharedEditedAt: stamp(e.sharedEditedAt ?? {}, addr.toolField(tool, index)),
+        }
       })
     },
     [],
@@ -302,6 +311,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
     setEntries((e) => ({
       ...e,
       children: [...(e.children ?? []), { id: created, name: '' }],
+      sharedEditedAt: stamp(e.sharedEditedAt ?? {}, addr.child(created)),
     }))
     return created
   }, [])
@@ -313,6 +323,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
     setEntries((e) => ({
       ...e,
       toolPeriodCount: { ...(e.toolPeriodCount ?? {}), [tool]: created },
+      sharedEditedAt: stamp(e.sharedEditedAt ?? {}, addr.periodCount(tool)),
     }))
     return created
   }, [])
@@ -331,6 +342,9 @@ export function AppProvider({ children }: { children: ReactNode }) {
         ...e,
         children: (e.children ?? []).filter((c) => c.id !== id),
         toolInstances: answers,
+        // Tombstone: without it, merging with a phone that still has this child
+        // would bring them back.
+        sharedEditedAt: stamp(e.sharedEditedAt ?? {}, addr.childRemoved(id)),
       }
     })
   }, [])
@@ -339,6 +353,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
     setEntries((e) => ({
       ...e,
       children: (e.children ?? []).map((c) => (c.id === id ? { ...c, name } : c)),
+      sharedEditedAt: stamp(e.sharedEditedAt ?? {}, addr.child(id)),
     }))
   }, [])
 

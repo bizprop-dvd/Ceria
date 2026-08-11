@@ -53,6 +53,12 @@ export interface EntriesState {
   weekPhotos: Record<number, string>
   /** how the week felt, keyed by week number (see MOODS) */
   weekMood: Record<number, string>
+  /**
+   * When each shared field was last edited, keyed by the addresses in
+   * store/shared.ts. Only the family's shared work is stamped — the diary is
+   * never merged between phones, so it needs no timestamps.
+   */
+  sharedEditedAt: Record<string, number>
 }
 
 export function emptyEntries(): EntriesState {
@@ -68,5 +74,6 @@ export function emptyEntries(): EntriesState {
     toolInstances: {},
     children: [],
     toolPeriodCount: {},
+    sharedEditedAt: {},
   }
 }

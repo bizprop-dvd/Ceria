@@ -29,6 +29,11 @@ jobs:
       - name: Type-check
         run: npm run lint
 
+      # The merge logic decides what happens when two phones disagree; a bug
+      # there loses a parent's writing silently, so it is covered by tests.
+      - name: Test
+        run: npm test
+
       # `npm run build` runs `tsc -b && vite build`; this catches any error that
       # only surfaces during the production bundle.
       - name: Build

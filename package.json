@@ -10,6 +10,7 @@
     "preview": "vite preview",
     "build:preview": "vite build --config vite.preview.config.ts",
     "lint": "tsc -b --noEmit",
+    "test": "vitest run",
     "gen:diary": "node content/_generators/gen_diary.mjs",
     "cap:sync": "cap sync",
     "cap:add:android": "cap add android",
@@ -41,6 +42,7 @@
     "tailwindcss": "^3.4.13",
     "typescript": "^5.5.4",
     "vite": "^5.4.8",
-    "vite-plugin-singlefile": "^2.3.3"
+    "vite-plugin-singlefile": "^2.3.3",
+    "vitest": "^2.1.9"
   }
 }
