@@ -37,3 +37,4 @@ preview-dist/
 # changes wholesale each time. Rebuild with:
 #   npm run build:preview && python3 content/_source/build_artifact_page.py
 content/_source/out/ceria-app.html
+content/_source/out/illustration-brief.html
