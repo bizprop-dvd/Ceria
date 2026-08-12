@@ -22,6 +22,8 @@ export default function GuidebookChapter() {
    <div className="h-full" style={chapterVars(ch.number)}>
     <Screen back title={t(ch.title)} subtitle={lang === 'en' ? `Chapter ${ch.number}` : `Bab ${ch.number}`}>
       <article className="mx-auto max-w-prose pt-2">
+        <ChapterPicture chapter={ch.number} />
+
         {/* Principle */}
         <div className="card border-l-4 p-4" style={{ borderLeftColor: 'var(--ch-base)' }}>
           <p className="text-xs font-semibold uppercase tracking-wide" style={{ color: 'var(--ch-base)' }}>
@@ -99,6 +101,31 @@ export default function GuidebookChapter() {
       </article>
     </Screen>
    </div>
+  )
+}
+
+/**
+ * The chapter's illustration.
+ *
+ * No alt text on purpose: the picture says what the title and the principle
+ * directly beneath it already say, so describing it would only make a screen
+ * reader repeat the chapter twice. Its own background wash is painted behind it
+ * so the space is the right colour before the file has loaded, and the width
+ * and height are declared so nothing below it jumps when it arrives.
+ */
+function ChapterPicture({ chapter }: { chapter: number }) {
+  const theme = chapterTheme(chapter)
+  return (
+    <img
+      src={`./chapters/ch${String(chapter).padStart(2, '0')}.jpg`}
+      alt=""
+      aria-hidden
+      width={1200}
+      height={800}
+      decoding="async"
+      className="mb-4 block w-full rounded-2xl object-cover"
+      style={{ aspectRatio: '3 / 2', background: theme.tint }}
+    />
   )
 }
 
