@@ -152,25 +152,56 @@ export interface DailyDay {
   draft: boolean
 }
 
+/**
+ * What is known about a day without loading its chapter.
+ *
+ * Enough to list the day, link to it, and rotate its line of advice on the
+ * Today screen. The teaching itself arrives only when the day is opened.
+ */
+export type DailySummary = Pick<
+  DailyDay,
+  'day' | 'chapter' | 'title' | 'draft' | 'reflection' | 'script'
+>
+
 export interface DailyRangeItem {
   n: number
   range: [number, number]
   text: Bilingual
 }
 
-export interface DailyData {
-  meta: {
-    product: 'daily'
-    version: number
-    totalDays: number
-    freeThroughChapter: number
-    authoredDays: number
-    note: string
-  }
-  chapters: { number: number; dayStart: number; dayEnd: number; dayCount: number }[]
-  days: DailyDay[]
+export interface DailyMeta {
+  product: 'daily'
+  version: number
+  totalDays: number
+  freeThroughChapter: number
+  authoredDays: number
+  note: string
+}
+
+export interface DailyChapterRange {
+  number: number
+  dayStart: number
+  dayEnd: number
+  dayCount: number
+}
+
+/** content/daily/index.json — everything the app needs before a day is opened. */
+export interface DailyIndexData {
+  meta: DailyMeta
+  chapters: DailyChapterRange[]
+  days: DailySummary[]
   weeklyExercises: DailyRangeItem[]
   monthlyReviews: DailyRangeItem[]
+}
+
+/** content/daily/chNN.json — one chapter's full text, loaded on demand. */
+export interface DailyChapterData {
+  days: DailyDay[]
+}
+
+/** The whole guide in one object. Only the content pipeline still reads this. */
+export interface DailyData extends Omit<DailyIndexData, 'days'> {
+  days: DailyDay[]
 }
 
 /* ---------- Diary front-matter ("how this diary works") ---------- */

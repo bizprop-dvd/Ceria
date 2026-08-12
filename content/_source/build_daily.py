@@ -39,6 +39,7 @@ from exercises_id import BY_EN as _EX  # noqa: E402
 # exercises repeat — 12 texts across 52 weeks, one text across all 12 months —
 # so these take precedence and the manuscript stays as the fallback.
 from exercises import WEEKLY, MONTHLY  # noqa: E402
+import split_daily  # noqa: E402
 
 # Keyed by the English text with whitespace normalised, since the source
 # strings are wrapped across lines in both places.
@@ -156,6 +157,10 @@ def main():
     print(f"  weekly: {len(weekly)}  monthly: {len(monthly)}")
     if applied:
         print(f"  reviewed id overrides applied: {applied}")
+
+    # The app reads the split files, not this one. Rebuilding here means the two
+    # can never drift apart.
+    split_daily.main()
 
 
 def _apply_overrides(payload):

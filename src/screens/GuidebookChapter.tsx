@@ -1,7 +1,8 @@
+import { useEffect } from 'react'
 import { Navigate, useParams, Link, useNavigate } from 'react-router-dom'
 import Screen from '../components/Screen'
 import ProvisionalNote from '../components/ProvisionalNote'
-import { chapterByNumber, daysForChapter } from '../data/content'
+import { chapterByNumber, daysForChapter, loadChapterDays } from '../data/content'
 import { useApp } from '../store/AppContext'
 import { isUnlocked } from '../lib/freemium'
 import { chapterTheme, chapterVars } from '../lib/chapterTheme'
@@ -109,6 +110,13 @@ function DailyDays({ chapter, unlocked }: { chapter: number; unlocked: boolean }
   const read = entries.daysRead ?? {}
   const theme = chapterTheme(chapter)
   const navigate = useNavigate()
+
+  // Someone looking at this list is about to tap one of these days. Fetching
+  // the chapter's text now means the reading is already there when they do.
+  useEffect(() => {
+    if (unlocked) void loadChapterDays(chapter)
+  }, [chapter, unlocked])
+
   if (days.length === 0) return null
 
   return (

@@ -1,0 +1,1166 @@
+{
+  "days": [
+    {
+      "day": 1,
+      "chapter": 1,
+      "title": {
+        "en": "What effective parenting means",
+        "id": "Apa arti pengasuhan yang efektif"
+      },
+      "teaching": {
+        "en": "Effective parenting is not the production of instant obedience. It is the steady work of helping a child grow in five things: character, security, self-control, wisdom, and relationship. Everything in this guide serves those five.\n\nThis matters because your definition of success decides your daily behaviour. Define it narrowly — as quiet, as speed, as compliance — and every small mess becomes a battle you have to win. Define it as formation, and the same mess becomes a place to teach. Same child, same spilled cup, completely different parent.\n\nObedience is not the enemy here. A child does need to stop at the road. But obedience is a tool inside the larger job, not the job itself. When it becomes the whole goal, you get a child who behaves while watched and little else underneath.",
+        "id": "Pengasuhan yang efektif bukanlah tentang menghasilkan kepatuhan seketika. Pengasuhan adalah proses yang dijalani dengan tekun untuk membantu anak bertumbuh dalam lima hal: karakter, rasa aman, pengendalian diri, kebijaksanaan, dan hubungan. Seluruh isi panduan ini mendukung kelima hal tersebut.\n\nIni penting karena cara Anda memaknai keberhasilan akan memengaruhi respons Anda sehari-hari. Jika keberhasilan hanya dimaknai sebagai anak yang diam, cepat, dan patuh, setiap kekacauan kecil dapat terasa seperti masalah yang harus segera dimenangkan. Namun, jika dimaknai sebagai proses pertumbuhan, kekacauan yang sama dapat menjadi kesempatan untuk belajar bersama. Anaknya sama, susu yang tumpah pun sama, tetapi respons orang tua dapat sangat berbeda.\n\nKepatuhan tetap memiliki tempat. Anak memang perlu berhenti di tepi jalan. Namun, kepatuhan hanyalah salah satu bagian dari tugas pengasuhan yang lebih besar, bukan tujuan akhirnya. Ketika ia menjadi seluruh tujuan, anak mungkin belajar berperilaku baik hanya ketika diawasi, tanpa sungguh memahami alasan di baliknya."
+      },
+      "inPractice": {
+        "en": "A cup of milk goes over. One parent demands an instant cleanup and a neat apology. Another says, \"It happens — let's get the cloth together.\" The first has a clean floor. The second is raising a person.",
+        "id": "Segelas susu tumpah. Satu orang tua langsung meminta anak membersihkannya dan menyampaikan permintaan maaf saat itu juga. Yang lain berkata, \"Tidak apa-apa — ayo ambil lap bersama.\" Yang pertama mendapatkan lantai yang segera bersih. Yang kedua juga membantu anak belajar bertanggung jawab dengan ditemani."
+      },
+      "practice": {
+        "en": "Write down the three qualities you most hope your child carries into adulthood. Keep the list somewhere you will see it this week.",
+        "id": "Tuliskan tiga kualitas yang paling Anda harapkan anak bawa sampai dewasa. Simpan daftar itu di tempat yang akan Anda lihat minggu ini."
+      },
+      "reflection": {
+        "en": "If my child grew up to be exactly what I corrected them into this year, who would they become?",
+        "id": "Jika anak saya bertumbuh mengikuti hal-hal yang paling sering saya tekankan tahun ini, ia akan menjadi pribadi seperti apa?"
+      },
+      "script": {
+        "en": "\"It happens. Let's fix it together.\"",
+        "id": "\"Tidak apa-apa. Ayo kita bereskan bersama.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 2,
+      "chapter": 1,
+      "title": {
+        "en": "Parenting as guidance, not control",
+        "id": "Membimbing, bukan mengendalikan"
+      },
+      "teaching": {
+        "en": "Control aims at the next five minutes; guidance aims at the next twenty years.\n\nControl is not wrong — it is just small. It can be highly effective and still leave a child with no idea why the rule exists. Its weakness is that it only works while you are in the room, because the reason lives in you rather than in the child.\n\nGuidance is slower and less satisfying. It explains, it involves the child in the thinking, and it accepts a worse result today for a better one at fifteen. It teaches a child to carry the reason inside themselves — the only version that survives your absence, and the only version that still works when your child is bigger than you and no longer has to comply.",
+        "id": "Kendali menyasar lima menit ke depan; bimbingan menyasar dua puluh tahun ke depan.\n\nKendali tidak selalu keliru, tetapi jangkauannya terbatas. Kendali dapat menghasilkan kepatuhan, tetapi belum tentu membantu anak memahami alasan di balik sebuah aturan. Kelemahannya, ia hanya bekerja selama Anda ada di ruangan, karena alasannya masih berasal dari Anda, belum menjadi pemahaman anak sendiri.\n\nBimbingan mungkin terasa lebih lambat dan hasilnya tidak selalu langsung terlihat. Ia menjelaskan, melibatkan anak dalam berpikir, dan menerima bahwa hasil hari ini mungkin belum sempurna demi kemampuan yang lebih kuat di masa depan. Bimbingan membantu anak memahami dan membawa alasan itu dalam dirinya — agar pemahaman tersebut tetap ada ketika Anda tidak mendampinginya, dan satu-satunya yang masih berlaku ketika anak Anda lebih besar dari Anda dan tak lagi harus menurut."
+      },
+      "inPractice": {
+        "en": "\"Because I said so\" ends the conversation now. \"We stop at the road because cars cannot see you\" ends it forever, because the child can use the reason when you are not standing there.",
+        "id": "\"Pokoknya begitu\" mungkin menghentikan percakapan untuk sementara. \"Kita berhenti di jalan karena mobil tidak bisa melihatmu\" memberi anak alasan yang dapat ia gunakan bahkan ketika Anda tidak berada di sampingnya."
+      },
+      "practice": {
+        "en": "Pick one rule you enforce daily. Say the reason out loud once today, in one short sentence.",
+        "id": "Pilih satu aturan yang Anda tegakkan setiap hari. Ucapkan alasannya sekali hari ini, dalam satu kalimat pendek."
+      },
+      "reflection": {
+        "en": "Which of my rules could my child explain to someone else — and which would they only be able to obey?",
+        "id": "Aturan saya yang mana yang bisa dijelaskan anak kepada orang lain — dan yang mana yang hanya bisa dia patuhi?"
+      },
+      "script": {
+        "en": "\"Here's why this one matters to me.\"",
+        "id": "\"Ini alasannya kenapa hal ini penting buat Mama/Papa.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 3,
+      "chapter": 1,
+      "title": {
+        "en": "Long-term goal vs short-term obedience",
+        "id": "Tujuan jangka panjang dan kepatuhan sesaat"
+      },
+      "teaching": {
+        "en": "Almost every hard parenting moment is a choice between what works right now and what builds over years. Short-term obedience is loud and measurable. Long-term formation is quiet and slow, and it almost never gives you the satisfaction of winning the moment.",
+        "id": "Hampir setiap momen sulit dalam pengasuhan adalah pilihan antara yang berhasil sekarang dan yang terbangun bertahun-tahun. Kepatuhan sesaat biasanya lebih mudah terlihat dan diukur. Pertumbuhan jangka panjang berlangsung perlahan dan sering kali tidak memberikan hasil yang langsung terasa."
+      },
+      "inPractice": {
+        "en": "Threatening to leave the playground gets a child moving in ten seconds. Giving a five-minute warning takes longer today and builds a child who can manage transitions next year.",
+        "id": "Ancaman untuk meninggalkan taman mungkin membuat anak segera bergerak. Memberi aba-aba lima menit lebih lama hari ini, tapi membentuk anak yang bisa mengelola perpindahan tahun depan."
+      },
+      "practice": {
+        "en": "Notice one moment today where you chose speed. Ask what the slower version would have taught.",
+        "id": "Perhatikan satu momen hari ini ketika Anda memilih cara yang paling cepat. Tanyakan, apa yang mungkin dipelajari anak melalui pendekatan yang lebih perlahan."
+      },
+      "reflection": {
+        "en": "What am I willing to spend an extra two minutes on today, because it matters in ten years?",
+        "id": "Untuk apa saya rela menambah dua menit hari ini, karena hal itu berarti dalam sepuluh tahun?"
+      },
+      "script": {
+        "en": "\"We have five more minutes, then we go.\"",
+        "id": "\"Lima menit lagi, lalu kita pulang.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 4,
+      "chapter": 1,
+      "title": {
+        "en": "Temperament: children differ naturally",
+        "id": "Temperamen: anak memang berbeda-beda"
+      },
+      "teaching": {
+        "en": "Children arrive with a temperament already running — some cautious, some intense, some slow to warm, some in constant motion. Temperament is not character and it is not your doing. Parenting works best when it stops fighting a child's wiring and starts working with it.",
+        "id": "Anak lahir dengan temperamen yang sudah berjalan — ada yang berhati-hati, ada yang intens, ada yang butuh waktu menyesuaikan diri, ada yang tak berhenti bergerak. Temperamen bukan karakter, dan bukan hasil perbuatan Anda. Pengasuhan paling berhasil ketika berhenti melawan bawaan anak dan mulai bekerja dengannya."
+      },
+      "inPractice": {
+        "en": "A slow-to-warm child at a party is not being rude. Pushed to greet everyone, they shut down. Given ten quiet minutes at the edge of the room, they join on their own.",
+        "id": "Anak yang butuh waktu menyesuaikan diri di sebuah pesta bukan sedang tidak sopan. Didesak menyapa semua orang, dia menutup diri. Diberi sepuluh menit tenang di pinggir ruangan, dia bergabung dengan sendirinya."
+      },
+      "practice": {
+        "en": "Name your child's temperament in one honest word. Adjust one expectation today to fit it rather than fight it.",
+        "id": "Sebutkan temperamen anak Anda dalam satu kata yang jujur. Sesuaikan satu harapan hari ini agar cocok dengannya, bukan melawannya."
+      },
+      "reflection": {
+        "en": "Where am I asking my child to be a different kind of person rather than a better version of who they are?",
+        "id": "Di mana saya meminta anak menjadi orang yang berbeda, bukan versi yang lebih baik dari dirinya sendiri?"
+      },
+      "script": {
+        "en": "\"You take your time. I'll be right here.\"",
+        "id": "\"Pelan-pelan saja. Mama/Papa di sini.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "The Gardener and the Carpenter — Alison Gopnik",
+      "draft": false
+    },
+    {
+      "day": 5,
+      "chapter": 1,
+      "title": {
+        "en": "Developmentally appropriate expectations",
+        "id": "Harapan yang sesuai tahap perkembangan"
+      },
+      "teaching": {
+        "en": "A great deal of what parents call defiance is simply a child being asked for a skill they do not yet have. Waiting, sharing, sitting still and managing disappointment are all capacities that arrive on a schedule, and no amount of firmness moves that schedule forward.",
+        "id": "Banyak hal yang orang tua anggap sebagai pembangkangan sebenarnya hanyalah anak diminta melakukan keterampilan yang belum dia miliki. Menunggu, berbagi, duduk diam, dan mengelola kekecewaan adalah kemampuan yang datang sesuai jadwalnya, dan seberapa pun tegasnya Anda, jadwal itu tidak bisa dipercepat."
+      },
+      "inPractice": {
+        "en": "Asking a three-year-old to wait quietly through a forty-minute queue is not a discipline problem waiting to happen — it is a mismatch between the request and the child.",
+        "id": "Meminta anak tiga tahun menunggu diam dalam antrean empat puluh menit bukan masalah disiplin yang menunggu terjadi — itu ketidakcocokan antara permintaan dan kemampuan anak."
+      },
+      "practice": {
+        "en": "Take the behavior that frustrated you most this week and ask honestly whether the skill it requires has arrived yet.",
+        "id": "Ambil perilaku yang paling membuat Anda frustrasi minggu ini dan tanyakan dengan jujur apakah keterampilan yang dibutuhkannya sudah muncul."
+      },
+      "reflection": {
+        "en": "Am I disciplining a choice my child made, or a capacity they do not yet have?",
+        "id": "Apakah saya sedang mendisiplinkan pilihan anak, atau kemampuan yang belum dia miliki?"
+      },
+      "script": {
+        "en": "\"That's hard to do at your age. Let's make it smaller.\"",
+        "id": "\"Itu sulit untuk usiamu. Ayo kita perkecil dulu.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "The Gardener and the Carpenter — Alison Gopnik",
+      "draft": false
+    },
+    {
+      "day": 6,
+      "chapter": 1,
+      "title": {
+        "en": "Connection before correction",
+        "id": "Terhubung dulu, baru arahkan"
+      },
+      "teaching": {
+        "en": "A child who feels unseen cannot take in a lesson, however correct the lesson is. Connection is not a reward you give after good behavior; it is the condition that makes teaching possible at all. Thirty seconds of contact before the correction usually saves ten minutes of resistance after it.",
+        "id": "Anak yang merasa tidak dilihat tidak bisa menyerap pelajaran, sebenar apa pun pelajaran itu. Kedekatan bukan hadiah yang Anda berikan setelah anak berperilaku baik; ia adalah syarat yang membuat pengajaran mungkin terjadi. Tiga puluh detik kehadiran sebelum mengarahkan biasanya menghemat sepuluh menit perlawanan sesudahnya."
+      },
+      "inPractice": {
+        "en": "Instead of calling the correction across the room, kneel down, catch their eye, put a hand on their shoulder — then say the hard thing. The words land differently from that distance.",
+        "id": "Alih-alih memberi arahan dengan suara keras dari seberang ruangan, berjongkoklah, tatap matanya, letakkan tangan di bahunya — lalu sampaikan hal yang perlu dibicarakan. Kata-kata itu terasa berbeda dari jarak sedekat itu."
+      },
+      "practice": {
+        "en": "Before your next correction today, make contact first: eye level, one touch, one breath. Then speak.",
+        "id": "Sebelum arahan Anda berikutnya hari ini, buat kontak dulu: sejajar mata, satu sentuhan, satu tarikan napas. Baru bicara."
+      },
+      "reflection": {
+        "en": "Does my child feel met by me before they feel corrected by me?",
+        "id": "Apakah anak merasa dijumpai oleh saya sebelum merasa ditegur oleh saya?"
+      },
+      "script": {
+        "en": "\"Come here a second. I want to talk with you, not at you.\"",
+        "id": "\"Sini sebentar. Mama/Papa mau bicara denganmu, bukan memarahimu.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Peaceful Parent, Happy Kids — Laura Markham",
+      "draft": false
+    },
+    {
+      "day": 7,
+      "chapter": 1,
+      "title": {
+        "en": "Authoritative vs authoritarian parenting",
+        "id": "Pengasuhan berwibawa dan pengasuhan otoriter"
+      },
+      "teaching": {
+        "en": "This is the single most useful idea in parenting research, and the two words sound so alike that most people mix them up. They are close to opposites.\n\nEvery parenting style is a combination of just two things: how much warmth you give, and how much structure you hold. Put them on two axes and four styles appear.\n\nAUTHORITARIAN is high structure, low warmth — rules without relationship. \"Because I said so.\" It produces obedience while you are watching, and often anxiety, resentment or skilled concealment underneath.\n\nPERMISSIVE is high warmth, low structure — relationship without rules. The child feels loved but unsteered, and children who are unsteered are anxious, because someone has to be in charge and they suspect it is them.\n\nAUTHORITATIVE is high warmth AND high structure — clear expectations carried inside a warm relationship. This is the target. It is the pattern most consistently linked with children who do well on almost every measure.\n\nThe word you want is authoritative: firm and warm at the same time, in the same sentence, from the same person.",
+        "id": "Ini gagasan paling berguna dalam penelitian pengasuhan, dan dua katanya begitu mirip sampai kebanyakan orang tertukar. Keduanya nyaris berlawanan.\n\nSetiap gaya pengasuhan adalah gabungan dua hal saja: seberapa banyak kehangatan yang Anda beri, dan seberapa banyak struktur yang Anda pegang. Letakkan pada dua sumbu, dan muncullah empat gaya.\n\nOTORITER adalah struktur tinggi, kehangatan rendah — aturan tanpa hubungan. \"Pokoknya begitu.\" Ia menghasilkan kepatuhan selama Anda mengawasi, dan sering kecemasan, rasa kesal yang terpendam, atau kemahiran menyembunyikan di baliknya.\n\nPERMISIF adalah kehangatan tinggi, struktur rendah — hubungan tanpa aturan. Anak merasa disayangi tapi belum mendapat arah yang cukup jelas, dan anak yang belum mendapat arah yang cukup jelas menjadi cemas, karena harus ada yang memimpin dan dia curiga itu dirinya.\n\nBERWIBAWA adalah kehangatan tinggi DAN struktur tinggi — harapan yang jelas di dalam hubungan yang hangat. Inilah sasarannya. Pola ini paling konsisten dikaitkan dengan anak yang bertumbuh baik di hampir semua ukuran.\n\nKata yang Anda tuju adalah berwibawa: tegas dan hangat sekaligus, dalam kalimat yang sama, dari orang yang sama."
+      },
+      "inPractice": {
+        "en": "Same bedtime, four different homes. The authoritarian shouts it. The permissive abandons it. The uninvolved never set one. The authoritative says, \"I know you want to keep playing. Bedtime is still eight,\" and holds the line kindly.",
+        "id": "Jam tidur yang sama, empat rumah berbeda. Yang otoriter meneriakkannya. Yang permisif meninggalkannya. Yang tak terlibat tak pernah menetapkannya. Yang berwibawa berkata, \"Mama tahu kamu masih ingin main. Jam tidur tetap jam delapan,\" dan memegang batas itu dengan lembut."
+      },
+      "practice": {
+        "en": "Find yourself honestly on the grid below. Then take one rule you hold today and add warmth to it without removing the rule.",
+        "id": "Temukan posisi Anda dengan jujur pada tabel di bawah. Lalu ambil satu aturan yang Anda pegang hari ini dan tambahkan kehangatan tanpa menghapus aturannya."
+      },
+      "reflection": {
+        "en": "Which of the four am I on a good day — and which do I slide into when I am tired?",
+        "id": "Saya yang mana dari keempatnya di hari yang baik — dan saya tergelincir ke mana saat lelah?"
+      },
+      "script": {
+        "en": "\"I understand, and the answer is still no.\"",
+        "id": "\"Mama/Papa mengerti, dan jawabannya tetap tidak.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false,
+      "framework": {
+        "title": {
+          "en": "The four parenting styles",
+          "id": "Empat gaya pengasuhan"
+        },
+        "note": {
+          "en": "Warmth and structure are two separate dials, not one. Where are you today?",
+          "id": "Kehangatan dan struktur adalah dua hal yang dapat diatur secara terpisah. Di posisi mana Anda merasa berada hari ini?"
+        },
+        "entries": [
+          {
+            "name": {
+              "en": "Authoritative",
+              "id": "Berwibawa"
+            },
+            "tags": [
+              {
+                "en": "High warmth",
+                "id": "Kehangatan tinggi"
+              },
+              {
+                "en": "High structure",
+                "id": "Struktur tinggi"
+              }
+            ],
+            "looksLike": {
+              "en": "Clear rules, explained kindly, held consistently — and the relationship stays intact while you hold them.",
+              "id": "Aturan jelas, dijelaskan dengan ramah, dan dijaga secara konsisten—tanpa mengorbankan kedekatan dalam hubungan."
+            },
+            "outcome": {
+              "en": "The target. Children tend to be secure, self-controlled and willing to be influenced.",
+              "id": "Inilah arah yang dituju. Anak cenderung merasa aman, lebih mampu mengatur diri, dan terbuka menerima bimbingan."
+            }
+          },
+          {
+            "name": {
+              "en": "Authoritarian",
+              "id": "Otoriter"
+            },
+            "tags": [
+              {
+                "en": "Low warmth",
+                "id": "Kehangatan rendah"
+              },
+              {
+                "en": "High structure",
+                "id": "Struktur tinggi"
+              }
+            ],
+            "looksLike": {
+              "en": "Many rules, little explanation, obedience demanded. \"Because I said so.\"",
+              "id": "Banyak aturan, sedikit penjelasan, dan kepatuhan sangat ditekankan. “Pokoknya begitu.”"
+            },
+            "outcome": {
+              "en": "Compliance while watched; often anxiety, resentment, or better hiding rather than better choices.",
+              "id": "Anak mungkin patuh ketika diawasi, tetapi juga dapat merasa cemas, menyimpan rasa kesal, atau belajar menutupi perilaku alih-alih membuat pilihan yang lebih baik."
+            }
+          },
+          {
+            "name": {
+              "en": "Permissive",
+              "id": "Permisif"
+            },
+            "tags": [
+              {
+                "en": "High warmth",
+                "id": "Kehangatan tinggi"
+              },
+              {
+                "en": "Low structure",
+                "id": "Struktur rendah"
+              }
+            ],
+            "looksLike": {
+              "en": "Loving and close, but limits bend whenever they are pushed.",
+              "id": "Penuh kasih dan dekat, tetapi batas mudah berubah ketika anak mendesaknya."
+            },
+            "outcome": {
+              "en": "Children feel loved but unsteered, which often shows up as anxiety and difficulty with frustration.",
+              "id": "Anak merasa dicintai, tetapi belum memperoleh arah yang cukup jelas. Hal ini dapat terlihat sebagai kecemasan atau kesulitan menghadapi frustrasi."
+            }
+          },
+          {
+            "name": {
+              "en": "Uninvolved",
+              "id": "Kurang terlibat"
+            },
+            "tags": [
+              {
+                "en": "Low warmth",
+                "id": "Kehangatan rendah"
+              },
+              {
+                "en": "Low structure",
+                "id": "Struktur rendah"
+              }
+            ],
+            "looksLike": {
+              "en": "Little guidance and little connection — usually a sign the parent is depleted or overwhelmed, not uncaring.",
+              "id": "Sedikit bimbingan dan sedikit kedekatan—sering kali karena orang tua sedang sangat lelah atau kewalahan, bukan karena tidak peduli."
+            },
+            "outcome": {
+              "en": "The hardest start for a child. If this describes a season you are in, it is worth asking for support.",
+              "id": "Keadaan ini dapat terasa paling berat bagi anak. Bila ini menggambarkan masa yang sedang Anda jalani, mencari dukungan adalah langkah yang baik."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "day": 8,
+      "chapter": 1,
+      "title": {
+        "en": "Warmth and structure together",
+        "id": "Kehangatan dan struktur bersamaan"
+      },
+      "teaching": {
+        "en": "Yesterday named the four styles. Today is the practical heart of it: warmth and structure are two separate dials, and most parents turn one down to turn the other up.\n\nWarmth without structure leaves a child anxious, because nobody is steering. Structure without warmth leaves a child compliant but alone. The skill worth building is holding both at full strength in the same moment — which feels impossible at 7pm and is mostly a matter of practice.\n\nThe test is simple. When you are at your firmest, does your child still feel liked by you? If yes, you are being authoritative. If no, the structure dial went up and the warmth dial quietly went down.",
+        "id": "Kemarin kita menamai empat gaya. Hari ini inti praktisnya: kehangatan dan struktur adalah dua tombol terpisah, dan kebanyakan orang tua menurunkan yang satu untuk menaikkan yang lain.\n\nKehangatan tanpa struktur membuat anak cemas, karena tak ada yang memegang kemudi. Struktur tanpa kehangatan membuat anak patuh tapi sendirian. Keterampilan yang layak dibangun adalah memegang keduanya penuh di momen yang sama — yang terasa mustahil pukul tujuh malam, dan sebagian besar hanyalah soal latihan.\n\nUjinya sederhana. Saat Anda sedang paling tegas, apakah anak masih merasa disayangi oleh Anda? Jika ya, Anda sedang berwibawa. Jika tidak, tombol struktur naik dan tombol kehangatan diam-diam turun."
+      },
+      "inPractice": {
+        "en": "\"I'm not letting you hit your brother, and I'm not going anywhere\" holds the limit and the relationship in one sentence. The child hears both.",
+        "id": "\"Mama tidak akan membiarkan kamu memukul adik, dan Mama tidak akan pergi ke mana-mana\" memegang batas dan hubungan dalam satu kalimat. Anak mendengar keduanya."
+      },
+      "practice": {
+        "en": "Practise saying one limit today with warmth in the same breath — the rule and the reassurance together.",
+        "id": "Latih mengucapkan satu batasan hari ini dengan kehangatan dalam satu tarikan napas — aturan dan penenangan sekaligus."
+      },
+      "reflection": {
+        "en": "Which do I find harder to give when I am tired: the warmth or the structure?",
+        "id": "Mana yang lebih sulit saya berikan saat lelah: kehangatannya atau strukturnya?"
+      },
+      "script": {
+        "en": "\"I won't let you do that, and I'm staying right here.\"",
+        "id": "\"Mama/Papa tidak izinkan itu, dan Mama/Papa tetap di sini.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 9,
+      "chapter": 1,
+      "title": {
+        "en": "Why harshness backfires",
+        "id": "Mengapa kekerasan tidak membantu dalam jangka panjang"
+      },
+      "teaching": {
+        "en": "Harshness works quickly, which is exactly why it is so tempting. But it teaches a child to manage your reaction rather than their own behavior. Over time it produces better hiding, not better choices — and it spends the trust you will need when the stakes are higher.",
+        "id": "Kekerasan bekerja cepat, dan justru itulah yang membuatnya menggoda. Tapi ia mengajarkan anak mengelola reaksi Anda, bukan perilakunya sendiri. Seiring waktu ia menghasilkan kemampuan menyembunyikan yang lebih baik, bukan pilihan yang lebih baik — dan menghabiskan kepercayaan yang Anda butuhkan saat taruhannya lebih besar."
+      },
+      "inPractice": {
+        "en": "The child who breaks something and hides the pieces has not learned honesty. They have learned what happens when you find out.",
+        "id": "Anak yang memecahkan sesuatu lalu menyembunyikan pecahannya bukan sedang belajar kejujuran. Dia sedang belajar apa yang terjadi ketika Anda mengetahuinya."
+      },
+      "practice": {
+        "en": "Notice one moment today when you raised the volume. Ask what it actually taught, not what it stopped.",
+        "id": "Sadari satu momen hari ini saat Anda meninggikan suara. Tanyakan apa yang sebenarnya diajarkannya, bukan apa yang dihentikannya."
+      },
+      "reflection": {
+        "en": "Do I want my child to behave because they understand, or because they are afraid of me?",
+        "id": "Saya ingin anak berperilaku baik karena dia mengerti, atau karena dia takut kepada saya?"
+      },
+      "script": {
+        "en": "\"I'm going to lower my voice and start again.\"",
+        "id": "\"Mama/Papa akan pelankan suara dan mulai lagi.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 10,
+      "chapter": 1,
+      "title": {
+        "en": "Child behavior as communication",
+        "id": "Perilaku anak sebagai pesan"
+      },
+      "teaching": {
+        "en": "Behavior is a message sent by a child who cannot yet send it in words. Hitting often means overwhelmed. Whining often means depleted. Refusing often means powerless. Read the message and the behavior usually loses most of its force.",
+        "id": "Perilaku adalah pesan dari anak yang belum bisa menyampaikannya dengan kata. Memukul sering berarti kewalahan. Merengek sering berarti kehabisan tenaga. Menolak sering berarti merasa tidak berdaya. Bacalah pesannya, dan perilaku itu biasanya kehilangan sebagian besar kekuatannya."
+      },
+      "inPractice": {
+        "en": "The tantrum in the supermarket at 5pm is rarely about the sweets. It is about a tired child at the end of a long day with no words left.",
+        "id": "Tantrum di supermarket pukul lima sore jarang soal permennya. Itu soal anak lelah di penghujung hari panjang yang kehabisan kata-kata."
+      },
+      "practice": {
+        "en": "Take one repeated behavior and write what it might be saying, before deciding what to do about it.",
+        "id": "Ambil satu perilaku yang berulang dan tuliskan apa yang mungkin sedang disampaikannya, sebelum memutuskan tindakan."
+      },
+      "reflection": {
+        "en": "What has my child been trying to tell me that I have been answering as misbehavior?",
+        "id": "Apa yang selama ini coba disampaikan anak, tapi saya jawab sebagai perilaku yang dianggap sulit?"
+      },
+      "script": {
+        "en": "\"Something's going on. Help me understand it.\"",
+        "id": "\"Ada sesuatu, ya. Bantu Mama/Papa mengerti.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
+      "draft": false
+    },
+    {
+      "day": 11,
+      "chapter": 1,
+      "title": {
+        "en": "Co-regulation before self-regulation",
+        "id": "Menenangkan bersama sebelum anak belajar menenangkan diri"
+      },
+      "teaching": {
+        "en": "Children do not learn calm by being told to calm down. They borrow it from a steady adult nearby, again and again, until eventually they can generate it themselves. Your regulated nervous system is the teaching tool — long before any words you use.",
+        "id": "Anak tidak belajar tenang dengan disuruh tenang. Mereka meminjamnya dari orang dewasa yang stabil di dekatnya, berulang kali, sampai akhirnya mereka bisa memunculkannya sendiri. Sistem saraf Anda yang tenang adalah alat pengajarannya — jauh sebelum kata-kata apa pun yang Anda pakai."
+      },
+      "inPractice": {
+        "en": "Shouting \"CALM DOWN\" at an upset child has never once produced calm. Sitting beside them and slowing your own breathing frequently does.",
+        "id": "Meneriakkan \"TENANG!\" pada anak yang sedang kesal tidak pernah sekali pun menghasilkan ketenangan. Duduk di sampingnya dan memperlambat napas Anda sendiri sering kali berhasil."
+      },
+      "practice": {
+        "en": "The next time your child escalates, regulate yourself first and say nothing for thirty seconds.",
+        "id": "Lain kali anak Anda memuncak, tenangkan diri Anda lebih dulu, lalu beri jeda hening selama tiga puluh detik."
+      },
+      "reflection": {
+        "en": "Am I bringing calm into this moment, or adding to the storm?",
+        "id": "Apakah saya membawa ketenangan ke momen ini, atau menambah badainya?"
+      },
+      "script": {
+        "en": "\"I'm here. We'll wait for this to pass together.\"",
+        "id": "\"Mama/Papa di sini. Kita tunggu ini reda bersama.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "The Whole-Brain Child — Daniel J. Siegel & Tina Payne Bryson",
+      "draft": false
+    },
+    {
+      "day": 12,
+      "chapter": 1,
+      "title": {
+        "en": "Attachment basics",
+        "id": "Dasar-dasar kelekatan"
+      },
+      "teaching": {
+        "en": "Attachment is the working answer a child carries to one question: when I need someone, will they come? Built through thousands of ordinary responses — not grand gestures — it becomes the template for how safe the world feels and how much a child will let you influence them later.",
+        "id": "Kelekatan adalah jawaban yang dibawa anak atas satu pertanyaan: saat aku membutuhkan seseorang, apakah dia datang? Terbangun lewat ribuan respons biasa — bukan gestur besar — ia menjadi cetakan tentang seberapa aman dunia terasa dan seberapa besar anak mengizinkan Anda memengaruhinya kelak."
+      },
+      "inPractice": {
+        "en": "It is not the perfect response that builds security. It is the pattern: mostly coming, mostly noticing, mostly returning after you get it wrong.",
+        "id": "Bukan respons sempurna yang membangun rasa aman. Melainkan polanya: sebagian besar datang, sebagian besar menyadari, sebagian besar kembali setelah Anda keliru."
+      },
+      "practice": {
+        "en": "Count the small moments today when your child reached for you and you turned toward them. Aim for one more.",
+        "id": "Hitung momen kecil hari ini saat anak mencari Anda dan Anda berpaling kepadanya. Tambahkan satu lagi."
+      },
+      "reflection": {
+        "en": "When my child needs me, what do they expect to happen?",
+        "id": "Saat anak membutuhkan saya, apa yang dia harapkan terjadi?"
+      },
+      "script": {
+        "en": "\"I'm listening. Tell me.\"",
+        "id": "\"Mama/Papa dengar. Ceritakan.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Circle of Security Parenting — Cooper, Hoffman, Powell et al.",
+      "draft": false
+    },
+    {
+      "day": 13,
+      "chapter": 1,
+      "title": {
+        "en": "Secure base concept",
+        "id": "Membangun rumah yang terasa aman"
+      },
+      "teaching": {
+        "en": "A child explores in proportion to how safe home base feels. The braver child is usually not the one pushed hardest, but the one who knows exactly where to return. Security and independence are not opposites — one is the launching pad for the other.",
+        "id": "Anak menjelajah sebanding dengan rasa amannya terhadap rumah. Anak yang lebih berani biasanya bukan yang paling didorong, melainkan yang tahu persis ke mana harus kembali. Rasa aman dan kemandirian bukan lawan — yang satu adalah landasan bagi yang lain."
+      },
+      "inPractice": {
+        "en": "Watch a toddler at a playground: they move out, glance back to check you are still there, and move out further. The glance is the whole mechanism.",
+        "id": "Perhatikan balita di taman bermain: dia menjauh, menoleh memastikan Anda masih di sana, lalu menjauh lebih jauh lagi. Tolehan itulah seluruh mekanismenya."
+      },
+      "practice": {
+        "en": "Be findable today. When your child looks over, look back and let them see it.",
+        "id": "Jadilah mudah ditemukan hari ini. Saat anak menoleh, balas tatapannya dan biarkan dia melihatnya."
+      },
+      "reflection": {
+        "en": "Does my child know where home is when something goes wrong?",
+        "id": "Apakah anak tahu ke mana pulang saat ada yang tidak beres?"
+      },
+      "script": {
+        "en": "\"Go on — I'll be right here when you come back.\"",
+        "id": "\"Main saja — Mama/Papa di sini saat kamu kembali.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Circle of Security Parenting — Cooper, Hoffman, Powell et al.",
+      "draft": false
+    },
+    {
+      "day": 14,
+      "chapter": 1,
+      "title": {
+        "en": "Repair after conflict",
+        "id": "Memulihkan hubungan setelah momen tegang"
+      },
+      "teaching": {
+        "en": "Every parent ruptures the relationship sometimes — the sharp word, the unfair reaction, the door closed too hard. What shapes a child is not the absence of rupture but the presence of repair. Repair also teaches the exact skill you most want them to have in their own future relationships.",
+        "id": "Setiap orang tua terkadang mengalami momen ketika hubungan terasa renggang — kata yang tajam, reaksi yang tak adil, pintu yang ditutup terlalu keras. Yang penting bukanlah hubungan yang selalu tanpa kesalahan, melainkan kesediaan untuk memulihkannya. Proses memulihkan hubungan juga mengajarkan keterampilan yang paling Anda inginkan dia miliki dalam hubungannya kelak."
+      },
+      "inPractice": {
+        "en": "\"I was angry earlier and I spoke to you in a way I didn't like. That wasn't about you.\" It costs a minute and it repairs a great deal.",
+        "id": "\"Tadi Mama marah dan bicara dengan cara yang Mama sendiri tidak suka. Itu bukan salahmu.\" Butuh semenit, dan memperbaiki banyak hal."
+      },
+      "practice": {
+        "en": "If something went wrong between you today, go back and repair it before bed. Short is fine.",
+        "id": "Jika hari ini ada yang keliru di antara kalian, kembalilah dan perbaiki sebelum tidur. Singkat pun cukup."
+      },
+      "reflection": {
+        "en": "What is still unrepaired between my child and me from this week?",
+        "id": "Apa yang masih belum diperbaiki antara saya dan anak minggu ini?"
+      },
+      "script": {
+        "en": "\"I got that wrong earlier. Can we start again?\"",
+        "id": "\"Tadi Mama/Papa keliru. Boleh kita mulai lagi?\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Peaceful Parent, Happy Kids — Laura Markham",
+      "draft": false
+    },
+    {
+      "day": 15,
+      "chapter": 1,
+      "title": {
+        "en": "Progress over perfection",
+        "id": "Kemajuan, bukan kesempurnaan"
+      },
+      "teaching": {
+        "en": "Nobody parents well every day, and the standard was never every day. Research on secure attachment suggests parents get it right roughly a third of the time and repair much of the rest. Aim for the direction of travel, not a spotless record.",
+        "id": "Tidak ada yang mengasuh dengan baik setiap hari, dan standarnya memang bukan setiap hari. Penelitian tentang kelekatan aman menunjukkan orang tua tepat kira-kira sepertiga waktu, dan memperbaiki sebagian besar sisanya. Kejar arah perjalanannya, bukan catatan tanpa cela."
+      },
+      "inPractice": {
+        "en": "A parent who loses their temper on Tuesday and repairs on Wednesday is teaching more than a parent who never loses it and never has to model repair.",
+        "id": "Orang tua yang terbawa emosi pada hari Selasa lalu memulihkan hubungan pada hari Rabu mengajarkan sesuatu yang berharga: hubungan dapat diperbaiki setelah terjadi kesalahan."
+      },
+      "practice": {
+        "en": "Name one thing you did better this week than last month. Let it count.",
+        "id": "Sebutkan satu hal yang Anda lakukan lebih baik minggu ini dibanding bulan lalu. Akui itu."
+      },
+      "reflection": {
+        "en": "Am I measuring myself against a real parent, or an imaginary one?",
+        "id": "Saya mengukur diri dengan orang tua yang nyata, atau yang khayalan?"
+      },
+      "script": {
+        "en": "\"I'm still learning this too.\"",
+        "id": "\"Mama/Papa juga masih belajar.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 16,
+      "chapter": 1,
+      "title": {
+        "en": "Parenting under stress",
+        "id": "Mengasuh dalam tekanan"
+      },
+      "teaching": {
+        "en": "Your capacity to parent well is not a fixed trait — it moves with your sleep, your money worries, your marriage and your health. This is not an excuse; it is information. Parents who plan for their low-capacity hours do far better than parents who expect to be at their best always.",
+        "id": "Kapasitas Anda mengasuh dengan baik bukan sifat tetap — ia bergerak mengikuti tidur Anda, kekhawatiran keuangan, pernikahan, dan kesehatan Anda. Ini bukan pembenaran; ini informasi. Orang tua yang menyiapkan diri untuk jam-jam berkapasitas rendah jauh lebih baik daripada yang berharap selalu prima."
+      },
+      "inPractice": {
+        "en": "If 6pm is when you have least left, that is the hour to simplify: fewer demands, easier dinner, lower standards, earlier bath.",
+        "id": "Jika pukul enam sore adalah saat tenaga Anda paling sedikit, itulah jam untuk menyederhanakan: lebih sedikit tuntutan, makan malam yang mudah, standar yang diturunkan, mandi lebih awal."
+      },
+      "practice": {
+        "en": "Identify your lowest-capacity hour today and remove one demand from it.",
+        "id": "Kenali jam dengan kapasitas terendah Anda hari ini dan hapus satu tuntutan dari jam itu."
+      },
+      "reflection": {
+        "en": "What am I asking of myself at the hour I have least to give?",
+        "id": "Apa yang saya tuntut dari diri sendiri di jam saat saya paling tidak punya tenaga?"
+      },
+      "script": {
+        "en": "\"This is a hard week, not a hard child.\"",
+        "id": "\"Ini minggu yang berat, bukan anak yang sulit.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "UNICEF parenting resources — UNICEF",
+      "draft": false
+    },
+    {
+      "day": 17,
+      "chapter": 1,
+      "title": {
+        "en": "Intergenerational patterns",
+        "id": "Pola antargenerasi"
+      },
+      "teaching": {
+        "en": "You are parenting with a script you did not write. Some of it is a gift and some of it is inherited damage, and most parents cannot tell which is which until they look. Naming the script is what gives you a choice about keeping it.",
+        "id": "Anda mengasuh dengan naskah yang tidak Anda tulis. Sebagiannya adalah anugerah dan sebagiannya luka warisan, dan kebanyakan orang tua tak bisa membedakan keduanya sampai mereka menengoknya. Menamai naskah itulah yang memberi Anda pilihan untuk menyimpannya atau tidak."
+      },
+      "inPractice": {
+        "en": "A parent who was never comforted when upset often finds a crying child unbearable — not from lack of love, but because nobody ever showed them what comfort looks like.",
+        "id": "Orang tua yang dulu tak pernah ditenangkan saat sedih sering merasa tak tahan melihat anak menangis — bukan karena kurang sayang, tapi karena tak ada yang pernah menunjukkan seperti apa rupa penghiburan."
+      },
+      "practice": {
+        "en": "Name one thing from your childhood you are keeping on purpose, and one you are deliberately not passing on.",
+        "id": "Sebutkan satu hal dari masa kecil Anda yang sengaja Anda pertahankan, dan satu yang sengaja tidak Anda wariskan."
+      },
+      "reflection": {
+        "en": "Which of my reactions belong to my childhood rather than to my child?",
+        "id": "Reaksi saya yang mana yang sebenarnya milik masa kecil saya, bukan milik anak saya?"
+      },
+      "script": {
+        "en": "\"I get to choose what I pass on.\"",
+        "id": "\"Saya yang memilih apa yang saya wariskan.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "The Book You Wish Your Parents Had Read — Philippa Perry",
+      "draft": false
+    },
+    {
+      "day": 18,
+      "chapter": 1,
+      "title": {
+        "en": "Triggers from your own childhood",
+        "id": "Pemicu dari masa kecil Anda"
+      },
+      "teaching": {
+        "en": "A trigger is the moment your reaction is far larger than the event. That gap is almost always old. Disrespect, mess, noise, being ignored — each parent has their own, and the reaction belongs to a much younger version of you.",
+        "id": "Pemicu adalah momen ketika reaksi Anda jauh lebih besar daripada peristiwanya. Jarak itu hampir selalu berasal dari masa lalu. Ketidaksopanan, berantakan, berisik, diabaikan — setiap orang tua punya pemicunya sendiri, dan reaksinya milik versi diri Anda yang jauh lebih muda."
+      },
+      "inPractice": {
+        "en": "If an eye-roll produces rage out of all proportion, the rage is rarely about the eye-roll. It is about what an eye-roll once meant in your house.",
+        "id": "Jika mata yang memutar memicu kemarahan yang tidak sebanding, kemarahan itu jarang soal mata memutarnya. Itu soal apa arti mata memutar dulu di rumah Anda."
+      },
+      "practice": {
+        "en": "Write down your top three triggers. Notice the one most likely to appear today.",
+        "id": "Tuliskan tiga pemicu terbesar Anda. Sadari mana yang paling mungkin muncul hari ini."
+      },
+      "reflection": {
+        "en": "What does my biggest trigger remind me of, when I am honest?",
+        "id": "Kalau saya jujur, pemicu terbesar saya mengingatkan saya pada apa?"
+      },
+      "script": {
+        "en": "\"This feeling is old. It isn't about my child.\"",
+        "id": "\"Perasaan ini lama. Ini bukan tentang anak saya.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Raising Good Humans — Hunter Clarke-Fields",
+      "draft": false
+    },
+    {
+      "day": 19,
+      "chapter": 1,
+      "title": {
+        "en": "Shame vs responsibility",
+        "id": "Rasa malu dan tanggung jawab"
+      },
+      "teaching": {
+        "en": "Responsibility says \"you did something wrong.\" Shame says \"there is something wrong with you.\" The first grows a conscience; the second grows concealment. The line between them is usually a single word — the difference between naming the act and naming the child.",
+        "id": "Tanggung jawab berkata \"kamu melakukan hal yang salah.\" Rasa malu berkata \"ada yang salah dengan dirimu.\" Yang pertama menumbuhkan hati nurani; yang kedua menumbuhkan kebiasaan menyembunyikan. Batas keduanya biasanya satu kata — beda antara menyebut perbuatannya dan menyebut anaknya."
+      },
+      "inPractice": {
+        "en": "\"That was a lie and lying breaks trust\" teaches. \"You are a liar\" labels — and children grow into the labels we hand them.",
+        "id": "\"Itu bohong, dan bohong merusak kepercayaan\" mengajarkan. \"Kamu pembohong\" melabeli — dan anak tumbuh menjadi label yang kita berikan."
+      },
+      "practice": {
+        "en": "Catch one correction today and check it names the behavior, not the child.",
+        "id": "Perhatikan satu teguran hari ini dan pastikan ia menyebut perilakunya, bukan anaknya."
+      },
+      "reflection": {
+        "en": "Do my corrections tell my child they made a bad choice, or that they are bad?",
+        "id": "Apakah cara saya mengoreksi memberi tahu anak bahwa dia salah memilih, atau bahwa dia buruk?"
+      },
+      "script": {
+        "en": "\"That choice wasn't okay. You are.\"",
+        "id": "\"Pilihan itu tidak benar. Tapi kamu tetap baik.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 20,
+      "chapter": 1,
+      "title": {
+        "en": "The role of empathy",
+        "id": "Peran empati"
+      },
+      "teaching": {
+        "en": "Empathy is not agreement and it is not surrender. It is showing a child that their experience registered with you before you deal with the behavior. Children who feel understood argue less, because most of the fight was about not being understood in the first place.",
+        "id": "Empati bukan persetujuan dan bukan menyerah. Ia adalah menunjukkan kepada anak bahwa pengalamannya tercatat oleh Anda sebelum Anda menangani perilakunya. Anak yang merasa dimengerti lebih sedikit membantah, karena sebagian besar pertengkarannya memang tentang tidak dimengerti."
+      },
+      "inPractice": {
+        "en": "\"You really wanted to keep playing, and it's time to stop\" gets further than \"stop making a fuss\" — and it does not concede the limit at all.",
+        "id": "\"Kamu benar-benar masih ingin main, dan sekarang waktunya berhenti\" lebih berhasil daripada \"jangan rewel\" — dan sama sekali tidak melunakkan batasannya."
+      },
+      "practice": {
+        "en": "Say the feeling out loud once today before you say the rule.",
+        "id": "Ucapkan perasaannya sekali hari ini sebelum Anda menyebut aturannya."
+      },
+      "reflection": {
+        "en": "How often does my child hear me name what they are feeling?",
+        "id": "Seberapa sering anak mendengar saya menyebutkan apa yang dia rasakan?"
+      },
+      "script": {
+        "en": "\"You wanted that a lot. That's hard.\"",
+        "id": "\"Kamu sangat menginginkannya. Itu berat, ya.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 21,
+      "chapter": 1,
+      "title": {
+        "en": "Firmness without anger",
+        "id": "Tegas tanpa harus marah"
+      },
+      "teaching": {
+        "en": "Firmness is about the limit; anger is about your state. They travel together so often that many parents believe they need the anger to hold the line. They do not. A limit held calmly is actually harder for a child to argue with than one held loudly.",
+        "id": "Ketegasan adalah soal batasannya; kemarahan adalah soal kondisi Anda. Keduanya begitu sering datang bersamaan sampai banyak orang tua percaya mereka butuh marah untuk memegang batas. Tidak. Batas yang dipegang dengan tenang justru lebih sulit dibantah anak daripada yang dipegang dengan suara keras."
+      },
+      "inPractice": {
+        "en": "The quiet \"no, and I mean it\" tends to end a negotiation faster than shouting, because there is nothing in it for the child to push against.",
+        "id": "\"Tidak, dan Mama serius\" yang diucapkan pelan cenderung mengakhiri tawar-menawar lebih cepat daripada teriakan, karena tak ada yang bisa didorong balik oleh anak."
+      },
+      "practice": {
+        "en": "Hold one limit today at half your usual volume and notice what changes.",
+        "id": "Pegang satu batasan hari ini dengan setengah volume biasa Anda, dan perhatikan apa yang berubah."
+      },
+      "reflection": {
+        "en": "Do I need the anger to hold the limit, or have I just always used it?",
+        "id": "Apakah saya butuh marah untuk memegang batas, atau selama ini memang begitu kebiasaannya?"
+      },
+      "script": {
+        "en": "\"The answer is no. I'm not upset with you.\"",
+        "id": "\"Jawabannya tidak. Mama/Papa tidak sedang marah padamu.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 22,
+      "chapter": 1,
+      "title": {
+        "en": "Consistency without rigidity",
+        "id": "Konsisten tanpa menjadi kaku"
+      },
+      "teaching": {
+        "en": "Consistency means a child can predict you. Rigidity means you cannot respond to what is actually happening. The useful version keeps the principle fixed and lets the application flex — the bedtime holds, but the bedtime on the night of a funeral does not have to.",
+        "id": "Konsisten berarti anak bisa menebak Anda. Kaku berarti Anda tak bisa menanggapi apa yang sungguh terjadi. Versi yang berguna menjaga prinsipnya tetap dan membiarkan penerapannya lentur — jam tidur tetap berlaku, tapi jam tidur di malam sebuah pemakaman tidak harus."
+      },
+      "inPractice": {
+        "en": "Bending once for a real reason, and saying why, does not undo a rule. Bending randomly, without explanation, is what teaches a child to keep testing.",
+        "id": "Melonggarkan sekali karena alasan yang nyata, dan mengatakan alasannya, tidak membatalkan aturan. Melonggarkan sembarangan tanpa penjelasan itulah yang mengajari anak untuk terus menguji."
+      },
+      "practice": {
+        "en": "If you make an exception today, name it out loud as an exception.",
+        "id": "Jika hari ini Anda membuat pengecualian, sebutkan dengan jelas bahwa itu pengecualian."
+      },
+      "reflection": {
+        "en": "Are my rules predictable enough for my child to rely on?",
+        "id": "Apakah aturan saya cukup bisa ditebak untuk dijadikan pegangan anak?"
+      },
+      "script": {
+        "en": "\"Tonight is different, and here's why.\"",
+        "id": "\"Malam ini berbeda, dan ini alasannya.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 23,
+      "chapter": 1,
+      "title": {
+        "en": "Why routines matter",
+        "id": "Mengapa rutinitas penting"
+      },
+      "teaching": {
+        "en": "A routine is a decision you only have to make once. It removes the negotiation from the parts of the day that reliably go wrong, and it lets a child know what comes next — which is, for a small person, a genuine form of safety.",
+        "id": "Rutinitas adalah keputusan yang hanya perlu Anda buat sekali. Ia menghapus tawar-menawar dari bagian hari yang selalu berantakan, dan membuat anak tahu apa yang datang berikutnya — yang bagi orang kecil adalah bentuk rasa aman yang sungguhan."
+      },
+      "inPractice": {
+        "en": "Families who fight nightly about bedtime usually do not have a bedtime problem. They have a bedtime that gets renegotiated every single night.",
+        "id": "Keluarga yang bertengkar setiap malam soal jam tidur biasanya tidak punya masalah jam tidur. Mereka punya jam tidur yang dinegosiasi ulang setiap malam."
+      },
+      "practice": {
+        "en": "Pick the messiest transition of your day and write down its steps in a fixed order.",
+        "id": "Pilih perpindahan paling berantakan dalam hari Anda dan tuliskan langkah-langkahnya dalam urutan yang tetap."
+      },
+      "reflection": {
+        "en": "Which daily argument would simply disappear if the order never changed?",
+        "id": "Pertengkaran harian mana yang akan hilang begitu saja jika urutannya tak pernah berubah?"
+      },
+      "script": {
+        "en": "\"First this, then that. Same as always.\"",
+        "id": "\"Ini dulu, baru itu. Seperti biasa.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 24,
+      "chapter": 1,
+      "title": {
+        "en": "Parenting with intention",
+        "id": "Mengasuh dengan niat"
+      },
+      "teaching": {
+        "en": "Most parenting happens on autopilot, which is fine for most of the day. But a family drifts in whatever direction its habits point. Ten minutes of intention a week is usually enough to notice the drift and correct the heading.",
+        "id": "Sebagian besar pengasuhan berjalan otomatis, dan itu wajar untuk sebagian besar hari. Tapi keluarga hanyut ke arah yang ditunjuk kebiasaannya. Sepuluh menit niat dalam seminggu biasanya cukup untuk menyadari hanyutnya dan membetulkan arah."
+      },
+      "inPractice": {
+        "en": "The difference between a home that drifts and a home that grows is rarely effort. It is usually one recurring moment of noticing.",
+        "id": "Beda antara rumah yang hanyut dan rumah yang bertumbuh jarang soal usaha. Biasanya soal satu momen menyadari yang berulang."
+      },
+      "practice": {
+        "en": "Choose one quality you want more of in your home this month and one action that serves it.",
+        "id": "Pilih satu kualitas yang ingin Anda perbanyak di rumah bulan ini dan satu tindakan yang mendukungnya."
+      },
+      "reflection": {
+        "en": "If nothing changed, where would our family be a year from now?",
+        "id": "Jika tak ada yang berubah, keluarga kami akan ada di mana setahun lagi?"
+      },
+      "script": {
+        "en": "\"This is the kind of family we're building.\"",
+        "id": "\"Ini keluarga yang sedang kita bangun.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 25,
+      "chapter": 1,
+      "title": {
+        "en": "Emotional safety at home",
+        "id": "Rasa aman emosional di rumah"
+      },
+      "teaching": {
+        "en": "Emotional safety is a child's confidence that having a feeling here will not cost them the relationship. In homes where anger or sadness is punished, children do not stop feeling — they stop telling. And a child who stops telling is much harder to protect.",
+        "id": "Rasa aman emosional adalah keyakinan anak bahwa memiliki perasaan di rumah ini tidak akan merenggut hubungannya dengan Anda. Di rumah yang menghukum marah atau sedih, anak tidak berhenti merasa — mereka berhenti bercerita. Dan anak yang berhenti bercerita jauh lebih sulit dilindungi."
+      },
+      "inPractice": {
+        "en": "The teenager who tells you the difficult thing at 11pm is not a discipline failure. It is the return on years of safe reactions.",
+        "id": "Remaja yang menceritakan hal sulit kepada Anda pukul sebelas malam bukan kegagalan disiplin. Itu hasil dari bertahun-tahun reaksi yang aman."
+      },
+      "practice": {
+        "en": "Receive one difficult feeling today without correcting, fixing or minimising it.",
+        "id": "Terima satu perasaan sulit hari ini tanpa membetulkan, memperbaiki, atau mengecilkannya."
+      },
+      "reflection": {
+        "en": "Which feelings are not allowed in our home — and what happens to them instead?",
+        "id": "Perasaan apa yang tidak boleh ada di rumah kami — dan ke mana perasaan itu pergi?"
+      },
+      "script": {
+        "en": "\"You can tell me. I can handle it.\"",
+        "id": "\"Kamu boleh cerita. Mama/Papa sanggup mendengarnya.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "The Whole-Brain Child — Daniel J. Siegel & Tina Payne Bryson",
+      "draft": false
+    },
+    {
+      "day": 26,
+      "chapter": 1,
+      "title": {
+        "en": "How children learn by imitation",
+        "id": "Bagaimana anak belajar dengan meniru"
+      },
+      "teaching": {
+        "en": "Children copy what you do far more reliably than what you say, and they copy it most exactly when you are under pressure. Your behavior in a difficult moment is the lesson, whatever words accompany it.",
+        "id": "Anak meniru apa yang Anda lakukan jauh lebih setia daripada apa yang Anda katakan, dan mereka menirunya paling persis saat Anda tertekan. Perilaku Anda di momen sulit itulah pelajarannya, apa pun kata-kata yang menyertainya."
+      },
+      "inPractice": {
+        "en": "A parent who shouts \"we don't shout in this house\" has taught the shouting, not the rule. Children learn the demonstration, not the sentence.",
+        "id": "Orang tua yang berteriak \"di rumah ini kita tidak berteriak\" telah mengajarkan teriakannya, bukan aturannya. Anak belajar dari peragaan, bukan dari kalimatnya."
+      },
+      "practice": {
+        "en": "Pick one behavior you want from your child and demonstrate it visibly today.",
+        "id": "Pilih satu perilaku yang Anda inginkan dari anak dan peragakan dengan jelas hari ini."
+      },
+      "reflection": {
+        "en": "What is my child learning from watching me that I have never actually taught?",
+        "id": "Apa yang anak pelajari dari mengamati saya, yang sebenarnya tak pernah saya ajarkan?"
+      },
+      "script": {
+        "en": "\"Watch how I handle this one.\"",
+        "id": "\"Lihat bagaimana Mama/Papa menghadapi ini.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 27,
+      "chapter": 1,
+      "title": {
+        "en": "Modeling respect",
+        "id": "Mencontohkan rasa hormat"
+      },
+      "teaching": {
+        "en": "Respect is taught by being given, not by being demanded. A child spoken to with courtesy in ordinary moments learns the sound of it and reproduces it. Respect extracted by force teaches only that the powerful may speak however they like.",
+        "id": "Rasa hormat diajarkan dengan diberikan, bukan dengan dituntut. Anak yang diajak bicara dengan sopan di momen-momen biasa belajar bunyinya dan menirukannya. Rasa hormat yang dipaksakan hanya mengajarkan bahwa yang berkuasa boleh bicara sesukanya."
+      },
+      "inPractice": {
+        "en": "Interrupting a child mid-sentence while asking them not to interrupt you is a lesson — just not the one intended.",
+        "id": "Memotong kalimat anak sambil memintanya tidak memotong bicara Anda tetap sebuah pelajaran — hanya bukan yang dimaksudkan."
+      },
+      "practice": {
+        "en": "Use please, thank you, and excuse me with your child today as deliberately as you would with a guest.",
+        "id": "Gunakan tolong, terima kasih, dan permisi kepada anak hari ini, sesengaja Anda menggunakannya kepada tamu."
+      },
+      "reflection": {
+        "en": "Would I speak to a friend the way I spoke to my child today?",
+        "id": "Apakah saya akan bicara kepada teman dengan cara saya bicara kepada anak hari ini?"
+      },
+      "script": {
+        "en": "\"Thank you for waiting. That helped me.\"",
+        "id": "\"Terima kasih sudah menunggu. Itu membantu Mama/Papa.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 28,
+      "chapter": 1,
+      "title": {
+        "en": "Modeling apology",
+        "id": "Mencontohkan permintaan maaf"
+      },
+      "teaching": {
+        "en": "An apology from a parent does not weaken authority; it demonstrates that authority and accountability can live in the same person. A child who has never seen an adult apologise well has no working template for repairing their own mistakes.",
+        "id": "Permintaan maaf dari orang tua tidak melemahkan wibawa; ia menunjukkan bahwa wibawa dan tanggung jawab bisa ada pada orang yang sama. Anak yang belum pernah melihat orang dewasa meminta maaf dengan baik tak punya contoh untuk memperbaiki kesalahannya sendiri."
+      },
+      "inPractice": {
+        "en": "A real apology names the act, owns it, and stops: \"I snapped at you. That wasn't fair.\" No \"but you were\" attached to the end.",
+        "id": "Permintaan maaf yang sungguh menyebut perbuatannya, mengakuinya, lalu berhenti: \"Mama membentakmu tadi. Itu tidak adil.\" Tanpa \"tapi kamu tadi\" di ujungnya."
+      },
+      "practice": {
+        "en": "If you owe your child an apology today, give it without adding a justification.",
+        "id": "Jika hari ini Anda berhutang maaf kepada anak, berikanlah tanpa menambahkan pembenaran."
+      },
+      "reflection": {
+        "en": "When was the last time my child heard me apologise without a \"but\"?",
+        "id": "Kapan terakhir kali anak mendengar saya minta maaf tanpa \"tapi\"?"
+      },
+      "script": {
+        "en": "\"I was wrong, and I'm sorry.\"",
+        "id": "\"Mama/Papa salah, dan minta maaf.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 29,
+      "chapter": 1,
+      "title": {
+        "en": "Modeling calm",
+        "id": "Mencontohkan ketenangan"
+      },
+      "teaching": {
+        "en": "Your calm is contagious, and so is your escalation. Children read tone, face and body long before they process the words. Managing your own state in a difficult moment is not avoiding the discipline — it is the first and largest part of it.",
+        "id": "Ketenangan Anda menular, begitu juga kepanikan Anda. Anak membaca nada, wajah, dan tubuh jauh sebelum mengolah kata-kata. Mengelola kondisi diri di momen sulit bukan menghindari disiplin — itu bagian pertama dan terbesar darinya."
+      },
+      "inPractice": {
+        "en": "Naming your own state out loud does double duty: it steadies you, and it shows your child that feelings can be handled rather than obeyed.",
+        "id": "Menyebutkan kondisi Anda sendiri dengan suara keras berfungsi ganda: menenangkan Anda, dan menunjukkan kepada anak bahwa perasaan bisa dikelola, bukan dituruti."
+      },
+      "practice": {
+        "en": "Take one breath before you respond to the first difficult thing today. Just one.",
+        "id": "Tarik satu napas sebelum menanggapi hal sulit pertama hari ini. Satu saja."
+      },
+      "reflection": {
+        "en": "What does my child see on my face before I have said anything at all?",
+        "id": "Apa yang anak lihat di wajah saya sebelum saya mengucapkan apa pun?"
+      },
+      "script": {
+        "en": "\"I need a moment to steady myself first.\"",
+        "id": "\"Mama/Papa perlu sebentar untuk menenangkan diri dulu.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 30,
+      "chapter": 1,
+      "title": {
+        "en": "Family culture and values",
+        "id": "Budaya dan nilai keluarga"
+      },
+      "teaching": {
+        "en": "Every family already has a culture — a set of things that are normal here. It forms whether or not anyone chose it, out of what gets repeated, praised and tolerated. Naming it out loud is what turns an accident into an inheritance.",
+        "id": "Setiap keluarga sudah punya budaya — sekumpulan hal yang dianggap wajar di sini. Ia terbentuk entah ada yang memilihnya atau tidak, dari apa yang diulang, dipuji, dan dibiarkan. Menyebutkannya dengan lantang itulah yang mengubah kebetulan menjadi warisan."
+      },
+      "inPractice": {
+        "en": "\"In our family, we tell the truth even when it's expensive.\" Said often enough, that sentence becomes something a child carries out of the house.",
+        "id": "\"Di keluarga kita, kita berkata jujur meski itu mahal harganya.\" Diucapkan cukup sering, kalimat itu menjadi sesuatu yang dibawa anak keluar dari rumah."
+      },
+      "practice": {
+        "en": "Say one \"in our family, we…\" sentence out loud today and mean it.",
+        "id": "Ucapkan satu kalimat \"di keluarga kita, kita…\" hari ini, dan sungguh-sungguhi."
+      },
+      "reflection": {
+        "en": "If my child described our family in three words, what would they say?",
+        "id": "Jika anak menggambarkan keluarga kami dalam tiga kata, apa yang akan dia sebut?"
+      },
+      "script": {
+        "en": "\"In our family, this is how we do it.\"",
+        "id": "\"Di keluarga kita, begini caranya.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 31,
+      "chapter": 1,
+      "title": {
+        "en": "Weekly reflection habit",
+        "id": "Kebiasaan refleksi setiap minggu"
+      },
+      "teaching": {
+        "en": "Reading about parenting changes very little. Reflecting on your own week changes a great deal, because it is the only way you see your own patterns instead of your intentions. Twenty minutes, once a week, outperforms any amount of good advice.",
+        "id": "Membaca tentang pengasuhan mengubah sangat sedikit. Merenungkan minggu Anda sendiri mengubah banyak hal, karena hanya itu cara Anda melihat pola diri, bukan niat diri. Dua puluh menit, sekali seminggu, lebih berdampak daripada sebanyak apa pun nasihat yang dibaca."
+      },
+      "inPractice": {
+        "en": "The parents who change are rarely the ones who read most. They are the ones who stop once a week and ask what actually happened.",
+        "id": "Orang tua yang berubah jarang mereka yang paling banyak membaca. Mereka adalah yang berhenti sekali seminggu dan bertanya apa yang sebenarnya terjadi."
+      },
+      "practice": {
+        "en": "Set a repeating time this week for one short review. Put it in your calendar now.",
+        "id": "Tentukan waktu tetap minggu ini untuk satu tinjauan singkat. Masukkan ke kalender Anda sekarang."
+      },
+      "reflection": {
+        "en": "What did this week teach me about the parent I am becoming?",
+        "id": "Apa yang minggu ini ajarkan tentang orang tua seperti apa saya sedang menjadi?"
+      },
+      "script": {
+        "en": "\"Let's look back at the week together.\"",
+        "id": "\"Ayo kita tengok kembali minggu ini bersama.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    }
+  ]
+}

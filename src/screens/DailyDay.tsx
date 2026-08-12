@@ -1,6 +1,13 @@
+import { useEffect, useState } from 'react'
 import { Navigate, useParams, Link } from 'react-router-dom'
 import Screen from '../components/Screen'
-import { dayByNumber, daysForChapter, chapterName } from '../data/content'
+import {
+  chapterDaysIfLoaded,
+  chapterName,
+  dayByNumber,
+  daysForChapter,
+  loadChapterDays,
+} from '../data/content'
 import { useApp } from '../store/AppContext'
 import { isUnlocked } from '../lib/freemium'
 import { chapterVars } from '../lib/chapterTheme'
@@ -11,17 +18,51 @@ export default function DailyDay() {
   const { d } = useParams()
   const { t, lang, hasPurchased, entries, toggleDayRead } = useApp()
   const num = Number(d)
-  const day = dayByNumber(num)
+  const summary = dayByNumber(num)
 
-  if (!day) return <Navigate to="/guidebook" replace />
-  if (!isUnlocked(day.chapter, hasPurchased)) return <Navigate to="/guidebook" replace />
+  // The day's text lives in its chapter's file. The module cache is the source
+  // of truth; this state only exists to re-render once a fetch lands.
+  const [, setLoads] = useState(0)
+  const day = summary
+    ? chapterDaysIfLoaded(summary.chapter)?.find((x) => x.day === num)
+    : undefined
+  const chapterNumber = summary?.chapter
+  const needsLoad = Boolean(summary) && !day
 
-  const siblings = daysForChapter(day.chapter)
-  const idx = siblings.findIndex((x) => x.day === day.day)
+  useEffect(() => {
+    if (!chapterNumber || !needsLoad) return
+    let live = true
+    loadChapterDays(chapterNumber).then(() => {
+      if (live) setLoads((n) => n + 1)
+    })
+    return () => {
+      live = false
+    }
+  }, [chapterNumber, needsLoad])
+
+  if (!summary) return <Navigate to="/guidebook" replace />
+  if (!isUnlocked(summary.chapter, hasPurchased)) return <Navigate to="/guidebook" replace />
+
+  const siblings = daysForChapter(summary.chapter)
+  const idx = siblings.findIndex((x) => x.day === summary.day)
   const prev = idx > 0 ? siblings[idx - 1] : undefined
   const next = idx >= 0 && idx < siblings.length - 1 ? siblings[idx + 1] : undefined
-  const chapter = chapterName(day.chapter)
-  const isRead = Boolean(entries.daysRead?.[day.day])
+  const chapter = chapterName(summary.chapter)
+  const isRead = Boolean(entries.daysRead?.[summary.day])
+
+  if (!day) {
+    return (
+      <div className="h-full" style={chapterVars(summary.chapter)}>
+        <Screen
+          back
+          title={t(summary.title)}
+          subtitle={`${lang === 'en' ? 'Day' : 'Hari'} ${summary.day} · ${chapter ? t(chapter) : ''}`}
+        >
+          <ReadingPlaceholder />
+        </Screen>
+      </div>
+    )
+  }
 
   return (
     <div className="h-full" style={chapterVars(day.chapter)}>
@@ -176,6 +217,27 @@ export default function DailyDay() {
           </nav>
         </article>
       </Screen>
+    </div>
+  )
+}
+
+/**
+ * Shown for the moment a chapter's text is being read from the app's own
+ * files. Quiet grey bars in the shape of the reading, so the screen settles
+ * into place rather than flashing a spinner.
+ */
+function ReadingPlaceholder() {
+  const widths = ['100%', '96%', '88%', '100%', '92%', '70%']
+  return (
+    <div className="mx-auto max-w-prose animate-pulse pt-4" aria-hidden>
+      {widths.map((w, i) => (
+        <span
+          key={i}
+          className="mb-3 block h-3.5 rounded-full bg-ceria-cream-deep"
+          style={{ width: w }}
+        />
+      ))}
+      <span className="mt-7 block h-28 rounded-2xl bg-ceria-cream-deep" />
     </div>
   )
 }
