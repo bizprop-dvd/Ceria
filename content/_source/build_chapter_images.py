@@ -3,11 +3,17 @@
 Masters live in assets/chapters/chNN.jpg at the size they were delivered. They
 are never edited in place — this reads them and writes what the app ships:
 
-  public/chapters/chNN.jpg    1200 x 800
+  src/assets/chapters/chNN.jpg    1200 x 800
 
-They go in public/ rather than through the bundler on purpose. Capacitor loads
-them from the app's own files, one at a time, as a reader moves through the
-book — nothing about them belongs in the JavaScript a parent parses at startup.
+Vite emits them as twelve separate files and gives the app their URLs, so they
+are fetched one at a time as a reader moves through the book. None of the image
+data lands in the JavaScript a parent parses at startup. Keeping them here
+rather than in public/ also means the shareable single-file preview can inline
+them, instead of showing twelve broken pictures to a reviewer.
+
+On the way through it takes off the generator's "AI生成" corner mark — see
+watermark.py, which recovers the mark from the twelve pictures themselves and
+undoes it rather than painting over it.
 
 It also checks each picture's background against its chapter's colour in
 src/lib/chapterTheme.ts. The illustration sits directly on the app's cream with
@@ -20,12 +26,16 @@ Run:  python3 content/_source/build_chapter_images.py
 
 import os
 import re
+import sys
 from PIL import Image
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
+sys.path.insert(0, HERE)
+import watermark  # noqa: E402
+
 SRC_DIR = os.path.join(ROOT, "assets", "chapters")
-OUT_DIR = os.path.join(ROOT, "public", "chapters")
+OUT_DIR = os.path.join(ROOT, "src", "assets", "chapters")
 THEME_TS = os.path.join(ROOT, "src", "lib", "chapterTheme.ts")
 
 # The app frame is 448 px wide at most, so 1200 covers it on a 2.5x screen with
@@ -35,6 +45,9 @@ QUALITY = 82
 # How far a picture's background may sit from its chapter tint, per channel,
 # before it is worth a second look. Around 12 is still invisible on screen.
 TINT_TOLERANCE = 12
+# How much unevenness the mended corner may carry. About 3 is the JPEG noise
+# floor of these masters; above 6 the mark has left a visible shadow.
+RESIDUAL_LIMIT = 6.0
 
 
 def main():
@@ -43,15 +56,32 @@ def main():
     total = 0
     warnings = []
 
+    masters = {}
     for n in range(1, 13):
         src = os.path.join(SRC_DIR, f"ch{n:02d}.jpg")
-        if not os.path.exists(src):
+        if os.path.exists(src):
+            masters[n] = Image.open(src).convert("RGB")
+        else:
             warnings.append(f"ch{n:02d}: no master in assets/chapters/")
-            continue
 
-        im = Image.open(src).convert("RGB")
-        if abs(im.width / im.height - 1.5) > 0.01:
-            warnings.append(f"ch{n:02d}: {im.width}x{im.height} is not 3:2, it will be squashed")
+    alpha = watermark.solve_alpha(masters)
+    if alpha is None:
+        warnings.append("too few masters to recover the corner mark — it is still in the pictures")
+    else:
+        print(f"Corner mark recovered from {len(masters)} pictures, "
+              f"{int((alpha > 0).sum())} pixels deep")
+
+    for n, master in masters.items():
+        if abs(master.width / master.height - 1.5) > 0.01:
+            warnings.append(
+                f"ch{n:02d}: {master.width}x{master.height} is not 3:2, it will be squashed"
+            )
+
+        im = master if alpha is None else watermark.remove(master, alpha)
+        if alpha is not None and n in watermark.FLAT_CHAPTERS:
+            left = watermark.residual(master, alpha)
+            if left > RESIDUAL_LIMIT:
+                warnings.append(f"ch{n:02d}: corner still uneven after removal ({left:.1f})")
 
         out = os.path.join(OUT_DIR, f"ch{n:02d}.jpg")
         im.resize(SIZE, Image.LANCZOS).save(

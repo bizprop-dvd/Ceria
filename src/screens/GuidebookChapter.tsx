@@ -104,6 +104,19 @@ export default function GuidebookChapter() {
   )
 }
 
+// Twelve separate files, addressed by URL. Only the addresses are in the
+// bundle; a picture is fetched when its chapter is opened. Resolved at build
+// time, so a missing chapter is a missing key rather than a broken image.
+const chapterImages = import.meta.glob<string>('../assets/chapters/ch*.jpg', {
+  eager: true,
+  query: '?url',
+  import: 'default',
+})
+
+function chapterImage(chapter: number): string | undefined {
+  return chapterImages[`../assets/chapters/ch${String(chapter).padStart(2, '0')}.jpg`]
+}
+
 /**
  * The chapter's illustration.
  *
@@ -115,9 +128,11 @@ export default function GuidebookChapter() {
  */
 function ChapterPicture({ chapter }: { chapter: number }) {
   const theme = chapterTheme(chapter)
+  const src = chapterImage(chapter)
+  if (!src) return null
   return (
     <img
-      src={`./chapters/ch${String(chapter).padStart(2, '0')}.jpg`}
+      src={src}
       alt=""
       aria-hidden
       width={1200}
