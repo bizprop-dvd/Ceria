@@ -7,8 +7,14 @@ dist-ssr/
 *.local
 *.tsbuildinfo
 
-# Capacitor native platforms (regenerated with `npx cap add`)
-android/
+# Capacitor native platforms.
+#
+# android/ IS tracked. It is where the app's icons, splash screens, permissions
+# and notification icon live, so regenerating it on every build would mean
+# losing anything set there. Its own .gitignore already keeps the build output
+# and the copied web assets out.
+#
+# ios/ is not here yet — it needs a Mac to generate. Track it too when it is.
 ios/
 
 # Editor

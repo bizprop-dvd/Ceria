@@ -27,6 +27,18 @@ export function isNative(): boolean {
 const IOS_KEY = import.meta.env.VITE_REVENUECAT_IOS_KEY as string | undefined
 const ANDROID_KEY = import.meta.env.VITE_REVENUECAT_ANDROID_KEY as string | undefined
 
+/**
+ * A build with no store keys in it — the test APK passed round before there is
+ * a Play account, so the founder and readers can read the whole book on a real
+ * phone. It opens every chapter, and the More screen says so plainly.
+ *
+ * It cannot leak into a release. A release build carries a RevenueCat key, and
+ * the presence of a key switches this off no matter what the flag says.
+ */
+export function isPreviewBuild(): boolean {
+  return import.meta.env.VITE_PREVIEW_UNLOCK === 'true' && !IOS_KEY && !ANDROID_KEY
+}
+
 let configured = false
 
 /** Configure the RevenueCat SDK once, using the platform's public API key. */
@@ -48,6 +60,7 @@ export async function configurePurchases(): Promise<void> {
 
 /** Read current entitlement state (does the user own the unlock?). */
 export async function checkEntitlement(): Promise<boolean> {
+  if (isPreviewBuild()) return true
   if (!isNative()) {
     return getJSON<boolean>(KEYS.purchase, false)
   }

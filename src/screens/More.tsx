@@ -4,7 +4,7 @@ import Segmented from '../components/Segmented'
 import BackupCard from '../components/BackupCard'
 import { useApp, DEFAULT_REMINDER } from '../store/AppContext'
 import { usePaywall } from '../components/PaywallProvider'
-import { isNative, resetMockPurchase } from '../lib/purchases'
+import { isNative, isPreviewBuild, resetMockPurchase } from '../lib/purchases'
 import { requestNotificationPermission } from '../lib/notifications'
 import { CERIA, ABOUT } from '../config'
 import { CheckIcon, HeartIcon, LockIcon } from '../components/icons'
@@ -206,6 +206,14 @@ export default function More() {
               Reset mock purchase
             </button>
           </div>
+        )}
+
+        {isPreviewBuild() && (
+          <p className="pb-1 text-center text-xs text-ceria-gray">
+            {lang === 'en'
+              ? 'Preview build — every chapter is open, and nothing here can be bought yet.'
+              : 'Versi uji coba — semua bab terbuka, dan belum ada yang bisa dibeli di sini.'}
+          </p>
         )}
 
         <p className="pb-2 text-center text-xs text-ceria-gray/70">Ceria · v0.1.0</p>
