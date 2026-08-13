@@ -217,9 +217,13 @@ footer {{ margin-top:3rem; padding-top:1.25rem; border-top:1px solid var(--rule)
     <div class="panel yes">
       <p class="eyebrow">Yes</p>
       <ul>
-        <li>Indonesian families — faces, clothing, hair, homes. Surabaya, not a stock library.</li>
-        <li>Vary who is in them: two parents, one parent, a grandparent, an older sibling.
-          Some mothers in hijab, some not.</li>
+        <li><strong>Match the twelve that already exist.</strong> They set the house
+          style and they are the reference: soft hand-drawn line over a light
+          watercolour wash, gentle East Asian illustration influence, muted colour.</li>
+        <li><strong>The same family throughout.</strong> A reader follows one family for a
+          year — the father, the mother, the teenage daughter, the young daughter, the
+          school-age son and the toddler. Keep faces, hair and clothing consistent from
+          chapter to chapter.</li>
         <li>Quiet and ordinary. Kitchens, doorways, floors, the edge of a bed.</li>
         <li>Soft hand-drawn shapes with a light grain or texture.</li>
         <li>Four or five colours per picture, taken from that chapter's own hue.</li>
@@ -265,8 +269,11 @@ footer {{ margin-top:3rem; padding-top:1.25rem; border-top:1px solid var(--rule)
       <li><strong>Tanpa tulisan di dalam gambar.</strong> Aplikasinya dwibahasa dan
         menambahkan teksnya sendiri.</li>
       <li><strong>Latar diisi warna muda</strong> sesuai bab, bukan putih.</li>
-      <li><strong>Keluarga Indonesia</strong> — wajah, pakaian, rumah. Ada yang berhijab,
-        ada yang tidak. Ada keluarga lengkap, orang tua tunggal, kakek-nenek.</li>
+      <li><strong>Ikuti dua belas gambar yang sudah ada</strong> — itulah acuannya:
+        garis tangan yang lembut di atas sapuan cat air, warna yang tidak mencolok.</li>
+      <li><strong>Keluarga yang sama di semua bab</strong> — ayah, ibu, kakak perempuan
+        remaja, adik perempuan, kakak laki-laki, dan si kecil. Wajah, rambut, dan
+        pakaian mereka harus tetap sama dari bab ke bab.</li>
       <li><strong>Suasana tenang dan sehari-hari.</strong> Dapur, ambang pintu, tepi
         tempat tidur. Bukan keluarga iklan yang serba sempurna.</li>
       <li><strong>Hindari</strong> gambar anak yang tampak nakal, orang tua yang membentak,
