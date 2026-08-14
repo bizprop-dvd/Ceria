@@ -2,7 +2,7 @@
 
 **Licensor:** Yayasan Sukacita Keluarga Indonesia (CERIA), Surabaya, Indonesia
 **Contact:** yayasanceria.id@gmail.com
-**Last updated:** [DATE TO SET WHEN PUBLISHED]
+**Last updated:** 14 August 2026
 
 > Publish this at `https://www.yayasanceria.org/terms`.
 >
@@ -53,8 +53,13 @@ is yours. We claim no ownership or licence over it.
 
 It is stored only on your device. We cannot access it, and we never receive it.
 See our Privacy Policy for details. Because we hold no copy, **we cannot recover
-your entries** if your device is lost, reset, or the app is uninstalled. Please
-keep your own copy of anything important to you.
+your entries** if your device is lost, reset, or the app is uninstalled.
+
+The app gives you two ways to keep your own copy, and we strongly encourage you
+to use one of them: save a backup file and keep it somewhere safe, or connect
+your own Google Drive so the app keeps a copy there. Both are described in the
+Privacy Policy. A backup you have made is the only way your writing survives a
+lost phone.
 
 ## 5. Purchases
 
@@ -120,7 +125,7 @@ This agreement is governed by the laws of the Republic of Indonesia.
 
 **Pemberi lisensi:** Yayasan Sukacita Keluarga Indonesia (CERIA), Surabaya, Indonesia
 **Kontak:** yayasanceria.id@gmail.com
-**Terakhir diperbarui:** [TANGGAL SAAT DITERBITKAN]
+**Terakhir diperbarui:** 14 Agustus 2026
 
 ## 1. Perjanjian
 
@@ -161,8 +166,14 @@ atasnya.
 Semuanya hanya tersimpan di perangkat Anda. Kami tidak bisa mengaksesnya, dan
 tidak pernah menerimanya. Lihat Kebijakan Privasi kami untuk detailnya. Karena
 kami tidak menyimpan salinan, **kami tidak dapat memulihkan catatan Anda** jika
-perangkat hilang, disetel ulang, atau aplikasi dihapus. Mohon simpan sendiri
-salinan hal-hal yang penting bagi Anda.
+perangkat hilang, disetel ulang, atau aplikasi dihapus.
+
+Aplikasi menyediakan dua cara bagi Anda untuk menyimpan salinan sendiri, dan kami
+sangat menganjurkan Anda memakai salah satunya: menyimpan berkas cadangan di
+tempat yang aman, atau menghubungkan Google Drive Anda sendiri agar aplikasi
+menyimpan salinan di sana. Keduanya dijelaskan di Kebijakan Privasi. Cadangan
+yang Anda buat sendiri adalah satu-satunya cara tulisan Anda selamat bila ponsel
+hilang.
 
 ## 5. Pembelian
 
