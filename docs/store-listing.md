@@ -63,7 +63,7 @@ Ceria menemani Anda menjadi orang tua yang Anda inginkan — pelan-pelan, satu
 hari sekali.
 
 Dibuat oleh Yayasan Sukacita Keluarga Indonesia, sebuah yayasan nirlaba di
-Surabaya yang mendampingi keluarga sejak bertahun-tahun. Isinya bukan teori
+Surabaya yang menyelenggarakan kursus pengayaan keluarga. Isinya bukan teori
 dari negeri lain, melainkan yang kami pelajari bersama orang tua Indonesia.
 
 DI DALAMNYA ADA TIGA HAL
@@ -123,7 +123,7 @@ Ceria walks with you towards the parent you want to be — slowly, one day at a
 time.
 
 It is made by Yayasan Sukacita Keluarga Indonesia, a non-profit foundation in
-Surabaya that has sat with families for years. What is inside is not theory
+Surabaya that runs family enrichment courses. What is inside is not theory
 borrowed from somewhere else; it is what we have learned alongside Indonesian
 parents.
 

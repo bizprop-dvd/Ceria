@@ -14,7 +14,7 @@ export const CERIA = {
 export const ABOUT = {
   en: {
     mission:
-      'Ceria (Yayasan Sukacita Keluarga Indonesia) is a civil society foundation working in family development, based in Surabaya and running programmes since 2005. We offer family enrichment courses across every stage of family life — from young couples to grandparents — alongside policy advocacy, and we are a member of the International Federation for Family Development (IFFD). This app brings our Toolkit, Guidebook, and 52-week Diary together into one gentle companion.',
+      'Ceria (Yayasan Sukacita Keluarga Indonesia) is a civil society foundation working in family development, based in Surabaya and founded in 2025. We offer family enrichment courses across every stage of family life — from young couples to grandparents — alongside policy advocacy, and we are a member of the International Federation for Family Development (IFFD). This app brings our Toolkit, Guidebook, and 52-week Diary together into one gentle companion.',
     proceeds:
       'Proceeds from unlocking the full app help fund Ceria’s free community programs for families who cannot pay.',
     privacy:
@@ -22,7 +22,7 @@ export const ABOUT = {
   },
   id: {
     mission:
-      'Ceria (Yayasan Sukacita Keluarga Indonesia) adalah organisasi masyarakat yang berperan dalam pengembangan keluarga, berbasis di Surabaya dan menjalankan program sejak 2005. Kami menyelenggarakan kursus pengayaan keluarga untuk setiap tahap kehidupan — dari pasangan muda hingga kakek-nenek — serta advokasi kebijakan, dan kami adalah anggota International Federation for Family Development (IFFD). Aplikasi ini menyatukan Toolkit, Panduan, dan Diari 52 minggu kami dalam satu pendamping yang lembut.',
+      'Ceria (Yayasan Sukacita Keluarga Indonesia) adalah organisasi masyarakat yang berperan dalam pengembangan keluarga, berbasis di Surabaya dan didirikan pada 2025. Kami menyelenggarakan kursus pengayaan keluarga untuk setiap tahap kehidupan — dari pasangan muda hingga kakek-nenek — serta advokasi kebijakan, dan kami adalah anggota International Federation for Family Development (IFFD). Aplikasi ini menyatukan Toolkit, Panduan, dan Diari 52 minggu kami dalam satu pendamping yang lembut.',
     proceeds:
       'Hasil dari membuka aplikasi penuh membantu mendanai program komunitas gratis Ceria bagi keluarga yang tidak mampu.',
     privacy:
