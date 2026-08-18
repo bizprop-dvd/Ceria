@@ -1,7 +1,8 @@
 """Prepare the twelve chapter illustrations for the app.
 
-Masters live in assets/chapters/chNN.jpg at the size they were delivered. They
-are never edited in place — this reads them and writes what the app ships:
+Masters live in assets/chapters/chNN.jpg or .png at the size and in the format
+they were delivered. They are never edited in place — this reads them and writes
+what the app ships:
 
   src/assets/chapters/chNN.jpg    1200 x 800
 
@@ -11,9 +12,9 @@ data lands in the JavaScript a parent parses at startup. Keeping them here
 rather than in public/ also means the shareable single-file preview can inline
 them, instead of showing twelve broken pictures to a reviewer.
 
-On the way through it takes off the generator's "AI生成" corner mark — see
-watermark.py, which recovers the mark from the twelve pictures themselves and
-undoes it rather than painting over it.
+On the way through it takes the generator's "AI生成" corner mark off the masters
+that carry one — see watermark.py, which undoes the mark rather than painting
+over it, and leaves the pictures that arrived clean alone.
 
 It also checks each picture's background against its chapter's colour in
 src/lib/chapterTheme.ts. The illustration sits directly on the app's cream with
@@ -48,6 +49,9 @@ TINT_TOLERANCE = 12
 # How much unevenness the mended corner may carry. About 3 is the JPEG noise
 # floor of these masters; above 6 the mark has left a visible shadow.
 RESIDUAL_LIMIT = 6.0
+# How far the four corners may disagree before the picture counts as full-bleed
+# — a scene that runs to the edges rather than sitting on a flat wash.
+FULL_BLEED_SPREAD = 25
 
 
 def main():
@@ -58,30 +62,36 @@ def main():
 
     masters = {}
     for n in range(1, 13):
-        src = os.path.join(SRC_DIR, f"ch{n:02d}.jpg")
-        if os.path.exists(src):
-            masters[n] = Image.open(src).convert("RGB")
+        for ext in ("jpg", "png"):
+            src = os.path.join(SRC_DIR, f"ch{n:02d}.{ext}")
+            if os.path.exists(src):
+                masters[n] = Image.open(src).convert("RGB")
+                break
         else:
             warnings.append(f"ch{n:02d}: no master in assets/chapters/")
 
-    alpha = watermark.solve_alpha(masters)
+    alpha = watermark.load_alpha()
     if alpha is None:
-        warnings.append("too few masters to recover the corner mark — it is still in the pictures")
-    else:
-        print(f"Corner mark recovered from {len(masters)} pictures, "
-              f"{int((alpha > 0).sum())} pixels deep")
+        warnings.append("watermark-alpha.png missing — any corner mark stays in the pictures")
 
+    marked = 0
     for n, master in masters.items():
         if abs(master.width / master.height - 1.5) > 0.01:
             warnings.append(
                 f"ch{n:02d}: {master.width}x{master.height} is not 3:2, it will be squashed"
             )
 
-        im = master if alpha is None else watermark.remove(master, alpha)
-        if alpha is not None and n in watermark.FLAT_CHAPTERS:
-            left = watermark.residual(master, alpha)
-            if left > RESIDUAL_LIMIT:
-                warnings.append(f"ch{n:02d}: corner still uneven after removal ({left:.1f})")
+        # Only the masters that actually carry the mark are mended. Undoing a
+        # composite that was never applied would leave a ghost of the glyphs.
+        im = master
+        stamped = 0.0 if alpha is None else watermark.carries_mark(master, alpha)
+        if stamped > watermark.MARK_CORRELATION:
+            marked += 1
+            im = watermark.remove(master, alpha)
+            if n in watermark.FLAT_CHAPTERS:
+                left = watermark.residual(master, alpha)
+                if left > RESIDUAL_LIMIT:
+                    warnings.append(f"ch{n:02d}: corner still uneven after removal ({left:.1f})")
 
         out = os.path.join(OUT_DIR, f"ch{n:02d}.jpg")
         im.resize(SIZE, Image.LANCZOS).save(
@@ -90,25 +100,34 @@ def main():
         size = os.path.getsize(out)
         total += size
 
-        found = _corner_colour(im)
+        found, spread = _corner_colour(im)
         want = theme.get(n)
-        drift = max(abs(a - b) for a, b in zip(_rgb(found), _rgb(want))) if want else 0
-        flag = "  <- drifted from the chapter colour" if drift > TINT_TOLERANCE else ""
-        if flag:
-            warnings.append(f"ch{n:02d}: background {found}, chapter tint {want}")
-        print(f"  ch{n:02d}  {size / 1024:6.0f} kB   background {found}{flag}")
+        mark = "  mark removed" if stamped > watermark.MARK_CORRELATION else ""
+
+        if spread > FULL_BLEED_SPREAD:
+            # The scene runs to the edges, so there is no wash to compare. Not a
+            # fault: it just sits in its rounded card as a picture, not a tint.
+            note = "  full-bleed, no wash"
+        else:
+            drift = max(abs(a - b) for a, b in zip(_rgb(found), _rgb(want))) if want else 0
+            note = "  <- drifted from the chapter colour" if drift > TINT_TOLERANCE else ""
+            if note:
+                warnings.append(f"ch{n:02d}: wash {found}, chapter tint {want}")
+        print(f"  ch{n:02d}  {size / 1024:6.0f} kB   background {found}{mark}{note}")
 
     print(f"Wrote {OUT_DIR}/  —  {total / 1024:.0f} kB shipped in the app")
+    print(f"  corner mark found on {marked} of {len(masters)} masters")
     for w in warnings:
         print(f"  WARNING: {w}")
 
 
 def _corner_colour(im):
-    """The picture's own background, read from the four corners.
+    """The picture's own background, and how much the four corners disagree.
 
-    Every illustration sits on a flat wash. Sampling a small block in each
-    corner and taking the median channel avoids being thrown off by anything
-    that reaches into one corner — the tree in chapter 1, the sofa in ten.
+    Sampling a small block in each corner and taking the median channel avoids
+    being thrown off by anything that reaches into one corner. The spread says
+    whether there is a flat wash at all: a picture whose scene runs to the edges
+    has corners that do not agree, and nothing to compare with a chapter tint.
     """
     w, h = im.size
     box = max(8, w // 60)
@@ -120,7 +139,8 @@ def _corner_colour(im):
     ]
     samples = [c.resize((1, 1), Image.LANCZOS).getpixel((0, 0)) for c in corners]
     median = tuple(sorted(s[i] for s in samples)[len(samples) // 2] for i in range(3))
-    return "#%02X%02X%02X" % median
+    spread = max(max(s[i] for s in samples) - min(s[i] for s in samples) for i in range(3))
+    return "#%02X%02X%02X" % median, spread
 
 
 def _theme_tints():
