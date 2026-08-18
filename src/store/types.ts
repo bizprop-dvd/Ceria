@@ -1,0 +1,79 @@
+import type { Edition, Lang, Role } from '../data/types'
+
+export interface Settings {
+  onboarded: boolean
+  lang: Lang
+  edition: Edition
+  /** day the family started the diary; drives "current week" on the Today tab */
+  startDate: string
+  /** evening reminder time, or null if reminders are off */
+  reminderTime: { hour: number; minute: number } | null
+  /**
+   * How often the diary is copied to the parent's own Google Drive.
+   *  - 'off'   nothing is uploaded; the manual backup file still works
+   *  - 'daily' once a day, the first time the app is opened
+   *  - 'live'  shortly after anything is written
+   */
+  backupMode: BackupMode
+  /** when the last successful Drive backup finished, ISO 8601 */
+  lastBackupAt: string | null
+}
+
+export type BackupMode = 'off' | 'daily' | 'live'
+
+export const DEFAULT_REMINDER = { hour: 20, minute: 0 }
+
+/** Answers for one day: keyed by role. Each role holds one string per prompt. */
+export type DailyAnswers = Partial<Record<Role, string[]>>
+
+export interface EntriesState {
+  /** daily prompt answers, keyed by local day (YYYY-MM-DD) */
+  daily: Record<string, DailyAnswers>
+  /** the week's "intent" answer, keyed by week number, per role */
+  weekIntent: Record<number, Partial<Record<Role, string>>>
+  /** the Sunday reflection answer, keyed by week number, per role */
+  sunday: Record<number, Partial<Record<Role, string>>>
+  /** the weekly debrief answers, keyed by week number, per role (string[]) */
+  debrief: Record<number, Partial<Record<Role, string[]>>>
+  /** optional toolkit field answers, keyed by tool number */
+  tools: Record<number, string[]>
+  /** answers for repeatable tools, keyed `${tool}:${instance}` (e.g. "12:3" = tool 12, month 3) */
+  toolInstances: Record<string, string[]>
+  /**
+   * The family's children — a single shared roster, so a child added on one
+   * tool (the vision worksheet) appears on every other per-child tool (the
+   * responsibility chart) without being entered twice.
+   */
+  children: { id: number; name: string }[]
+  /** how many period sheets exist per tool (e.g. Year 1 Part 1, Part 2, …) */
+  toolPeriodCount: Record<number, number>
+  /** days of the 365-day guide marked as read, keyed by day number */
+  daysRead: Record<number, boolean>
+  /** one optional photo per diary week, stored as a data URI on the device */
+  weekPhotos: Record<number, string>
+  /** how the week felt, keyed by week number (see MOODS) */
+  weekMood: Record<number, string>
+  /**
+   * When each shared field was last edited, keyed by the addresses in
+   * store/shared.ts. Only the family's shared work is stamped — the diary is
+   * never merged between phones, so it needs no timestamps.
+   */
+  sharedEditedAt: Record<string, number>
+}
+
+export function emptyEntries(): EntriesState {
+  return {
+    daily: {},
+    weekIntent: {},
+    sunday: {},
+    debrief: {},
+    tools: {},
+    daysRead: {},
+    weekPhotos: {},
+    weekMood: {},
+    toolInstances: {},
+    children: [],
+    toolPeriodCount: {},
+    sharedEditedAt: {},
+  }
+}

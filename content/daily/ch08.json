@@ -1,0 +1,1116 @@
+{
+  "days": [
+    {
+      "day": 212,
+      "chapter": 8,
+      "title": {
+        "en": "Defiance: first principles",
+        "id": "Ketika anak menolak arahan: prinsip dasar"
+      },
+      "teaching": {
+        "en": "Defiance is the behaviour parents take most personally, which is exactly why it is handled worst. It reads as a challenge to your authority, and that reading makes the response about you rather than about the child.\n\nUnderneath most defiance sits something smaller: a need for control, a transition handled badly, an overwhelmed child with no route to comply without losing face. Find that, and the defiance usually shrinks.",
+        "id": "Penolakan terhadap arahan sering terasa sangat pribadi bagi orang tua. Ketika hal itu dibaca sebagai tantangan terhadap kewibawaan, respons kita mudah berpusat pada perasaan sendiri, bukan pada kebutuhan anak.\n\nDi balik penolakan biasanya ada hal yang lebih mendasar: kebutuhan akan sedikit kendali, perpindahan aktivitas yang terasa mendadak, atau anak yang sudah kewalahan dan tidak tahu cara bekerja sama tanpa merasa dipermalukan. Ketika kebutuhan tersebut ditemukan, penolakan biasanya ikut mereda."
+      },
+      "inPractice": {
+        "en": "A child who says no in front of others is often not refusing the task. They are refusing to be seen obeying instantly.",
+        "id": "Anak yang berkata tidak di depan orang lain sering bukan menolak tugasnya. Dia menolak terlihat langsung menurut."
+      },
+      "practice": {
+        "en": "Give one dignified route to comply today rather than raising the stakes.",
+        "id": "Beri satu jalan yang terhormat untuk menurut hari ini, bukan menaikkan taruhan."
+      },
+      "reflection": {
+        "en": "Do I take my child's no personally?",
+        "id": "Apakah saya menganggap kata tidak dari anak sebagai serangan pribadi?"
+      },
+      "script": {
+        "en": "\"You can start now, or after this song. Up to you.\"",
+        "id": "\"Kamu boleh mulai sekarang, atau setelah lagu ini. Terserah kamu.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "The Explosive Child — Ross W. Greene",
+      "draft": false,
+      "framework": {
+        "title": {
+          "en": "Four common functions",
+          "id": "Empat fungsi yang umum"
+        },
+        "note": {
+          "en": "Repeating behaviour is doing a job. Work out which one before deciding anything.",
+          "id": "Perilaku yang berulang biasanya sedang memenuhi suatu kebutuhan. Pahami kebutuhannya sebelum menentukan respons."
+        },
+        "entries": [
+          {
+            "name": {
+              "en": "To get attention",
+              "id": "Mencari perhatian"
+            },
+            "tags": [
+              {
+                "en": "Happens when you're busy",
+                "id": "Muncul saat Anda sibuk"
+              }
+            ],
+            "looksLike": {
+              "en": "Peaks when your attention is elsewhere — the phone, a sibling, a visitor — and eases the moment you engage.",
+              "id": "Meningkat ketika perhatian Anda sedang tertuju pada hal lain—ponsel, saudara, atau tamu—dan mereda ketika Anda kembali hadir."
+            },
+            "outcome": {
+              "en": "Give attention before it is demanded, at a moment nothing is wrong.",
+              "id": "Berikan perhatian terlebih dahulu pada saat keadaan sedang tenang, sebelum anak perlu memintanya melalui perilaku."
+            }
+          },
+          {
+            "name": {
+              "en": "To get control",
+              "id": "Mencari rasa kendali"
+            },
+            "tags": [
+              {
+                "en": "Around instructions",
+                "id": "Di sekitar instruksi"
+              }
+            ],
+            "looksLike": {
+              "en": "Clusters around being told what to do, especially in front of other people.",
+              "id": "Sering muncul ketika anak diberi instruksi, terutama di depan orang lain."
+            },
+            "outcome": {
+              "en": "Hand back small real choices inside your limits.",
+              "id": "Berikan beberapa pilihan kecil yang nyata di dalam batas yang tetap Anda jaga."
+            }
+          },
+          {
+            "name": {
+              "en": "To escape something",
+              "id": "Menghindari sesuatu"
+            },
+            "tags": [
+              {
+                "en": "Before a hard task",
+                "id": "Sebelum tugas sulit"
+              }
+            ],
+            "looksLike": {
+              "en": "Appears just before a difficult or shaming task — homework, reading aloud, getting dressed.",
+              "id": "Muncul tepat sebelum tugas yang terasa sulit atau membuat malu, seperti PR, membaca dengan suara lantang, atau berpakaian."
+            },
+            "outcome": {
+              "en": "Shrink the task until starting is easy. The avoidance usually goes with it.",
+              "id": "Kecilkan tugas hingga langkah pertamanya terasa mudah. Keinginan menghindar biasanya ikut berkurang."
+            }
+          },
+          {
+            "name": {
+              "en": "To meet a body need",
+              "id": "Memenuhi kebutuhan tubuh"
+            },
+            "tags": [
+              {
+                "en": "Same time daily",
+                "id": "Jam yang sama tiap hari"
+              }
+            ],
+            "looksLike": {
+              "en": "Tied to tiredness, hunger, or sensory overload, and worst at predictable hours.",
+              "id": "Berkaitan dengan kelelahan, lapar, atau berlebihnya rangsangan, dan biasanya memuncak pada waktu yang dapat diperkirakan."
+            },
+            "outcome": {
+              "en": "Meet the need first. No consequence works on a body running empty.",
+              "id": "Penuhi kebutuhan tubuh terlebih dahulu. Konsekuensi saja tidak banyak membantu ketika tubuh sudah kehabisan energi."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "day": 213,
+      "chapter": 8,
+      "title": {
+        "en": "Power struggles",
+        "id": "Ketika interaksi menjadi adu kuasa"
+      },
+      "teaching": {
+        "en": "A power struggle requires two participants. The moment you are trying to win, you have already joined one — and there is no version of winning that leaves the relationship better than it was.\n\nStepping out is not losing. State the limit once, stop explaining, and let the silence hold it. Every extra sentence hands the child more to push against.",
+        "id": "Adu kuasa membutuhkan dua peserta. Begitu Anda berusaha menang, Anda sudah ikut di dalamnya — dan tak ada versi kemenangan yang meninggalkan hubungannya lebih baik dari sebelumnya.\n\nKeluar dari situ bukan kalah. Sebutkan batasnya sekali, berhenti menjelaskan, dan biarkan keheningan yang memegangnya. Setiap kalimat tambahan memberi anak lebih banyak bahan untuk didorong."
+      },
+      "inPractice": {
+        "en": "Notice the moment you start wanting to win. That feeling is the signal to stop talking, not to try harder.",
+        "id": "Sadari momen ketika Anda mulai ingin menang. Perasaan itu adalah tanda untuk berhenti bicara, bukan untuk berusaha lebih keras."
+      },
+      "practice": {
+        "en": "Step out of one power struggle today by simply repeating the limit and waiting.",
+        "id": "Keluar dari satu adu kuasa hari ini dengan sekadar mengulang batasnya dan menunggu."
+      },
+      "reflection": {
+        "en": "What am I actually trying to win?",
+        "id": "Sebenarnya saya sedang berusaha memenangkan apa?"
+      },
+      "script": {
+        "en": "\"That's my answer. I'm not going to argue it.\"",
+        "id": "\"Itu jawaban Mama/Papa. Tidak akan diperdebatkan.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "The Explosive Child — Ross W. Greene",
+      "draft": false
+    },
+    {
+      "day": 214,
+      "chapter": 8,
+      "title": {
+        "en": "Attention-seeking behavior",
+        "id": "Perilaku yang mencari perhatian dan kedekatan"
+      },
+      "teaching": {
+        "en": "The phrase is usually dismissive, as though attention were a frivolous thing to want. For a child, attention is a genuine need — and behaviour is the tool that reliably produces it.\n\nIf difficult behaviour is the only dependable route to your full attention, a child will keep taking it. The answer is rarely less attention; it is attention that arrives before the behaviour does.",
+        "id": "Ungkapan ini biasanya diucapkan dengan meremehkan, seolah perhatian adalah keinginan sepele. Bagi anak, perhatian adalah kebutuhan yang sungguh — dan perilaku adalah alat yang paling andal menghasilkannya.\n\nJika perilaku sulit adalah satu-satunya jalan andal menuju perhatian penuh Anda, anak akan terus menempuhnya. Jawabannya jarang mengurangi perhatian; melainkan perhatian yang datang sebelum perilakunya."
+      },
+      "inPractice": {
+        "en": "Ten minutes given freely in the afternoon usually costs less than the hour extracted through trouble at bedtime.",
+        "id": "Sepuluh menit yang diberikan cuma-cuma di sore hari biasanya lebih murah daripada satu jam yang dipaksa keluar lewat keributan menjelang tidur."
+      },
+      "practice": {
+        "en": "Give attention today at a moment nothing is wrong.",
+        "id": "Berikan perhatian hari ini di saat tak ada masalah apa pun."
+      },
+      "reflection": {
+        "en": "What is the most reliable way for my child to get my full attention?",
+        "id": "Apa cara paling andal bagi anak saya untuk mendapat perhatian penuh saya?"
+      },
+      "script": {
+        "en": "\"Come sit with me for ten minutes. No reason.\"",
+        "id": "\"Sini duduk sama Mama/Papa sepuluh menit. Tanpa alasan apa-apa.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 215,
+      "chapter": 8,
+      "title": {
+        "en": "Aggression between siblings",
+        "id": "Agresi antar saudara"
+      },
+      "teaching": {
+        "en": "Some sibling conflict is normal and useful; aggression is where the line sits. Safety is not negotiable, and stopping it is not the same as refereeing who started it.\n\nSeparate first, calm both, and only afterwards work out what happened. Trying to establish blame while either child is still flooded achieves nothing.",
+        "id": "Sebagian konflik antar saudara wajar dan berguna; agresi adalah tempat garisnya berada. Keselamatan tidak bisa ditawar, dan menghentikannya berbeda dengan mewasiti siapa yang memulai.\n\nPisahkan dulu, tenangkan keduanya, dan baru sesudahnya cari tahu apa yang terjadi. Berusaha menetapkan siapa yang salah selagi salah satu anak masih kewalahan tak menghasilkan apa pun."
+      },
+      "inPractice": {
+        "en": "Comforting the hurt child first, without immediately prosecuting the other, teaches more about harm than any consequence delivered in the moment.",
+        "id": "Menenangkan anak yang tersakiti lebih dulu, tanpa langsung mengadili yang lain, mengajarkan lebih banyak tentang menyakiti daripada konsekuensi apa pun saat itu juga."
+      },
+      "practice": {
+        "en": "Separate and calm before investigating, next time it happens.",
+        "id": "Pisahkan dan tenangkan sebelum menyelidiki, lain kali ini terjadi."
+      },
+      "reflection": {
+        "en": "Do I investigate before anyone is calm enough to be honest?",
+        "id": "Apakah saya menyelidiki sebelum ada yang cukup tenang untuk jujur?"
+      },
+      "script": {
+        "en": "\"Safe first. We'll talk after.\"",
+        "id": "\"Aman dulu. Nanti kita bicara.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "The Explosive Child — Ross W. Greene",
+      "draft": false
+    },
+    {
+      "day": 216,
+      "chapter": 8,
+      "title": {
+        "en": "Hitting and biting",
+        "id": "Memukul dan menggigit"
+      },
+      "teaching": {
+        "en": "In young children, hitting and biting are almost always communication rather than cruelty — the fastest available response when a feeling arrives faster than any word for it.\n\nThe limit is absolute and the tone can still be calm. Stop it, name the feeling, and supply the words the child did not have.",
+        "id": "Pada anak kecil, memukul dan menggigit hampir selalu komunikasi, bukan kekejaman — respons tercepat yang tersedia ketika perasaan datang lebih cepat daripada kata untuknya.\n\nBatasnya mutlak dan nadanya tetap bisa tenang. Hentikan, namai perasaannya, dan sediakan kata-kata yang belum anak miliki."
+      },
+      "inPractice": {
+        "en": "\"You were angry and you wanted the toy. Hands are not for hitting. You can say 'my turn'\" — limit, feeling, and the missing skill in three short sentences.",
+        "id": "\"Kamu marah dan kamu mau mainannya. Tangan bukan untuk memukul. Kamu bisa bilang 'giliranku'\" — batas, perasaan, dan keterampilan yang hilang dalam tiga kalimat pendek."
+      },
+      "practice": {
+        "en": "Supply the missing words immediately after stopping the behaviour today.",
+        "id": "Sediakan kata-kata yang hilang segera setelah menghentikan perilakunya hari ini."
+      },
+      "reflection": {
+        "en": "Does my child have any word for what they are feeling in that moment?",
+        "id": "Apakah anak saya punya kata untuk apa yang dia rasakan di momen itu?"
+      },
+      "script": {
+        "en": "\"Hands are not for hitting. Say 'my turn'.\"",
+        "id": "\"Tangan bukan untuk memukul. Bilang 'giliranku'.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "How to Talk So Little Kids Will Listen — Joanna Faber & Julie King",
+      "draft": false
+    },
+    {
+      "day": 217,
+      "chapter": 8,
+      "title": {
+        "en": "Throwing objects",
+        "id": "Melempar benda"
+      },
+      "teaching": {
+        "en": "Throwing has several very different causes: experimenting with cause and effect, discharging a feeling too big to hold, or seeking a reliable reaction from you.\n\nThe response differs by cause. Experimentation needs redirection to something throwable; discharge needs regulation; reaction-seeking needs a calm, boring, consistent answer.",
+        "id": "Melempar punya beberapa sebab yang sangat berbeda: bereksperimen dengan sebab dan akibat, melepaskan perasaan yang terlalu besar untuk ditahan, atau mencari reaksi yang andal dari Anda.\n\nResponsnya berbeda menurut sebabnya. Eksperimen butuh dialihkan ke sesuatu yang boleh dilempar; pelepasan butuh penenangan; pencarian reaksi butuh jawaban yang tenang, membosankan, dan konsisten."
+      },
+      "inPractice": {
+        "en": "A toddler throwing food is usually running an experiment, not being defiant. Giving them something they may throw ends the experiment honourably.",
+        "id": "Balita yang melempar makanan biasanya sedang bereksperimen, bukan membangkang. Memberinya sesuatu yang boleh dilempar mengakhiri eksperimennya dengan terhormat."
+      },
+      "practice": {
+        "en": "Work out which of the three causes is behind one throwing incident today.",
+        "id": "Cari tahu mana dari tiga sebab itu yang ada di balik satu kejadian melempar hari ini."
+      },
+      "reflection": {
+        "en": "Is my child experimenting, discharging, or watching for my reaction?",
+        "id": "Apakah anak saya bereksperimen, melepaskan perasaan, atau menunggu reaksi saya?"
+      },
+      "script": {
+        "en": "\"Not that. Here — you can throw this.\"",
+        "id": "\"Bukan itu. Ini — yang ini boleh dilempar.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 218,
+      "chapter": 8,
+      "title": {
+        "en": "Screaming",
+        "id": "Menjerit"
+      },
+      "teaching": {
+        "en": "Screaming is effective, which is the whole problem: it is loud, hard to ignore, and usually produces an immediate response of some kind.\n\nFor younger children it is often overload rather than strategy. For older ones it may be the only volume at which they have ever felt heard, which is worth sitting with honestly.",
+        "id": "Menjerit itu efektif, dan justru itulah seluruh masalahnya: keras, sulit diabaikan, dan biasanya langsung menghasilkan semacam respons.\n\nUntuk anak yang lebih kecil, ia sering kelebihan beban, bukan strategi. Untuk yang lebih besar, mungkin itulah satu-satunya volume yang pernah membuatnya merasa didengar — dan itu layak direnungkan dengan jujur."
+      },
+      "inPractice": {
+        "en": "Lowering your own voice in response works better than matching it. Two people shouting has never once resolved anything.",
+        "id": "Menurunkan suara Anda sendiri sebagai jawaban lebih berhasil daripada menyamainya. Dua orang berteriak tak pernah sekali pun menyelesaikan apa pun."
+      },
+      "practice": {
+        "en": "Answer one raised voice today with a quieter one.",
+        "id": "Jawab satu suara yang meninggi hari ini dengan suara yang lebih pelan."
+      },
+      "reflection": {
+        "en": "Does my child have to get loud to be heard here?",
+        "id": "Apakah anak saya harus mengeraskan suara agar didengar di sini?"
+      },
+      "script": {
+        "en": "\"I can hear you. I'm listening.\"",
+        "id": "\"Mama/Papa dengar. Mama/Papa mendengarkan.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "The Explosive Child — Ross W. Greene",
+      "draft": false
+    },
+    {
+      "day": 219,
+      "chapter": 8,
+      "title": {
+        "en": "Running away in public",
+        "id": "Berlari menjauh di tempat umum"
+      },
+      "teaching": {
+        "en": "This one is genuinely a safety issue, so it is handled differently from the rest. The rule is absolute and taught in advance, not negotiated in a car park.\n\nPractise it somewhere safe, hold hands where the risk is real, and keep the response consistent and unfrightening — fear teaches poorly and this rule needs to hold under stress.",
+        "id": "Yang ini sungguh soal keselamatan, jadi ditangani berbeda dari yang lain. Aturannya mutlak dan diajarkan sejak awal, bukan dinegosiasikan di tempat parkir.\n\nLatih di tempat yang aman, pegang tangan di tempat yang risikonya nyata, dan jaga responsnya tetap konsisten dan tidak menakutkan — rasa takut mengajarkan dengan buruk, dan aturan ini harus bertahan saat tertekan."
+      },
+      "inPractice": {
+        "en": "Rehearsing \"stop\" as a game in a safe place builds a reflex that works when it actually matters.",
+        "id": "Melatih \"berhenti\" sebagai permainan di tempat aman membangun refleks yang bekerja saat benar-benar dibutuhkan."
+      },
+      "practice": {
+        "en": "Practise the stopping rule somewhere safe today.",
+        "id": "Latih aturan berhenti di tempat yang aman hari ini."
+      },
+      "reflection": {
+        "en": "Has my child ever practised this rule when nothing was at stake?",
+        "id": "Pernahkah anak saya melatih aturan ini saat tak ada risiko?"
+      },
+      "script": {
+        "en": "\"When I say stop, feet stop. Let's practise.\"",
+        "id": "\"Kalau Mama/Papa bilang berhenti, kaki berhenti. Ayo latihan.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 220,
+      "chapter": 8,
+      "title": {
+        "en": "Lying",
+        "id": "Berbohong"
+      },
+      "teaching": {
+        "en": "Most childhood lying is fear-driven rather than character-driven. Children lie to avoid a reaction they expect, which means the size of your reaction is one of the main inputs into how often they lie.\n\nThe strategy is to make truth cheaper than concealment — which means responding to a confession more gently than to a discovery, every time.",
+        "id": "Sebagian besar kebohongan anak didorong rasa takut, bukan karakter. Anak berbohong untuk menghindari reaksi yang mereka perkirakan, artinya besarnya reaksi Anda adalah salah satu masukan utama seberapa sering mereka berbohong.\n\nStrateginya adalah membuat kejujuran lebih murah daripada menyembunyikan — artinya menanggapi pengakuan lebih lembut daripada menanggapi ketahuan, setiap kali."
+      },
+      "inPractice": {
+        "en": "Avoid the trap question. Asking \"did you do this?\" when you already know invites a lie; saying \"I can see what happened, tell me about it\" does not.",
+        "id": "Hindari pertanyaan jebakan. Bertanya \"kamu yang melakukan ini?\" padahal Anda sudah tahu mengundang kebohongan; berkata \"Mama lihat apa yang terjadi, ceritakan\" tidak."
+      },
+      "practice": {
+        "en": "Thank your child for one hard truth today before addressing anything else.",
+        "id": "Berterima kasihlah atas satu kejujuran yang berat hari ini sebelum membahas hal lain."
+      },
+      "reflection": {
+        "en": "From my child's view, is honesty safer than hiding?",
+        "id": "Dari sudut pandang anak saya, apakah jujur lebih aman daripada menyembunyikan?"
+      },
+      "script": {
+        "en": "\"Thank you for telling me. That was brave.\"",
+        "id": "\"Terima kasih sudah cerita. Itu berani.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
+      "draft": false
+    },
+    {
+      "day": 221,
+      "chapter": 8,
+      "title": {
+        "en": "Stealing",
+        "id": "Mengambil yang bukan miliknya"
+      },
+      "teaching": {
+        "en": "In young children, taking is often a developmental matter — ownership is a concept that takes years to fully form. In older children it usually signals something else: impulse difficulty, social pressure, or an unmet need.\n\nHandle it calmly and require restitution. Shame is especially counterproductive here, because a child who feels defined as a thief has little reason to stop.",
+        "id": "Pada anak kecil, mengambil sering soal perkembangan — kepemilikan adalah konsep yang butuh bertahun-tahun untuk terbentuk penuh. Pada anak yang lebih besar, ia biasanya menandakan hal lain: kesulitan menahan dorongan, tekanan sosial, atau kebutuhan yang tak terpenuhi.\n\nTangani dengan tenang dan minta perbaikan. Rasa malu sangat kontraproduktif di sini, karena anak yang merasa dilabeli pencuri tak punya banyak alasan untuk berhenti."
+      },
+      "inPractice": {
+        "en": "Returning the item together — walking in with them rather than sending them — teaches accountability without public humiliation.",
+        "id": "Mengembalikan barangnya bersama-sama — masuk bersamanya, bukan menyuruhnya sendiri — mengajarkan tanggung jawab tanpa mempermalukan di depan umum."
+      },
+      "practice": {
+        "en": "If it happens, require return and repair, calmly and privately.",
+        "id": "Jika terjadi, minta pengembalian dan perbaikan, dengan tenang dan secara pribadi."
+      },
+      "reflection": {
+        "en": "Would my reaction make it safer to hide this next time?",
+        "id": "Apakah reaksi saya akan membuat lebih aman untuk menyembunyikannya lain kali?"
+      },
+      "script": {
+        "en": "\"We're going to put this right together.\"",
+        "id": "\"Kita akan membereskan ini bersama-sama.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 222,
+      "chapter": 8,
+      "title": {
+        "en": "Swearing",
+        "id": "Berkata kasar"
+      },
+      "teaching": {
+        "en": "Young children swear because a word produced a spectacular reaction. Older children swear to belong, to test, or because everyone around them does.\n\nA big reaction is fuel for the first group and evidence of a button for the second. A flat, brief, unimpressed correction works better than outrage in both cases.",
+        "id": "Anak kecil berkata kasar karena satu kata menghasilkan reaksi yang spektakuler. Anak yang lebih besar berkata kasar untuk diterima, untuk menguji, atau karena semua orang di sekitarnya begitu.\n\nReaksi besar adalah bahan bakar bagi kelompok pertama dan bukti adanya tombol bagi kelompok kedua. Teguran yang datar, singkat, dan tak terkesan lebih berhasil daripada kemarahan pada keduanya."
+      },
+      "inPractice": {
+        "en": "Worth checking honestly where the word was learned. Households often supply the vocabulary they then punish.",
+        "id": "Layak diperiksa dengan jujur di mana kata itu dipelajari. Rumah sering menyediakan kosakata yang kemudian dihukumnya."
+      },
+      "practice": {
+        "en": "Respond flatly rather than dramatically to one word today.",
+        "id": "Tanggapi satu kata dengan datar, bukan dramatis, hari ini."
+      },
+      "reflection": {
+        "en": "Where did my child learn that word?",
+        "id": "Di mana anak saya belajar kata itu?"
+      },
+      "script": {
+        "en": "\"We don't use that one. Try again.\"",
+        "id": "\"Kita tidak pakai kata itu. Coba lagi.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 223,
+      "chapter": 8,
+      "title": {
+        "en": "Rudeness",
+        "id": "Ketika anak berbicara kurang sopan"
+      },
+      "teaching": {
+        "en": "Rudeness is often a poorly expressed need for autonomy or a feeling with no better outlet. That does not make it acceptable, and it does change the response.\n\nName the behaviour and the alternative in one calm sentence, and address it in private. Rudeness corrected in front of an audience almost always escalates.",
+        "id": "Ketidaksopanan sering adalah kebutuhan akan otonomi yang diungkapkan dengan buruk, atau perasaan tanpa saluran yang lebih baik. Itu tidak membuatnya bisa diterima, dan memang mengubah responsnya.\n\nSebutkan perilakunya dan alternatifnya dalam satu kalimat yang tenang, dan bahas secara pribadi. Ketidaksopanan yang ditegur di depan penonton hampir selalu memburuk."
+      },
+      "inPractice": {
+        "en": "Modelling matters more than correcting here. A household where adults are courteous to children produces courteous children far more reliably than one that demands it.",
+        "id": "Dalam hal ini, keteladanan lebih berpengaruh daripada koreksi. Anak lebih mudah belajar bersikap sopan di rumah ketika orang dewasa juga berbicara kepadanya dengan sopan, bukan hanya menuntutnya melakukan hal yang sama."
+      },
+      "practice": {
+        "en": "Correct one instance of rudeness privately today, with the alternative attached.",
+        "id": "Tegur satu ketidaksopanan secara pribadi hari ini, dengan alternatifnya disertakan."
+      },
+      "reflection": {
+        "en": "Am I courteous to my child in the way I expect them to be to me?",
+        "id": "Apakah saya sopan kepada anak dengan cara yang saya harapkan dia sopan kepada saya?"
+      },
+      "script": {
+        "en": "\"Not like that. Say it again properly.\"",
+        "id": "\"Bukan begitu. Ulangi dengan baik.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 224,
+      "chapter": 8,
+      "title": {
+        "en": "Backtalk",
+        "id": "Ketika anak menjawab balik"
+      },
+      "teaching": {
+        "en": "Backtalk sits awkwardly between disrespect and healthy self-advocacy, and telling them apart matters. A child who can disagree respectfully has a genuinely valuable skill — including for refusing adults who should be refused.\n\nCorrect the tone, keep the right to disagree. \"You can tell me you think that's unfair. Not in that voice.\"",
+        "id": "Membantah berada di posisi canggung antara tidak hormat dan membela diri secara sehat, dan membedakannya penting. Anak yang bisa berbeda pendapat dengan hormat punya keterampilan yang sungguh berharga — termasuk untuk menolak orang dewasa yang memang harus ditolak.\n\nBetulkan nadanya, pertahankan haknya untuk berbeda pendapat. \"Kamu boleh bilang menurutmu itu tidak adil. Bukan dengan nada itu.\""
+      },
+      "inPractice": {
+        "en": "Shutting down all disagreement produces a child who complies with everyone, which is not the safety it appears to be.",
+        "id": "Membungkam semua perbedaan pendapat menghasilkan anak yang menurut kepada siapa pun — dan itu bukan keamanan seperti yang tampaknya."
+      },
+      "practice": {
+        "en": "Separate the tone from the content in one disagreement today.",
+        "id": "Pisahkan nada dari isinya dalam satu perbedaan pendapat hari ini."
+      },
+      "reflection": {
+        "en": "Do I want a child who never argues, or one who argues well?",
+        "id": "Saya ingin anak yang tak pernah membantah, atau yang membantah dengan baik?"
+      },
+      "script": {
+        "en": "\"You can disagree. Try that again respectfully.\"",
+        "id": "\"Kamu boleh tidak setuju. Coba ulangi dengan hormat.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "The Explosive Child — Ross W. Greene",
+      "draft": false
+    },
+    {
+      "day": 225,
+      "chapter": 8,
+      "title": {
+        "en": "Whining",
+        "id": "Merengek"
+      },
+      "teaching": {
+        "en": "Whining is engineered to be hard to ignore, and it almost always signals depletion — tiredness, hunger, or a need for connection unmet in a better way.\n\nCorrecting the tone while ignoring the need produces more whining. Meet the need first; teach the tone later, when everyone is calm and nothing is at stake.",
+        "id": "Rengekan memang dirancang agar sulit diabaikan, dan hampir selalu menandakan kehabisan tenaga — lelah, lapar, atau kebutuhan akan kedekatan yang tak terpenuhi dengan cara yang lebih baik.\n\nMembetulkan nadanya sambil mengabaikan kebutuhannya menghasilkan lebih banyak rengekan. Penuhi kebutuhannya dulu; ajarkan nadanya nanti, saat semua tenang dan tak ada yang dipertaruhkan."
+      },
+      "inPractice": {
+        "en": "\"You sound like you're running out of energy — come here\" ends whining faster than \"use your normal voice\" almost every time.",
+        "id": "\"Sepertinya tenagamu habis — sini\" menghentikan rengekan lebih cepat daripada \"pakai suara biasa\" hampir setiap kali."
+      },
+      "practice": {
+        "en": "Answer the need behind one whine today rather than the sound.",
+        "id": "Jawab kebutuhan di balik satu rengekan hari ini, bukan bunyinya."
+      },
+      "reflection": {
+        "en": "What does the whining always come just after?",
+        "id": "Rengekan itu selalu muncul tepat setelah apa?"
+      },
+      "script": {
+        "en": "\"You sound worn out. Come sit a minute.\"",
+        "id": "\"Sepertinya kamu capek. Sini duduk sebentar.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
+      "draft": false
+    },
+    {
+      "day": 226,
+      "chapter": 8,
+      "title": {
+        "en": "Bedwetting without shame",
+        "id": "Mengompol tanpa mempermalukan"
+      },
+      "teaching": {
+        "en": "Bedwetting is almost never within a child's control. It is common, largely developmental, and frequently runs in families — a parent who wet the bed late often has a child who does.\n\nShame makes it worse and lasts far longer than the bedwetting. Keep it practical and matter-of-fact, and speak to a doctor if it persists or restarts after a dry period.",
+        "id": "Mengompol hampir tak pernah dalam kendali anak. Ia umum, sebagian besar soal perkembangan, dan sering menurun dalam keluarga — orang tua yang dulu mengompol sampai besar sering punya anak yang begitu juga.\n\nRasa malu membuatnya semakin sulit dan bertahan jauh lebih lama daripada mengompolnya. Jaga tetap praktis dan biasa saja, dan bicarakan dengan dokter jika terus berlanjut atau muncul lagi setelah periode kering."
+      },
+      "inPractice": {
+        "en": "Involving the child in the practical side without blame — carrying the sheets, not being scolded — preserves dignity while it resolves on its own timeline.",
+        "id": "Melibatkan anak dalam sisi praktisnya tanpa menyalahkan — membawa seprainya, tanpa dimarahi — menjaga martabatnya sementara hal itu selesai sesuai waktunya sendiri."
+      },
+      "practice": {
+        "en": "Keep tonight's response entirely matter-of-fact, whatever happens.",
+        "id": "Jaga respons malam ini sepenuhnya biasa saja, apa pun yang terjadi."
+      },
+      "reflection": {
+        "en": "Does my child feel ashamed of something they cannot control?",
+        "id": "Apakah anak saya merasa malu atas sesuatu yang tak bisa dia kendalikan?"
+      },
+      "script": {
+        "en": "\"Bodies do this sometimes. Let's sort the sheets.\"",
+        "id": "\"Tubuh kadang begitu. Ayo kita ganti seprainya.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 227,
+      "chapter": 8,
+      "title": {
+        "en": "Toilet resistance",
+        "id": "Menolak toilet"
+      },
+      "teaching": {
+        "en": "Toilet training is one of the few areas where a child holds complete physical control, which is exactly why pressure backfires so reliably.\n\nResistance usually means the child is not ready, or that the process has become a battleground. Backing off entirely for a few weeks resolves more cases than any amount of encouragement.",
+        "id": "Toilet training adalah salah satu dari sedikit wilayah di mana anak memegang kendali fisik sepenuhnya, dan justru itulah sebabnya tekanan selalu berbalik.\n\nPenolakan biasanya berarti anak belum siap, atau prosesnya sudah menjadi sumber ketegangan. Mundur sepenuhnya selama beberapa minggu menyelesaikan lebih banyak kasus daripada dorongan sebanyak apa pun."
+      },
+      "inPractice": {
+        "en": "Nobody arrives at adulthood still in nappies. The timeline genuinely does not predict anything about the child.",
+        "id": "Tak ada yang sampai dewasa masih memakai popok. Garis waktunya sungguh tidak meramalkan apa pun tentang anaknya."
+      },
+      "practice": {
+        "en": "Take all pressure off this for a week if it has become a fight.",
+        "id": "Lepaskan semua tekanan soal ini selama seminggu jika sudah menjadi pertengkaran."
+      },
+      "reflection": {
+        "en": "Whose timeline are we actually working to?",
+        "id": "Sebenarnya kami mengikuti garis waktu siapa?"
+      },
+      "script": {
+        "en": "\"When you're ready. No rush at all.\"",
+        "id": "\"Kalau kamu sudah siap. Tidak buru-buru.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 228,
+      "chapter": 8,
+      "title": {
+        "en": "Sleep refusal",
+        "id": "Menolak tidur"
+      },
+      "teaching": {
+        "en": "Sleep refusal usually has one of three causes: not actually tired, anxious about separation, or the routine has become a negotiation.\n\nEach needs a different answer — a later start, more connection before sleep, or a fixed sequence held without discussion. Applying the wrong one keeps everyone up.",
+        "id": "Menolak tidur biasanya punya salah satu dari tiga sebab: memang belum mengantuk, cemas berpisah, atau rutinitasnya sudah menjadi negosiasi.\n\nMasing-masing butuh jawaban berbeda — mulai lebih malam, lebih banyak kedekatan sebelum tidur, atau urutan tetap yang dipegang tanpa diskusi. Menerapkan yang salah membuat semua orang tetap terjaga."
+      },
+      "inPractice": {
+        "en": "The endless requests — water, one more story, a question — are usually about separation rather than thirst. More connection earlier tends to shorten them.",
+        "id": "Permintaan tanpa akhir — air, satu cerita lagi, satu pertanyaan — biasanya soal perpisahan, bukan haus. Lebih banyak kedekatan lebih awal cenderung memperpendeknya."
+      },
+      "practice": {
+        "en": "Work out which of the three is behind tonight's resistance.",
+        "id": "Cari tahu mana dari ketiganya yang ada di balik perlawanan malam ini."
+      },
+      "reflection": {
+        "en": "Is my child not tired, or not ready to be apart from me?",
+        "id": "Apakah anak saya belum mengantuk, atau belum siap berpisah dari saya?"
+      },
+      "script": {
+        "en": "\"I'll check on you in five minutes. I always do.\"",
+        "id": "\"Mama/Papa lihat lagi lima menit lagi. Selalu begitu.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
+      "draft": false
+    },
+    {
+      "day": 229,
+      "chapter": 8,
+      "title": {
+        "en": "Separation difficulties",
+        "id": "Kesulitan berpisah"
+      },
+      "teaching": {
+        "en": "Separation distress is a sign of attachment working, not of a spoiled child. It peaks at predictable ages and returns during change — a new school, a new sibling, a move.\n\nLong goodbyes make it worse and slipping away makes it much worse. A short, warm, identical ritual with a clear promise of return works best.",
+        "id": "Kesedihan saat berpisah adalah tanda bahwa kelekatan sedang bekerja, bukan tanda bahwa anak dimanja. Perasaan ini biasanya memuncak pada usia tertentu dan dapat muncul kembali ketika ada perubahan, seperti sekolah baru, kehadiran adik, atau pindah rumah.\n\nPerpisahan yang terlalu panjang dapat membuatnya semakin berat, sedangkan pergi diam-diam dapat mengurangi rasa aman anak. Ritual perpisahan yang singkat, hangat, dan konsisten, disertai janji kembali yang jelas, biasanya paling membantu."
+      },
+      "inPractice": {
+        "en": "Sneaking out avoids one minute of crying and costs weeks of vigilance, because the child learns you might vanish at any moment.",
+        "id": "Pergi mengendap menghindari satu menit tangisan dan menghabiskan berminggu-minggu kewaspadaan, karena anak belajar Anda bisa menghilang kapan saja."
+      },
+      "practice": {
+        "en": "Use exactly the same goodbye ritual today as yesterday.",
+        "id": "Gunakan ritual perpisahan yang persis sama hari ini seperti kemarin."
+      },
+      "reflection": {
+        "en": "Is my goodbye predictable enough to lean on?",
+        "id": "Apakah cara saya berpamitan cukup bisa ditebak untuk jadi pegangan?"
+      },
+      "script": {
+        "en": "\"Kiss, wave, and I'm back after lunch.\"",
+        "id": "\"Cium, lambai, dan Mama/Papa kembali setelah makan siang.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 230,
+      "chapter": 8,
+      "title": {
+        "en": "School refusal basics",
+        "id": "Memahami penolakan sekolah"
+      },
+      "teaching": {
+        "en": "School refusal is rarely laziness. Underneath it usually sits anxiety, a social difficulty, an academic struggle the child is ashamed of, or something happening at school nobody has been told about.\n\nFind the cause before applying pressure. Persistent refusal warrants a conversation with the school and, often, a professional — this is one to take seriously early.",
+        "id": "Penolakan sekolah jarang disebabkan oleh kemalasan. Di baliknya mungkin ada kecemasan, kesulitan sosial, tantangan akademik yang membuat anak malu, atau pengalaman di sekolah yang belum ia ceritakan kepada siapa pun.\n\nCarilah penyebabnya sebelum menambah tekanan. Jika penolakan terus berlanjut, ajak pihak sekolah berdiskusi dan pertimbangkan dukungan tenaga profesional. Situasi seperti ini sebaiknya ditanggapi dengan serius sejak awal."
+      },
+      "inPractice": {
+        "en": "Ask what specifically about school is hard. \"I don't want to go\" is a headline; the story underneath is usually specific and often fixable.",
+        "id": "Tanyakan bagian mana dari sekolah yang terasa berat. \"Aku tidak mau sekolah\" adalah judulnya; cerita di baliknya biasanya spesifik dan sering bisa dibereskan."
+      },
+      "practice": {
+        "en": "Ask what specifically is hard, without arguing about attendance today.",
+        "id": "Tanyakan bagian mana yang terasa berat, tanpa berdebat soal kehadiran hari ini."
+      },
+      "reflection": {
+        "en": "What might my child not have told me about school?",
+        "id": "Apa yang mungkin belum anak ceritakan kepada saya tentang sekolah?"
+      },
+      "script": {
+        "en": "\"Which part is the hardest part?\"",
+        "id": "\"Bagian mana yang paling berat?\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "How to Talk So Kids Will Listen & Listen So Kids Will Talk — Adele Faber & Elaine Mazlish",
+      "draft": false
+    },
+    {
+      "day": 231,
+      "chapter": 8,
+      "title": {
+        "en": "Homework avoidance",
+        "id": "Ketika anak menghindari PR"
+      },
+      "teaching": {
+        "en": "Avoidance and laziness look identical from outside and are entirely different inside. A child who expects to fail avoids starting; the avoidance protects them from evidence of not being clever.\n\nShrink the first step until it is trivially achievable, and sit nearby. Most resistance lives at the beginning, not in the middle.",
+        "id": "Menghindar dan malas tampak identik dari luar dan sama sekali berbeda di dalam. Anak yang memperkirakan dirinya gagal menghindari memulai; penghindaran itu melindunginya dari bukti bahwa dia tidak pintar.\n\nPerkecil langkah pertama sampai sepele untuk dicapai, dan duduk di dekatnya. Sebagian besar perlawanan tinggal di awal, bukan di tengah."
+      },
+      "inPractice": {
+        "en": "\"Just the first question, then we'll see\" gets more done than any conversation about responsibility.",
+        "id": "\"Soal pertama saja dulu, nanti kita lihat\" menyelesaikan lebih banyak daripada percakapan apa pun tentang tanggung jawab."
+      },
+      "practice": {
+        "en": "Shrink one task to a trivially small first step today.",
+        "id": "Perkecil satu tugas menjadi langkah pertama yang sangat kecil hari ini."
+      },
+      "reflection": {
+        "en": "What size does a task have to be before my child will start it?",
+        "id": "Sebesar apa tugasnya supaya anak saya mau memulainya?"
+      },
+      "script": {
+        "en": "\"Just the first line. I'll sit here.\"",
+        "id": "\"Baris pertama saja. Mama/Papa duduk di sini.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 232,
+      "chapter": 8,
+      "title": {
+        "en": "Perfectionism in children",
+        "id": "Perfeksionisme pada anak"
+      },
+      "teaching": {
+        "en": "Perfectionism looks like high standards and functions as fear. A perfectionist child avoids anything they might not excel at, which narrows their world considerably over time.\n\nPraise effort and strategy rather than results, and let them see you fail at something and be fine. Your visible relationship with your own mistakes is the strongest teaching available.",
+        "id": "Perfeksionisme tampak seperti standar tinggi dan berfungsi sebagai rasa takut. Anak perfeksionis menghindari apa pun yang mungkin tak dia kuasai, dan itu mempersempit dunianya cukup jauh seiring waktu.\n\nPuji usaha dan strategi, bukan hasil, dan biarkan dia melihat Anda gagal pada sesuatu dan baik-baik saja. Hubungan Anda yang terlihat dengan kesalahan Anda sendiri adalah pengajaran terkuat yang tersedia."
+      },
+      "inPractice": {
+        "en": "Perfectionist children usually have a perfectionist parent. That is not blame — it is the most useful place to start.",
+        "id": "Anak perfeksionis biasanya punya orang tua perfeksionis. Ini bukan menyalahkan — ini tempat paling berguna untuk memulai."
+      },
+      "practice": {
+        "en": "Fail visibly at something small today and be visibly fine about it.",
+        "id": "Gagal secara terlihat pada sesuatu yang kecil hari ini dan tunjukkan Anda baik-baik saja."
+      },
+      "reflection": {
+        "en": "What does my child see me do when I get something wrong?",
+        "id": "Apa yang anak lihat saya lakukan ketika saya melakukan kesalahan?"
+      },
+      "script": {
+        "en": "\"I got that wrong. Good thing it's not important.\"",
+        "id": "\"Mama/Papa salah tadi. Untung bukan hal penting.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 233,
+      "chapter": 8,
+      "title": {
+        "en": "Social exclusion and hurt feelings",
+        "id": "Dikucilkan dan perasaan terluka"
+      },
+      "teaching": {
+        "en": "Exclusion hurts genuinely, and adult instinct is to minimise it — \"find other friends\", \"they're not worth it\". Both land as dismissal.\n\nAcknowledge the hurt fully first. Only afterwards, and only if wanted, move to what might help. Being believed about the pain matters more than the strategy.",
+        "id": "Dikucilkan itu sungguh menyakitkan, dan naluri orang dewasa adalah mengecilkannya — \"cari teman lain\", \"dia tidak sepadan\". Keduanya terasa sebagai pengabaian.\n\nAkui lukanya sepenuhnya dulu. Baru setelahnya, dan hanya jika diinginkan, beralih ke apa yang mungkin membantu. Dipercaya soal rasa sakitnya lebih penting daripada strateginya."
+      },
+      "inPractice": {
+        "en": "Persistent, targeted exclusion is bullying and warrants the school being told. The line is repetition and intent.",
+        "id": "Pengucilan yang terus-menerus dan terarah adalah perundungan dan layak dilaporkan ke sekolah. Batasnya adalah pengulangan dan kesengajaan."
+      },
+      "practice": {
+        "en": "Acknowledge one social hurt fully today before offering any strategy.",
+        "id": "Akui satu luka sosial sepenuhnya hari ini sebelum menawarkan strategi apa pun."
+      },
+      "reflection": {
+        "en": "Does my child believe I take their social world seriously?",
+        "id": "Apakah anak percaya saya menganggap serius dunia sosialnya?"
+      },
+      "script": {
+        "en": "\"That really hurts. I'm glad you told me.\"",
+        "id": "\"Itu sungguh menyakitkan. Mama/Papa senang kamu cerita.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Emotion Coaching — John Gottman related work",
+      "draft": false
+    },
+    {
+      "day": 234,
+      "chapter": 8,
+      "title": {
+        "en": "Fear of failure",
+        "id": "Takut gagal"
+      },
+      "teaching": {
+        "en": "Fear of failure produces avoidance, and avoidance produces less practice, which makes failure more likely. It is a loop, and it tightens quietly over years.\n\nBreak it by making failure ordinary and survivable in your household — talked about, not hidden, and never punished when it was the result of a genuine attempt.",
+        "id": "Takut gagal menghasilkan penghindaran, dan penghindaran menghasilkan lebih sedikit latihan, yang membuat kegagalan lebih mungkin. Ini lingkaran, dan ia mengencang diam-diam selama bertahun-tahun.\n\nPutuskan dengan membuat kegagalan menjadi biasa dan bisa dilalui di rumah Anda — dibicarakan, tidak disembunyikan, dan tak pernah dihukum bila itu hasil dari usaha yang sungguh."
+      },
+      "inPractice": {
+        "en": "Talking about your own failures at dinner does more than any encouragement. It makes failure a normal part of a life, rather than a verdict on one.",
+        "id": "Menceritakan pengalaman Anda sendiri saat pernah gagal dapat lebih bermakna daripada sekadar memberi semangat. Anak belajar bahwa kegagalan adalah bagian yang wajar dari kehidupan, bukan penilaian tentang nilai dirinya."
+      },
+      "practice": {
+        "en": "Tell your child about something you failed at today.",
+        "id": "Ceritakan kepada anak tentang sesuatu yang Anda gagal lakukan hari ini."
+      },
+      "reflection": {
+        "en": "Is failure allowed to be ordinary in our house?",
+        "id": "Apakah kegagalan boleh menjadi hal biasa di rumah kami?"
+      },
+      "script": {
+        "en": "\"I tried and it didn't work. I'll try again.\"",
+        "id": "\"Mama/Papa mencoba dan gagal. Nanti coba lagi.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Emotion Coaching — John Gottman related work",
+      "draft": false
+    },
+    {
+      "day": 235,
+      "chapter": 8,
+      "title": {
+        "en": "Excessive reassurance-seeking",
+        "id": "Sering membutuhkan kepastian"
+      },
+      "teaching": {
+        "en": "Repeated questions — am I okay, do you still love me, will it be fine — usually signal anxiety rather than neediness. Each answer relieves it briefly and, over time, feeds the loop.\n\nAnswer once warmly, then shift to building their own capacity: what do you think? That transfers the reassurance from you to them, which is the version that lasts.",
+        "id": "Pertanyaan yang berulang — aku baik-baik saja kan, Mama masih sayang aku kan, nanti akan baik-baik saja kan — biasanya menandakan kecemasan, bukan manja. Setiap jawaban meredakannya sebentar dan, seiring waktu, memberi makan lingkarannya.\n\nJawab sekali dengan hangat, lalu beralih membangun kemampuannya sendiri: menurutmu bagaimana? Itu memindahkan penenangan dari Anda kepadanya — versi yang bertahan."
+      },
+      "inPractice": {
+        "en": "\"You've asked me that a few times — what does your own answer say?\" said warmly builds something an answer from you never can.",
+        "id": "\"Kamu sudah tanya itu beberapa kali — menurut jawabanmu sendiri bagaimana?\" yang diucapkan hangat membangun sesuatu yang tak bisa dibangun oleh jawaban Anda."
+      },
+      "practice": {
+        "en": "Answer once, then hand one reassurance question back gently today.",
+        "id": "Jawab sekali, lalu kembalikan satu pertanyaan penenangan dengan lembut hari ini."
+      },
+      "reflection": {
+        "en": "Am I relieving my child's anxiety or feeding it?",
+        "id": "Apakah saya meredakan kecemasan anak atau memberinya makan?"
+      },
+      "script": {
+        "en": "\"What do you think? I trust your read.\"",
+        "id": "\"Menurutmu bagaimana? Mama/Papa percaya penilaianmu.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 236,
+      "chapter": 8,
+      "title": {
+        "en": "Nail biting and habits",
+        "id": "Menggigit kuku dan kebiasaan lain"
+      },
+      "teaching": {
+        "en": "Body-focused habits — nail biting, hair twisting, skin picking — are usually self-soothing rather than defiance. They increase with stress and are largely unconscious.\n\nPunishment and constant correction reliably make them worse by adding shame to the stress that caused them. Reducing the underlying stress works better than attacking the habit.",
+        "id": "Kebiasaan yang berpusat pada tubuh—seperti menggigit kuku, memilin rambut, atau mengelupas kulit—biasanya merupakan cara menenangkan diri, bukan penolakan yang disengaja. Kebiasaan ini dapat meningkat saat stres dan sering dilakukan tanpa disadari.\n\nHukuman atau koreksi yang terus-menerus dapat menambah rasa malu di atas stres yang sudah ada. Mengurangi sumber stres dan menawarkan cara menenangkan diri yang lain biasanya lebih membantu daripada hanya berfokus menghentikan kebiasaannya."
+      },
+      "inPractice": {
+        "en": "Offering a substitute — something to hold or fidget with — works better than asking a child to simply stop doing something they are not aware of doing.",
+        "id": "Menawarkan pengganti — sesuatu untuk dipegang atau dimainkan — lebih berhasil daripada meminta anak berhenti melakukan sesuatu yang tak dia sadari sedang dia lakukan."
+      },
+      "practice": {
+        "en": "Notice when the habit increases today, and treat that as the information.",
+        "id": "Perhatikan kapan kebiasaannya meningkat hari ini, dan perlakukan itu sebagai informasi."
+      },
+      "reflection": {
+        "en": "What is happening around my child when this increases?",
+        "id": "Apa yang sedang terjadi di sekitar anak saya saat ini meningkat?"
+      },
+      "script": {
+        "en": "\"Here, hold this instead.\"",
+        "id": "\"Ini, pegang ini saja.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "How to Talk So Little Kids Will Listen — Joanna Faber & Julie King",
+      "draft": false
+    },
+    {
+      "day": 237,
+      "chapter": 8,
+      "title": {
+        "en": "Screen dependency patterns",
+        "id": "Pola ketergantungan layar"
+      },
+      "teaching": {
+        "en": "Screens are engineered by large teams to be difficult to stop, so a child struggling to stop is not displaying weak character.\n\nWatch the pattern rather than the total: is screen time replacing sleep, friendship, movement or food? Displacement matters more than duration, and it is the more useful thing to measure.",
+        "id": "Layar dirancang oleh tim besar agar sulit dihentikan, jadi anak yang kesulitan berhenti bukan sedang menunjukkan karakter yang lemah.\n\nPerhatikan polanya, bukan totalnya: apakah waktu layar menggantikan tidur, pertemanan, gerak, atau makan? Penggeseran lebih penting daripada durasi, dan itu hal yang lebih berguna untuk diukur."
+      },
+      "inPractice": {
+        "en": "Agreeing the end point before a session begins turns you from the person who takes it away into the person keeping an agreement.",
+        "id": "Menyepakati titik akhir sebelum sesi dimulai mengubah Anda dari orang yang merebutnya menjadi orang yang menepati kesepakatan."
+      },
+      "practice": {
+        "en": "Check what screens are displacing this week, rather than counting hours.",
+        "id": "Periksa apa yang digeser oleh layar minggu ini, bukan menghitung jamnya."
+      },
+      "reflection": {
+        "en": "What is screen time taking the place of in my child's day?",
+        "id": "Waktu layar menggantikan apa dalam hari anak saya?"
+      },
+      "script": {
+        "en": "\"What did the screen take the place of today?\"",
+        "id": "\"Hari ini layar menggantikan kegiatan apa?\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "American Academy of Pediatrics parenting guidance — AAP",
+      "draft": false
+    },
+    {
+      "day": 238,
+      "chapter": 8,
+      "title": {
+        "en": "Risky internet behavior basics",
+        "id": "Dasar perilaku berisiko di internet"
+      },
+      "teaching": {
+        "en": "The protective factor that matters most online is not monitoring software. It is whether a child will tell you when something goes wrong.\n\nThat depends almost entirely on how you responded the last few times they brought you something difficult. A child who fears losing their device will hide exactly the things you most need to know.",
+        "id": "Faktor pelindung yang paling penting di dunia daring bukan perangkat lunak pengawas. Melainkan apakah anak akan memberi tahu Anda ketika ada yang tidak beres.\n\nItu hampir sepenuhnya bergantung pada bagaimana Anda menanggapi beberapa kali terakhir dia membawakan sesuatu yang sulit. Anak yang takut kehilangan gawainya akan menyembunyikan persis hal-hal yang paling perlu Anda ketahui."
+      },
+      "inPractice": {
+        "en": "Say the rule out loud in advance: \"if anything online worries you, you can tell me and you will not lose your device for it.\" Then keep that promise.",
+        "id": "Ucapkan aturannya sejak awal: \"kalau ada hal di internet yang membuatmu khawatir, kamu boleh cerita dan gawaimu tidak akan disita karena itu.\" Lalu tepati janji itu."
+      },
+      "practice": {
+        "en": "Make that promise explicitly today, and mean it.",
+        "id": "Sampaikan janji itu secara jelas hari ini, dan sungguh-sungguhi."
+      },
+      "reflection": {
+        "en": "Would my child tell me if something frightening happened online?",
+        "id": "Apakah anak saya akan bercerita jika sesuatu yang menakutkan terjadi di internet?"
+      },
+      "script": {
+        "en": "\"Tell me and you won't lose it. That's a promise.\"",
+        "id": "\"Cerita saja, gawaimu tidak akan disita. Itu janji.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "American Academy of Pediatrics parenting guidance — AAP",
+      "draft": false
+    },
+    {
+      "day": 239,
+      "chapter": 8,
+      "title": {
+        "en": "When behavior may signal anxiety",
+        "id": "Ketika perilaku mungkin menandakan kecemasan"
+      },
+      "teaching": {
+        "en": "Anxiety in children frequently looks like something else: anger, refusal, control-seeking, stomach aches, sleep trouble, or an insistence on things being exactly right.\n\nAnxious children are often described as difficult long before anyone recognises the anxiety. If a behaviour is persistent, worsening, and clusters around uncertainty or separation, it is worth a professional opinion.",
+        "id": "Kecemasan pada anak sering tampak seperti hal lain: marah, menolak, mencari kendali, sakit perut, sulit tidur, atau bersikeras segalanya harus persis benar.\n\nAnak yang cemas sering disebut sulit jauh sebelum ada yang mengenali kecemasannya. Jika sebuah perilaku terus berlanjut, memburuk, dan menumpuk di sekitar ketidakpastian atau perpisahan, layak untuk meminta pendapat profesional."
+      },
+      "inPractice": {
+        "en": "Reassurance relieves anxiety briefly and can strengthen it over time. Building a child's own coping capacity is the version that lasts — and professional guidance genuinely helps here.",
+        "id": "Penenangan meredakan kecemasan sebentar dan bisa menguatkannya seiring waktu. Membangun kemampuan anak mengatasi sendiri adalah versi yang bertahan — dan panduan profesional sungguh membantu di sini."
+      },
+      "practice": {
+        "en": "Note whether one difficult behaviour clusters around uncertainty or separation.",
+        "id": "Catat apakah satu perilaku sulit menumpuk di sekitar ketidakpastian atau perpisahan."
+      },
+      "reflection": {
+        "en": "Could what I have been calling difficult actually be frightened?",
+        "id": "Mungkinkah yang selama ini saya sebut sulit sebenarnya adalah ketakutan?"
+      },
+      "script": {
+        "en": "\"Something's worrying you. Let's work it out together.\"",
+        "id": "\"Ada yang membuatmu khawatir. Ayo kita cari tahu bersama.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 240,
+      "chapter": 8,
+      "title": {
+        "en": "When behavior may signal ADHD or neurodivergence",
+        "id": "Ketika perilaku mungkin berkaitan dengan ADHD atau neurodivergensi"
+      },
+      "teaching": {
+        "en": "Some children are not choosing the behaviour that frustrates you, and no amount of consistency will change it, because the difficulty is in how their brain is wired rather than in their willingness.\n\nSigns worth noticing: difficulties present across every setting, not just home; far outside what is typical for the age; persisting despite genuinely consistent parenting; and causing real distress. That combination deserves a proper assessment — this guide cannot diagnose, and an early accurate answer changes a childhood.",
+        "id": "Sebagian anak tidak sedang memilih perilaku yang membuat Anda frustrasi, dan sekonsisten apa pun Anda tak akan mengubahnya, karena kesulitannya ada pada cara otaknya tersusun, bukan pada kemauannya.\n\nTanda yang layak diperhatikan: kesulitan muncul di semua tempat, bukan hanya di rumah; jauh di luar yang lazim untuk usianya; bertahan meski pengasuhan sungguh konsisten; dan menimbulkan kesusahan yang nyata. Kombinasi itu layak mendapat pemeriksaan yang semestinya — panduan ini tidak bisa mendiagnosis, dan jawaban yang tepat sejak dini mengubah sebuah masa kanak."
+      },
+      "inPractice": {
+        "en": "Many parents delay assessment out of fear of a label. In practice an accurate understanding usually reduces blame — of the child and of the parents.",
+        "id": "Banyak orang tua menunda pemeriksaan karena takut label. Dalam praktik, pemahaman yang tepat biasanya justru mengurangi saling menyalahkan — pada anak dan pada orang tuanya."
+      },
+      "practice": {
+        "en": "If this describes your child, write down what you have noticed and take it to a professional.",
+        "id": "Jika ini menggambarkan anak Anda, tuliskan apa yang Anda perhatikan dan bawa ke tenaga profesional."
+      },
+      "reflection": {
+        "en": "Have I been asking my child for something they genuinely cannot yet do?",
+        "id": "Apakah selama ini saya meminta anak melakukan sesuatu yang sungguh belum bisa dia lakukan?"
+      },
+      "script": {
+        "en": "\"This isn't you being naughty. Let's get help understanding it.\"",
+        "id": "\"Kamu tidak nakal. Ayo kita cari bantuan agar kita bisa lebih memahaminya.\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    },
+    {
+      "day": 241,
+      "chapter": 8,
+      "title": {
+        "en": "Weekly reflection",
+        "id": "Refleksi mingguan"
+      },
+      "teaching": {
+        "en": "This chapter asks for one discipline: diagnose before intervening. A behaviour that has survived several months of consistent consequences is telling you the diagnosis was wrong, not that the consequence was too small.\n\nTake the behaviour that has troubled you longest and run it through tool 8, the ABC log, across six incidents. The pattern is almost always visible by the fourth.",
+        "id": "Bab ini meminta satu disiplin: diagnosis sebelum bertindak. Perilaku yang bertahan melewati beberapa bulan konsekuensi yang konsisten sedang memberi tahu Anda bahwa diagnosisnya salah, bukan bahwa konsekuensinya kurang besar.\n\nAmbil perilaku yang paling lama mengganggu Anda dan jalankan lewat alat 8, catatan ABC, selama enam kejadian. Polanya hampir selalu terlihat pada kejadian keempat."
+      },
+      "inPractice": {
+        "en": "If a behaviour is persistent, worsening, unusual for the age, or significantly affecting family life, that is the point to involve a professional rather than keep adjusting alone.",
+        "id": "Jika sebuah perilaku terus berlanjut, memburuk, tidak lazim untuk usianya, atau sangat memengaruhi kehidupan keluarga, itulah saatnya melibatkan tenaga profesional, bukan terus menyesuaikan sendirian."
+      },
+      "practice": {
+        "en": "Start an ABC log on your most persistent behaviour this week.",
+        "id": "Mulai catatan ABC untuk perilaku Anda yang paling membandel minggu ini."
+      },
+      "reflection": {
+        "en": "What function has this behaviour been serving all along?",
+        "id": "Fungsi apa yang selama ini dijalankan perilaku ini?"
+      },
+      "script": {
+        "en": "\"What is this behaviour doing for you?\"",
+        "id": "\"Perilaku ini sedang membantumu untuk apa?\""
+      },
+      "support": {
+        "en": "Consider professional support if this issue is persistent, worsening, developmentally unusual, or significantly affecting family life.",
+        "id": "Pertimbangkan bantuan profesional jika hal ini terus berlanjut, memburuk, tidak biasa untuk tahap perkembangan anak, atau sangat memengaruhi kehidupan keluarga."
+      },
+      "reference": "Positive Discipline — Jane Nelsen",
+      "draft": false
+    }
+  ]
+}

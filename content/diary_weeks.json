@@ -1,0 +1,1518 @@
+{
+  "meta": {
+    "product": "diary",
+    "freeThroughChapter": 4,
+    "dailyPrompts": [
+      {
+        "en": "One moment with my child today",
+        "id": "Satu momen bersama anak hari ini"
+      },
+      {
+        "en": "One feeling I noticed in myself",
+        "id": "Satu perasaan yang saya sadari dalam diri saya"
+      },
+      {
+        "en": "One thing I want to try tomorrow",
+        "id": "Satu hal yang ingin saya coba besok"
+      }
+    ],
+    "debrief": {
+      "combined": [
+        {
+          "en": "One thing that worked this week",
+          "id": "Satu hal yang berhasil minggu ini"
+        },
+        {
+          "en": "One thing that didn't",
+          "id": "Satu hal yang belum berjalan sesuai harapan"
+        },
+        {
+          "en": "One agreement for next week",
+          "id": "Satu kesepakatan untuk minggu depan"
+        }
+      ],
+      "solo": [
+        {
+          "en": "One thing that worked this week",
+          "id": "Satu hal yang berhasil minggu ini"
+        },
+        {
+          "en": "One thing that didn't",
+          "id": "Satu hal yang belum berjalan sesuai harapan"
+        },
+        {
+          "en": "One intention for next week",
+          "id": "Satu niat untuk minggu depan"
+        }
+      ]
+    }
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "en": "Parenting Mindset",
+      "id": "Pola Pikir Pengasuhan"
+    },
+    {
+      "number": 2,
+      "en": "Child Development",
+      "id": "Perkembangan Anak"
+    },
+    {
+      "number": 3,
+      "en": "Parent Self-Regulation",
+      "id": "Regulasi Diri Orang Tua"
+    },
+    {
+      "number": 4,
+      "en": "Communication",
+      "id": "Komunikasi"
+    },
+    {
+      "number": 5,
+      "en": "Discipline",
+      "id": "Disiplin"
+    },
+    {
+      "number": 6,
+      "en": "Emotional Coaching",
+      "id": "Pendampingan Emosi"
+    },
+    {
+      "number": 7,
+      "en": "Routines & Home Systems",
+      "id": "Rutinitas & Sistem Rumah"
+    },
+    {
+      "number": 8,
+      "en": "Behavior Challenges",
+      "id": "Tantangan Perilaku"
+    },
+    {
+      "number": 9,
+      "en": "Character & Responsibility",
+      "id": "Karakter & Tanggung Jawab"
+    },
+    {
+      "number": 10,
+      "en": "Relationship & Attachment",
+      "id": "Hubungan & Kelekatan"
+    },
+    {
+      "number": 11,
+      "en": "Special Contexts",
+      "id": "Konteks Khusus"
+    },
+    {
+      "number": 12,
+      "en": "Integration & Year-End",
+      "id": "Integrasi & Akhir Tahun"
+    }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "chapter": 1,
+      "locked": false,
+      "theme": {
+        "en": "What I'm Actually Aiming At",
+        "id": "Apa yang Sungguh Ingin Saya Bangun"
+      },
+      "principle": {
+        "en": "Most daily parenting friction is downstream of an unclear goal.",
+        "id": "Banyak tantangan kecil sehari-hari berakar pada tujuan yang belum cukup jelas."
+      },
+      "weekIntent": {
+        "en": "What kind of adult do I most hope my child will grow into? Three qualities.",
+        "id": "Kelak, saya berharap anak saya bertumbuh menjadi pribadi seperti apa? Tuliskan tiga kualitas."
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What did we correct most this week — and was it shaping the qualities we said we wanted?",
+          "id": "Apa yang paling sering kita arahkan minggu ini—dan apakah arahan itu membantu menumbuhkan kualitas yang kita harapkan?"
+        },
+        "solo": {
+          "en": "What did I correct most this week — and was it shaping the qualities I said I wanted?",
+          "id": "Apa yang paling sering saya arahkan minggu ini—dan apakah arahan itu membantu menumbuhkan kualitas yang saya harapkan?"
+        }
+      }
+    },
+    {
+      "week": 2,
+      "chapter": 1,
+      "locked": false,
+      "theme": {
+        "en": "Formation, Not Control",
+        "id": "Membimbing, Bukan Mengendalikan"
+      },
+      "principle": {
+        "en": "Effective parenting is formation, not control.",
+        "id": "Pengasuhan yang efektif berfokus pada membimbing pertumbuhan, bukan sekadar mengendalikan perilaku."
+      },
+      "weekIntent": {
+        "en": "Where am I parenting from fear of how my child looks? Where from vision of who they're becoming?",
+        "id": "Kapan saya mengasuh karena khawatir pada penilaian orang lain, dan kapan saya mengasuh dengan membayangkan pribadi yang sedang anak tumbuhkan?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "When this week did we parent from fear, and when from vision?",
+          "id": "Kapan minggu ini kita bereaksi karena khawatir, dan kapan kita bertindak berdasarkan arah yang ingin kita bangun?"
+        },
+        "solo": {
+          "en": "When this week did I parent from fear, and when from vision?",
+          "id": "Kapan minggu ini saya bereaksi karena khawatir, dan kapan saya bertindak berdasarkan arah yang ingin saya bangun?"
+        }
+      }
+    },
+    {
+      "week": 3,
+      "chapter": 1,
+      "locked": false,
+      "theme": {
+        "en": "One Rule, Reframed",
+        "id": "Satu Aturan, Dilihat dengan Cara Baru"
+      },
+      "principle": {
+        "en": "Reframe \"stop doing X\" into \"build Y.\"",
+        "id": "Alihkan aturan dari “berhenti melakukan X” menjadi “mari membangun Y.”"
+      },
+      "weekIntent": {
+        "en": "One rule I'll reframe this week from a stop-doing into a build-towards.",
+        "id": "Satu aturan yang minggu ini ingin saya ubah dari larangan menjadi ajakan untuk membangun kebiasaan yang baik."
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "Which reframe felt most natural to live this week — and which felt forced?",
+          "id": "Pemaknaan baru mana yang terasa paling alami minggu ini, dan mana yang masih perlu kita sesuaikan?"
+        },
+        "solo": {
+          "en": "Which reframe felt most natural to live this week — and which felt forced?",
+          "id": "Pemaknaan baru mana yang terasa paling alami minggu ini, dan mana yang masih perlu saya sesuaikan?"
+        }
+      }
+    },
+    {
+      "week": 4,
+      "chapter": 1,
+      "locked": false,
+      "theme": {
+        "en": "What Actually Stuck",
+        "id": "Perubahan yang Mulai Bertumbuh"
+      },
+      "principle": {
+        "en": "Insight that doesn't get repeated isn't yet a change.",
+        "id": "Pemahaman mulai menjadi perubahan ketika kita mempraktikkannya berulang kali."
+      },
+      "weekIntent": {
+        "en": "Which one shift from the last three weeks do I want to keep building?",
+        "id": "Dari tiga minggu terakhir, satu perubahan mana yang ingin saya terus tumbuhkan?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What's one belief about parenting we held a month ago that's already shifting?",
+          "id": "Keyakinan apa tentang pengasuhan yang mulai berubah bagi kita selama sebulan terakhir?"
+        },
+        "solo": {
+          "en": "What's one belief about parenting I held a month ago that's already shifting?",
+          "id": "Keyakinan apa tentang pengasuhan yang mulai berubah bagi saya selama sebulan terakhir?"
+        }
+      }
+    },
+    {
+      "week": 5,
+      "chapter": 2,
+      "locked": false,
+      "theme": {
+        "en": "What Is Age-Typical Here",
+        "id": "Apa yang Wajar pada Usia Ini"
+      },
+      "principle": {
+        "en": "Most \"bad behavior\" is developmental, not moral.",
+        "id": "Banyak perilaku yang dianggap sulit sebenarnya merupakan bagian dari tahap perkembangan, bukan cerminan karakter."
+      },
+      "weekIntent": {
+        "en": "One behavior I find frustrating — what age-typical thing might be underneath it?",
+        "id": "Pilih satu perilaku yang membuat saya kewalahan. Hal apa yang wajar pada usia anak mungkin berada di baliknya?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What did our child do this week that we called naughty, but was actually young?",
+          "id": "Perilaku apa yang minggu ini sempat kita anggap nakal, padahal sebenarnya sesuai dengan tahap usia anak?"
+        },
+        "solo": {
+          "en": "What did my child do this week that I called naughty, but was actually young?",
+          "id": "Perilaku apa yang minggu ini sempat saya anggap nakal, padahal sebenarnya sesuai dengan tahap usia anak?"
+        }
+      }
+    },
+    {
+      "week": 6,
+      "chapter": 2,
+      "locked": false,
+      "theme": {
+        "en": "Brains Under Construction",
+        "id": "Otak yang Masih Bertumbuh"
+      },
+      "principle": {
+        "en": "A child's brain doesn't finish maturing until the mid-twenties.",
+        "id": "Otak terus berkembang hingga seseorang memasuki pertengahan usia dua puluhan."
+      },
+      "weekIntent": {
+        "en": "Where am I expecting adult skills from a child whose brain isn't built for it yet?",
+        "id": "Di bagian mana saya mungkin mengharapkan keterampilan orang dewasa dari anak yang otaknya masih berkembang?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "Where did we ask too much of our child this week — and not see it until now?",
+          "id": "Kapan minggu ini kita mungkin meminta lebih dari yang saat ini mampu dilakukan anak?"
+        },
+        "solo": {
+          "en": "Where did I ask too much of my child this week — and not see it until now?",
+          "id": "Kapan minggu ini saya mungkin meminta lebih dari yang saat ini mampu dilakukan anak?"
+        }
+      }
+    },
+    {
+      "week": 7,
+      "chapter": 2,
+      "locked": false,
+      "theme": {
+        "en": "Drop One Expectation",
+        "id": "Longgarkan Satu Harapan"
+      },
+      "principle": {
+        "en": "Lowering one age-inappropriate expectation can shift a whole household.",
+        "id": "Menyesuaikan satu harapan yang belum sesuai usia dapat membuat suasana seluruh rumah terasa lebih ringan."
+      },
+      "weekIntent": {
+        "en": "One expectation I'll quietly drop this week — and see what happens.",
+        "id": "Satu harapan yang akan saya longgarkan dengan tenang minggu ini, lalu saya amati apa yang berubah."
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What got easier this week when we stopped expecting something our child wasn't ready for?",
+          "id": "Apa yang terasa lebih mudah minggu ini setelah kita menyesuaikan harapan dengan kesiapan anak?"
+        },
+        "solo": {
+          "en": "What got easier this week when I stopped expecting something my child wasn't ready for?",
+          "id": "Apa yang terasa lebih mudah minggu ini setelah saya menyesuaikan harapan dengan kesiapan anak?"
+        }
+      }
+    },
+    {
+      "week": 8,
+      "chapter": 2,
+      "locked": false,
+      "theme": {
+        "en": "Knowing My Child's Age",
+        "id": "Memahami Tahap Usia Anak"
+      },
+      "principle": {
+        "en": "Patience is mostly knowledge — knowing what a child can and can't yet do.",
+        "id": "Kesabaran sering bertumbuh ketika kita memahami apa yang sudah dan belum mampu dilakukan anak."
+      },
+      "weekIntent": {
+        "en": "What do I now understand about my child's age that I didn't a month ago?",
+        "id": "Apa yang sekarang saya pahami tentang usia anak saya, yang sebulan lalu belum saya pahami?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "How is our child different from our picture of them four weeks ago?",
+          "id": "Apa yang kini kita pahami tentang anak, yang empat minggu lalu belum terlihat?"
+        },
+        "solo": {
+          "en": "How is my child different from my picture of them four weeks ago?",
+          "id": "Apa yang kini saya pahami tentang anak, yang empat minggu lalu belum terlihat?"
+        }
+      }
+    },
+    {
+      "week": 9,
+      "chapter": 3,
+      "locked": false,
+      "theme": {
+        "en": "What's in My Body",
+        "id": "Apa yang Saya Rasakan di Tubuh"
+      },
+      "principle": {
+        "en": "The body teaches first; words come second.",
+        "id": "Tubuh memberi pesan lebih dahulu; kata-kata menyusul kemudian."
+      },
+      "weekIntent": {
+        "en": "Where do I feel my stress in my body? Jaw, shoulders, breath, stomach?",
+        "id": "Di mana saya merasakan stres di tubuh saya? Rahang, bahu, napas, perut?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What was happening in our bodies just before each hard moment this week?",
+          "id": "Apa yang terjadi dalam tubuh kita tepat sebelum momen-momen sulit minggu ini?"
+        },
+        "solo": {
+          "en": "What was happening in my body just before each hard moment this week?",
+          "id": "Apa yang terjadi dalam tubuh saya tepat sebelum momen-momen sulit minggu ini?"
+        }
+      }
+    },
+    {
+      "week": 10,
+      "chapter": 3,
+      "locked": false,
+      "theme": {
+        "en": "My Top Triggers",
+        "id": "Pemicu Utama Saya"
+      },
+      "principle": {
+        "en": "Triggers are old wounds asking for attention, not enemies.",
+        "id": "Pemicu sering kali merupakan luka lama yang sedang meminta perhatian, bukan sesuatu yang perlu dilawan."
+      },
+      "weekIntent": {
+        "en": "Three things that reliably set me off this week.",
+        "id": "Tiga hal apa yang paling mudah memancing emosi saya minggu ini?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What's a trigger we share — and a trigger only one of us has?",
+          "id": "Pemicu apa yang sama-sama kita miliki — dan pemicu apa yang hanya dimiliki salah satu dari kita?"
+        },
+        "solo": {
+          "en": "What's a trigger I'm carrying that I didn't put there myself?",
+          "id": "Pemicu apa yang mungkin saya bawa dari pengalaman lama, bukan dari situasi hari ini?"
+        }
+      }
+    },
+    {
+      "week": 11,
+      "chapter": 3,
+      "locked": false,
+      "theme": {
+        "en": "The Three-Breath Pause",
+        "id": "Jeda Tiga Tarikan Napas"
+      },
+      "principle": {
+        "en": "Three breaths is enough time to choose between reactive and wise.",
+        "id": "Tiga tarikan napas memberi cukup ruang untuk beralih dari reaksi spontan menuju respons yang lebih bijak."
+      },
+      "weekIntent": {
+        "en": "Where in my day will I deliberately practice three breaths before responding?",
+        "id": "Pada bagian mana dalam hari ini saya dapat sengaja berhenti sejenak dan menarik napas tiga kali sebelum merespons?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "When did one of us pause this week — and what changed because of it?",
+          "id": "Kapan salah satu dari kita berhenti sejenak minggu ini — dan apa yang berubah karenanya?"
+        },
+        "solo": {
+          "en": "When did I pause this week — and what changed because of it?",
+          "id": "Kapan saya berhenti sejenak minggu ini — dan apa yang berubah karenanya?"
+        }
+      }
+    },
+    {
+      "week": 12,
+      "chapter": 3,
+      "locked": false,
+      "theme": {
+        "en": "My Anchor Practice",
+        "id": "Kebiasaan yang Menjaga Saya Tetap Tenang"
+      },
+      "principle": {
+        "en": "Self-regulation is daily, not occasional.",
+        "id": "Kemampuan menenangkan diri dibangun sedikit demi sedikit, setiap hari."
+      },
+      "weekIntent": {
+        "en": "One small daily practice that helps my nervous system reset.",
+        "id": "Satu kebiasaan kecil setiap hari yang membantu sistem saraf saya kembali tenang."
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What does each of us most need in order to stay steady this season?",
+          "id": "Apa yang paling dibutuhkan masing-masing dari kita agar dapat tetap tenang dan mantap pada masa ini?"
+        },
+        "solo": {
+          "en": "What do I most need to stay steady this season — and who can help me get it?",
+          "id": "Apa yang paling saya butuhkan agar dapat tetap tenang dan mantap pada masa ini, dan siapa yang dapat membantu?"
+        }
+      }
+    },
+    {
+      "week": 13,
+      "chapter": 4,
+      "locked": false,
+      "theme": {
+        "en": "Listening or Waiting to Speak",
+        "id": "Mendengarkan atau Menunggu Giliran Bicara"
+      },
+      "principle": {
+        "en": "Most adults listen for their turn, not for what's being said.",
+        "id": "Kita sering tanpa sadar mendengarkan sambil menunggu giliran bicara, bukan untuk benar-benar memahami."
+      },
+      "weekIntent": {
+        "en": "When I'm with my child this week, am I listening or waiting to speak?",
+        "id": "Saat bersama anak minggu ini, apakah saya mendengarkan atau menunggu giliran bicara?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "Who in our family felt most heard this week — and who least?",
+          "id": "Siapa yang paling merasa didengar minggu ini, dan siapa yang masih membutuhkan lebih banyak ruang untuk didengar?"
+        },
+        "solo": {
+          "en": "Who in our family felt most heard this week — and who least?",
+          "id": "Siapa yang paling merasa didengar minggu ini, dan siapa yang masih membutuhkan lebih banyak ruang untuk didengar?"
+        }
+      }
+    },
+    {
+      "week": 14,
+      "chapter": 4,
+      "locked": false,
+      "theme": {
+        "en": "Empathy First",
+        "id": "Awali dengan Empati"
+      },
+      "principle": {
+        "en": "A child whose feelings are named settles faster than one who is corrected.",
+        "id": "Anak cenderung lebih cepat tenang ketika perasaannya dikenali sebelum perilakunya diarahkan."
+      },
+      "weekIntent": {
+        "en": "What would change if I named my child's feeling before I corrected the behavior?",
+        "id": "Apa yang mungkin berubah bila saya mengenali perasaan anak sebelum mengarahkan perilakunya?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "When did empathy shorten a hard moment this week instead of lengthening it?",
+          "id": "Kapan empati membantu momen sulit terasa lebih singkat minggu ini?"
+        },
+        "solo": {
+          "en": "When did empathy shorten a hard moment this week instead of lengthening it?",
+          "id": "Kapan empati membantu momen sulit terasa lebih singkat minggu ini?"
+        }
+      }
+    },
+    {
+      "week": 15,
+      "chapter": 4,
+      "locked": false,
+      "theme": {
+        "en": "Tell Me More",
+        "id": "Cerita Lagi Dong"
+      },
+      "principle": {
+        "en": "\"Tell me more\" is more powerful than any explanation I can offer.",
+        "id": "Kalimat “cerita lebih banyak, ya” sering lebih membuka hati daripada penjelasan yang segera kita berikan."
+      },
+      "weekIntent": {
+        "en": "I'll try \"tell me more\" three times before I try \"let me explain\" once.",
+        "id": "Saya akan mencoba berkata “cerita lebih banyak, ya” tiga kali sebelum menawarkan penjelasan."
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What did we learn about our child this week by listening longer?",
+          "id": "Apa yang kita pelajari tentang anak kita minggu ini dengan mendengarkan lebih lama?"
+        },
+        "solo": {
+          "en": "What did I learn about my child this week by listening longer?",
+          "id": "Apa yang saya pelajari tentang anak saya minggu ini dengan mendengarkan lebih lama?"
+        }
+      }
+    },
+    {
+      "week": 16,
+      "chapter": 4,
+      "locked": false,
+      "theme": {
+        "en": "How We Sound at Home",
+        "id": "Nada yang Terdengar di Rumah"
+      },
+      "principle": {
+        "en": "Children remember tone longer than they remember words.",
+        "id": "Anak mengingat nada suara lebih lama daripada kata-kata."
+      },
+      "weekIntent": {
+        "en": "What is the dominant tone in our home this season — and is it the one I want?",
+        "id": "Nada seperti apa yang paling sering terdengar di rumah akhir-akhir ini, dan apakah itulah suasana yang ingin saya bangun?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "If our child described how we talk to each other, what would they say?",
+          "id": "Kalau anak kita menggambarkan cara kita berbicara satu sama lain, apa yang akan dia katakan?"
+        },
+        "solo": {
+          "en": "If my child described how I talk to them, what would they say?",
+          "id": "Kalau anak saya menggambarkan cara saya berbicara dengannya, apa yang akan dia katakan?"
+        }
+      }
+    },
+    {
+      "week": 17,
+      "chapter": 5,
+      "locked": true,
+      "theme": {
+        "en": "What I Actually Do",
+        "id": "Respons yang Sungguh Saya Berikan"
+      },
+      "principle": {
+        "en": "Most discipline happens reactively, not by design.",
+        "id": "Banyak respons disiplin muncul secara spontan, bukan dari rencana yang sudah dipikirkan dengan tenang."
+      },
+      "weekIntent": {
+        "en": "Honestly — what does my discipline look like when I'm tired?",
+        "id": "Saat saya lelah, seperti apa respons disiplin yang biasanya muncul?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "Where this week did our discipline come from a plan, and where from frustration?",
+          "id": "Kapan minggu ini respons kita berasal dari rencana yang tenang, dan kapan berasal dari rasa kewalahan?"
+        },
+        "solo": {
+          "en": "Where this week did my discipline come from a plan, and where from frustration?",
+          "id": "Kapan minggu ini respons saya berasal dari rencana yang tenang, dan kapan berasal dari rasa kewalahan?"
+        }
+      }
+    },
+    {
+      "week": 18,
+      "chapter": 5,
+      "locked": true,
+      "theme": {
+        "en": "Firm and Warm",
+        "id": "Tegas sekaligus Hangat"
+      },
+      "principle": {
+        "en": "\"I see you're upset, AND we still need to leave.\" Both, in one sentence.",
+        "id": "\"Mama tahu kamu kesal, DAN kita tetap perlu pergi.\" Keduanya, dalam satu kalimat."
+      },
+      "weekIntent": {
+        "en": "Where do I drop firmness when I get warm — or warmth when I get firm?",
+        "id": "Kapan kehangatan membuat saya sulit menjaga batas, atau ketegasan membuat saya kehilangan kehangatan?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "When did one of us hold firm and warm at once this week — and what made it possible?",
+          "id": "Kapan minggu ini salah satu dari kita mampu menjaga batas sekaligus tetap hangat, dan apa yang membantu?"
+        },
+        "solo": {
+          "en": "When did I hold firm and warm at once this week — and what made it possible?",
+          "id": "Kapan minggu ini saya mampu menjaga batas sekaligus tetap hangat, dan apa yang membantu?"
+        }
+      }
+    },
+    {
+      "week": 19,
+      "chapter": 5,
+      "locked": true,
+      "theme": {
+        "en": "Pre-Decided Response",
+        "id": "Respons Tenang yang Disiapkan"
+      },
+      "principle": {
+        "en": "Consistency, not intensity, is what changes a child's nervous system.",
+        "id": "Yang mengubah sistem saraf anak adalah konsistensi, bukan intensitas."
+      },
+      "weekIntent": {
+        "en": "One recurring behavior — my pre-decided calm response, written before it happens.",
+        "id": "Pilih satu perilaku yang berulang, lalu tuliskan respons tenang yang ingin saya gunakan sebelum situasinya terjadi."
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "How did pre-deciding a response change the temperature of the moment this week?",
+          "id": "Bagaimana respons yang sudah disiapkan membantu mengubah suasana momen sulit minggu ini?"
+        },
+        "solo": {
+          "en": "How did pre-deciding a response change the temperature of the moment this week?",
+          "id": "Bagaimana respons yang sudah disiapkan membantu mengubah suasana momen sulit minggu ini?"
+        }
+      }
+    },
+    {
+      "week": 20,
+      "chapter": 5,
+      "locked": true,
+      "theme": {
+        "en": "Repair Is Part of Discipline",
+        "id": "Memulihkan Hubungan adalah Bagian dari Disiplin"
+      },
+      "principle": {
+        "en": "Repair after rupture builds more security than a perfect day ever could.",
+        "id": "Memulihkan hubungan setelah momen yang renggang dapat membangun rasa aman lebih dalam daripada berusaha menjalani hari yang sempurna."
+      },
+      "weekIntent": {
+        "en": "If I lost my calm this month, did I repair? What does repair actually sound like?",
+        "id": "Bila bulan ini saya sempat terbawa emosi, apakah saya sudah memulihkan hubungan? Seperti apa kata-kata pemulihan itu?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What's a rupture from this month that one of us still needs to repair?",
+          "id": "Adakah momen bulan ini ketika hubungan terasa renggang dan masih perlu salah satu dari kita pulihkan?"
+        },
+        "solo": {
+          "en": "What's a rupture from this month that I still need to repair?",
+          "id": "Adakah momen bulan ini ketika hubungan terasa renggang dan masih perlu saya pulihkan?"
+        }
+      }
+    },
+    {
+      "week": 21,
+      "chapter": 6,
+      "locked": true,
+      "theme": {
+        "en": "The Vocabulary We Use",
+        "id": "Kosakata yang Kita Gunakan"
+      },
+      "principle": {
+        "en": "Emotion vocabulary is itself a regulation tool.",
+        "id": "Kosakata emosi dapat membantu anak mengenali dan mengatur apa yang dirasakannya."
+      },
+      "weekIntent": {
+        "en": "What feeling words does my child actually have access to right now?",
+        "id": "Kata-kata perasaan apa yang sudah dikenal dan dapat digunakan anak saat ini?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What new feeling word did our child use this week — and what story was underneath it?",
+          "id": "Kata perasaan baru apa yang dipakai anak kita minggu ini — dan cerita apa di baliknya?"
+        },
+        "solo": {
+          "en": "What new feeling word did my child use this week — and what story was underneath it?",
+          "id": "Kata perasaan baru apa yang dipakai anak saya minggu ini — dan cerita apa di baliknya?"
+        }
+      }
+    },
+    {
+      "week": 22,
+      "chapter": 6,
+      "locked": true,
+      "theme": {
+        "en": "Sit With It First",
+        "id": "Temani Dulu"
+      },
+      "principle": {
+        "en": "All feelings are okay. Not all behaviors are.",
+        "id": "Semua perasaan boleh hadir; tidak semua perilaku dapat dilakukan."
+      },
+      "weekIntent": {
+        "en": "Which of my child's feelings am I quickest to fix instead of sit with?",
+        "id": "Perasaan anak mana yang paling cepat ingin saya hilangkan, alih-alih saya temani?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "Which feeling did our child have this week that we let them have, instead of solving?",
+          "id": "Perasaan apa yang minggu ini kita beri ruang untuk dirasakan anak, tanpa buru-buru menyelesaikannya?"
+        },
+        "solo": {
+          "en": "Which feeling did my child have this week that I let them have, instead of solving?",
+          "id": "Perasaan apa yang minggu ini saya beri ruang untuk dirasakan anak, tanpa buru-buru menyelesaikannya?"
+        }
+      }
+    },
+    {
+      "week": 23,
+      "chapter": 6,
+      "locked": true,
+      "theme": {
+        "en": "Naming Without Fixing",
+        "id": "Menamai Tanpa Buru-Buru Menyelesaikan"
+      },
+      "principle": {
+        "en": "\"It looks like you're feeling left out\" is enough. The fix can wait.",
+        "id": "“Sepertinya kamu merasa tersisih” sudah cukup untuk saat ini. Solusi dapat dibicarakan kemudian."
+      },
+      "weekIntent": {
+        "en": "I'll name a feeling once a day and not follow it with advice.",
+        "id": "Setiap hari, saya akan mencoba menamai satu perasaan dan memberi ruang sejenak sebelum menawarkan nasihat."
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "When did naming a feeling — without fixing it — actually change the moment this week?",
+          "id": "Kapan menamai perasaan tanpa buru-buru menyelesaikannya membantu mengubah suasana minggu ini?"
+        },
+        "solo": {
+          "en": "When did naming a feeling — without fixing it — actually change the moment this week?",
+          "id": "Kapan menamai perasaan tanpa buru-buru menyelesaikannya membantu mengubah suasana minggu ini?"
+        }
+      }
+    },
+    {
+      "week": 24,
+      "chapter": 6,
+      "locked": true,
+      "theme": {
+        "en": "What Was I Allowed to Feel",
+        "id": "Perasaan Apa yang Dulu Mendapat Ruang"
+      },
+      "principle": {
+        "en": "We give what we were given. Or we choose to give what we weren't.",
+        "id": "Kita memberi apa yang dulu diberikan kepada kita. Atau memilih memberi apa yang dulu tidak kita dapatkan."
+      },
+      "weekIntent": {
+        "en": "Which feelings was I not allowed to have growing up? Am I allowing them in my child?",
+        "id": "Perasaan apa yang dulu sulit mendapatkan ruang ketika saya bertumbuh? Apakah saya memberi ruang bagi perasaan itu pada anak?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What feeling do we as parents still struggle to feel ourselves — let alone make room for?",
+          "id": "Perasaan apa yang masih sulit kita terima dalam diri sendiri, sehingga sulit pula memberi ruang bagi anak?"
+        },
+        "solo": {
+          "en": "What feeling do I still struggle to feel myself — let alone make room for in my child?",
+          "id": "Perasaan apa yang masih sulit saya terima dalam diri sendiri, sehingga sulit pula memberi ruang bagi anak?"
+        }
+      }
+    },
+    {
+      "week": 25,
+      "chapter": 7,
+      "locked": true,
+      "theme": {
+        "en": "Where the Friction Lives",
+        "id": "Di Mana Ketegangan Sering Muncul"
+      },
+      "principle": {
+        "en": "Most family friction lives at predictable transitions, not in character.",
+        "id": "Banyak ketegangan keluarga muncul pada masa peralihan yang dapat diperkirakan, bukan karena karakter seseorang."
+      },
+      "weekIntent": {
+        "en": "Which transition is hardest in our home this week? Morning? Bedtime? Meals? Screens?",
+        "id": "Masa peralihan mana yang paling menantang di rumah minggu ini—pagi hari, waktu tidur, waktu makan, atau saat berhenti menggunakan layar?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "Where did the same fight happen at the same time this week — and what does that tell us?",
+          "id": "Momen tegang apa yang kembali muncul pada waktu yang sama minggu ini, dan pesan apa yang dapat kita pelajari?"
+        },
+        "solo": {
+          "en": "Where did the same fight happen at the same time this week — and what does that tell me?",
+          "id": "Momen tegang apa yang kembali muncul pada waktu yang sama minggu ini, dan pesan apa yang dapat saya pelajari?"
+        }
+      }
+    },
+    {
+      "week": 26,
+      "chapter": 7,
+      "locked": true,
+      "theme": {
+        "en": "Systems Beat Reminders",
+        "id": "Sistem yang Baik Mengurangi Pengingat"
+      },
+      "principle": {
+        "en": "A well-designed routine reduces conflict for everyone.",
+        "id": "Rutinitas yang dirancang dengan baik dapat mengurangi ketegangan bagi semua anggota keluarga."
+      },
+      "weekIntent": {
+        "en": "What am I solving by reminding — that a system could solve once?",
+        "id": "Hal apa yang terus saya atasi dengan mengingatkan, padahal mungkin dapat dibantu oleh sebuah sistem?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What's one thing we're each tired of reminding about — that we could redesign instead?",
+          "id": "Hal apa yang membuat kita lelah terus mengingatkan, dan mungkin dapat dirancang ulang bersama?"
+        },
+        "solo": {
+          "en": "What's one thing I'm tired of reminding about — that I could redesign instead?",
+          "id": "Hal apa yang membuat saya lelah terus mengingatkan, dan mungkin dapat saya rancang ulang?"
+        }
+      }
+    },
+    {
+      "week": 27,
+      "chapter": 7,
+      "locked": true,
+      "theme": {
+        "en": "One Routine, Redesigned",
+        "id": "Satu Rutinitas, Dirancang Ulang"
+      },
+      "principle": {
+        "en": "Test a redesign for one week before judging it.",
+        "id": "Berikan waktu satu minggu untuk mencoba rancangan baru sebelum menilainya."
+      },
+      "weekIntent": {
+        "en": "Pick one routine. Make it shorter, clearer, more visual. Test it for seven days.",
+        "id": "Pilih satu rutinitas. Buat sedikit lebih singkat, lebih jelas, dan lebih mudah dilihat. Cobalah selama tujuh hari."
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "Did the redesign actually work this week — or did we just hope it would?",
+          "id": "Bagian mana dari rancangan baru yang membantu minggu ini, dan bagian mana yang masih perlu disesuaikan?"
+        },
+        "solo": {
+          "en": "Did the redesign actually work this week — or did I just hope it would?",
+          "id": "Bagian mana dari rancangan baru yang membantu minggu ini, dan bagian mana yang masih perlu saya sesuaikan?"
+        }
+      }
+    },
+    {
+      "week": 28,
+      "chapter": 7,
+      "locked": true,
+      "theme": {
+        "en": "What Our Home Feels Like",
+        "id": "Bagaimana Rasanya Rumah Kami"
+      },
+      "principle": {
+        "en": "A home is the sum of its repeated daily moments.",
+        "id": "Suasana rumah terbentuk dari momen-momen kecil yang berulang setiap hari."
+      },
+      "weekIntent": {
+        "en": "If I walked into our home as a stranger today, what would the rhythm feel like?",
+        "id": "Bila hari ini saya memasuki rumah sebagai tamu, seperti apa ritme yang akan saya rasakan?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What does our home feel like this season — and is it close to what we want?",
+          "id": "Seperti apa suasana rumah kita akhir-akhir ini, dan seberapa dekat dengan suasana yang ingin kita bangun?"
+        },
+        "solo": {
+          "en": "What does our home feel like this season — and is it close to what I want?",
+          "id": "Seperti apa suasana rumah saya akhir-akhir ini, dan seberapa dekat dengan suasana yang ingin saya bangun?"
+        }
+      }
+    },
+    {
+      "week": 29,
+      "chapter": 8,
+      "locked": true,
+      "theme": {
+        "en": "What Keeps Repeating",
+        "id": "Perilaku yang Terus Berulang"
+      },
+      "principle": {
+        "en": "Repeating behavior has a function. Find the function first.",
+        "id": "Perilaku yang berulang biasanya memiliki tujuan atau kebutuhan di baliknya. Cobalah memahami hal itu terlebih dahulu."
+      },
+      "weekIntent": {
+        "en": "What behavior is on repeat right now — and what might it be trying to communicate?",
+        "id": "Perilaku apa yang terus berulang saat ini, dan pesan apa yang mungkin sedang disampaikannya?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What behavior keeps showing up that we've been trying to suppress instead of understand?",
+          "id": "Perilaku apa yang terus muncul dan selama ini lebih sering kita coba hentikan daripada pahami?"
+        },
+        "solo": {
+          "en": "What behavior keeps showing up that I've been trying to suppress instead of understand?",
+          "id": "Perilaku apa yang terus muncul dan selama ini lebih sering saya coba hentikan daripada pahami?"
+        }
+      }
+    },
+    {
+      "week": 30,
+      "chapter": 8,
+      "locked": true,
+      "theme": {
+        "en": "Underneath the Behavior",
+        "id": "Kebutuhan di Balik Perilaku"
+      },
+      "principle": {
+        "en": "Hitting is a frustration problem. Lying is often safety. Whining is often connection.",
+        "id": "Memukul dapat muncul dari frustrasi, berbohong dapat berkaitan dengan rasa aman, dan merengek dapat menjadi cara mencari kedekatan."
+      },
+      "weekIntent": {
+        "en": "If I had to name one unmet need underneath my child's hardest behavior — what would it be?",
+        "id": "Bila saya mencoba melihat satu kebutuhan yang belum terpenuhi di balik perilaku anak yang paling menantang, kebutuhan apa itu?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What unmet need did we finally see clearly this week, after weeks of missing it?",
+          "id": "Kebutuhan apa yang akhirnya dapat kita lihat dengan lebih jelas minggu ini, setelah sebelumnya belum kita sadari?"
+        },
+        "solo": {
+          "en": "What unmet need did I finally see clearly this week, after weeks of missing it?",
+          "id": "Kebutuhan apa yang akhirnya dapat saya lihat dengan lebih jelas minggu ini, setelah sebelumnya belum saya sadari?"
+        }
+      }
+    },
+    {
+      "week": 31,
+      "chapter": 8,
+      "locked": true,
+      "theme": {
+        "en": "Meet the Need First",
+        "id": "Pahami dan Penuhi Kebutuhan Dulu"
+      },
+      "principle": {
+        "en": "Address the need before adding the consequence.",
+        "id": "Cobalah memahami kebutuhan sebelum menetapkan konsekuensi."
+      },
+      "weekIntent": {
+        "en": "One need-meeting strategy I'll try this week before I add another consequence.",
+        "id": "Satu cara untuk memenuhi kebutuhan yang akan saya coba minggu ini sebelum mempertimbangkan konsekuensi lain."
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What softened this week when we addressed a need instead of a behavior?",
+          "id": "Apa yang terasa lebih mudah minggu ini ketika kita memberi perhatian pada kebutuhannya, bukan hanya perilakunya?"
+        },
+        "solo": {
+          "en": "What softened this week when I addressed a need instead of a behavior?",
+          "id": "Apa yang terasa lebih mudah minggu ini ketika saya memberi perhatian pada kebutuhannya, bukan hanya perilakunya?"
+        }
+      }
+    },
+    {
+      "week": 32,
+      "chapter": 8,
+      "locked": true,
+      "theme": {
+        "en": "What's Hard Is Information",
+        "id": "Perilaku yang Sulit Membawa Pesan"
+      },
+      "principle": {
+        "en": "A struggling child is communicating, not misbehaving.",
+        "id": "Anak yang sedang kesulitan sedang menyampaikan sesuatu melalui perilakunya."
+      },
+      "weekIntent": {
+        "en": "What is the hardest behavior in our home telling us we've missed?",
+        "id": "Pesan apa yang mungkin selama ini belum kita lihat di balik perilaku yang paling menantang di rumah?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What does our hardest child need from us this season that we haven't given yet?",
+          "id": "Apa yang dibutuhkan anak yang sedang paling kesulitan pada masa ini, yang belum sempat kita berikan?"
+        },
+        "solo": {
+          "en": "What does my hardest child need from me this season that I haven't given yet?",
+          "id": "Apa yang dibutuhkan anak yang sedang paling kesulitan pada masa ini, yang belum sempat saya berikan?"
+        }
+      }
+    },
+    {
+      "week": 33,
+      "chapter": 9,
+      "locked": true,
+      "theme": {
+        "en": "What I'm Doing For Them",
+        "id": "Apa yang Masih Saya Lakukan untuk Anak"
+      },
+      "principle": {
+        "en": "Rescuing a child from healthy struggle stops their growth.",
+        "id": "Terlalu cepat mengambil alih tantangan yang sesuai kemampuan dapat mengurangi kesempatan anak untuk bertumbuh."
+      },
+      "weekIntent": {
+        "en": "What am I currently doing for my child that they could be doing for themselves?",
+        "id": "Apa yang saat ini masih saya lakukan untuk anak, padahal mungkin sudah dapat ia coba sendiri?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "Where did we rescue too quickly this week — and where did we wisely let them struggle?",
+          "id": "Kapan minggu ini kita terlalu cepat mengambil alih, dan kapan kita berhasil memberi anak ruang untuk mencoba sendiri?"
+        },
+        "solo": {
+          "en": "Where did I rescue too quickly this week — and where did I wisely let them struggle?",
+          "id": "Kapan minggu ini saya terlalu cepat mengambil alih, dan kapan saya berhasil memberi anak ruang untuk mencoba sendiri?"
+        }
+      }
+    },
+    {
+      "week": 34,
+      "chapter": 9,
+      "locked": true,
+      "theme": {
+        "en": "Character Is Built Slowly",
+        "id": "Karakter Dibangun Perlahan"
+      },
+      "principle": {
+        "en": "Character is built one small repeated act at a time.",
+        "id": "Karakter bertumbuh melalui tindakan-tindakan kecil yang dilakukan berulang kali."
+      },
+      "weekIntent": {
+        "en": "What's one tiny daily responsibility that would build the character I most want?",
+        "id": "Tanggung jawab kecil apa yang dapat dilakukan setiap hari untuk menumbuhkan kualitas yang paling saya harapkan?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What did our child do this week — small but real — that we can name as character growth?",
+          "id": "Tindakan kecil namun nyata apa yang dilakukan anak minggu ini dan dapat kita hargai sebagai pertumbuhan karakter?"
+        },
+        "solo": {
+          "en": "What did my child do this week — small but real — that I can name as character growth?",
+          "id": "Tindakan kecil namun nyata apa yang dilakukan anak minggu ini dan dapat saya hargai sebagai pertumbuhan karakter?"
+        }
+      }
+    },
+    {
+      "week": 35,
+      "chapter": 9,
+      "locked": true,
+      "theme": {
+        "en": "Praise the Doing, Not the Child",
+        "id": "Apresiasi Usahanya, Bukan Memberi Label"
+      },
+      "principle": {
+        "en": "\"You set the table\" lands deeper than \"You're so good.\"",
+        "id": "“Kamu sudah menata meja” lebih bermakna daripada label umum seperti “Kamu anak baik.”"
+      },
+      "weekIntent": {
+        "en": "I'll praise an action three times this week without praising the child as a category.",
+        "id": "Minggu ini, saya akan tiga kali mengapresiasi tindakan atau usaha anak tanpa memberi label umum pada dirinya."
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "How did our child receive specific praise this week — differently than general praise?",
+          "id": "Bagaimana respons anak terhadap apresiasi yang spesifik dibandingkan dengan pujian yang umum minggu ini?"
+        },
+        "solo": {
+          "en": "How did my child receive specific praise this week — differently than general praise?",
+          "id": "Bagaimana respons anak terhadap apresiasi yang spesifik dibandingkan dengan pujian yang umum minggu ini?"
+        }
+      }
+    },
+    {
+      "week": 36,
+      "chapter": 9,
+      "locked": true,
+      "theme": {
+        "en": "Becoming, Not Performing",
+        "id": "Bertumbuh, Bukan Tampil"
+      },
+      "principle": {
+        "en": "We are raising a person, not curating a behavior.",
+        "id": "Kita sedang mendampingi pertumbuhan seorang pribadi, bukan sekadar mengelola perilaku yang tampak."
+      },
+      "weekIntent": {
+        "en": "Where am I confusing my child's performance with their character?",
+        "id": "Kapan saya mungkin menyamakan hasil atau penampilan anak dengan karakternya?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What does our child do when no one is watching — and what does that tell us?",
+          "id": "Apa yang dilakukan anak kita saat tidak ada yang melihat — dan apa artinya?"
+        },
+        "solo": {
+          "en": "What does my child do when no one is watching — and what does that tell me?",
+          "id": "Apa yang dilakukan anak saya saat tidak ada yang melihat — dan apa artinya?"
+        }
+      }
+    },
+    {
+      "week": 37,
+      "chapter": 10,
+      "locked": true,
+      "theme": {
+        "en": "Transactional or Relational",
+        "id": "Menjalankan Tugas atau Membangun Relasi"
+      },
+      "principle": {
+        "en": "Children can tell when you're managing them versus being with them.",
+        "id": "Anak dapat merasakan perbedaan antara saat kita sekadar mengelola kesehariannya dan saat kita sungguh hadir bersamanya."
+      },
+      "weekIntent": {
+        "en": "Honestly — am I in mostly transactional mode with my child right now? Or relational?",
+        "id": "Akhir-akhir ini, apakah interaksi saya dengan anak lebih banyak berupa urusan yang harus diselesaikan atau relasi yang dinikmati?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "When this week did our child feel like a relationship to us — versus a project?",
+          "id": "Kapan minggu ini kita sungguh menikmati relasi dengan anak, bukan hanya mengelola berbagai kebutuhannya?"
+        },
+        "solo": {
+          "en": "When this week did my child feel like a relationship to me — versus a project?",
+          "id": "Kapan minggu ini saya sungguh menikmati relasi dengan anak, bukan hanya mengelola berbagai kebutuhannya?"
+        }
+      }
+    },
+    {
+      "week": 38,
+      "chapter": 10,
+      "locked": true,
+      "theme": {
+        "en": "The Relationship Is the Curriculum",
+        "id": "Hubungan adalah Landasan Belajar"
+      },
+      "principle": {
+        "en": "Connection is what makes everything else work.",
+        "id": "Kedekatan menjadi landasan agar berbagai strategi pengasuhan dapat bekerja."
+      },
+      "weekIntent": {
+        "en": "Without connection, my best parenting tool doesn't land. Where am I missing connection now?",
+        "id": "Tanpa kedekatan, strategi terbaik pun sulit diterima. Di bagian mana saya perlu membangun kembali kedekatan saat ini?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What in our family worked this week mostly because connection was strong underneath?",
+          "id": "Hal apa dalam keluarga yang berjalan baik minggu ini karena kedekatan di antara kita cukup kuat?"
+        },
+        "solo": {
+          "en": "What in our family worked this week mostly because connection was strong underneath?",
+          "id": "Hal apa dalam keluarga yang berjalan baik minggu ini karena kedekatan di antara kami cukup kuat?"
+        }
+      }
+    },
+    {
+      "week": 39,
+      "chapter": 10,
+      "locked": true,
+      "theme": {
+        "en": "Ten Minutes, Daily",
+        "id": "Sepuluh Menit, Setiap Hari"
+      },
+      "principle": {
+        "en": "Phone away. Child leads. No teaching, no fixing.",
+        "id": "Simpan ponsel. Biarkan anak memilih. Tanpa agenda mengajar atau memperbaiki—cukup hadir bersama."
+      },
+      "weekIntent": {
+        "en": "Ten minutes daily this week. Where in my day will it actually fit?",
+        "id": "Minggu ini, saya ingin menyediakan sepuluh menit setiap hari. Kapan waktu yang paling realistis?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What did we learn about our child this week from ten minutes a day with no agenda?",
+          "id": "Apa yang kita pelajari tentang anak melalui sepuluh menit sehari tanpa agenda?"
+        },
+        "solo": {
+          "en": "What did I learn about my child this week from ten minutes a day with no agenda?",
+          "id": "Apa yang saya pelajari tentang anak melalui sepuluh menit sehari tanpa agenda?"
+        }
+      }
+    },
+    {
+      "week": 40,
+      "chapter": 10,
+      "locked": true,
+      "theme": {
+        "en": "Do They Feel Known",
+        "id": "Apakah Anak Merasa Dikenal"
+      },
+      "principle": {
+        "en": "A child who feels deeply known cooperates from love, not fear.",
+        "id": "Anak yang merasa sungguh dikenal lebih mudah bekerja sama karena merasa aman dan dicintai, bukan karena takut."
+      },
+      "weekIntent": {
+        "en": "Does my child feel known by me — or just managed?",
+        "id": "Apakah anak merasa benar-benar dikenal oleh saya, atau lebih sering sekadar diarahkan?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What's one thing each of us knows about our child that the other might not?",
+          "id": "Satu hal yang masing-masing dari kita tahu tentang anak kita, yang mungkin tidak diketahui pasangan?"
+        },
+        "solo": {
+          "en": "What's one thing I know about my child that almost no one else does?",
+          "id": "Satu hal yang saya tahu tentang anak saya, yang hampir tidak ada orang lain yang tahu?"
+        }
+      }
+    },
+    {
+      "week": 41,
+      "chapter": 11,
+      "locked": true,
+      "theme": {
+        "en": "What Season Is This",
+        "id": "Musim Apa Ini"
+      },
+      "principle": {
+        "en": "Pressure outside the family always shows up inside the family.",
+        "id": "Tekanan dari luar keluarga sering tanpa sadar ikut terasa di dalam rumah."
+      },
+      "weekIntent": {
+        "en": "What season is our family actually in right now? Not what I wish — what it is.",
+        "id": "Masa seperti apa yang sungguh sedang dijalani keluarga saat ini—bukan yang saya harapkan, melainkan yang benar-benar terjadi?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What pressure are we both carrying this season that's leaking into our parenting?",
+          "id": "Tekanan apa yang sedang kita berdua bawa dan tanpa sadar memengaruhi cara kita mengasuh?"
+        },
+        "solo": {
+          "en": "What pressure am I carrying this season that's leaking into my parenting?",
+          "id": "Tekanan apa yang sedang saya bawa dan tanpa sadar memengaruhi cara saya mengasuh?"
+        }
+      }
+    },
+    {
+      "week": 42,
+      "chapter": 11,
+      "locked": true,
+      "theme": {
+        "en": "Hard Month, Not Hard Child",
+        "id": "Masa yang Berat, Bukan Anak yang Sulit"
+      },
+      "principle": {
+        "en": "Children absorb pressure that doesn't belong to them, unless we name it.",
+        "id": "Anak dapat ikut menanggung tekanan yang sebenarnya bukan miliknya, terutama bila keadaan itu tidak kita jelaskan."
+      },
+      "weekIntent": {
+        "en": "What pressure has my child been absorbing that's actually mine?",
+        "id": "Tekanan apa yang mungkin sedang ikut ditanggung anak, padahal sebenarnya berasal dari saya?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What did we ask our child to absorb this season that wasn't theirs to carry?",
+          "id": "Tekanan apa yang tanpa sadar kita letakkan pada anak, padahal bukan bebannya?"
+        },
+        "solo": {
+          "en": "What did I ask my child to absorb this season that wasn't theirs to carry?",
+          "id": "Tekanan apa yang tanpa sadar saya letakkan pada anak, padahal bukan bebannya?"
+        }
+      }
+    },
+    {
+      "week": 43,
+      "chapter": 11,
+      "locked": true,
+      "theme": {
+        "en": "Lower One Expectation",
+        "id": "Sesuaikan Satu Harapan"
+      },
+      "principle": {
+        "en": "A wise parent matches their expectations to the actual season.",
+        "id": "Orang tua yang peka menyesuaikan harapan dengan keadaan keluarga yang sedang dijalani."
+      },
+      "weekIntent": {
+        "en": "One expectation I'll lower this week to match the season we're actually in.",
+        "id": "Satu harapan yang akan saya sesuaikan minggu ini agar lebih selaras dengan keadaan keluarga saat ini."
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What got softer this week when we lowered an expectation that didn't fit the season?",
+          "id": "Apa yang terasa lebih ringan minggu ini setelah kita menyesuaikan harapan dengan keadaan?"
+        },
+        "solo": {
+          "en": "What got softer this week when I lowered an expectation that didn't fit the season?",
+          "id": "Apa yang terasa lebih ringan minggu ini setelah saya menyesuaikan harapan dengan keadaan?"
+        }
+      }
+    },
+    {
+      "week": 44,
+      "chapter": 11,
+      "locked": true,
+      "theme": {
+        "en": "Where I Find Support",
+        "id": "Di Mana Saya Menemukan Dukungan"
+      },
+      "principle": {
+        "en": "No parent does this alone. Pretending to is the failure mode.",
+        "id": "Tidak ada orang tua yang perlu menjalani semua ini sendirian. Mengakui bahwa kita membutuhkan dukungan adalah bagian dari pengasuhan yang sehat."
+      },
+      "weekIntent": {
+        "en": "Who supports me as a parent right now? If the answer is no one — what would help?",
+        "id": "Siapa yang mendukung saya sebagai orang tua saat ini? Bila belum ada, dukungan seperti apa yang akan membantu?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "Who could we lean on more this season — and what's stopping us?",
+          "id": "Kepada siapa kita dapat lebih bersandar pada masa ini, dan apa yang membuat kita masih ragu?"
+        },
+        "solo": {
+          "en": "Who could I lean on more this season — and what's stopping me?",
+          "id": "Kepada siapa saya dapat lebih bersandar pada masa ini, dan apa yang membuat saya masih ragu?"
+        }
+      }
+    },
+    {
+      "week": 45,
+      "chapter": 12,
+      "locked": true,
+      "theme": {
+        "en": "What I've Actually Changed",
+        "id": "Perubahan Kecil yang Sudah Terjadi"
+      },
+      "principle": {
+        "en": "Real change is small, daily, and easy to miss.",
+        "id": "Perubahan nyata sering hadir dalam langkah-langkah kecil sehari-hari yang mudah terlewat."
+      },
+      "weekIntent": {
+        "en": "What's one thing I do as a parent now that I didn't ten months ago?",
+        "id": "Apa satu hal yang kini saya lakukan sebagai orang tua, tetapi belum saya lakukan sepuluh bulan lalu?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "Looking back at the year — what's a small, real change in how we parent now?",
+          "id": "Saat menengok perjalanan tahun ini, perubahan kecil dan nyata apa yang terlihat dalam cara kita mengasuh?"
+        },
+        "solo": {
+          "en": "Looking back at the year — what's a small, real change in how I parent now?",
+          "id": "Saat menengok perjalanan tahun ini, perubahan kecil dan nyata apa yang terlihat dalam cara saya mengasuh?"
+        }
+      }
+    },
+    {
+      "week": 46,
+      "chapter": 12,
+      "locked": true,
+      "theme": {
+        "en": "What Compounded",
+        "id": "Apa yang Bertumbuh Perlahan"
+      },
+      "principle": {
+        "en": "Daily small effort always beats occasional heroic effort.",
+        "id": "Usaha kecil yang dilakukan setiap hari sering lebih bermakna daripada upaya besar yang hanya sesekali."
+      },
+      "weekIntent": {
+        "en": "What practice from this year has compounded into something real?",
+        "id": "Kebiasaan apa dari tahun ini yang perlahan tumbuh menjadi perubahan yang nyata?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What habit grew so quietly this year that we almost didn't notice it taking root?",
+          "id": "Kebiasaan apa yang tumbuh begitu tenang tahun ini, sampai kita hampir tidak menyadarinya berakar?"
+        },
+        "solo": {
+          "en": "What habit grew so quietly this year that I almost didn't notice it taking root?",
+          "id": "Kebiasaan apa yang tumbuh begitu tenang tahun ini, sampai saya hampir tidak menyadarinya berakar?"
+        }
+      }
+    },
+    {
+      "week": 47,
+      "chapter": 12,
+      "locked": true,
+      "theme": {
+        "en": "One Practice to Carry Forward",
+        "id": "Satu Kebiasaan untuk Diteruskan"
+      },
+      "principle": {
+        "en": "You can't carry everything forward. Pick one.",
+        "id": "Kita tidak perlu membawa semuanya. Pilih satu yang paling berarti."
+      },
+      "weekIntent": {
+        "en": "If I could only keep one practice from this year — which one?",
+        "id": "Bila hanya satu kebiasaan dari tahun ini yang dapat saya teruskan, kebiasaan apa itu?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "If we could only keep three practices from this year, which three would they be?",
+          "id": "Bila kita memilih tiga kebiasaan dari tahun ini untuk diteruskan, apa saja ketiganya?"
+        },
+        "solo": {
+          "en": "If I could only keep three practices from this year, which three would they be?",
+          "id": "Bila saya memilih tiga kebiasaan dari tahun ini untuk diteruskan, apa saja ketiganya?"
+        }
+      }
+    },
+    {
+      "week": 48,
+      "chapter": 12,
+      "locked": true,
+      "theme": {
+        "en": "Who I'm Becoming",
+        "id": "Pribadi yang Sedang Saya Tumbuhkan"
+      },
+      "principle": {
+        "en": "Parenting forms us as much as it forms our children.",
+        "id": "Pengasuhan membentuk diri kita, sebagaimana kita mendampingi pertumbuhan anak."
+      },
+      "weekIntent": {
+        "en": "Who am I becoming as a parent — and is it the person I want to be?",
+        "id": "Sebagai orang tua, pribadi seperti apa yang sedang saya tumbuhkan dalam diri saya—dan apakah itu selaras dengan yang saya harapkan?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "Who is each of us becoming as a parent — and what do we love about it?",
+          "id": "Sebagai orang tua, pribadi seperti apa yang sedang bertumbuh dalam diri kita masing-masing, dan apa yang kita syukuri darinya?"
+        },
+        "solo": {
+          "en": "Who am I becoming as a parent — and what do I love about it?",
+          "id": "Sebagai orang tua, pribadi seperti apa yang sedang bertumbuh dalam diri saya, dan apa yang saya syukuri darinya?"
+        }
+      }
+    },
+    {
+      "week": 49,
+      "chapter": 12,
+      "locked": true,
+      "theme": {
+        "en": "What This Year Held",
+        "id": "Hal-Hal yang Tahun Ini Bawa"
+      },
+      "principle": {
+        "en": "Memory shapes meaning. We remember what we name.",
+        "id": "Ingatan membantu kita memberi makna. Hal yang kita sebutkan lebih mudah kita kenang."
+      },
+      "weekIntent": {
+        "en": "What three moments from this year do I want to make sure I never forget?",
+        "id": "Tiga momen apa dari tahun ini yang ingin saya simpan dalam ingatan?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What three moments from this year do we both want to remember always?",
+          "id": "Tiga momen apa dari tahun ini yang ingin selalu kita kenang bersama?"
+        },
+        "solo": {
+          "en": "What three moments from this year do I want to remember always?",
+          "id": "Tiga momen apa dari tahun ini yang ingin selalu saya kenang?"
+        }
+      }
+    },
+    {
+      "week": 50,
+      "chapter": 12,
+      "locked": true,
+      "theme": {
+        "en": "What This Year Cost",
+        "id": "Apa yang Tahun Ini Tuntut dari Kita"
+      },
+      "principle": {
+        "en": "Honest grief and honest gratitude both belong here.",
+        "id": "Duka dan rasa syukur yang jujur sama-sama boleh hadir di sini."
+      },
+      "weekIntent": {
+        "en": "What was hard this year that I haven't yet let myself name?",
+        "id": "Hal sulit apa dari tahun ini yang belum sempat saya akui dengan jujur?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What did this year cost us — and was it worth it?",
+          "id": "Apa yang perlu kita korbankan tahun ini, dan bagaimana kita memaknainya sekarang?"
+        },
+        "solo": {
+          "en": "What did this year cost me — and was it worth it?",
+          "id": "Apa yang perlu saya korbankan tahun ini, dan bagaimana saya memaknainya sekarang?"
+        }
+      }
+    },
+    {
+      "week": 51,
+      "chapter": 12,
+      "locked": true,
+      "theme": {
+        "en": "What I'm Letting Go Of",
+        "id": "Apa yang Saya Lepaskan"
+      },
+      "principle": {
+        "en": "Growth requires releasing as much as adding.",
+        "id": "Bertumbuh juga berarti melepaskan hal-hal yang tidak lagi membantu, bukan hanya menambahkan hal baru."
+      },
+      "weekIntent": {
+        "en": "What old story about myself as a parent am I ready to leave behind?",
+        "id": "Cerita lama apa tentang diri saya sebagai orang tua yang kini siap saya lepaskan?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What's one belief about parenting we're both ready to leave behind for next year?",
+          "id": "Keyakinan apa tentang pengasuhan yang siap kita lepaskan sebelum memasuki tahun depan?"
+        },
+        "solo": {
+          "en": "What's one belief about parenting I'm ready to leave behind for next year?",
+          "id": "Keyakinan apa tentang pengasuhan yang siap saya lepaskan sebelum memasuki tahun depan?"
+        }
+      }
+    },
+    {
+      "week": 52,
+      "chapter": 12,
+      "locked": true,
+      "theme": {
+        "en": "What Comes Next",
+        "id": "Langkah Berikutnya"
+      },
+      "principle": {
+        "en": "A year of small steady work has changed something. Name it. Carry it forward.",
+        "id": "Setahun menjalani langkah-langkah kecil dengan konsisten telah membawa perubahan. Kenali perubahan itu, lalu teruskan."
+      },
+      "weekIntent": {
+        "en": "What do I want to carry into next year — and what do I want to start fresh?",
+        "id": "Apa yang ingin saya teruskan ke tahun depan, dan hal apa yang ingin saya mulai dengan lembar baru?"
+      },
+      "sundayReflection": {
+        "combined": {
+          "en": "What do we want our family to look like one year from today?",
+          "id": "Seperti apa keluarga yang ingin kita bangun satu tahun dari sekarang?"
+        },
+        "solo": {
+          "en": "What do I want our family to look like one year from today?",
+          "id": "Seperti apa keluarga yang ingin saya bangun satu tahun dari sekarang?"
+        }
+      }
+    }
+  ]
+}
