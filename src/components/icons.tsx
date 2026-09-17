@@ -41,6 +41,15 @@ export const DiaryIcon = (p: P) => (
   </svg>
 )
 
+// A folded paper note on a board — Ceria's own announcements, not a news wire.
+export const NewsIcon = (p: P) => (
+  <svg {...base(p)}>
+    <path d="M4 6a2 2 0 0 1 2-2h9v14a2 2 0 0 0 2 2H6a2 2 0 0 1-2-2z" />
+    <path d="M15 8h3a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2" />
+    <path d="M7.5 8h4M7.5 11.5h4M7.5 15h2.5" />
+  </svg>
+)
+
 export const MoreIcon = (p: P) => (
   <svg {...base(p)}>
     <circle cx="5" cy="12" r="1.4" />

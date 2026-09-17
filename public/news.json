@@ -1,0 +1,18 @@
+{
+  "_comment": "Shipped inside the app and shown only until the phone first reaches Ceria's website. Keep this evergreen — nothing here should be a dated announcement. The live file is described in docs/news.md.",
+  "updated": "2026-09-17",
+  "items": [
+    {
+      "id": "welcome",
+      "date": "2026-09-17",
+      "title": {
+        "en": "Ceria's noticeboard",
+        "id": "Papan kabar Ceria"
+      },
+      "body": {
+        "en": "This is where Ceria posts gatherings, courses, and news for families. When your phone is online, the latest updates from the foundation appear here.",
+        "id": "Di sinilah Ceria membagikan pertemuan, kursus, dan kabar untuk keluarga. Saat ponsel Anda daring, kabar terbaru dari yayasan akan muncul di sini."
+      }
+    }
+  ]
+}

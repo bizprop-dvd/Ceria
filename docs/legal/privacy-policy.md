@@ -96,6 +96,23 @@ If you turn on the evening reminder, the notification is scheduled on your own
 device by your phone's operating system. Nothing is sent from us, and we do not
 know whether you opened it.
 
+## News from Ceria
+
+The News tab shows announcements written by Ceria — gatherings, courses, and
+news. To fill it, the app downloads one public file from our website, the same
+file every phone downloads. Nothing about you, your family, or anything you
+have written is sent with that request, and it carries no identifier that
+would let us recognise your phone from one day to the next.
+
+Like any website, our web host records ordinary server log entries for requests
+it receives, which include the internet address (IP) the request came from and
+the time. We do not use those logs to build a profile of anyone, and they are
+not connected to anything in the app.
+
+The last downloaded copy is kept on your device so the tab still works without
+a connection. You can ignore the tab entirely; nothing in the rest of the app
+depends on it.
+
 ## Analytics and advertising
 
 The app contains **no advertising** and **no third-party analytics**. We do not
@@ -221,6 +238,24 @@ email, atau apa pun yang Anda tulis di aplikasi.
 Jika Anda menyalakan pengingat malam, notifikasi dijadwalkan di perangkat Anda
 sendiri oleh sistem operasi ponsel. Tidak ada yang dikirim dari kami, dan kami
 tidak tahu apakah Anda membukanya.
+
+## Kabar dari Ceria
+
+Tab Kabar menampilkan pengumuman yang ditulis Ceria — pertemuan, kursus, dan
+berita. Untuk mengisinya, aplikasi mengunduh satu berkas publik dari situs web
+kami, berkas yang sama untuk semua ponsel. Tidak ada apa pun tentang Anda,
+keluarga Anda, atau tulisan Anda yang ikut terkirim, dan permintaan itu tidak
+membawa penanda apa pun yang memungkinkan kami mengenali ponsel Anda dari hari
+ke hari.
+
+Seperti situs web mana pun, penyedia hosting kami mencatat log server biasa
+atas permintaan yang masuk, yang memuat alamat internet (IP) asal permintaan
+dan waktunya. Kami tidak memakai catatan itu untuk menyusun profil siapa pun,
+dan catatan itu tidak terhubung dengan apa pun di dalam aplikasi.
+
+Salinan terakhir yang diunduh disimpan di perangkat Anda agar tab tetap bisa
+dibuka tanpa koneksi. Anda boleh mengabaikan tab ini sepenuhnya; tidak ada
+bagian lain aplikasi yang bergantung padanya.
 
 ## Analitik dan iklan
 

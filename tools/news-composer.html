@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Kabar Ceria — penyunting</title>
+<!--
+  Penyunting berkas news.json untuk aplikasi Ceria.
+  The composer for the Ceria app's news file.
+
+  Satu berkas, tanpa pemasangan apa pun: buka berkas ini di browser mana pun
+  (klik dua kali juga bisa), tulis kabarnya, lalu unduh news.json dan berikan
+  kepada tim web untuk diunggah. Tidak ada yang dikirim ke mana pun dari
+  halaman ini — semuanya terjadi di komputer Anda.
+
+  One file, nothing to install. Open it in any browser, write the update,
+  download news.json, and hand it to the web team. Nothing leaves this page.
+
+  Selengkapnya / details: docs/news.md
+-->
+<style>
+  :root {
+    --blue: #2E4FA3; --pink: #E91E80; --cream: #FAF6EE; --cream-deep: #F2E9D9;
+    --dark: #1F2937; --gray: #6B7280; --teal: #0E9488;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0 0 4rem; background: var(--cream); color: var(--dark);
+    font: 15px/1.55 -apple-system, "Segoe UI", Roboto, Inter, sans-serif;
+  }
+  header { background: #fff; border-bottom: 1px solid var(--cream-deep); padding: 1.1rem 1rem; }
+  h1 { margin: 0; font: 600 20px/1.3 Georgia, "Times New Roman", serif; color: var(--blue); }
+  h1 small { display: block; font: 400 13px/1.4 inherit; color: var(--gray); font-family: inherit; }
+  main { max-width: 860px; margin: 0 auto; padding: 1rem; }
+  section { background: #fff; border: 1px solid var(--cream-deep); border-radius: 14px; padding: 1rem 1.1rem; margin-bottom: 1rem; }
+  h2 { margin: 0 0 .2rem; font: 600 16px/1.3 Georgia, serif; color: var(--blue); }
+  .hint { margin: 0 0 .8rem; color: var(--gray); font-size: 13px; }
+  label { display: block; margin-top: .75rem; font-size: 13px; font-weight: 600; color: var(--dark); }
+  label span { font-weight: 400; color: var(--gray); }
+  input[type=text], input[type=date], input[type=url], textarea, select {
+    width: 100%; margin-top: .25rem; padding: .5rem .6rem; font: inherit;
+    border: 1px solid #D8D2C6; border-radius: 9px; background: #fff; color: var(--dark);
+  }
+  textarea { min-height: 7rem; resize: vertical; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: .75rem; }
+  @media (max-width: 620px) { .two { grid-template-columns: 1fr; } }
+  button {
+    font: inherit; font-weight: 600; border-radius: 999px; border: 1px solid transparent;
+    padding: .5rem 1.05rem; cursor: pointer;
+  }
+  .primary { background: var(--blue); color: #fff; }
+  .ghost { background: #fff; color: var(--blue); border-color: #C9D2EA; }
+  .danger { background: #fff; color: #B42318; border-color: #F2CFCB; }
+  .row { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+  .post { border: 1px solid var(--cream-deep); border-radius: 12px; padding: .7rem .85rem; margin-top: .6rem; }
+  .post .meta { font-size: 11.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--gray); }
+  .post h3 { margin: .15rem 0 .2rem; font: 600 16px/1.3 Georgia, serif; }
+  .post p { margin: 0 0 .5rem; color: var(--gray); font-size: 13.5px; }
+  .pin { color: var(--pink); }
+  .check { margin-top: .75rem; font-weight: 600; font-size: 13px; }
+  .check input { margin-right: .4rem; }
+  pre {
+    background: #1F2937; color: #E8EEF9; padding: .9rem; border-radius: 12px;
+    overflow: auto; max-height: 20rem; font-size: 12.5px; white-space: pre-wrap; word-break: break-word;
+  }
+  .warn { background: #FEF6E7; border: 1px solid #F3DFAE; color: #7A4F01; border-radius: 10px; padding: .55rem .75rem; margin-top: .6rem; font-size: 13.5px; }
+  .ok { color: var(--teal); font-size: 13.5px; margin-top: .6rem; }
+  .empty { color: var(--gray); font-size: 14px; padding: .6rem 0; }
+  fieldset { border: 1px solid var(--cream-deep); border-radius: 12px; margin: 1rem 0 0; padding: .3rem 1rem 1rem; }
+  legend { font-size: 13px; font-weight: 600; color: var(--gray); padding: 0 .4rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Kabar Ceria — penyunting
+    <small>Ceria news composer · buat berkas news.json untuk aplikasi</small>
+  </h1>
+</header>
+
+<main>
+  <section>
+    <h2>1. Mulai dari berkas yang ada <span style="font-weight:400;color:var(--gray);font-size:13px">/ Start from the current file</span></h2>
+    <p class="hint">
+      Buka news.json yang sedang tayang agar kabar lama tetap ada. Kalau ini yang pertama, lewati saja.
+    </p>
+    <div class="row">
+      <input type="file" id="file" accept=".json,application/json" />
+      <button class="ghost" id="fetch">Ambil dari situs web</button>
+      <button class="ghost" id="fresh">Mulai kosong</button>
+    </div>
+    <div id="loadMsg"></div>
+  </section>
+
+  <section>
+    <h2>2. Kabar <span style="font-weight:400;color:var(--gray);font-size:13px">/ The posts</span></h2>
+    <p class="hint">Yang paling baru tampil di atas. Yang disematkan selalu paling atas.</p>
+    <div id="list"></div>
+    <div class="row" style="margin-top:.9rem">
+      <button class="primary" id="add">+ Tulis kabar baru</button>
+    </div>
+  </section>
+
+  <section id="editor" hidden>
+    <h2 id="editorTitle">Kabar baru</h2>
+    <p class="hint">Isi kedua bahasa bila bisa. Bila satu bahasa kosong, aplikasi memakai yang terisi.</p>
+
+    <div class="two">
+      <div>
+        <label>Tanggal <span>/ Date</span>
+          <input type="date" id="date" />
+        </label>
+      </div>
+      <div>
+        <label>Tampil sampai <span>/ Show until (opsional)</span>
+          <input type="date" id="until" />
+        </label>
+      </div>
+    </div>
+    <p class="hint" style="margin:.35rem 0 0">
+      "Tampil sampai" berguna untuk acara: setelah tanggal itu lewat, kabar hilang sendiri dari aplikasi.
+    </p>
+
+    <label class="check"><input type="checkbox" id="pinned" /> Sematkan di paling atas <span>/ Pin to the top</span></label>
+
+    <div class="two">
+      <label>Judul (Indonesia)
+        <input type="text" id="title_id" placeholder="Temu keluarga di Surabaya" />
+      </label>
+      <label>Title (English)
+        <input type="text" id="title_en" placeholder="Family gathering in Surabaya" />
+      </label>
+    </div>
+
+    <div class="two">
+      <label>Isi (Indonesia)
+        <textarea id="body_id" placeholder="Tulis dengan hangat dan singkat. Baris kosong membuat paragraf baru."></textarea>
+      </label>
+      <label>Body (English)
+        <textarea id="body_en"></textarea>
+      </label>
+    </div>
+
+    <fieldset>
+      <legend>Acara — waktu dan tempat / Event details (opsional)</legend>
+      <div class="two">
+        <label>Waktu (Indonesia)
+          <input type="text" id="when_id" placeholder="Minggu 28 September, 16.00–18.00" />
+        </label>
+        <label>When (English)
+          <input type="text" id="when_en" placeholder="Sunday 28 September, 16.00–18.00" />
+        </label>
+      </div>
+      <div class="two">
+        <label>Tempat (Indonesia)
+          <input type="text" id="place_id" placeholder="Kantor Ceria, Surabaya" />
+        </label>
+        <label>Place (English)
+          <input type="text" id="place_en" placeholder="Ceria office, Surabaya" />
+        </label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Tautan dan gambar / Link and picture (opsional)</legend>
+      <label>Tautan <span>/ Link — formulir pendaftaran, grup WhatsApp, artikel</span>
+        <input type="url" id="link_url" placeholder="https://www.yayasanceria.org/daftar" />
+      </label>
+      <div class="two">
+        <label>Teks tombol (Indonesia)
+          <input type="text" id="link_id" placeholder="Beri tahu kami" />
+        </label>
+        <label>Button text (English)
+          <input type="text" id="link_en" placeholder="Tell us you are coming" />
+        </label>
+      </div>
+      <label>Gambar <span>/ Picture — alamat https, lebar 1200px sudah cukup</span>
+        <input type="url" id="image" placeholder="https://www.yayasanceria.org/app/img/temu-sept.jpg" />
+      </label>
+    </fieldset>
+
+    <label>Kode kabar <span>/ Post id — dipakai aplikasi untuk mengenali kabar ini. Jangan diubah setelah tayang.</span>
+      <input type="text" id="id" />
+    </label>
+
+    <div class="row" style="margin-top:1rem">
+      <button class="primary" id="save">Simpan kabar ini</button>
+      <button class="ghost" id="cancel">Batal</button>
+    </div>
+    <div id="editMsg"></div>
+  </section>
+
+  <section>
+    <h2>3. Berkas untuk tim web <span style="font-weight:400;color:var(--gray);font-size:13px">/ The file to publish</span></h2>
+    <p class="hint">
+      Unduh, lalu minta tim web mengunggahnya ke
+      <strong>https://www.yayasanceria.org/app/news.json</strong> (menimpa yang lama).
+      Aplikasi mengambilnya sendiri — tidak perlu memperbarui aplikasi di toko.
+    </p>
+    <div class="row">
+      <button class="primary" id="download">Unduh news.json</button>
+      <button class="ghost" id="copy">Salin teksnya</button>
+    </div>
+    <div id="outMsg"></div>
+    <pre id="out"></pre>
+  </section>
+</main>
+
+<script>
+(function () {
+  'use strict'
+
+  var LIVE_URL = 'https://www.yayasanceria.org/app/news.json'
+  var items = []
+  var editingIndex = -1
+
+  var $ = function (id) { return document.getElementById(id) }
+  var FIELDS = ['date', 'until', 'pinned', 'title_id', 'title_en', 'body_id', 'body_en',
+    'when_id', 'when_en', 'place_id', 'place_en', 'link_url', 'link_id', 'link_en', 'image', 'id']
+
+  /* ---------- loading an existing file ---------- */
+
+  $('file').addEventListener('change', function (e) {
+    var f = e.target.files && e.target.files[0]
+    if (!f) return
+    var reader = new FileReader()
+    reader.onload = function () { adopt(reader.result, 'Berkas dibaca') }
+    reader.readAsText(f)
+  })
+
+  $('fetch').addEventListener('click', function () {
+    say('loadMsg', 'Mengambil…', 'hint')
+    fetch(LIVE_URL, { cache: 'no-store' })
+      .then(function (r) { return r.text() })
+      .then(function (text) { adopt(text, 'Diambil dari situs web') })
+      .catch(function () {
+        say('loadMsg',
+          'Tidak bisa mengambil dari situs (browser menolak karena halaman ini dibuka dari komputer). ' +
+          'Unduh news.json lewat situs, lalu pilih berkasnya di atas.', 'warn')
+      })
+  })
+
+  $('fresh').addEventListener('click', function () {
+    items = []
+    render()
+    say('loadMsg', 'Mulai dari kosong.', 'ok')
+  })
+
+  function adopt(text, how) {
+    var parsed
+    try { parsed = JSON.parse(text) } catch (err) {
+      say('loadMsg', 'Berkas ini bukan JSON yang sah: ' + err.message, 'warn')
+      return
+    }
+    if (!parsed || !Array.isArray(parsed.items)) {
+      say('loadMsg', 'Tidak menemukan daftar "items" di berkas ini.', 'warn')
+      return
+    }
+    items = parsed.items
+    render()
+    say('loadMsg', how + ' — ' + items.length + ' kabar.', 'ok')
+  }
+
+  /* ---------- the list ---------- */
+
+  function sorted() {
+    return items.slice().sort(function (a, b) {
+      if (!!a.pinned !== !!b.pinned) return a.pinned ? -1 : 1
+      return String(b.date || '').localeCompare(String(a.date || ''))
+    })
+  }
+
+  function render() {
+    var list = $('list')
+    list.textContent = ''
+    if (items.length === 0) {
+      var p = document.createElement('p')
+      p.className = 'empty'
+      p.textContent = 'Belum ada kabar. Tekan "Tulis kabar baru".'
+      list.appendChild(p)
+    }
+    sorted().forEach(function (item) {
+      var index = items.indexOf(item)
+      var box = document.createElement('div')
+      box.className = 'post'
+
+      var meta = document.createElement('p')
+      meta.className = 'meta'
+      meta.textContent = item.date || '(tanpa tanggal)'
+      if (item.pinned) {
+        var pin = document.createElement('span')
+        pin.className = 'pin'
+        pin.textContent = ' · disematkan'
+        meta.appendChild(pin)
+      }
+      if (item.until) meta.appendChild(document.createTextNode(' · sampai ' + item.until))
+      box.appendChild(meta)
+
+      var h3 = document.createElement('h3')
+      h3.textContent = text(item.title, 'id') || '(tanpa judul)'
+      box.appendChild(h3)
+
+      var body = document.createElement('p')
+      body.textContent = trim(text(item.body, 'id'), 120)
+      box.appendChild(body)
+
+      box.appendChild(button('ghost', 'Sunting', function () { edit(index) }))
+      box.appendChild(document.createTextNode(' '))
+      box.appendChild(button('danger', 'Hapus', function () {
+        if (!confirm('Hapus kabar ini?')) return
+        items.splice(index, 1)
+        render()
+      }))
+      list.appendChild(box)
+    })
+    writeOut()
+  }
+
+  function button(cls, label, onClick) {
+    var b = document.createElement('button')
+    b.className = cls
+    b.type = 'button'
+    b.textContent = label
+    b.addEventListener('click', onClick)
+    return b
+  }
+
+  /* ---------- the editor ---------- */
+
+  $('add').addEventListener('click', function () { edit(-1) })
+  $('cancel').addEventListener('click', closeEditor)
+  $('save').addEventListener('click', save)
+
+  // The id is a name a person can read in the file; it is generated from the
+  // date and the Indonesian title until someone types their own.
+  ;['title_id', 'title_en', 'date'].forEach(function (f) {
+    $(f).addEventListener('input', function () {
+      if (editingIndex >= 0) return
+      if ($('id').dataset.touched === 'yes') return
+      $('id').value = suggestedId()
+    })
+  })
+  $('id').addEventListener('input', function () { $('id').dataset.touched = 'yes' })
+
+  function edit(index) {
+    editingIndex = index
+    var item = index >= 0 ? items[index] : null
+    $('editorTitle').textContent = item ? 'Sunting kabar' : 'Kabar baru'
+    FIELDS.forEach(function (f) {
+      var el = $(f)
+      if (el.type === 'checkbox') el.checked = false
+      else el.value = ''
+    })
+    $('id').dataset.touched = item ? 'yes' : ''
+    if (item) {
+      $('date').value = item.date || ''
+      $('until').value = item.until || ''
+      $('pinned').checked = !!item.pinned
+      $('title_id').value = text(item.title, 'id')
+      $('title_en').value = text(item.title, 'en')
+      $('body_id').value = text(item.body, 'id')
+      $('body_en').value = text(item.body, 'en')
+      if (item.event) {
+        $('when_id').value = text(item.event.when, 'id')
+        $('when_en').value = text(item.event.when, 'en')
+        $('place_id').value = text(item.event.place, 'id')
+        $('place_en').value = text(item.event.place, 'en')
+      }
+      if (item.link) {
+        $('link_url').value = item.link.url || ''
+        $('link_id').value = text(item.link.label, 'id')
+        $('link_en').value = text(item.link.label, 'en')
+      }
+      $('image').value = item.image || ''
+      $('id').value = item.id || ''
+    } else {
+      $('date').value = today()
+    }
+    $('editor').hidden = false
+    say('editMsg', '', 'hint')
+    $('editor').scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+
+  function save() {
+    var problems = []
+    var id = $('id').value.trim() || suggestedId()
+    if (!/^\d{4}-\d{2}-\d{2}$/.test($('date').value)) problems.push('Tanggal belum diisi.')
+    if (!$('title_id').value.trim() && !$('title_en').value.trim()) problems.push('Judul belum diisi.')
+    if (!$('body_id').value.trim() && !$('body_en').value.trim()) problems.push('Isi belum ditulis.')
+    if (!id) problems.push('Kode kabar belum ada.')
+    items.forEach(function (other, i) {
+      if (i !== editingIndex && other.id === id) problems.push('Kode "' + id + '" sudah dipakai kabar lain.')
+    })
+    var url = $('link_url').value.trim()
+    if (url && url.slice(0, 8) !== 'https://') problems.push('Tautan harus diawali https:// — yang lain diabaikan aplikasi.')
+    var img = $('image').value.trim()
+    if (img && img.slice(0, 8) !== 'https://') problems.push('Alamat gambar harus diawali https://.')
+    if (problems.length) { say('editMsg', problems.join(' '), 'warn'); return }
+
+    var item = { id: id, date: $('date').value }
+    item.title = pair($('title_id').value, $('title_en').value)
+    item.body = pair($('body_id').value, $('body_en').value)
+    var when = pair($('when_id').value, $('when_en').value)
+    var place = pair($('place_id').value, $('place_en').value)
+    if (when || place) {
+      item.event = {}
+      if (when) item.event.when = when
+      if (place) item.event.place = place
+    }
+    if (url) {
+      item.link = { url: url }
+      var label = pair($('link_id').value, $('link_en').value)
+      if (label) item.link.label = label
+    }
+    if (img) item.image = img
+    if ($('pinned').checked) item.pinned = true
+    if ($('until').value) item.until = $('until').value
+
+    if (editingIndex >= 0) items[editingIndex] = item
+    else items.push(item)
+    closeEditor()
+    render()
+
+    var missing = []
+    if (!$('title_en').value.trim() || !$('body_en').value.trim()) missing.push('Inggris')
+    if (!$('title_id').value.trim() || !$('body_id').value.trim()) missing.push('Indonesia')
+    say('outMsg', missing.length
+      ? 'Tersimpan. Catatan: bahasa ' + missing.join(' dan ') + ' belum lengkap pada kabar terakhir.'
+      : 'Tersimpan.', missing.length ? 'warn' : 'ok')
+  }
+
+  function closeEditor() {
+    editingIndex = -1
+    $('editor').hidden = true
+  }
+
+  /* ---------- the file ---------- */
+
+  function feed() {
+    return { updated: new Date().toISOString(), items: sorted() }
+  }
+
+  function writeOut() {
+    $('out').textContent = JSON.stringify(feed(), null, 2)
+  }
+
+  $('download').addEventListener('click', function () {
+    var blob = new Blob([JSON.stringify(feed(), null, 2) + '\n'], { type: 'application/json' })
+    var a = document.createElement('a')
+    a.href = URL.createObjectURL(blob)
+    a.download = 'news.json'
+    document.body.appendChild(a)
+    a.click()
+    document.body.removeChild(a)
+    setTimeout(function () { URL.revokeObjectURL(a.href) }, 1000)
+    say('outMsg', 'Terunduh sebagai news.json. Kirim berkas ini ke tim web.', 'ok')
+  })
+
+  $('copy').addEventListener('click', function () {
+    var text = JSON.stringify(feed(), null, 2)
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(text).then(function () {
+        say('outMsg', 'Tersalin.', 'ok')
+      }, function () { say('outMsg', 'Tidak bisa menyalin — pilih teks di bawah lalu salin manual.', 'warn') })
+    } else {
+      say('outMsg', 'Pilih teks di bawah lalu salin manual.', 'warn')
+    }
+  })
+
+  /* ---------- small helpers ---------- */
+
+  function pair(id, en) {
+    var a = (id || '').trim(), b = (en || '').trim()
+    if (!a && !b) return null
+    return { en: b || a, id: a || b }
+  }
+
+  function text(value, lang) {
+    if (!value) return ''
+    if (typeof value === 'string') return value
+    return value[lang] || value[lang === 'id' ? 'en' : 'id'] || ''
+  }
+
+  function trim(s, n) { return s.length > n ? s.slice(0, n) + '…' : s }
+
+  /**
+   * A readable code for a post: the month it belongs to plus a few words of
+   * its title. Either language will do — what matters is that it is unique and
+   * that a person opening news.json can tell which post is which.
+   */
+  function suggestedId() {
+    var date = $('date').value
+    var dated = /^\d{4}-\d{2}-\d{2}$/.test(date)
+    var name = ($('title_id').value || $('title_en').value || '')
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '')
+      .split('-').filter(Boolean).slice(0, 4).join('-')
+    if (!name) return dated ? date : ''
+    return (dated ? date.slice(0, 7) + '-' : '') + name
+  }
+
+  function today() {
+    var d = new Date()
+    return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate())
+  }
+  function pad(n) { return (n < 10 ? '0' : '') + n }
+
+  function say(where, message, kind) {
+    var box = $(where)
+    box.textContent = ''
+    if (!message) return
+    var p = document.createElement('p')
+    p.className = kind
+    p.textContent = message
+    box.appendChild(p)
+  }
+
+  render()
+})()
+</script>
+</body>
+</html>

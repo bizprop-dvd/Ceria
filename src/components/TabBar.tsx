@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import { useApp } from '../store/AppContext'
-import { BookIcon, DiaryIcon, MoreIcon, SunIcon, ToolIcon } from './icons'
+import { useNews } from '../store/NewsContext'
+import { BookIcon, DiaryIcon, MoreIcon, NewsIcon, SunIcon, ToolIcon } from './icons'
 import type { ComponentType, SVGProps } from 'react'
 
 interface Tab {
@@ -14,6 +15,7 @@ const TABS: Tab[] = [
   { to: '/guidebook', icon: BookIcon, label: { en: 'Guide', id: 'Panduan' } },
   { to: '/toolkit', icon: ToolIcon, label: { en: 'Toolkit', id: 'Alat' } },
   { to: '/diary', icon: DiaryIcon, label: { en: 'Diary', id: 'Diari' } },
+  { to: '/news', icon: NewsIcon, label: { en: 'News', id: 'Kabar' } },
   { to: '/more', icon: MoreIcon, label: { en: 'More', id: 'Lainnya' } },
 ]
 
@@ -29,6 +31,7 @@ const TABS: Tab[] = [
  */
 export default function TabBar() {
   const { lang } = useApp()
+  const { unread } = useNews()
   return (
     <nav
       className="pointer-events-none absolute inset-x-0 bottom-0 z-30"
@@ -36,7 +39,7 @@ export default function TabBar() {
     >
       <div className="mx-auto max-w-md px-3">
         <ul
-          className="pointer-events-auto flex items-center gap-1 rounded-[26px] border border-white/60 p-1.5"
+          className="pointer-events-auto flex items-center gap-0.5 rounded-[26px] border border-white/60 p-1.5"
           style={{
             background: 'rgba(255, 253, 250, 0.72)',
             backdropFilter: 'blur(22px) saturate(180%)',
@@ -50,7 +53,7 @@ export default function TabBar() {
               <NavLink
                 to={to}
                 className={({ isActive }) =>
-                  `relative flex flex-col items-center gap-0.5 rounded-[20px] py-2 text-[10.5px] font-medium transition-all duration-200 ${
+                  `relative flex flex-col items-center gap-0.5 rounded-[20px] px-0.5 py-2 text-[10px] font-medium whitespace-nowrap transition-all duration-200 ${
                     isActive ? 'text-ceria-blue' : 'text-ceria-gray/80'
                   }`
                 }
@@ -66,7 +69,18 @@ export default function TabBar() {
               >
                 {({ isActive }) => (
                   <>
-                    <Icon width={23} height={23} strokeWidth={isActive ? 2.1 : 1.7} />
+                    <span className="relative">
+                      <Icon width={22} height={22} strokeWidth={isActive ? 2.1 : 1.7} />
+                      {/* Something from Ceria that has not been looked at. A quiet
+                          dot rather than a count: it is an invitation, not a chore. */}
+                      {to === '/news' && unread > 0 && (
+                        <span
+                          className="absolute -right-0.5 -top-0.5 h-2 w-2 rounded-full bg-ceria-pink ring-2 ring-white"
+                          aria-label={lang === 'en' ? 'New posts' : 'Ada kabar baru'}
+                          role="status"
+                        />
+                      )}
+                    </span>
                     {label[lang]}
                   </>
                 )}

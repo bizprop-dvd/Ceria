@@ -8,6 +8,10 @@ gentle, bilingual companion:
 - **Toolkit** — 12 parenting tools / worksheets
 - **Diary** — a 52-week dual-track family diary (daily prompts + weekly reflection)
 
+Alongside them a **News** tab carries Ceria's own announcements — gatherings,
+courses, notes — read from a file the foundation publishes on its website. See
+[`docs/news.md`](docs/news.md) for how a post is written and published.
+
 The app is **freemium**: themes 1–4 are free; themes 5–12 unlock with a single
 one-time in-app purchase (`ceria_full_unlock`). Content is available in English
 and Bahasa Indonesia with a live language toggle. Diary entries are stored
@@ -67,13 +71,17 @@ content/                     Founder content (source of truth — do not invent)
   _source/                   Founder's original scaffold (freemium ref + generator)
 docs/CLAUDE_CODE_BRIEF.md    The master spec
 public/logo.jpg              Logo served to the app
+public/news.json             Seed noticeboard, used until the phone first
+                             reaches Ceria's website
+tools/news-composer.html     Where Ceria's team writes a news post
 src/
   data/                      Typed content loaders (types.ts, content.ts)
-  lib/                       freemium, storage, purchases, notifications, streak, dates
-  store/                     AppContext (settings, entries, purchase state, i18n)
+  lib/                       freemium, storage, purchases, notifications, streak, dates, news
+  store/                     AppContext (settings, entries, purchase state, i18n),
+                             NewsContext (Ceria's announcements)
   components/                TabBar, Sheet, PaywallProvider, PromptField, icons, …
   screens/                   Onboarding, Today, Guidebook(+Chapter), Toolkit(+Tool),
-                             Diary(+Week), More
+                             Diary(+Week), News(+Post), More
 capacitor.config.ts
 ```
 

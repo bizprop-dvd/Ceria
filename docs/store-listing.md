@@ -101,6 +101,12 @@ Kalau Anda mau punya cadangan, Anda bisa menghubungkan Google Drive Anda
 sendiri — dan Anda bisa mematikannya kapan saja. Itu Drive Anda, bukan
 server kami.
 
+KABAR DARI CERIA
+
+Satu tab berisi pengumuman dari yayasan: pertemuan keluarga, kursus baru,
+kabar singkat. Hanya Ceria yang menulis di sana, dan tidak ada tulisan Anda
+yang ikut terkirim.
+
 BAHASA
 
 Bahasa Indonesia dan Inggris. Bisa diganti kapan saja, dan tulisan Anda
@@ -160,6 +166,12 @@ account, no sign-up, and no phone number to give.
 If you want a backup, you can connect your own Google Drive — and turn it off
 again whenever you like. It is your Drive, not our server.
 
+NEWS FROM CERIA
+
+One tab carries announcements from the foundation: family gatherings, new
+courses, short notes. Only Ceria writes there, and nothing you write is sent
+with it.
+
 LANGUAGES
 
 Indonesian and English. Switch whenever you like; your writing stays exactly
@@ -189,6 +201,11 @@ Surabaya, Indonesia
 
 The purchase itself is handled by Google Play; RevenueCat sees an anonymous
 purchase identifier and no diary content.
+
+The News tab downloads one public file of Ceria's own announcements from
+yayasanceria.org. Nothing is sent with the request — no identifier, no
+content — so there is nothing to declare on either form. The web host's
+ordinary server logs are described in the privacy policy.
 
 ---
 

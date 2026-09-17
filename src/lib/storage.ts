@@ -27,4 +27,8 @@ export const KEYS = {
   entries: 'ceria.entries',
   purchase: 'ceria.purchase.mock',
   googleSession: 'ceria.google.session',
+  /** last copy of Ceria's news file, so the tab works offline */
+  news: 'ceria.news',
+  /** ids of the news posts already seen on this device */
+  newsSeen: 'ceria.news.seen',
 } as const

@@ -1,6 +1,7 @@
 import { Suspense, lazy } from 'react'
 import { HashRouter, Navigate, Route, Routes } from 'react-router-dom'
 import { AppProvider, useApp } from './store/AppContext'
+import { NewsProvider } from './store/NewsContext'
 import { PaywallProvider } from './components/PaywallProvider'
 import TabBar from './components/TabBar'
 import Onboarding from './screens/Onboarding'
@@ -18,14 +19,18 @@ const ToolkitTool = lazy(() => import('./screens/ToolkitTool'))
 const Diary = lazy(() => import('./screens/Diary'))
 const DiaryWeek = lazy(() => import('./screens/DiaryWeek'))
 const DiaryAbout = lazy(() => import('./screens/DiaryAbout'))
+const News = lazy(() => import('./screens/News'))
+const NewsPost = lazy(() => import('./screens/NewsPost'))
 const More = lazy(() => import('./screens/More'))
 
 export default function App() {
   return (
     <AppProvider>
-      <PaywallProvider>
-        <Shell />
-      </PaywallProvider>
+      <NewsProvider>
+        <PaywallProvider>
+          <Shell />
+        </PaywallProvider>
+      </NewsProvider>
     </AppProvider>
   )
 }
@@ -55,6 +60,8 @@ function Shell() {
                 <Route path="/diary" element={<Diary />} />
                 <Route path="/diary/about" element={<DiaryAbout />} />
                 <Route path="/diary/:week" element={<DiaryWeek />} />
+                <Route path="/news" element={<News />} />
+                <Route path="/news/:id" element={<NewsPost />} />
                 <Route path="/more" element={<More />} />
                 <Route path="*" element={<Navigate to="/today" replace />} />
               </Routes>

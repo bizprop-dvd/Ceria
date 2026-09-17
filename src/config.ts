@@ -9,6 +9,11 @@ export const CERIA = {
   privacyPolicyUrl: 'https://www.yayasanceria.org/privacy',
   termsUrl: 'https://www.yayasanceria.org/terms',
   supportEmail: 'yayasanceria.id@gmail.com',
+  // The file the News tab reads. Ceria's team publishes it on the foundation's
+  // own site; see docs/news.md for how it is written and what the web team
+  // has to serve. Changing this address after release means older installs
+  // keep reading the old one, so pick a path that can stay put.
+  newsUrl: 'https://www.yayasanceria.org/app/news.json',
 }
 
 export const ABOUT = {
