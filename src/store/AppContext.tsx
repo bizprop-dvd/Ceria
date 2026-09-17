@@ -1,0 +1,439 @@
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  type ReactNode,
+} from 'react'
+import type { Bilingual, Edition, Lang, Role } from '../data/types'
+import { dayKey } from '../lib/dates'
+import { addr, stamp } from './shared'
+import { LIVE_DEBOUNCE_MS, dailyBackupDue, runBackup, type BackupOutcome } from '../lib/autoBackup'
+import type { BackupPayload } from '../lib/backup'
+import {
+  checkEntitlement,
+  configurePurchases,
+  getUnlockPrice,
+  purchaseUnlock,
+  restorePurchases,
+  type PurchaseResult,
+} from '../lib/purchases'
+import { scheduleEveningReminder } from '../lib/notifications'
+import { getJSON, KEYS, setJSON } from '../lib/storage'
+import { computeStreak } from '../lib/streak'
+import {
+  DEFAULT_REMINDER,
+  emptyEntries,
+  type EntriesState,
+  type Settings,
+} from './types'
+
+const DEFAULT_SETTINGS: Settings = {
+  onboarded: false,
+  lang: 'en',
+  edition: 'combined',
+  startDate: dayKey(),
+  reminderTime: null,
+  backupMode: 'off',
+  lastBackupAt: null,
+}
+
+interface AppContextValue {
+  ready: boolean
+  settings: Settings
+  entries: EntriesState
+  hasPurchased: boolean
+  unlockPrice: string | null
+
+  lang: Lang
+  edition: Edition
+  roles: Role[]
+  t: (b: Bilingual | undefined) => string
+
+  setLang: (lang: Lang) => void
+  setEdition: (edition: Edition) => void
+  updateSettings: (patch: Partial<Settings>) => void
+  completeOnboarding: (patch: Partial<Settings>) => void
+
+  setDailyAnswer: (day: string, role: Role, index: number, value: string) => void
+  setWeekIntent: (week: number, role: Role, value: string) => void
+  setSunday: (week: number, role: Role, value: string) => void
+  setDebrief: (week: number, role: Role, index: number, value: string) => void
+  setToolField: (tool: number, index: number, value: string, instance?: number) => void
+  addChild: () => number
+  addToolPeriod: (tool: number) => number
+  removeChild: (id: number) => void
+  setChildName: (id: number, name: string) => void
+  toggleDayRead: (day: number) => void
+  setWeekPhoto: (week: number, dataUri: string | null) => void
+  setWeekMood: (week: number, mood: string | null) => void
+  daysReadCount: number
+
+  daysWithEntries: Set<string>
+  streak: number
+
+  refreshPurchase: () => Promise<void>
+  purchase: () => Promise<PurchaseResult>
+  restore: () => Promise<PurchaseResult>
+
+  /** Upload to the parent's Drive right now. */
+  backupNow: () => Promise<BackupOutcome>
+  /** Replace everything on this device with the contents of a backup. */
+  applyBackup: (payload: BackupPayload) => void
+}
+
+const AppContext = createContext<AppContextValue | null>(null)
+
+export function AppProvider({ children }: { children: ReactNode }) {
+  const [ready, setReady] = useState(false)
+  const [settings, setSettings] = useState<Settings>(DEFAULT_SETTINGS)
+  const [entries, setEntries] = useState<EntriesState>(emptyEntries())
+  // Mirrors `entries` so actions can read current state synchronously. State
+  // updates are async, so an id computed inside a setState updater is not yet
+  // available to the caller that needs to return it.
+  const entriesRef = useRef<EntriesState>(entries)
+  entriesRef.current = entries
+  const [hasPurchased, setHasPurchased] = useState(false)
+  const [unlockPrice, setUnlockPrice] = useState<string | null>(null)
+
+  // ---- initial load ----
+  useEffect(() => {
+    let cancelled = false
+    ;(async () => {
+      const [s, e] = await Promise.all([
+        getJSON<Settings>(KEYS.settings, DEFAULT_SETTINGS),
+        getJSON<EntriesState>(KEYS.entries, emptyEntries()),
+      ])
+      if (cancelled) return
+      setSettings({ ...DEFAULT_SETTINGS, ...s })
+      setEntries({ ...emptyEntries(), ...e })
+      setReady(true)
+
+      // Purchases + price (native only; browser uses the mock flag).
+      await configurePurchases()
+      const [owned, price] = await Promise.all([checkEntitlement(), getUnlockPrice()])
+      if (cancelled) return
+      setHasPurchased(owned)
+      setUnlockPrice(price)
+    })()
+    return () => {
+      cancelled = true
+    }
+  }, [])
+
+  // ---- persistence (only after initial load) ----
+  useEffect(() => {
+    if (ready) void setJSON(KEYS.settings, settings)
+  }, [settings, ready])
+  useEffect(() => {
+    if (ready) void setJSON(KEYS.entries, entries)
+  }, [entries, ready])
+
+  // ---- automatic backup to the parent's own Drive ----
+  // Held in a ref so the timer below always sends the latest writing without
+  // the effect re-running (and restarting the timer) on every keystroke.
+  const backupSource = useRef({ settings, entries })
+  backupSource.current = { settings, entries }
+
+  const backupNow = useCallback(async () => {
+    const { settings: s, entries: e } = backupSource.current
+    const result = await runBackup(s, e)
+    if (result.status === 'done') setSettings((prev) => ({ ...prev, lastBackupAt: result.at }))
+    return result
+  }, [])
+
+  /**
+   * Restore. This replaces what is on the device rather than merging: two
+   * half-merged diaries would be worse than either one, and the parent has
+   * already been shown what the file contains and asked to confirm.
+   *
+   * lastBackupAt is deliberately not restored — it describes this device's
+   * upload history, not the backup's.
+   */
+  const applyBackup = useCallback((payload: BackupPayload) => {
+    setEntries({ ...emptyEntries(), ...payload.entries })
+    setSettings((prev) => ({
+      ...prev,
+      ...payload.settings,
+      onboarded: true,
+      lastBackupAt: prev.lastBackupAt,
+    }))
+  }, [])
+
+  // 'daily': once, on the first open of a new day.
+  useEffect(() => {
+    if (!ready || settings.backupMode !== 'daily') return
+    if (!dailyBackupDue(settings.lastBackupAt)) return
+    void backupNow()
+  }, [ready, settings.backupMode, settings.lastBackupAt, backupNow])
+
+  // 'live': after the writing stops, not on every character.
+  const liveTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+  useEffect(() => {
+    if (!ready || settings.backupMode !== 'live') return
+    if (liveTimer.current) clearTimeout(liveTimer.current)
+    liveTimer.current = setTimeout(() => void backupNow(), LIVE_DEBOUNCE_MS)
+    return () => {
+      if (liveTimer.current) clearTimeout(liveTimer.current)
+    }
+  }, [entries, ready, settings.backupMode, backupNow])
+
+  // ---- reminder scheduling ----
+  const lastReminder = useRef<string>('')
+  useEffect(() => {
+    if (!ready) return
+    const sig = `${settings.reminderTime?.hour ?? 'x'}:${settings.reminderTime?.minute ?? 'x'}:${settings.lang}`
+    if (sig === lastReminder.current) return
+    lastReminder.current = sig
+    void scheduleEveningReminder(settings.reminderTime, settings.lang)
+  }, [settings.reminderTime, settings.lang, ready])
+
+  const t = useCallback(
+    (b: Bilingual | undefined) => (b ? b[settings.lang] : ''),
+    [settings.lang],
+  )
+
+  const roles = useMemo<Role[]>(
+    () => (settings.edition === 'combined' ? ['mama', 'papa'] : ['solo']),
+    [settings.edition],
+  )
+
+  // ---- setters ----
+  const updateSettings = useCallback(
+    (patch: Partial<Settings>) => setSettings((s) => ({ ...s, ...patch })),
+    [],
+  )
+  const setLang = useCallback((lang: Lang) => updateSettings({ lang }), [updateSettings])
+  const setEdition = useCallback(
+    (edition: Edition) => updateSettings({ edition }),
+    [updateSettings],
+  )
+  const completeOnboarding = useCallback(
+    (patch: Partial<Settings>) => setSettings((s) => ({ ...s, ...patch, onboarded: true })),
+    [],
+  )
+
+  const setDailyAnswer = useCallback(
+    (day: string, role: Role, index: number, value: string) => {
+      setEntries((e) => {
+        const dayRec = { ...(e.daily[day] ?? {}) }
+        const arr = [...(dayRec[role] ?? [])]
+        arr[index] = value
+        dayRec[role] = arr
+        return { ...e, daily: { ...e.daily, [day]: dayRec } }
+      })
+    },
+    [],
+  )
+  const setWeekIntent = useCallback((week: number, role: Role, value: string) => {
+    setEntries((e) => ({
+      ...e,
+      weekIntent: { ...e.weekIntent, [week]: { ...(e.weekIntent[week] ?? {}), [role]: value } },
+    }))
+  }, [])
+  const setSunday = useCallback((week: number, role: Role, value: string) => {
+    setEntries((e) => ({
+      ...e,
+      sunday: { ...e.sunday, [week]: { ...(e.sunday[week] ?? {}), [role]: value } },
+    }))
+  }, [])
+  const setDebrief = useCallback(
+    (week: number, role: Role, index: number, value: string) => {
+      setEntries((e) => {
+        const wk = { ...(e.debrief[week] ?? {}) }
+        const arr = [...(wk[role] ?? [])]
+        arr[index] = value
+        wk[role] = arr
+        return { ...e, debrief: { ...e.debrief, [week]: wk } }
+      })
+    },
+    [],
+  )
+  const toggleDayRead = useCallback((day: number) => {
+    setEntries((e) => {
+      const next = { ...e.daysRead }
+      if (next[day]) delete next[day]
+      else next[day] = true
+      return { ...e, daysRead: next }
+    })
+  }, [])
+  const setWeekPhoto = useCallback((week: number, dataUri: string | null) => {
+    setEntries((e) => {
+      const next = { ...e.weekPhotos }
+      if (dataUri) next[week] = dataUri
+      else delete next[week]
+      return { ...e, weekPhotos: next }
+    })
+  }, [])
+  const setWeekMood = useCallback((week: number, mood: string | null) => {
+    setEntries((e) => {
+      const next = { ...e.weekMood }
+      if (mood) next[week] = mood
+      else delete next[week]
+      return { ...e, weekMood: next }
+    })
+  }, [])
+  const setToolField = useCallback(
+    (tool: number, index: number, value: string, instance?: number) => {
+      setEntries((e) => {
+        // Repeatable tools (e.g. the monthly review) store one set of answers
+        // per instance under `${tool}:${instance}`; everything else keeps the
+        // original flat shape so existing saved answers stay put.
+        if (instance !== undefined) {
+          const key = `${tool}:${instance}`
+          const arr = [...(e.toolInstances?.[key] ?? [])]
+          arr[index] = value
+          return {
+            ...e,
+            toolInstances: { ...(e.toolInstances ?? {}), [key]: arr },
+            sharedEditedAt: stamp(e.sharedEditedAt ?? {}, addr.instanceField(tool, instance, index)),
+          }
+        }
+        const arr = [...(e.tools[tool] ?? [])]
+        arr[index] = value
+        return {
+          ...e,
+          tools: { ...e.tools, [tool]: arr },
+          sharedEditedAt: stamp(e.sharedEditedAt ?? {}, addr.toolField(tool, index)),
+        }
+      })
+    },
+    [],
+  )
+
+  /** Add a child to the family roster and return the new id. */
+  const addChild = useCallback(() => {
+    const list = entriesRef.current.children ?? []
+    const created = Math.max(0, ...list.map((c) => c.id)) + 1
+    setEntries((e) => ({
+      ...e,
+      children: [...(e.children ?? []), { id: created, name: '' }],
+      sharedEditedAt: stamp(e.sharedEditedAt ?? {}, addr.child(created)),
+    }))
+    return created
+  }, [])
+
+  /** Add a period sheet (e.g. Year 1 Part 2) and return its new id. */
+  const addToolPeriod = useCallback((tool: number) => {
+    const count = entriesRef.current.toolPeriodCount?.[tool] ?? 1
+    const created = count + 1
+    setEntries((e) => ({
+      ...e,
+      toolPeriodCount: { ...(e.toolPeriodCount ?? {}), [tool]: created },
+      sharedEditedAt: stamp(e.sharedEditedAt ?? {}, addr.periodCount(tool)),
+    }))
+    return created
+  }, [])
+
+  /**
+   * Remove a child. Because the roster is shared, this also clears that
+   * child's answers on every per-child tool.
+   */
+  const removeChild = useCallback((id: number) => {
+    setEntries((e) => {
+      const answers = { ...(e.toolInstances ?? {}) }
+      for (const key of Object.keys(answers)) {
+        if (key.endsWith(`:${id}`)) delete answers[key]
+      }
+      return {
+        ...e,
+        children: (e.children ?? []).filter((c) => c.id !== id),
+        toolInstances: answers,
+        // Tombstone: without it, merging with a phone that still has this child
+        // would bring them back.
+        sharedEditedAt: stamp(e.sharedEditedAt ?? {}, addr.childRemoved(id)),
+      }
+    })
+  }, [])
+
+  const setChildName = useCallback((id: number, name: string) => {
+    setEntries((e) => ({
+      ...e,
+      children: (e.children ?? []).map((c) => (c.id === id ? { ...c, name } : c)),
+      sharedEditedAt: stamp(e.sharedEditedAt ?? {}, addr.child(id)),
+    }))
+  }, [])
+
+  // ---- derived: which days have at least one non-empty answer ----
+  const daysWithEntries = useMemo(() => {
+    const set = new Set<string>()
+    for (const [day, roleRec] of Object.entries(entries.daily)) {
+      const any = Object.values(roleRec).some((arr) => (arr ?? []).some((v) => v.trim() !== ''))
+      if (any) set.add(day)
+    }
+    return set
+  }, [entries.daily])
+
+  const streak = useMemo(() => computeStreak(daysWithEntries), [daysWithEntries])
+
+  const daysReadCount = useMemo(
+    () => Object.keys(entries.daysRead ?? {}).length,
+    [entries.daysRead],
+  )
+
+  // ---- purchase actions ----
+  const refreshPurchase = useCallback(async () => {
+    const owned = await checkEntitlement()
+    setHasPurchased(owned)
+  }, [])
+  const purchase = useCallback(async () => {
+    const res = await purchaseUnlock()
+    if (res.unlocked) setHasPurchased(true)
+    return res
+  }, [])
+  const restore = useCallback(async () => {
+    const res = await restorePurchases()
+    if (res.unlocked) setHasPurchased(true)
+    return res
+  }, [])
+
+  const value: AppContextValue = {
+    ready,
+    settings,
+    entries,
+    hasPurchased,
+    unlockPrice,
+    lang: settings.lang,
+    edition: settings.edition,
+    roles,
+    t,
+    setLang,
+    setEdition,
+    updateSettings,
+    completeOnboarding,
+    setDailyAnswer,
+    setWeekIntent,
+    setSunday,
+    setDebrief,
+    setToolField,
+    addChild,
+    addToolPeriod,
+    removeChild,
+    setChildName,
+    toggleDayRead,
+    setWeekPhoto,
+    setWeekMood,
+    daysReadCount,
+    daysWithEntries,
+    streak,
+    refreshPurchase,
+    purchase,
+    restore,
+    backupNow,
+    applyBackup,
+  }
+
+  return <AppContext.Provider value={value}>{children}</AppContext.Provider>
+}
+
+// eslint-disable-next-line react-refresh/only-export-components
+export function useApp(): AppContextValue {
+  const ctx = useContext(AppContext)
+  if (!ctx) throw new Error('useApp must be used within AppProvider')
+  return ctx
+}
+
+export { DEFAULT_REMINDER }

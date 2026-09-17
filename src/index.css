@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ceria-blue: #2e4fa3;
+  --ceria-pink: #e91e80;
+  --ceria-cream: #faf6ee;
+  --ceria-cream-deep: #f2e9d9;
+  --ceria-dark: #1f2937;
+  --ceria-gray: #6b7280;
+  --ceria-teal: #0e9488;
+
+  /* Safe-area insets (notches / home indicator) with sensible fallbacks. */
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--ceria-cream);
+  color: var(--ceria-dark);
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: none;
+}
+
+@layer components {
+  .font-head {
+    font-family: 'Lora', Georgia, Cambria, 'Times New Roman', serif;
+  }
+
+  /* Content field — the calm, paper-like input used across the diary/tools. */
+  .field {
+    @apply w-full rounded-xl bg-white/80 border border-ceria-cream-deep px-4 py-3
+      text-[15px] leading-relaxed text-ceria-dark placeholder:text-ceria-gray/60
+      focus:outline-none focus:ring-2 focus:ring-ceria-teal/40 focus:border-ceria-teal/40
+      transition;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-ceria-blue
+      px-6 py-3 text-white font-semibold shadow-card active:scale-[0.98]
+      transition disabled:opacity-60 disabled:active:scale-100;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5
+      text-ceria-blue font-medium active:scale-[0.98] transition;
+  }
+
+  .card {
+    @apply rounded-2xl bg-white shadow-card border border-black/[0.03];
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-medium;
+  }
+}
+
+/* Hide scrollbars on the webview while keeping scroll behaviour. */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

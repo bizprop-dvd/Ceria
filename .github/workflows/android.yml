@@ -1,0 +1,76 @@
+name: Android APK
+
+# Builds an installable Android app on every push to the working branch, and
+# whenever asked for by hand. The APK is attached to the run as a download, so
+# the app can be put on a real phone in Surabaya before any Play Store account
+# exists.
+#
+# This is a DEBUG build. It is signed with the throwaway debug key that ships
+# with the Android tools, which means:
+#   - anyone can install it directly, no Play Store involved
+#   - it can NEVER be uploaded to the Play Store
+#   - it carries no store credentials, so nothing in it can be bought
+#
+# Because it has no store credentials it is built with VITE_PREVIEW_UNLOCK, so
+# every chapter opens and the whole book can be read. That flag is inert in any
+# build that has a RevenueCat key — see isPreviewBuild() in src/lib/purchases.ts.
+
+on:
+  push:
+    branches: [main, 'claude/**']
+  workflow_dispatch:
+
+concurrency:
+  group: android-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  apk:
+    name: Build debug APK
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      # The Android SDK is already on the runner; this only picks the JDK that
+      # Capacitor 6's Gradle setup expects.
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build the web app
+        run: npm run build
+        env:
+          VITE_PREVIEW_UNLOCK: 'true'
+
+      - name: Copy it into the Android project
+        run: npx cap sync android
+
+      - name: Assemble the APK
+        working-directory: android
+        run: ./gradlew assembleDebug --no-daemon
+
+      - name: Name it after the commit
+        run: |
+          mkdir -p out
+          cp android/app/build/outputs/apk/debug/app-debug.apk \
+             "out/ceria-${GITHUB_SHA::7}.apk"
+          ls -lh out/
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ceria-apk
+          path: out/*.apk
+          # Long enough for a round of testing, short enough that old builds
+          # do not pile up and get installed by mistake.
+          retention-days: 30

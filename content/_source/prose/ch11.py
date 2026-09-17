@@ -1,0 +1,956 @@
+# Chapter 11 — Special Contexts (days 300-326)
+#
+# Grounded in the founder's guidebook chapter 11 ("Pressure outside the family
+# always shows up inside the family") and toolkit tool 11 (Season Plan).
+#
+# Through-line: name the hard season honestly, lower one expectation, find one
+# source of support. Several days here touch grief, illness, separation, trauma
+# and child safety — each one points toward professional or community support
+# rather than pretending an app can carry it.
+#
+# Day 305 carries a three-tier grid for aligning grandparents and caregivers.
+# Day 322 carries an age-band grid for body-safety language.
+
+def d(title, teaching, inPractice, practice, reflection, script, framework=None):
+    f = lambda p: {"en": p[0], "id": p[1]}
+    out = {
+        "title": f(title), "teaching": f(teaching), "inPractice": f(inPractice),
+        "practice": f(practice), "reflection": f(reflection), "script": f(script),
+    }
+    if framework:
+        out["framework"] = framework
+    return out
+
+
+def fw(title, note, entries):
+    f = lambda p: {"en": p[0], "id": p[1]}
+    return {
+        "title": f(title), "note": f(note),
+        "entries": [
+            {"name": f(n), "tags": [f(t) for t in tags], "looksLike": f(l), "outcome": f(o)}
+            for (n, tags, l, o) in entries
+        ],
+    }
+
+
+DAYS = {
+    300: d(
+        ("Parenting during stress",
+         "Mengasuh di masa penuh tekanan"),
+        ("Pressure from outside the family always lands inside it. A parent carrying money "
+         "worry, a difficult job, or a strained marriage does not become a different person "
+         "at the front door — the tension comes in with them and the children feel it long "
+         "before anyone explains it.\n\n"
+         "Children are not harmed by knowing that life is hard sometimes. They are harmed by "
+         "feeling the tension and being told nothing, because then they invent an "
+         "explanation, and the explanation a child invents almost always puts themselves at "
+         "the centre of the blame. Name the season, in one honest sentence, without making "
+         "your child carry it.",
+         "Tekanan dari luar keluarga selalu mendarat di dalamnya. Orang tua yang memikul "
+         "kekhawatiran uang, pekerjaan yang berat, atau pernikahan yang tegang tidak berubah "
+         "menjadi orang lain di depan pintu — ketegangan itu ikut masuk bersamanya dan anak "
+         "merasakannya jauh sebelum ada yang menjelaskan.\n\n"
+         "Anak tidak dirugikan oleh tahu bahwa hidup kadang berat. Mereka dirugikan oleh "
+         "merasakan ketegangan lalu tidak diberi tahu apa-apa, karena kemudian mereka "
+         "mengarang penjelasan sendiri, dan penjelasan yang dikarang anak hampir selalu "
+         "menaruh dirinya sebagai yang patut disalahkan. Sebutkan musim ini, dalam satu "
+         "kalimat jujur, tanpa membuat anak Anda memikulnya."),
+        ("One sentence is enough: \"This is a hard month for me, and it is not about you.\" "
+         "No details, no burden transferred.",
+         "Satu kalimat sudah cukup: \"Bulan ini berat buat Mama/Papa, dan ini bukan karena "
+         "kamu.\" Tanpa rincian, tanpa memindahkan beban."),
+        ("Name the current pressure out loud once today, and make clear it is not your "
+         "child's fault.",
+         "Sebutkan tekanan yang sedang ada sekali hari ini, dan perjelas bahwa itu bukan salah anak."),
+        ("What is my child guessing about why I am like this?",
+         "Apa yang sedang anak saya tebak tentang kenapa saya seperti ini?"),
+        ("\"This is a hard month, not a hard child. It isn't about you.\"",
+         "\"Ini bulan yang berat, bukan anak yang berat. Ini bukan karena kamu.\""),
+    ),
+
+    301: d(
+        ("Parenting during grief",
+         "Mengasuh dalam masa berduka"),
+        ("Children grieve in bursts. A child can cry about a death for four minutes and then "
+         "ask for a snack, and adults read that as not understanding. They understand — they "
+         "simply cannot hold the feeling continuously the way an adult can, so they dip in "
+         "and out.\n\n"
+         "Use plain words. \"Died\" rather than \"went away\" or \"is sleeping,\" both of "
+         "which make children afraid of journeys and afraid of bed. Let them see you sad; a "
+         "parent who hides all grief teaches that grief is shameful. And answer the same "
+         "question the tenth time as patiently as the first, because repetition is how a "
+         "child digests something too big to swallow whole.",
+         "Anak berduka dalam semburan. Seorang anak bisa menangisi kematian selama empat menit "
+         "lalu minta camilan, dan orang dewasa membacanya sebagai tidak mengerti. Mereka "
+         "mengerti — mereka hanya tidak sanggup memegang perasaan itu terus-menerus seperti "
+         "orang dewasa, jadi mereka masuk dan keluar bergantian.\n\n"
+         "Gunakan kata yang lugas. \"Meninggal\", bukan \"pergi\" atau \"sedang tidur\", yang "
+         "keduanya membuat anak takut bepergian dan takut tidur. Biarkan mereka melihat Anda "
+         "sedih; orang tua yang menyembunyikan seluruh dukanya mengajarkan bahwa berduka itu "
+         "memalukan. Dan jawablah pertanyaan yang sama pada kali kesepuluh sesabar kali "
+         "pertama, karena pengulangan adalah cara anak mencerna sesuatu yang terlalu besar "
+         "untuk ditelan sekaligus."),
+        ("Plain words, repeated answers, and permission to see you cry. If a child's grief "
+         "stops them eating, sleeping or playing for weeks, seek professional help.",
+         "Kata yang lugas, jawaban yang diulang, dan izin untuk melihat Anda menangis. Kalau "
+         "duka anak membuatnya berhenti makan, tidur, atau bermain selama berminggu-minggu, "
+         "carilah bantuan profesional."),
+        ("Answer one repeated question today with the same patience as the first time.",
+         "Jawab satu pertanyaan yang berulang hari ini dengan kesabaran yang sama seperti kali pertama."),
+        ("Am I protecting my child from grief, or from seeing that grief is survivable?",
+         "Apakah saya melindungi anak dari duka, atau dari melihat bahwa duka bisa dilewati?"),
+        ("\"You can ask me that as many times as you need to.\"",
+         "\"Kamu boleh menanyakan itu sebanyak yang kamu butuhkan.\""),
+    ),
+
+    302: d(
+        ("Parenting when a parent is ill",
+         "Mengasuh ketika orang tua sakit"),
+        ("Illness in a parent changes the whole household, and children fill silence with "
+         "fear. A child who is told nothing will assume the worst, and will often also "
+         "assume it is somehow their fault.\n\n"
+         "Give them the shape of it without the full weight: what is happening, what it means "
+         "for daily life, and who will look after them. That third piece is the one children "
+         "care about most and adults mention least. And let them help in some small concrete "
+         "way — a child with a job to do is far less frightened than a child asked only to be "
+         "quiet.",
+         "Sakitnya orang tua mengubah seisi rumah, dan anak mengisi keheningan dengan "
+         "ketakutan. Anak yang tidak diberi tahu apa-apa akan berasumsi yang terburuk, dan "
+         "sering juga berasumsi bahwa itu entah bagaimana salahnya.\n\n"
+         "Berikan bentuk kasarnya tanpa seluruh bebannya: apa yang sedang terjadi, apa artinya "
+         "bagi kehidupan sehari-hari, dan siapa yang akan menjaganya. Bagian ketiga itulah yang "
+         "paling dipedulikan anak dan paling jarang disebut orang dewasa. Dan biarkan ia "
+         "membantu dengan cara kecil yang konkret — anak yang punya tugas jauh lebih tidak "
+         "ketakutan daripada anak yang hanya diminta diam."),
+        ("Always answer the unasked question: who will take care of me? Say it before the "
+         "child has to ask.",
+         "Selalu jawab pertanyaan yang tidak diucapkan: siapa yang akan menjaga saya? Katakan "
+         "sebelum anak harus bertanya."),
+        ("Tell your child who is looking after them this week, plainly.",
+         "Beri tahu anak siapa yang menjaganya minggu ini, dengan lugas."),
+        ("What have I left unsaid that my child is now imagining?",
+         "Apa yang saya biarkan tak terucap dan sekarang sedang anak saya bayangkan sendiri?"),
+        ("\"Here's what's happening, and here's who is looking after you.\"",
+         "\"Ini yang sedang terjadi, dan ini yang akan menjagamu.\""),
+    ),
+
+    303: d(
+        ("Parenting with work overload",
+         "Mengasuh dengan beban kerja berlebih"),
+        ("Many parents in this season cannot reduce their hours, and advice that assumes they "
+         "can is useless. What can be changed is the shape of the hours that remain.\n\n"
+         "Fifteen fully present minutes beat three distracted hours, and children can tell the "
+         "difference instantly. Choose one moment a day that belongs entirely to your child — "
+         "the drive, the bath, the ten minutes before sleep — and defend it as if it were a "
+         "meeting you cannot move. Consistency in a small window builds more security than "
+         "generosity in an unpredictable one.",
+         "Banyak orang tua di musim ini tidak bisa mengurangi jam kerjanya, dan nasihat yang "
+         "mengandaikan mereka bisa itu tidak berguna. Yang bisa diubah adalah bentuk dari jam "
+         "yang tersisa.\n\n"
+         "Lima belas menit yang benar-benar hadir mengalahkan tiga jam yang terpecah, dan anak "
+         "bisa langsung merasakan bedanya. Pilih satu momen sehari yang sepenuhnya milik anak "
+         "Anda — perjalanan, mandi, sepuluh menit sebelum tidur — dan pertahankan seperti rapat "
+         "yang tidak bisa digeser. Konsistensi di jendela yang kecil membangun rasa aman lebih "
+         "besar daripada kemurahan di jendela yang tak bisa ditebak."),
+        ("Pick the one moment you can actually protect every day, and protect that one "
+         "absolutely rather than promising more.",
+         "Pilih satu momen yang benar-benar bisa Anda lindungi setiap hari, dan lindungi yang "
+         "satu itu mati-matian alih-alih menjanjikan lebih."),
+        ("Choose one daily moment that belongs to your child and protect it today.",
+         "Pilih satu momen harian yang menjadi milik anak Anda dan lindungi hari ini."),
+        ("Which fifteen minutes can I actually guarantee?",
+         "Lima belas menit yang mana yang benar-benar bisa saya jamin?"),
+        ("\"I can't be home more, but this part of the day is always yours.\"",
+         "\"Mama/Papa belum bisa lebih sering di rumah, tapi bagian hari yang ini selalu milikmu.\""),
+    ),
+
+    304: d(
+        ("Parenting with domestic help involved",
+         "Mengasuh dengan bantuan asisten rumah tangga"),
+        ("In many Indonesian homes an ART or pengasuh spends more waking hours with the "
+         "children than either parent does, and that relationship deserves to be treated as "
+         "part of the parenting, not beneath it.\n\n"
+         "Two things matter most. First, how you speak to her in front of your children is the "
+         "clearest lesson on respect they will ever receive — they are watching how you treat "
+         "someone who cannot answer back. Second, undermining her authority in front of the "
+         "child leaves her unable to keep them safe when you are not there. Correct her "
+         "privately, back her publicly, and include her in the rules rather than issuing them.",
+         "Di banyak rumah Indonesia, ART atau pengasuh menghabiskan lebih banyak jam terjaga "
+         "bersama anak daripada kedua orang tuanya, dan hubungan itu layak diperlakukan sebagai "
+         "bagian dari pengasuhan, bukan sesuatu di bawahnya.\n\n"
+         "Dua hal paling penting. Pertama, cara Anda berbicara kepadanya di depan anak adalah "
+         "pelajaran tentang rasa hormat yang paling jelas yang pernah mereka terima — mereka "
+         "sedang memperhatikan bagaimana Anda memperlakukan orang yang tidak bisa membalas. "
+         "Kedua, merendahkan wibawanya di depan anak membuatnya tidak sanggup menjaga anak saat "
+         "Anda tidak ada. Tegur dia secara pribadi, dukung dia di depan umum, dan libatkan dia "
+         "dalam aturan alih-alih sekadar memberikannya."),
+        ("Never correct her in front of the children, and never let a child speak to her in a "
+         "way you would not accept toward you.",
+         "Jangan pernah menegurnya di depan anak, dan jangan pernah biarkan anak bicara "
+         "kepadanya dengan cara yang tidak Anda terima kalau ditujukan kepada Anda."),
+        ("Back your helper's authority in front of your child once today.",
+         "Dukung wibawa pengasuh Anda di depan anak sekali hari ini."),
+        ("What are my children learning from how I speak to the people who work in my home?",
+         "Apa yang anak-anak saya pelajari dari cara saya bicara kepada orang-orang yang bekerja di rumah saya?"),
+        ("\"Mbak said no, and that means no. She's in charge when I'm not here.\"",
+         "\"Mbak sudah bilang tidak, dan itu berarti tidak. Beliau yang berwenang saat Mama/Papa tidak ada.\""),
+    ),
+
+    305: d(
+        ("Aligning caregivers and grandparents",
+         "Menyelaraskan pengasuh dan kakek-nenek"),
+        ("Grandparents are not employees and cannot be managed like them, which is why "
+         "\"please stop doing that\" so rarely works. They raised children successfully by "
+         "their own standards and hear correction as an accusation about the past.\n\n"
+         "The way through is to sort your rules into tiers instead of defending all of them "
+         "equally. A small number are non-negotiable and are about safety — those you hold "
+         "without apology. Many more are preferences, and holding a preference as if it were a "
+         "safety rule spends goodwill you will need later. Spend your authority where it "
+         "matters and let the rest go.",
+         "Kakek-nenek bukan karyawan dan tidak bisa dikelola seperti karyawan, karena itulah "
+         "\"tolong jangan begitu\" jarang sekali berhasil. Mereka membesarkan anak dengan "
+         "berhasil menurut ukuran mereka sendiri dan mendengar koreksi sebagai tuduhan atas "
+         "masa lalu.\n\n"
+         "Jalan keluarnya adalah memilah aturan Anda ke dalam tingkatan, bukan membela semuanya "
+         "sama kerasnya. Sedikit saja yang tidak bisa ditawar dan itu soal keselamatan — yang "
+         "itu Anda pegang tanpa minta maaf. Jauh lebih banyak yang sebenarnya preferensi, dan "
+         "memegang preferensi seolah-olah aturan keselamatan menghabiskan niat baik yang akan "
+         "Anda butuhkan nanti. Belanjakan wibawa Anda di tempat yang penting dan lepaskan sisanya."),
+        ("Sort your rules before the conversation, not during it. Bring two non-negotiables, "
+         "not fifteen complaints.",
+         "Pilah aturan Anda sebelum percakapan, bukan saat percakapan. Bawalah dua hal yang tak "
+         "bisa ditawar, bukan lima belas keluhan."),
+        ("Write down your two genuine non-negotiables and let one preference go this week.",
+         "Tuliskan dua hal Anda yang benar-benar tak bisa ditawar dan lepaskan satu preferensi minggu ini."),
+        ("How many of my rules are safety, and how many are taste?",
+         "Berapa banyak aturan saya yang soal keselamatan, dan berapa yang soal selera?"),
+        ("\"There are only two things I'll ask you to hold. Everything else, your way.\"",
+         "\"Cuma ada dua hal yang Mama/Papa minta dipegang. Selebihnya, silakan dengan cara Ibu/Bapak.\""),
+        framework=fw(
+            ("Three tiers of rules",
+             "Tiga tingkatan aturan"),
+            ("Decide which tier a rule belongs to before you defend it.",
+             "Tentukan aturan itu masuk tingkatan mana sebelum Anda membelanya."),
+            [
+                (("Non-negotiable", "Tidak bisa ditawar"),
+                 [("Safety", "Keselamatan"), ("Always", "Selalu")],
+                 ("Car seats, no hitting, no smoking near the child, medication and allergies, "
+                  "no leaving a small child unsupervised near water.",
+                  "Kursi mobil anak, tidak boleh memukul, tidak merokok dekat anak, obat dan "
+                  "alergi, tidak meninggalkan anak kecil tanpa pengawasan dekat air."),
+                 ("Hold these without apology and without negotiating. Say them once, clearly, "
+                  "and repeat the same words.",
+                  "Pegang ini tanpa minta maaf dan tanpa tawar-menawar. Sebutkan sekali, dengan "
+                  "jelas, dan ulangi dengan kata yang sama.")),
+                (("House preference", "Kebiasaan rumah"),
+                 [("Ours at home", "Berlaku di rumah kami")],
+                 ("Bedtime, sweets, screen time, how much the child is carried, what counts as "
+                  "a proper meal.",
+                  "Jam tidur, permen, waktu layar, seberapa sering anak digendong, apa yang "
+                  "dianggap makan yang benar."),
+                 ("Ask for these at home and let them slide at grandma's. Children cope with "
+                  "different houses having different rules.",
+                  "Mintalah ini di rumah dan longgarkan di rumah nenek. Anak sanggup memahami "
+                  "bahwa rumah yang berbeda punya aturan yang berbeda.")),
+                (("Their call", "Terserah beliau"),
+                 [("Let go", "Lepaskan")],
+                 ("Which songs they sing, what stories they tell, how much they spoil, the "
+                  "food they cook, the nicknames they use.",
+                  "Lagu apa yang mereka nyanyikan, cerita apa yang mereka bawakan, seberapa "
+                  "memanjakan, masakan yang mereka buat, panggilan sayang yang dipakai."),
+                 ("This is the relationship, not your parenting. Fighting here costs you the "
+                  "first tier.",
+                  "Ini urusan hubungan mereka, bukan pengasuhan Anda. Bertengkar di sini "
+                  "membuat Anda kehilangan tingkatan pertama.")),
+            ],
+        ),
+    ),
+
+    306: d(
+        ("Preventing mixed messages",
+         "Mencegah pesan yang saling bertentangan"),
+        ("Children are excellent researchers. Given two adults with different answers, they "
+         "will find the softer one every time — and the discovery costs them more than it "
+         "costs you, because a home where rules depend on who is asked is a home where nothing "
+         "feels solid.\n\n"
+         "The fix is not perfect agreement, which no two adults achieve. It is agreeing on a "
+         "small number of rules in advance and never negotiating in front of the child. If your "
+         "partner has said no, the answer is no until the two of you can talk privately, even "
+         "when you disagree.",
+         "Anak adalah peneliti yang ulung. Diberi dua orang dewasa dengan jawaban berbeda, "
+         "mereka akan menemukan yang lebih lunak setiap kali — dan penemuan itu lebih merugikan "
+         "mereka daripada Anda, karena rumah yang aturannya bergantung pada siapa yang ditanya "
+         "adalah rumah yang tidak terasa kokoh.\n\n"
+         "Perbaikannya bukan kesepakatan yang sempurna, yang tidak pernah dicapai dua orang "
+         "dewasa mana pun. Perbaikannya adalah menyepakati sedikit aturan di muka dan tidak "
+         "pernah berunding di depan anak. Kalau pasangan Anda sudah bilang tidak, jawabannya "
+         "tidak sampai kalian berdua bisa bicara berdua saja, bahkan ketika Anda tidak setuju."),
+        ("Never overturn the other adult in front of the child. Take the disagreement to "
+         "another room and settle it there.",
+         "Jangan pernah membatalkan keputusan orang dewasa yang lain di depan anak. Bawa "
+         "ketidaksepakatan itu ke ruangan lain dan selesaikan di sana."),
+        ("Back the other adult's answer once today, even if you would have decided differently.",
+         "Dukung jawaban orang dewasa yang lain sekali hari ini, meski Anda akan memutuskan berbeda."),
+        ("Does my child know which of us to ask?",
+         "Apakah anak saya tahu harus bertanya kepada siapa di antara kami?"),
+        ("\"Papa already answered. We'll talk about it later, the two of us.\"",
+         "\"Papa sudah menjawab. Nanti kita bicarakan berdua saja.\""),
+    ),
+
+    307: d(
+        ("Parenting in public social settings",
+         "Mengasuh di tengah situasi sosial"),
+        ("Discipline in public goes wrong because the audience changes what you are doing. "
+         "You start parenting the watching relatives instead of the child, and children can "
+         "feel that shift immediately — the sudden sharpness, the performance of firmness.\n\n"
+         "Decide in advance what you will do, then do it whether or not anyone is impressed. "
+         "Removing a child from a room is not embarrassing; shouting at them in front of "
+         "twenty people is. And you are allowed to say, out loud and pleasantly, that you will "
+         "handle it your own way.",
+         "Mendisiplinkan di depan umum sering meleset karena penontonnya mengubah apa yang "
+         "sebenarnya Anda lakukan. Anda mulai mengasuh kerabat yang menonton alih-alih anak "
+         "Anda, dan anak bisa langsung merasakan pergeseran itu — ketajaman yang tiba-tiba, "
+         "ketegasan yang dipertunjukkan.\n\n"
+         "Putuskan di muka apa yang akan Anda lakukan, lalu lakukan entah ada yang terkesan "
+         "atau tidak. Membawa anak keluar ruangan itu tidak memalukan; membentaknya di depan "
+         "dua puluh orang itu yang memalukan. Dan Anda berhak mengatakan, dengan lantang dan "
+         "ramah, bahwa Anda akan menanganinya dengan cara Anda sendiri."),
+        ("Step outside rather than perform. A quiet exit protects the child and ends the "
+         "situation faster than any public correction.",
+         "Keluar sebentar, jangan mempertunjukkan. Pergi dengan tenang melindungi anak dan "
+         "mengakhiri situasi lebih cepat daripada teguran di depan umum mana pun."),
+        ("Handle one public moment today the way you would at home.",
+         "Tangani satu momen di depan umum hari ini dengan cara yang sama seperti di rumah."),
+        ("Am I parenting my child or the people watching?",
+         "Apakah saya sedang mengasuh anak saya atau orang-orang yang menonton?"),
+        ("\"Let's step outside for a minute, just us two.\"",
+         "\"Kita keluar sebentar, berdua saja.\""),
+    ),
+
+    308: d(
+        ("Parenting on travel",
+         "Mengasuh saat bepergian"),
+        ("Travel removes every routine a child depends on and then asks them to behave "
+         "unusually well in unfamiliar places. It is not surprising that trips produce "
+         "meltdowns; it is surprising that we expect otherwise.\n\n"
+         "Carry a few anchors with you: the same bedtime story, the same blanket, the same "
+         "order of events at night. And lower your expectations before you leave rather than "
+         "losing your temper when reality arrives. A tired child in a strange room is not "
+         "misbehaving. They are managing more than usual with fewer resources than usual.",
+         "Bepergian mencabut setiap rutinitas yang menjadi sandaran anak lalu meminta mereka "
+         "berkelakuan luar biasa baik di tempat yang asing. Tidak mengherankan kalau perjalanan "
+         "memicu ledakan emosi; yang mengherankan adalah kita mengharapkan sebaliknya.\n\n"
+         "Bawalah beberapa jangkar bersama Anda: cerita pengantar tidur yang sama, selimut yang "
+         "sama, urutan kegiatan malam yang sama. Dan turunkan harapan Anda sebelum berangkat "
+         "alih-alih kehilangan kesabaran saat kenyataannya datang. Anak yang lelah di kamar "
+         "asing bukan sedang nakal. Ia sedang mengurus lebih banyak dari biasanya dengan bekal "
+         "lebih sedikit dari biasanya."),
+        ("Pack three routine anchors and lower one expectation before you leave the house.",
+         "Bawalah tiga jangkar rutinitas dan turunkan satu harapan sebelum meninggalkan rumah."),
+        ("Name one expectation you will lower for the next trip.",
+         "Sebutkan satu harapan yang akan Anda turunkan untuk perjalanan berikutnya."),
+        ("Am I expecting my child to cope better away than they do at home?",
+         "Apakah saya berharap anak saya lebih tahan di luar rumah dibanding di rumah?"),
+        ("\"Everything is different here. We'll do our same bedtime story anyway.\"",
+         "\"Semua serba beda di sini. Cerita sebelum tidur kita tetap yang biasa, ya.\""),
+    ),
+
+    309: d(
+        ("Parenting around extended family conflict",
+         "Mengasuh di tengah konflik keluarga besar"),
+        ("Children are frequently used as messengers, comfort, or evidence in adult conflicts, "
+         "usually by adults who would be horrified to hear it described that way.\n\n"
+         "Keep them out of it. Do not ask a child what happened at the other house. Do not "
+         "criticise a relative and then ask the child to agree. Do not use them to carry a "
+         "message you are avoiding delivering yourself. A child who has to manage adult "
+         "loyalties is carrying weight that will show up years later, usually as anxiety.",
+         "Anak sering dipakai sebagai kurir, penghibur, atau bukti dalam konflik orang dewasa, "
+         "biasanya oleh orang dewasa yang akan ngeri kalau mendengar perbuatannya digambarkan "
+         "begitu.\n\n"
+         "Jauhkan mereka dari situ. Jangan menanyai anak apa yang terjadi di rumah sebelah. "
+         "Jangan mengkritik kerabat lalu meminta anak menyetujuinya. Jangan memakainya untuk "
+         "membawa pesan yang Anda sendiri menghindari menyampaikannya. Anak yang harus mengurus "
+         "kesetiaan orang dewasa sedang memikul beban yang akan muncul bertahun-tahun kemudian, "
+         "biasanya dalam bentuk kecemasan."),
+        ("No messages, no interrogations, no asking a child to take a side. Adult conflict is "
+         "adult work.",
+         "Tidak ada titipan pesan, tidak ada interogasi, tidak meminta anak memihak. Konflik "
+         "orang dewasa adalah urusan orang dewasa."),
+        ("Keep one adult conflict entirely away from your child today.",
+         "Jauhkan satu konflik orang dewasa sepenuhnya dari anak Anda hari ini."),
+        ("Have I ever asked my child to carry something between adults?",
+         "Pernahkah saya meminta anak saya membawa sesuatu di antara orang dewasa?"),
+        ("\"That's a grown-up thing. It's not yours to sort out.\"",
+         "\"Itu urusan orang dewasa. Bukan kamu yang harus membereskannya.\""),
+    ),
+
+    310: d(
+        ("Parenting through moves or school changes",
+         "Mengasuh saat pindah rumah atau sekolah"),
+        ("A move looks like logistics to an adult and like losing everything to a child. The "
+         "friends, the room, the route, the shopkeeper who knew their name — all of it goes at "
+         "once, and usually without their consent.\n\n"
+         "Let them grieve it out loud instead of rushing them into the excitement. Give them "
+         "something to control: the layout of their new room, what stays and what goes, which "
+         "box is theirs. And keep one thing exactly the same across the move, however small. "
+         "Continuity in one detail helps a child believe the rest is survivable.",
+         "Pindah rumah terlihat seperti urusan logistik bagi orang dewasa dan seperti kehilangan "
+         "segalanya bagi anak. Teman-temannya, kamarnya, jalannya, penjaga warung yang hafal "
+         "namanya — semuanya hilang sekaligus, dan biasanya tanpa persetujuannya.\n\n"
+         "Biarkan ia meratapinya dengan lantang, jangan buru-buru didorong ke arah kegembiraan. "
+         "Beri sesuatu yang bisa ia kendalikan: tata letak kamar barunya, apa yang dibawa dan "
+         "apa yang ditinggal, kardus mana yang miliknya. Dan pertahankan satu hal persis sama "
+         "melintasi perpindahan itu, sekecil apa pun. Kesinambungan pada satu detail membantu "
+         "anak percaya bahwa sisanya bisa dilewati."),
+        ("Let them mourn before you sell the new place to them, and give them one real "
+         "decision inside the move.",
+         "Biarkan ia berduka sebelum Anda mempromosikan tempat baru kepadanya, dan beri satu "
+         "keputusan yang nyata di dalam kepindahan itu."),
+        ("Give your child one real choice about the change ahead.",
+         "Beri anak Anda satu pilihan yang nyata tentang perubahan yang akan datang."),
+        ("Have I let my child be sad about this, or only excited?",
+         "Sudahkah saya membiarkan anak saya bersedih soal ini, atau hanya boleh gembira?"),
+        ("\"It's okay to be sad about leaving. I'm a bit sad too.\"",
+         "\"Boleh kok sedih karena harus pergi. Mama/Papa juga agak sedih.\""),
+    ),
+
+    311: d(
+        ("Divorce and separation basics",
+         "Dasar-dasar perceraian dan perpisahan"),
+        ("Research on children of divorce is consistent on one point: it is not the separation "
+         "that damages children most, it is sustained conflict between the parents afterwards. "
+         "Children survive two homes. They struggle badly in a war.\n\n"
+         "So the work is to protect them from the conflict rather than from the fact. Tell them "
+         "clearly it is not their fault and that both parents still love them — and expect to "
+         "repeat both sentences for years. Never criticise the other parent in their hearing; "
+         "half of that child is the other parent, and they hear criticism of them as criticism "
+         "of half of themselves.",
+         "Penelitian tentang anak dari orang tua yang bercerai konsisten pada satu titik: bukan "
+         "perpisahannya yang paling merusak anak, melainkan konflik berkepanjangan antara kedua "
+         "orang tua setelahnya. Anak bisa bertahan dengan dua rumah. Mereka terpuruk di dalam "
+         "peperangan.\n\n"
+         "Jadi pekerjaannya adalah melindungi mereka dari konfliknya, bukan dari faktanya. "
+         "Katakan dengan jelas bahwa ini bukan salah mereka dan bahwa kedua orang tuanya tetap "
+         "menyayangi mereka — dan bersiaplah mengulang kedua kalimat itu bertahun-tahun. Jangan "
+         "pernah mengkritik orang tua yang lain dalam jarak dengar mereka; separuh dari anak itu "
+         "adalah orang tua yang lain, dan mereka mendengar kritik itu sebagai kritik atas separuh "
+         "dirinya sendiri."),
+        ("Protect the child from the conflict, not from the truth. Keep the other parent "
+         "un-criticised in their hearing, whatever you feel.",
+         "Lindungi anak dari konfliknya, bukan dari kebenarannya. Jangan mengkritik orang tua "
+         "yang lain dalam jarak dengarnya, apa pun yang Anda rasakan."),
+        ("Say once today that this is not your child's fault and both parents still love them.",
+         "Katakan sekali hari ini bahwa ini bukan salah anak Anda dan kedua orang tuanya tetap menyayanginya."),
+        ("What does my child hear me say about their other parent?",
+         "Apa yang anak saya dengar tentang orang tuanya yang lain dari mulut saya?"),
+        ("\"This is between us adults. You did nothing, and we both love you.\"",
+         "\"Ini urusan kami orang dewasa. Kamu tidak salah apa-apa, dan kami berdua sayang kamu.\""),
+    ),
+
+    312: d(
+        ("Blended family basics",
+         "Dasar-dasar keluarga gabungan"),
+        ("The most common mistake in a blended family is the step-parent taking on discipline "
+         "too early. Authority has to be earned before it can be used, and a child who does not "
+         "yet have a relationship with this adult experiences their correction as an intrusion.\n\n"
+         "For the first stretch — usually far longer than anyone wants — the biological parent "
+         "holds the discipline and the step-parent builds the relationship. Move slowly. And "
+         "never require a child to love someone on a schedule; affection that is demanded "
+         "arrives late or not at all.",
+         "Kesalahan paling umum dalam keluarga gabungan adalah orang tua sambung mengambil alih "
+         "urusan disiplin terlalu dini. Wibawa harus diperoleh sebelum bisa dipakai, dan anak "
+         "yang belum punya hubungan dengan orang dewasa ini merasakan teguran darinya sebagai "
+         "gangguan.\n\n"
+         "Untuk jangka pertama — biasanya jauh lebih lama daripada yang siapa pun inginkan — "
+         "orang tua kandung yang memegang disiplin dan orang tua sambung yang membangun "
+         "hubungan. Bergeraklah pelan. Dan jangan pernah mengharuskan anak menyayangi seseorang "
+         "sesuai jadwal; kasih sayang yang dituntut datangnya terlambat atau tidak datang sama "
+         "sekali."),
+        ("Biological parent disciplines, step-parent connects. Swap those roles only when the "
+         "child signals it is time, not when the adults are impatient.",
+         "Orang tua kandung yang mendisiplinkan, orang tua sambung yang mendekatkan diri. Tukar "
+         "peran itu hanya ketika anak memberi tanda sudah waktunya, bukan ketika orang dewasanya "
+         "sudah tidak sabar."),
+        ("Leave one correction to the biological parent today.",
+         "Serahkan satu teguran kepada orang tua kandung hari ini."),
+        ("Am I asking for authority I have not yet earned?",
+         "Apakah saya meminta wibawa yang belum saya peroleh?"),
+        ("\"I'm not trying to replace anyone. I'd just like to know you.\"",
+         "\"Om/Tante tidak sedang berusaha menggantikan siapa pun. Cuma ingin mengenalmu.\""),
+    ),
+
+    313: d(
+        ("Parenting children with chronic illness",
+         "Mengasuh anak dengan penyakit menahun"),
+        ("A chronically ill child is still a child, and the great risk is that the illness "
+         "slowly becomes the whole identity — every conversation medical, every plan "
+         "provisional, every sibling's need postponed.\n\n"
+         "Keep as much ordinary life as the illness allows. Let them have responsibilities they "
+         "can manage; being needed is protective. Give them age-appropriate control over their "
+         "own treatment where it is safe. And watch the siblings, who are often quietly "
+         "carrying an assumption that their needs are too small to mention.",
+         "Anak dengan penyakit menahun tetaplah seorang anak, dan risiko besarnya adalah "
+         "penyakit itu pelan-pelan menjadi seluruh identitasnya — setiap percakapan soal medis, "
+         "setiap rencana serba sementara, setiap kebutuhan saudaranya ditunda.\n\n"
+         "Pertahankan sebanyak mungkin kehidupan biasa sejauh penyakitnya mengizinkan. Beri ia "
+         "tanggung jawab yang sanggup ia pegang; merasa dibutuhkan itu melindungi. Beri ia "
+         "kendali sesuai usianya atas pengobatannya sendiri di tempat yang aman. Dan perhatikan "
+         "saudara-saudaranya, yang sering diam-diam memikul anggapan bahwa kebutuhan mereka "
+         "terlalu kecil untuk disebutkan."),
+        ("Protect ordinary life and check on the siblings. Both are easy to lose in a long "
+         "illness.",
+         "Lindungi kehidupan yang biasa dan perhatikan saudara-saudaranya. Keduanya mudah hilang "
+         "dalam sakit yang berkepanjangan."),
+        ("Have one conversation today with your ill child that has nothing to do with illness.",
+         "Lakukan satu percakapan hari ini dengan anak Anda yang sakit yang tidak ada "
+         "hubungannya dengan penyakit."),
+        ("When did we last talk about something other than this?",
+         "Kapan terakhir kami membicarakan sesuatu selain ini?"),
+        ("\"No hospital talk today. Tell me something else.\"",
+         "\"Hari ini tidak ada obrolan rumah sakit. Cerita yang lain, dong.\""),
+    ),
+
+    314: d(
+        ("Parenting anxious children",
+         "Mengasuh anak yang cemas"),
+        ("Reassurance feels like the loving response to an anxious child and works against you "
+         "over time. Every \"don't worry, it will be fine\" answers the question and "
+         "strengthens the habit of coming to you to have the worry removed.\n\n"
+         "Build capability instead of removing discomfort. Acknowledge the fear as real, "
+         "express confidence in the child rather than in the outcome, and let them do the "
+         "frightening thing in small doses. Avoidance is what makes anxiety grow; every "
+         "avoided thing gets bigger, and every faced thing gets smaller.",
+         "Menenangkan terasa seperti tanggapan penuh kasih untuk anak yang cemas dan justru "
+         "merugikan dalam jangka panjang. Setiap \"jangan khawatir, pasti baik-baik saja\" "
+         "menjawab pertanyaannya dan memperkuat kebiasaan datang kepada Anda agar kekhawatiran "
+         "itu dihilangkan.\n\n"
+         "Bangunlah kemampuannya, jangan hilangkan ketidaknyamanannya. Akui rasa takutnya "
+         "sebagai nyata, tunjukkan keyakinan pada anaknya alih-alih pada hasilnya, dan biarkan "
+         "ia melakukan hal yang menakutkan itu dalam takaran kecil. Menghindar itulah yang "
+         "membuat kecemasan tumbuh; setiap hal yang dihindari jadi lebih besar, dan setiap hal "
+         "yang dihadapi jadi lebih kecil."),
+        ("Express confidence in the child, not certainty about the outcome. \"You can handle "
+         "it\" builds; \"nothing bad will happen\" does not.",
+         "Tunjukkan keyakinan pada anaknya, bukan kepastian tentang hasilnya. \"Kamu sanggup "
+         "menghadapinya\" membangun; \"tidak akan terjadi apa-apa\" tidak."),
+        ("Answer one worry today with confidence in your child instead of reassurance.",
+         "Jawab satu kekhawatiran hari ini dengan keyakinan pada anak Anda, bukan penenangan."),
+        ("Am I removing the fear or building the child?",
+         "Apakah saya menghilangkan rasa takutnya atau membangun anaknya?"),
+        ("\"That does sound scary. And I think you can handle it.\"",
+         "\"Itu memang terdengar menakutkan. Dan Mama/Papa yakin kamu sanggup.\""),
+    ),
+
+    315: d(
+        ("Parenting highly sensitive children",
+         "Mengasuh anak yang sangat peka"),
+        ("Roughly one child in five processes sensory and emotional input more deeply than "
+         "average. They notice the label in the shirt, the smell in the room, the change in "
+         "your voice that nobody else heard.\n\n"
+         "This is a trait, not a disorder, and it comes with real advantages — empathy, "
+         "carefulness, noticing what others miss. What it needs is a lower-stimulus environment "
+         "and a parent who does not say \"you're too sensitive.\" That sentence teaches a child "
+         "that their basic way of perceiving the world is a defect, and children believe their "
+         "parents about that sort of thing.",
+         "Kira-kira satu dari lima anak mengolah rangsangan indera dan emosi lebih dalam "
+         "daripada rata-rata. Mereka menyadari label di dalam baju, bau di ruangan, perubahan "
+         "nada suara Anda yang tidak didengar orang lain.\n\n"
+         "Ini sifat bawaan, bukan gangguan, dan ada kelebihan nyata yang menyertainya — empati, "
+         "kehati-hatian, menyadari apa yang orang lain lewatkan. Yang dibutuhkannya adalah "
+         "lingkungan dengan rangsangan lebih rendah dan orang tua yang tidak berkata \"kamu "
+         "terlalu sensitif\". Kalimat itu mengajari anak bahwa cara dasarnya memahami dunia "
+         "adalah cacat, dan anak percaya pada orang tuanya soal hal semacam itu."),
+        ("Reduce the input rather than the child. Fewer transitions, quieter rooms, more "
+         "warning before change.",
+         "Kurangi rangsangannya, bukan anaknya. Lebih sedikit perpindahan, ruangan lebih sunyi, "
+         "lebih banyak peringatan sebelum ada perubahan."),
+        ("Remove one source of over-stimulation for your sensitive child today.",
+         "Hilangkan satu sumber rangsangan berlebih untuk anak Anda yang peka hari ini."),
+        ("Do I treat sensitivity as a fault or a way of perceiving?",
+         "Apakah saya memperlakukan kepekaan sebagai kekurangan atau sebagai cara memahami?"),
+        ("\"You notice a lot. That's not a problem — let's make this quieter.\"",
+         "\"Kamu menyadari banyak hal. Itu bukan masalah — ayo kita buat lebih tenang di sini.\""),
+    ),
+
+    316: d(
+        ("Parenting neurodivergent children respectfully",
+         "Mengasuh anak neurodivergen dengan hormat"),
+        ("A neurodivergent child — autistic, ADHD, or otherwise wired differently — is not a "
+         "typical child who is failing to try. Behaviour that looks like defiance is very often "
+         "a nervous system doing exactly what it does under demand it cannot meet.\n\n"
+         "Two things change everything. Adjust the environment rather than only the child: "
+         "predictable structure, fewer transitions, clear and literal instructions, permission "
+         "to move and to stim. And get a proper assessment if you can, because a diagnosis "
+         "unlocks support and, more importantly, replaces the story that this child is lazy or "
+         "difficult with one that is true.",
+         "Anak neurodivergen — autistik, ADHD, atau punya cara kerja otak yang berbeda — bukan "
+         "anak biasa yang gagal berusaha. Perilaku yang tampak seperti pembangkangan sangat "
+         "sering merupakan sistem saraf yang bekerja persis sebagaimana mestinya di bawah "
+         "tuntutan yang tidak sanggup ia penuhi.\n\n"
+         "Dua hal mengubah segalanya. Sesuaikan lingkungannya, jangan hanya anaknya: struktur "
+         "yang bisa ditebak, lebih sedikit perpindahan, instruksi yang jelas dan harfiah, izin "
+         "untuk bergerak dan melakukan stimming. Dan lakukan asesmen yang benar kalau "
+         "memungkinkan, karena diagnosis membuka akses dukungan dan, yang lebih penting, "
+         "menggantikan cerita bahwa anak ini malas atau sulit dengan cerita yang benar."),
+        ("Change the environment first. And if you suspect neurodivergence, seek a proper "
+         "assessment from a paediatrician or psychologist rather than guessing.",
+         "Ubah lingkungannya lebih dulu. Dan kalau Anda menduga ada neurodivergensi, carilah "
+         "asesmen yang benar dari dokter anak atau psikolog, jangan menebak-nebak."),
+        ("Change one thing in the environment today instead of asking the child to try harder.",
+         "Ubah satu hal di lingkungannya hari ini alih-alih meminta anak berusaha lebih keras."),
+        ("Am I asking for something this child's brain can currently deliver?",
+         "Apakah saya meminta sesuatu yang saat ini sanggup diberikan oleh otak anak ini?"),
+        ("\"Your brain works differently, not worse. Let's set things up to fit it.\"",
+         "\"Otakmu bekerja dengan cara berbeda, bukan lebih buruk. Ayo kita atur supaya cocok.\""),
+    ),
+
+    317: d(
+        ("Parenting children with learning differences",
+         "Mengasuh anak dengan perbedaan cara belajar"),
+        ("A child who struggles to read is not a child who is not trying, and the gap between "
+         "those two readings determines everything about how they will feel about school for "
+         "the next decade.\n\n"
+         "Separate effort from outcome, out loud and repeatedly, because school will not. Get "
+         "the assessment; specific difficulties like dyslexia respond well to specific "
+         "teaching and badly to more of the same. And protect the part of the child that is not "
+         "academic — the drawing, the football, the way they are with small children. A child "
+         "who is failing in one domain needs somewhere they are visibly succeeding.",
+         "Anak yang kesulitan membaca bukan anak yang tidak berusaha, dan jurang antara dua "
+         "pembacaan itu menentukan segalanya tentang bagaimana perasaannya terhadap sekolah "
+         "selama satu dekade ke depan.\n\n"
+         "Pisahkan usaha dari hasil, dengan lantang dan berulang-ulang, karena sekolah tidak "
+         "akan melakukannya. Lakukan asesmen; kesulitan spesifik seperti disleksia merespons "
+         "dengan baik pada pengajaran yang spesifik dan buruk pada pengulangan cara yang sama. "
+         "Dan lindungi bagian diri anak yang bukan akademik — gambarnya, sepak bolanya, caranya "
+         "bersama anak-anak kecil. Anak yang gagal di satu bidang butuh tempat di mana ia "
+         "terlihat berhasil."),
+        ("Praise effort separately from results, and make sure the child has one arena where "
+         "they visibly succeed.",
+         "Puji usahanya terpisah dari hasilnya, dan pastikan anak punya satu arena di mana ia "
+         "terlihat berhasil."),
+        ("Name one thing your child is good at today, in front of them.",
+         "Sebutkan satu hal yang anak Anda kuasai hari ini, di depannya."),
+        ("Does my child have anywhere they feel capable?",
+         "Apakah anak saya punya tempat di mana ia merasa mampu?"),
+        ("\"Reading is hard for you. It doesn't say anything about how clever you are.\"",
+         "\"Membaca memang sulit buatmu. Itu tidak menentukan seberapa pintar kamu.\""),
+    ),
+
+    318: d(
+        ("Trauma-informed parenting basics",
+         "Dasar pengasuhan yang memahami trauma"),
+        ("A child who has lived through something frightening — violence, an accident, loss, "
+         "an unsafe caregiver — may react to ordinary moments as though they are dangerous. A "
+         "raised voice, a locked door, a sudden change of plan can trigger a response that "
+         "looks wildly out of proportion because it is not responding to now.\n\n"
+         "What helps is predictability, choice, and an adult who stays calm when the child "
+         "cannot. What does not help is punishment for the reaction, which confirms the child's "
+         "belief that adults become dangerous. If trauma is part of your child's history, please "
+         "involve a professional. This is real work and it should not be carried alone.",
+         "Anak yang pernah mengalami sesuatu yang menakutkan — kekerasan, kecelakaan, "
+         "kehilangan, pengasuh yang tidak aman — bisa bereaksi terhadap momen biasa seolah-olah "
+         "berbahaya. Suara yang meninggi, pintu terkunci, rencana yang tiba-tiba berubah dapat "
+         "memicu reaksi yang tampak jauh berlebihan karena reaksinya bukan terhadap sekarang.\n\n"
+         "Yang membantu adalah keteraturan yang bisa ditebak, pilihan, dan orang dewasa yang "
+         "tetap tenang ketika anaknya tidak bisa. Yang tidak membantu adalah menghukum "
+         "reaksinya, karena itu membenarkan keyakinan anak bahwa orang dewasa bisa berubah "
+         "berbahaya. Kalau trauma adalah bagian dari riwayat anak Anda, mohon libatkan tenaga "
+         "profesional. Ini pekerjaan yang sungguhan dan tidak seharusnya dipikul sendirian."),
+        ("Predictability and choice reduce fear; punishment for a fear response increases it. "
+         "Seek professional support for trauma — do not carry it alone.",
+         "Keteraturan dan pilihan mengurangi ketakutan; menghukum reaksi ketakutan justru "
+         "menambahnya. Carilah dukungan profesional untuk trauma — jangan dipikul sendirian."),
+        ("Give one advance warning today before something changes.",
+         "Beri satu peringatan lebih dulu hari ini sebelum ada yang berubah."),
+        ("Is this reaction about now, or about before?",
+         "Apakah reaksi ini tentang sekarang, atau tentang yang dulu?"),
+        ("\"You're safe here. Nothing is going to happen suddenly.\"",
+         "\"Kamu aman di sini. Tidak akan ada yang terjadi mendadak.\""),
+    ),
+
+    319: d(
+        ("Parenting after bullying",
+         "Mengasuh setelah anak dirundung"),
+        ("A bullied child is watching to see what you do with the information, and your first "
+         "reaction determines whether they tell you the next thing. Rage at the school, "
+         "however justified, reads to a child as \"telling you makes things worse.\"\n\n"
+         "Listen fully before acting. Believe them. Then involve them in what happens next — a "
+         "bullied child has just had all their power taken, and taking the rest of it in order "
+         "to help them repeats the injury. Act on the school, firmly and formally, and keep the "
+         "child informed about what you are doing on their behalf.",
+         "Anak yang dirundung sedang memperhatikan apa yang Anda lakukan dengan informasi itu, "
+         "dan reaksi pertama Anda menentukan apakah ia akan bercerita lagi lain kali. Kemarahan "
+         "kepada sekolah, sewajar apa pun, terbaca oleh anak sebagai \"bercerita membuat "
+         "keadaan makin buruk\".\n\n"
+         "Dengarkan sampai tuntas sebelum bertindak. Percayai dia. Lalu libatkan dia dalam apa "
+         "yang terjadi berikutnya — anak yang dirundung baru saja kehilangan seluruh kuasanya, "
+         "dan mengambil sisanya demi menolongnya justru mengulang lukanya. Tekan sekolah, "
+         "dengan tegas dan resmi, dan beri tahu anak apa yang Anda lakukan untuknya."),
+        ("Listen first, believe fully, then act with the child rather than over them.",
+         "Dengarkan dulu, percayai sepenuhnya, lalu bertindaklah bersama anak, bukan di atas "
+         "kepalanya."),
+        ("Ask your child what they want to happen next, and take the answer seriously.",
+         "Tanyakan kepada anak apa yang ia ingin terjadi berikutnya, dan tanggapi jawabannya dengan serius."),
+        ("Did my reaction make it easier or harder to tell me next time?",
+         "Apakah reaksi saya membuat lebih mudah atau lebih sulit untuk bercerita lain kali?"),
+        ("\"I believe you. Nothing happens next without me telling you first.\"",
+         "\"Mama/Papa percaya sama kamu. Tidak ada langkah berikutnya tanpa Mama/Papa kasih tahu kamu dulu.\""),
+    ),
+
+    320: d(
+        ("Parenting during digital overload",
+         "Mengasuh di tengah kelebihan beban digital"),
+        ("Screen fights are rarely about screens. They are about a device engineered by very "
+         "skilled people to be difficult to put down, handed to a child whose capacity to stop "
+         "is still years from finishing development.\n\n"
+         "Stop treating it as a character test. Build the structure outside the child: devices "
+         "out of bedrooms at night, a charging place in a shared room, agreed times rather than "
+         "constant negotiation. And notice your own use honestly — a parent on their phone at "
+         "dinner has already lost the argument, whatever rules are on the wall.",
+         "Pertengkaran soal layar jarang benar-benar soal layar. Ia soal perangkat yang "
+         "dirancang oleh orang-orang yang sangat terampil agar sulit diletakkan, diserahkan "
+         "kepada anak yang kemampuannya untuk berhenti masih bertahun-tahun lagi dari selesai "
+         "berkembang.\n\n"
+         "Berhentilah memperlakukannya sebagai ujian karakter. Bangun strukturnya di luar diri "
+         "anak: perangkat keluar dari kamar tidur pada malam hari, satu tempat mengisi daya di "
+         "ruang bersama, waktu yang disepakati alih-alih tawar-menawar terus-menerus. Dan "
+         "perhatikan pemakaian Anda sendiri dengan jujur — orang tua yang memegang ponsel saat "
+         "makan malam sudah kalah dalam perdebatan itu, apa pun aturan yang tertempel di dinding."),
+        ("Build structure rather than willpower: no devices in bedrooms overnight, one shared "
+         "charging spot, agreed times set in advance.",
+         "Bangun struktur, bukan kekuatan kehendak: tidak ada perangkat di kamar tidur semalaman, "
+         "satu titik pengisian daya bersama, waktu yang disepakati di muka."),
+        ("Move one device out of a bedroom tonight, including your own.",
+         "Pindahkan satu perangkat keluar dari kamar tidur malam ini, termasuk milik Anda."),
+        ("Would my own screen use pass the rule I set for my child?",
+         "Apakah pemakaian layar saya sendiri lolos aturan yang saya tetapkan untuk anak saya?"),
+        ("\"Everyone's phone charges out here, including mine.\"",
+         "\"Ponsel semua orang di-charge di luar sini, termasuk punya Mama/Papa.\""),
+    ),
+
+    321: d(
+        ("Sexual safety conversations",
+         "Percakapan tentang keamanan seksual"),
+        ("The single most protective thing a parent can do is make it normal to talk about "
+         "bodies, so that if something happens the child already has words and already knows "
+         "you will not fall apart.\n\n"
+         "Most abuse comes from someone the family knows and trusts, which is exactly why the "
+         "\"stranger danger\" version leaves children unprotected. Teach instead that no adult "
+         "should ask them to keep a secret from you, that no adult needs help with their private "
+         "parts, and that they will never be in trouble for telling. Say all of it calmly, more "
+         "than once, long before you think it is needed.",
+         "Hal paling melindungi yang bisa dilakukan orang tua adalah membuat pembicaraan tentang "
+         "tubuh menjadi biasa, sehingga kalau sesuatu terjadi, anak sudah punya kata-katanya dan "
+         "sudah tahu Anda tidak akan runtuh.\n\n"
+         "Sebagian besar pelecehan datang dari orang yang dikenal dan dipercaya keluarga, dan "
+         "justru karena itulah versi \"waspada orang asing\" membuat anak tidak terlindungi. "
+         "Ajarkan sebaliknya bahwa tidak ada orang dewasa yang boleh meminta mereka menyimpan "
+         "rahasia dari Anda, tidak ada orang dewasa yang butuh bantuan dengan bagian tubuh "
+         "pribadinya, dan mereka tidak akan pernah kena marah karena bercerita. Sampaikan "
+         "semuanya dengan tenang, lebih dari sekali, jauh sebelum Anda merasa itu diperlukan."),
+        ("Use real names for body parts, teach the no-secrets rule, and promise — then keep — "
+         "that telling never brings trouble.",
+         "Gunakan nama yang sebenarnya untuk bagian tubuh, ajarkan aturan tidak ada rahasia, dan "
+         "berjanjilah — lalu tepati — bahwa bercerita tidak pernah mendatangkan masalah."),
+        ("Say the no-secrets rule out loud to your child today.",
+         "Ucapkan aturan tidak ada rahasia kepada anak Anda hari ini."),
+        ("Does my child know they can tell me anything without getting in trouble?",
+         "Apakah anak saya tahu ia bisa menceritakan apa pun tanpa kena marah?"),
+        ("\"No grown-up is allowed to ask you to keep a secret from me. Not one.\"",
+         "\"Tidak ada orang dewasa yang boleh meminta kamu menyimpan rahasia dari Mama/Papa. Tidak satu pun.\""),
+    ),
+
+    322: d(
+        ("Body boundaries and consent",
+         "Batas tubuh dan izin"),
+        ("Consent is not a conversation you have once at fifteen. It is a habit built from "
+         "toddlerhood, in tickling that stops when they say stop, in hugs that are offered "
+         "rather than required, in knocking before you open a door.\n\n"
+         "A child who has experienced their no being honoured at home knows what it feels like "
+         "when it is not honoured elsewhere. That recognition is protective in both directions: "
+         "it helps them notice when someone crosses their line, and it teaches them to stop when "
+         "someone else says stop.",
+         "Izin bukan percakapan yang dilakukan sekali di usia lima belas. Ia kebiasaan yang "
+         "dibangun sejak balita, lewat gelitikan yang berhenti ketika ia bilang berhenti, lewat "
+         "pelukan yang ditawarkan alih-alih diharuskan, lewat mengetuk sebelum membuka pintu.\n\n"
+         "Anak yang pernah merasakan kata tidaknya dihormati di rumah tahu rasanya ketika kata "
+         "itu tidak dihormati di tempat lain. Pengenalan itu melindungi ke dua arah: membantunya "
+         "menyadari saat ada yang melewati batasnya, dan mengajarinya berhenti ketika orang lain "
+         "bilang berhenti."),
+        ("Stop the first time, every time — in tickling, in play, in affection. That "
+         "reliability is the whole lesson.",
+         "Berhenti pada kali pertama, setiap kali — saat menggelitik, saat bermain, saat "
+         "bermesraan. Keandalan itulah seluruh pelajarannya."),
+        ("Stop the first time your child says stop today, whatever you are doing.",
+         "Berhentilah pada kali pertama anak Anda bilang berhenti hari ini, apa pun yang sedang "
+         "Anda lakukan."),
+        ("Is my child's no reliably honoured in this house?",
+         "Apakah kata tidak dari anak saya benar-benar dihormati di rumah ini?"),
+        ("\"You said stop, so I stopped. That's how it always works.\"",
+         "\"Kamu bilang stop, jadi Mama/Papa berhenti. Memang selalu begitu aturannya.\""),
+        framework=fw(
+            ("What to say, by age",
+             "Apa yang dikatakan, menurut usia"),
+            ("Plain language, started early and repeated. Adapt the words to your family's "
+             "values — the safety content stays the same.",
+             "Bahasa yang lugas, dimulai sejak dini dan diulang. Sesuaikan kata-katanya dengan "
+             "nilai keluarga Anda — isi keamanannya tetap sama."),
+            [
+                (("Ages 2-4", "Usia 2-4"),
+                 [("Naming", "Menamai")],
+                 ("Correct names for body parts. \"Your body belongs to you.\" Tickling stops "
+                  "when you say stop.",
+                  "Nama yang benar untuk bagian tubuh. \"Tubuhmu milikmu sendiri.\" Gelitikan "
+                  "berhenti ketika kamu bilang berhenti."),
+                 ("The child has words. Without words, a child cannot report anything.",
+                  "Anak punya kata-katanya. Tanpa kata, anak tidak bisa melaporkan apa pun.")),
+                (("Ages 5-7", "Usia 5-7"),
+                 [("Rules", "Aturan")],
+                 ("Private parts are private. No adult needs your help with theirs. No secrets "
+                  "from Mama and Papa — surprises are fine, secrets are not.",
+                  "Bagian pribadi itu pribadi. Tidak ada orang dewasa yang butuh bantuanmu untuk "
+                  "bagian tubuhnya. Tidak ada rahasia dari Mama dan Papa — kejutan boleh, rahasia tidak."),
+                 ("The child has a rule to measure adult behaviour against, including familiar "
+                  "adults.",
+                  "Anak punya aturan untuk mengukur perilaku orang dewasa, termasuk orang dewasa "
+                  "yang dikenalnya.")),
+                (("Ages 8-11", "Usia 8-11"),
+                 [("Online too", "Termasuk daring")],
+                 ("The same rules apply on a screen. Nobody online should ask for photos or "
+                  "for secrets. Bodies change and that is normal.",
+                  "Aturan yang sama berlaku di layar. Tidak ada orang di internet yang boleh "
+                  "meminta foto atau rahasia. Tubuh berubah dan itu normal."),
+                 ("The child recognises grooming patterns before they are inside one.",
+                  "Anak mengenali pola pendekatan pelaku sebelum ia berada di dalamnya.")),
+                (("Ages 12+", "Usia 12+"),
+                 [("Consent", "Persetujuan")],
+                 ("Consent goes both ways. Pressure is not consent. You can always call me, "
+                  "from anywhere, and there will be no lecture that night.",
+                  "Persetujuan berlaku dua arah. Tekanan bukan persetujuan. Kamu selalu bisa "
+                  "menelepon Mama/Papa, dari mana pun, dan malam itu tidak akan ada ceramah."),
+                 ("The teenager has an exit that does not cost them their dignity.",
+                  "Remaja punya jalan keluar yang tidak mengorbankan harga dirinya.")),
+            ],
+        ),
+    ),
+
+    323: d(
+        ("Faith and moral formation at home",
+         "Iman dan pembentukan moral di rumah"),
+        ("Whatever faith a family holds, children learn it first as a description of how the "
+         "people around them behave, and only later as a set of teachings. What is practised at "
+         "home outweighs what is said at home by a wide margin.\n\n"
+         "One thing is worth guarding against carefully: using God, or shame before God, as a "
+         "disciplinary threat. It produces obedience in the short term and, very often, a "
+         "quietly frightened relationship with faith that lasts into adulthood. Let faith be "
+         "where a child goes for comfort, not the reason they are afraid.",
+         "Apa pun iman yang dipegang sebuah keluarga, anak mempelajarinya pertama-tama sebagai "
+         "gambaran tentang bagaimana orang-orang di sekitarnya berperilaku, dan baru kemudian "
+         "sebagai seperangkat ajaran. Yang dijalankan di rumah jauh lebih berbobot daripada yang "
+         "diucapkan di rumah.\n\n"
+         "Satu hal patut dijaga dengan hati-hati: memakai Tuhan, atau rasa malu di hadapan "
+         "Tuhan, sebagai ancaman untuk mendisiplinkan. Itu menghasilkan kepatuhan jangka pendek "
+         "dan, sangat sering, hubungan dengan iman yang diam-diam ketakutan sampai dewasa. "
+         "Biarkan iman menjadi tempat anak mencari penghiburan, bukan alasan ia takut."),
+        ("Never use God as a threat. Let your child associate faith with comfort and with the "
+         "way you actually live.",
+         "Jangan pernah memakai Tuhan sebagai ancaman. Biarkan anak mengaitkan iman dengan "
+         "penghiburan dan dengan cara Anda benar-benar hidup."),
+        ("Let your child see one value you hold being lived out today, not explained.",
+         "Biarkan anak melihat satu nilai yang Anda pegang dijalankan hari ini, bukan dijelaskan."),
+        ("Do my children learn our values from what we say or from what we do?",
+         "Apakah anak-anak saya belajar nilai kami dari yang kami ucapkan atau dari yang kami lakukan?"),
+        ("\"This is what we believe, and this is what it looks like on a Tuesday.\"",
+         "\"Ini yang kita percayai, dan begini wujudnya di hari biasa.\""),
+    ),
+
+    324: d(
+        ("Media literacy for children",
+         "Melek media untuk anak"),
+        ("Children cannot avoid media, so the useful skill is not avoidance but questioning. A "
+         "child who can ask who made this and what do they want from me is far safer online "
+         "than a child with a content filter and no questions.\n\n"
+         "Build it by watching together and thinking out loud. Why is this influencer showing "
+         "this product? Why does this video get louder at that exact moment? Why does everyone "
+         "in this feed look like that? The habit of asking transfers to everything they will "
+         "meet later, including things no filter would have caught.",
+         "Anak tidak bisa menghindari media, jadi keterampilan yang berguna bukan menghindar "
+         "melainkan mempertanyakan. Anak yang bisa bertanya siapa yang membuat ini dan apa yang "
+         "mereka inginkan dari saya jauh lebih aman daring daripada anak dengan penyaring konten "
+         "tanpa pertanyaan.\n\n"
+         "Bangunlah dengan menonton bersama dan berpikir dengan suara keras. Kenapa pemengaruh "
+         "ini menunjukkan produk itu? Kenapa video ini jadi lebih keras tepat di detik itu? "
+         "Kenapa semua orang di beranda ini kelihatan seperti itu? Kebiasaan bertanya itu "
+         "berpindah ke segala hal yang akan ia temui nanti, termasuk hal-hal yang tidak akan "
+         "tertangkap penyaring mana pun."),
+        ("Watch something with your child and ask one question out loud about why it was made "
+         "that way.",
+         "Tonton sesuatu bersama anak dan ajukan satu pertanyaan dengan lantang tentang kenapa "
+         "itu dibuat seperti itu."),
+        ("Ask one \"who made this and why\" question with your child today.",
+         "Ajukan satu pertanyaan \"siapa yang membuat ini dan untuk apa\" bersama anak hari ini."),
+        ("Am I filtering my child's world, or teaching them to read it?",
+         "Apakah saya menyaring dunia anak saya, atau mengajarinya membaca dunia itu?"),
+        ("\"Who made this, and what do they want you to do?\"",
+         "\"Siapa yang membuat ini, dan mereka ingin kamu melakukan apa?\""),
+    ),
+
+    325: d(
+        ("Weekly reflection",
+         "Refleksi mingguan"),
+        ("This chapter has covered hard seasons, and the honest reflection for it is not about "
+         "your child at all. It is about what you are carrying.\n\n"
+         "Name the pressure you are actually under this week, without minimising it and without "
+         "letting it become the whole story. Then name the one expectation you could lower for "
+         "the next seven days. Parents who survive hard seasons well are not the ones who "
+         "manage everything — they are the ones who chose, deliberately, what to let drop.",
+         "Bab ini membahas musim-musim yang berat, dan refleksi jujurnya sama sekali bukan "
+         "tentang anak Anda. Ini tentang apa yang sedang Anda pikul.\n\n"
+         "Sebutkan tekanan yang benar-benar Anda alami minggu ini, tanpa mengecilkannya dan "
+         "tanpa membiarkannya menjadi seluruh cerita. Lalu sebutkan satu harapan yang bisa Anda "
+         "turunkan untuk tujuh hari ke depan. Orang tua yang melewati musim berat dengan baik "
+         "bukan mereka yang sanggup mengurus segalanya — melainkan mereka yang memilih, dengan "
+         "sengaja, apa yang boleh jatuh."),
+        ("Choose what to let drop rather than dropping things by accident. Deliberate is "
+         "survivable; accidental is not.",
+         "Pilihlah apa yang boleh jatuh, jangan menjatuhkan sesuatu karena kecelakaan. Yang "
+         "disengaja bisa dilewati; yang tidak disengaja tidak."),
+        ("Name one expectation you are lowering for the next seven days.",
+         "Sebutkan satu harapan yang Anda turunkan untuk tujuh hari ke depan."),
+        ("What am I carrying that I have not admitted to anyone?",
+         "Apa yang saya pikul yang belum saya akui kepada siapa pun?"),
+        ("\"This is a hard season. I'm allowed to do less right now.\"",
+         "\"Ini musim yang berat. Sekarang saya boleh mengerjakan lebih sedikit.\""),
+    ),
+
+    326: d(
+        ("Support network mapping",
+         "Memetakan jaringan dukungan"),
+        ("No family raises children alone, and the ones that try pay for it. The parent with "
+         "nobody to call is not stronger than the parent with three numbers in their phone — "
+         "they are simply closer to the edge.\n\n"
+         "Map it honestly. Who could take your children for two hours in an emergency? Who "
+         "could you tell the truth to about a bad week? Who knows practical things you do not? "
+         "If any of those answers is nobody, that is the most important piece of parenting work "
+         "in front of you — more important than any technique in this guide.",
+         "Tidak ada keluarga yang membesarkan anak sendirian, dan yang mencoba akan membayar "
+         "harganya. Orang tua yang tidak punya siapa pun untuk ditelepon bukan lebih kuat "
+         "daripada orang tua yang punya tiga nomor di ponselnya — ia hanya lebih dekat ke tepi "
+         "jurang.\n\n"
+         "Petakan dengan jujur. Siapa yang bisa menjaga anak Anda dua jam dalam keadaan darurat? "
+         "Kepada siapa Anda bisa mengatakan yang sebenarnya tentang minggu yang buruk? Siapa "
+         "yang tahu hal-hal praktis yang tidak Anda ketahui? Kalau ada satu saja jawaban yang "
+         "kosong, itulah pekerjaan pengasuhan paling penting yang ada di depan Anda — lebih "
+         "penting daripada teknik mana pun dalam panduan ini."),
+        ("Write three names against three needs: emergency care, honest talk, practical help. "
+         "Fill any gap this month.",
+         "Tuliskan tiga nama untuk tiga kebutuhan: penjagaan darurat, tempat bicara jujur, "
+         "bantuan praktis. Isi kekosongan mana pun bulan ini."),
+        ("Write down three people you could call, and message one of them today.",
+         "Tuliskan tiga orang yang bisa Anda telepon, dan kirimi pesan salah satunya hari ini."),
+        ("Who would I actually call at ten at night?",
+         "Siapa yang benar-benar akan saya telepon pukul sepuluh malam?"),
+        ("\"I've had a hard week. Can I talk to you for ten minutes?\"",
+         "\"Minggu ini berat buat saya. Boleh saya cerita sepuluh menit?\""),
+    ),
+}
